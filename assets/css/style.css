@@ -802,6 +802,9 @@ button:focus {
 /*-------------------------------------------
      7. Home App Download Area Area Start
 -------------------------------------------*/
+.home-app-slider-wrap {
+    padding: 0 50px;
+}
 .home-app-content {
     width: 65%;
     display: flex;
@@ -823,6 +826,23 @@ button:focus {
     height: 400px;
 }
 /*Slider CSS*/
+.testi_prev, .testi_next {
+    cursor: pointer;
+    line-height: 39px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    z-index: 99;
+}
+.slide_nav > .testi_prev, .slide_nav > .testi_next {
+    top: 45%;
+}
+.slide_nav > .testi_prev {
+    left: 15px;
+}
+.slide_nav > .testi_next {
+    right: 15px;
+}
 .owl-carousel .owl-item img {
     width: auto;
 }
