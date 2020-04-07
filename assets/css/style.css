@@ -1,0 +1,1257 @@
+/*
+-------------------------------------------------
+  Theme Name: Hilhome HTML Template
+  Theme URL:
+  Author: AndItThemes
+  Author URL:
+  Creation Date: 05/04/2020
+  Description: A default stylesheet for Hilhome
+  Version: 1.00
+  Primary use:
+  Support: andimpex@gmail.com,
+
+  ---------------------------------------------------
+  Developed By: Suraiya Aysha
+  Developer URL: http://ayshatech.com/
+
+  ---------------------------------------------------
+
+  --------------------------------------------------
+  Table of Contents
+  --------------------------------------------------
+  1. General CSS
+  2. Typography CSS
+  3. Button CSS
+  4. Chat Bot Area CSS
+  5. Scroll To Top Area
+  6.Preloader Area Start
+  7. Header Area
+  13. Counter Area CSS
+  14. Our Speciality Area
+  15. Testimonial Area CSS
+  16. Call To Action CSS
+  17. Home Blog Posts
+  18. FAQ Area CSS
+  19. Client Logo Slider
+  20. Contact/Support Forum CSS
+  21. Footer Area/Copyright Area
+  22. Video Play CSS
+  23. About Page
+  24. Blog Page
+  25. Blog Details Page
+  26. Services Page CSS
+  27. FAQ Page CSS
+  28. 404 Page CSS
+  29. Contact Page CSS
+  30. Home Version 2
+  31. Home Version 3 Page
+  32. Login Page CSS
+  33. Responsive CSS
+
+------------------------------------------------ */
+
+
+/* Use font link */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap');
+
+/* Use style sheet */
+
+@import url('../vendor/bootstrap/css/bootstrap.min.css');
+@import url(../vendor/fontawesome-free/css/all.min.css);
+@import url(../vendor/flat-icon/flaticon.css);
+@import url(venobox.css);
+@import url(animate.css);
+@import url(meanmenu.min.css);
+
+/***
+
+/*-----------------------------------------------
+            1. General Style
+-------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #fff none repeat scroll;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    color: #505359;
+    letter-spacing: 0.05em;
+    overflow-x: hidden!important;
+}
+
+p{
+    line-height: 1.75;
+    color: #505359;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    color: var(--dark-color);
+}
+a:hover {
+}
+/* Theme All Transitions
+------------------------------- */
+a, #mainNav, .theme-button, .owl-carousel button.owl-dot {
+    transition: all .5s ease-in-out;
+}
+
+.slow-transition, .testimonial_slide_nav .testi_prev, .testimonial_slide_nav .testi_next, .testi_prev, .testi_next, #scroll{
+    transition: all .7s ease-in-out;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a > * {
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #009fd9;
+}
+
+::selection {
+    background-color: #009fd9;
+}
+img::selection {
+    background: transparent;
+}
+.page-link:focus {
+    box-shadow: none;
+}
+
+/*----Form Control Reset CSS----*/
+
+.form-control {
+    /*border-radius: 5px;*/
+    /*border: none;*/
+    /*background-color: #fff;*/
+    /*height: 50px;*/
+    /*color: #777c87;*/
+}
+.form-control:focus {
+    /*background-color: #fff;*/
+    /*border-color: #dddddd;*/
+    /*box-shadow: none;*/
+}
+.form-control::placeholder {
+    /*color: #a0a3aa;*/
+}
+
+/*------------------------------------------
+            2.  Typography
+-------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0;
+    color: #242f51;
+}
+h2 {
+    line-height: 44px;
+}
+figure {
+    margin: 0 0 0;
+}
+
+/*--------------------------------
+            2.1 Theme Color
+-----------------------------------*/
+
+:root{
+    --white-color: #fff;
+    --gray-color: #676d73;
+    --color-blue: #009fd9;
+    --hover-color: #17a2fb;
+    --dark-color: #2f3033;
+    --border-radious-6: 6px;
+    --border-color: #e9eced;
+}
+
+/*---- Home Color CSS Start*---- */
+
+.default-heading-color{
+    color: var(--dark-color);
+}
+.bg-white{
+    background-color: var(--white-color);
+}
+.bg-different{
+    background-color: var(--bg-color-1);
+}
+/*---- Home Color CSS Start*---- */
+
+/*--------------------------------
+    2.3 Theme Font Family, Font Size
+-----------------------------------*/
+.font-weight-normal{
+    font-weight: 400;
+}
+.font-semi-bold{
+    font-weight: 500;
+}
+.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link{
+    font-weight: 700;
+}
+.font-black{
+    font-weight: 900;
+}
+h1.header-caption-heading {
+    font-size: 80px;
+    margin: 70px 0 0;
+    line-height: 1.1;
+}
+h2{
+    font-size: 2.25rem;
+}
+.font-18{
+    font-size: 1.12rem;
+}
+.font-17{
+    font-size: 17px;
+}
+.font-14{
+    font-size: 14px;
+}
+/*--------------------------------
+    2.4 Theme Margin and Padding
+-----------------------------------*/
+.mb-15, .footer-widget h4 {
+    margin-bottom: 15px;
+}
+.mb-30, .single-blog-post{
+    margin-bottom: 30px;
+}
+
+/*--------------------------------
+   2.5 Hilhome Template Default CSS
+-----------------------------------*/
+
+/*----Template Main Section ----*/
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+.section-title-area {
+    margin-bottom: 60px;
+    text-align: center;
+}
+h2.section-heading {
+    margin-bottom: 27px;
+    line-height: 26px;
+}
+
+p.section-subheading {
+    width: 80%;
+    margin: 18px auto 50px;
+}
+section{
+    padding: 80px 0;
+    position: relative;
+    z-index: 9;
+    overflow-x: hidden;
+    border-bottom: 1px solid var(--border-color)
+}
+.default-overflow-hidden{
+    overflow-x:hidden;
+}
+/*--------Breadcrumb Area CSS--------*/
+header.page-banner-area {
+    /* height: 600px; */
+    background-color: var(--bg-color-1);
+    /* display: flex; */
+    /* align-items: center; */
+    padding-top: 80px;
+}
+header.page-banner-area .header-caption-heading {
+    padding: 19px 0 18px;
+}
+header.page-banner-area .header-caption p {
+    width:62%;
+    margin: 0;
+}
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    justify-content: flex-start;
+}
+.breadcrumb li.breadcrumb-item {
+    margin-right: 10px;
+}
+.breadcrumb-item.active {
+    color: #8e8e8e;
+    position: relative;
+    /*margin-left: 20px;*/
+}
+.breadcrumb-item + .breadcrumb-item {
+    padding-left: 0;
+}
+.breadcrumb-item i {
+    padding-right: 7px;
+    line-height: 31px;
+}
+/*--------Breadcrumb Area CSS--------*/
+textarea, input{
+    /*width: 100%;*/
+}
+/*Page Banner Default  CSS End*/
+
+.padding-zero{
+    padding: 0 0;
+}
+/*Flat Icon Default Settings*/
+[class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+    margin-left: 0;
+}
+.card-footer {
+    padding: 0;
+    background-color: transparent;
+    border-top: none;
+}
+
+/*--------------------------------
+   2.5 Hilhome Template Default CSS
+-----------------------------------*/
+
+/*------------------------------------------
+            2.  Typography End
+-------------------------------------------*/
+
+/*--------------------------------------------
+            3. Button Style
+---------------------------------------------*/
+.btn{
+    padding: 0;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+button{
+    background-color: transparent;
+}
+button:focus {
+    outline: 0;
+}
+/*Slider Default Button CSS*/
+.testi_prev, .testi_next {
+    cursor: pointer;
+    line-height: 39px;
+    position: absolute;
+    z-index: 9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-----Theme Button Style-----*/
+.button-wrap {
+    margin: 35px auto 0;
+}
+.theme-button {
+    color: var(--white-color);
+    background-color: var(--color-blue);
+    display: inline-block;
+    outline: none;
+    padding: 13px 24px 16px;
+    border-radius: var(--border-radious-6);
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2;
+    position: relative;
+    cursor: pointer;
+}
+.theme-button:hover {
+    color: var(--white-color);
+}
+/*--------------------------------------------
+            3. Button Style End
+---------------------------------------------*/
+
+/*-------------------------------------------
+    4. Preloader and Scroll To Top Area Start
+-------------------------------------------*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 99999999;
+}
+
+.loader {
+    position: absolute;
+    left: 53%;
+    top: 53%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #ed553b;
+    border-bottom: 10px solid #232d39;
+    width: 90px;
+    height: 90px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@media only screen and (min-width:300px) and (max-width:479px){
+    .loader {
+        margin: -100px 0 0 -48px;
+    }
+}
+
+/*---------Scroll To Top--------*/
+#scroll {
+    position: fixed;
+    right: 8px;
+    bottom: 10px;
+    cursor: pointer;
+    display: none;
+    z-index: 10;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: var(--color-blue);
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0); }
+    50% {
+        -webkit-transform: translate(0, 10px);
+        transform: translate(0, 10px); }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0); } }
+/*-------------------------------------------
+   4. Preloader and Scroll To Top Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+           5. Navbar Area CSS Start
+-------------------------------------------*/
+.menu-section-area {
+    padding: 0;
+    z-index: 999;
+}
+.menu-section-area .navbar {
+    padding: 0;
+}
+#mainNav {
+    background-color: var(--white-color);
+    height: 60px;
+    display: flex !important;
+    transition: all ease .6s;
+    top: 0;
+    border: 1px solid var(--border-color);
+}
+/*#mainNav.navbar-shrink {*/
+/*    background-color: #fff;*/
+/*    box-shadow: 0 0 15px 2px rgba(64,123,255,.2);*/
+/*    top:0;*/
+/*}*/
+#mainNav .navbar-brand {
+    position: relative;
+    top: -3px;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    padding: 0.55em 15px 0.75em;
+    letter-spacing: 1px;
+    position: relative;
+    font-weight: bold;
+    color: var(--dark-blue);
+    text-transform: initial;
+}
+/*#mainNav .navbar-nav .nav-item:last-child .nav-link{*/
+/*    !*padding-right: 0;*!*/
+/*    color: var(--white-color);*/
+/*}*/
+/*#mainNav .navbar-nav .nav-item:last-child .nav-link:hover{*/
+/*    color: var(--white-color);*/
+/*}*/
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link.active {
+    color: var(--color-blue);
+}
+/*#mainNav.navbar-shrink .navbar-nav .nav-item:last-child .nav-link {*/
+/*    color: var(--white-color);*/
+/*}*/
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: var(--dark-blue);
+}
+/*#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover, #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link.active {*/
+/*    color: var(--color-blue)!important;*/
+/*}*/
+/*#mainNav.navbar-shrink .navbar-nav .nav-item:last-child .nav-link:hover {*/
+/*    color: var(--white-color)!important;*/
+/*}*/
+/*#mainNav .navbar-nav .nav-item:not(:last-child) .nav-link.active::after, #mainNav .navbar-nav .nav-item:not(:last-child) .nav-link:hover::after{*/
+#mainNav .navbar-nav .nav-item:not(:last-child) .nav-link.active::after{
+    /*width: 60%;*/
+    /*opacity: 1;*/
+    /*background: #321d9a;*/
+}
+
+/*---- Dropdown Menu CSS ----*/
+#mainNav ul.navbar-nav li.nav-item.dropdown-box {
+    position: relative;
+}
+#mainNav ul.navbar-nav li.nav-item.dropdown-box .dropdown-list {
+    background-color: #fff;
+    top: 213%;
+    position: absolute;
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 13px 4px rgba(64, 123, 225, 0.15);
+    /* border: 1px solid #0a8aff; */
+}
+#mainNav ul.navbar-nav li.nav-item.dropdown-box:hover .dropdown-list {
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+.dropdown-list li a {
+    padding: 6px 10px;
+    display: block;
+}
+#mainNav .navbar-nav .nav-item .nav-link > i.fa-angle-down {
+    padding-left: 5px;
+    position: relative;
+    top: 2px;
+}
+@media (min-width: 992px) {
+
+}
+/* Mean Menu / Mobile Menu Style */
+.mean-container .mean-nav ul {
+    margin: 14px 0 0 0;
+    background-color: transparent;
+}
+.mean-container .mean-nav ul li a:hover {
+    /*background-color: var(--home-1-color-blue);*/
+    color: var(--color-blue) !important;
+}
+.mean-container .mean-bar {
+    background-color: var(--white-color);
+    height: 54px;
+    z-index: 999;
+    padding: 0;
+    box-shadow: 0 0 15px 2px rgba(64,123,255,.2);
+}
+.mean-container .mean-nav {
+    background-color: var(--white-color);
+    margin-top: 0;
+    height: 100%;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+    padding: 0 !important;
+    margin-top: 3px;
+    top: -2px;
+    background: rgba(255,255,255,.1);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-logo {
+    position: relative;
+    top: 14px;
+    left: 16px;
+    height: 23px;
+}
+.mean-container a.meanmenu-reveal {
+    top: 5px;
+    color: var(--color-blue);
+}
+.mean-container .mean-nav ul.menu {
+    margin: 0 0 0 0;
+    background-color: var(--white-color);
+    display: flex;
+    position: relative;
+    top: 30px;
+    box-shadow: 0 0 22px -3px rgba(64,123,255,.3);
+}
+.mean-container a.meanmenu-reveal span {
+    background-color: var(--color-blue);
+}
+.mean-container .mean-nav ul li a:hover {
+}
+.mean-container .mean-nav ul li.mean-last a.section-button:hover, .mean-container .mean-nav ul li.dropdown a:hover {
+}
+.mean-container .mean-nav ul li a {
+    color: var(--dark-blue);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-top: 1px solid rgba(64,123,255,.5);
+}
+/*Mobile Dropdown Inner CSS*/
+.mean-container .mean-nav ul li li a {
+    font-size: 13px;
+    border-top: 1px solid rgba(64,123,255,.4);
+}
+/*-------------------------------------------
+           5. Navbar Area CSS End
+-------------------------------------------*/
+/*-------------------------------------------
+            6. Slider Area Start
+-------------------------------------------*/
+.hero-area {
+    position: relative;
+}
+.hero-area {
+    background-color: var(--white-color);
+    /*height: 525px;*/
+}
+.row.hero-wrapper {
+    align-items: center;
+}
+
+/*-----------Hero Nav Area Start-------------*/
+.hero-wrapper .tab-content {
+    padding: 15px 0 0;
+}
+.hero-wrapper .nav-tabs .nav-link {
+    border-width: 0 0 3px 0;
+    border-style: solid;
+    border-color: transparent;
+    padding: 10px 0 10px 0;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 0;
+}
+.hero-wrapper .nav-tabs .nav-item.show .nav-link, .hero-wrapper .nav-tabs .nav-link.active {
+    border-bottom-color: var(--color-blue);
+}
+/*-----------Hero Nav Area End-------------*/
+
+/*-----------Select Box Area-------------*/
+.search-box h1 {
+    color: var(--dark-color);
+    /*font-size: 42px;*/
+    margin-bottom: 20px;
+    /*text-shadow: 1px 0 4px rgba(0, 0, 0, 0.33);*/
+    /*text-transform: capitalize;*/
+}
+.search-box.text-center {
+    width: 85%;
+}
+.search-box form {
+    margin: 0 auto;
+    display: flex;
+}
+.search-box form input {
+    width: 107px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+.search-box .custom-select, .search-box button {
+    /*display: inline-block;*/
+}
+/*the container must be positioned relative:*/
+.custom-select {
+    position: relative;
+    text-align: left;
+    width: 60%;
+    /* width: 100%; */
+    height: 49px;
+    padding: 0 10px 0 0;
+    border: 1px solid #ced4da;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+}
+.custom-select select {
+    display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+    background-color: #fff;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    right: 13px;
+    top: 22px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #000 transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #000 transparent;
+    top: 14px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div, .select-selected {
+    /*border-color: transparent transparent rgba(0, 0, 0, 0.1);*/
+    border: none;
+    border-image: none;
+    border-radius: 4px;
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    color: #000;
+    cursor: pointer;
+    padding: 12px 16px;
+}
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+
+    height: 390px;
+    overflow-y: scroll;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+.select-items div:hover {
+    background-color: var(--color-blue);
+    color: #fff;
+}
+.same-as-selected {
+    background-color: #eeedeb;
+    color: #fff;
+}
+.search-box button {
+    background-color: var(--color-blue);
+    border-bottom-right-radius: 4px;
+    border-color: transparent;
+    border-top-right-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    height: 49px;
+    left: -5px;
+    position: relative;
+    top: 0;
+    width: 122px;
+    cursor: pointer;
+}
+/*Find Customer*/
+.find-customer p {
+    padding: 10px 0 20px;
+}
+/*-------------------------------------------
+            6. Slider Area End
+-------------------------------------------*/
+/*-------------------------------------------
+     7. Home App Download Area Area Start
+-------------------------------------------*/
+.home-app-content {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.home-app-content p {
+    margin: 13px 0 20px;
+}
+.apple-google-btn-wrap {
+    display: flex;
+}
+.apple-google-btn-wrap img {
+    height: 49px;
+    padding-right: 15px;
+}
+.home-app-img-side img {
+    height: 400px;
+}
+/*-------------------------------------------
+     7. Home App Download Area Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    13. Footer Area Start
+-------------------------------------------*/
+footer{
+    background-color: var(--white-color);
+}
+ /* ----  13.1 Footer Upper Style ---------*/
+.footer-upper-area {
+    padding: 80px 0 65px;
+    /*border-top: 1px solid var(--border-color);*/
+    border-bottom: 1px solid var(--border-color);
+}
+.footer-widget p {
+    color: var(--dark-color);
+    margin-bottom: 15px;
+}
+.footer-widget p > span {
+    display: flex;
+    line-height: 16px;
+}
+.footer-widget ul li a {
+    line-height: 18px;
+    display: flex;
+    padding-bottom: 10px;
+}
+/*Footer social*/
+ul.social-media li a {
+    display: block;
+    padding: 5px 10px 0 0;
+}
+  /* 13.1 ----Footer Upper Style---------*/
+
+  /* 13.2 -----Footer Bottom Style---------*/
+.copyright{
+    color: var(--dark-color);
+}
+.copyright > a{
+    color: var(--color-blue);
+}
+.footer-bottom-part {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.bottom-footer-right a > i {
+    color: var(--color-blue);
+    padding-right: 5px;
+    font-size: 18px;
+}
+/*-------------------------------------------
+        13. Footer Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+         14. 404 Area Start
+-------------------------------------------*/
+.error-page-area h3.section-subheading {
+    margin: 43px auto 35px;
+    width: 94%;
+}
+.error-page-area img {
+    margin-top: 82px;
+    height: 450px;
+}
+/*-------------------------------------------
+        14. 404 Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    19. Contact Page Style Start
+-------------------------------------------*/
+/*--- Contact Form ---*/
+.contact-map-area .container .col-12{
+    position: relative;
+}
+.contact-map-area .contact-form-wrapper {
+    background-color: #fff;
+    padding: 45px 33px 50px;
+    width: 370px;
+    box-shadow: 0 7px 18px 0 rgba(64, 123, 255, 0.25);
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    z-index: 99;
+}
+.contact-form-wrapper h4 {
+    margin-bottom: 38px;
+}
+.contact-form-wrapper form .form-group {
+    position: relative;
+    margin-bottom: 2.10rem;
+}
+.contact-form-wrapper form textarea {
+    height: 200px;
+}
+/*-------------------------------------------
+        19. Contact Page Style End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    22. Responsive Design CSS
+-------------------------------------------*/
+
+/*=====================================
+    Extra Large Screen
+========================================*/
+
+  @media only screen and (min-width: 1920px){
+  }
+
+/*=====================================
+    For Large Screen
+========================================*/
+
+  /*------Max 1775px Width Screen------*/
+
+  @media only screen and (max-width: 1775px) {
+
+  }
+
+/*--------Max 1366px Width Screen---------*/
+
+  @media only screen and (max-width: 1366px) {
+      /*---Default CSS Start---*/
+      body, p, #mainNav .navbar-nav .nav-item .nav-link, .theme-button {
+          font-size: 14px;
+      }
+      h4 {
+          font-size: 18px;
+      }
+      h1.header-caption-heading {
+          font-size: 42px;
+          margin: 55px 0 0;
+      }
+      h2 {
+          font-size: 1.75rem;
+      }
+      .theme-button {
+          padding: 10px 15px 13px;
+      }
+      .header-caption p {
+          margin: 20px auto;
+      }
+      p.section-subheading {
+          width: 55%;
+      }
+      #mainNav .navbar-brand img, .footer-widget.footer-about a > img{
+          height: 34px;
+      }
+      #mainNav {
+          height: 70px;
+      }
+      .page-banner-area .header-caption img {
+          height: 368px;
+      }
+      header.page-banner-area {
+          padding-top: 70px;
+      }
+      header.page-banner-area .header-caption {
+          height: 500px;
+      }
+      .pagination-area .page-link {
+          width: 40px;
+          height: 40px;
+          font-size: 16px;
+      }
+      /*---Default CSS End---*/
+  }
+
+
+/*--------Max 1200px Width Screen---------*/
+
+  @media only screen and (max-width: 1200px) {
+
+  }
+
+/*--------Min 1200px Width Screen--------*/
+  @media only screen and (min-width: 1200px) {
+
+  }
+
+/*=====================================
+    For Medium Screen
+========================================*/
+@media only screen and (max-width: 1199px){
+    /*Default CSS*/
+    .theme-button {
+        padding: 8px 14px 11px;
+    }
+    #scroll {
+        bottom: 50px;
+    }
+    /*Page Banner CSS*/
+    .page-banner-area .header-caption img {
+        height: 350px;
+    }
+    /*Hero Area CSS*/
+    header.home-banner-area {
+        height: auto;
+    }
+
+    /*Footer CSS*/
+    .footer-about p {
+        margin: 15px 0;
+        line-height: 27px;
+    }
+    .footer-about p > i::before {
+        font-size: 16px;
+    }
+    .footer-widget h5 {
+        margin-bottom: 30px;
+    }
+    .footer-widget ul li a {
+        line-height: 21px;
+    }
+    .footer-social ul li a {
+        width: 30px;
+        height: 30px;
+    }
+
+    /*Other Page Banner CSS*/
+    header.page-banner-area .header-caption-heading {
+        padding: 6px 0 12px;
+    }
+
+    /*Contact Page CSS*/
+    .contact-area h2.section-heading {
+        width: 52%;
+        line-height: 36px;
+        font-size: 25px;
+    }
+    .contact-us-box {
+        height: auto;
+    }
+    .contact-box-img img {
+        height: 57px;
+    }
+    .contact-box-img .bubble {
+        height: 73px;
+    }
+    .contact-form-wrapper form textarea {
+        height: 125px;
+    }
+    .contact-map-area .contact-form-wrapper {
+        padding: 40px 33px 50px;
+    }
+    .contact-box-img i {
+        top: 26px;
+    }
+    .contact-box-img i::before {
+        font-size: 17px;
+    }
+    /*Error Page CSS*/
+    .error-page-area h3.section-subheading {
+        font-size: 22px;
+    }
+
+}
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px){
+
+      /*Main Menu Bar*/
+      .mobile_menu{
+          display: none!important;
+      }
+  }
+
+/*======================================
+        Tablet layout
+=========================================*/
+  @media only screen and (max-width: 991px){
+      /*Page Banner Area CSS*/
+      header.page-banner-area .header-caption p {
+          width: 93%;
+      }
+      .page-banner-area .header-caption img {
+          height: 295px;
+      }
+      /*Contact Page CSS*/
+      .contact-us-box {
+          height: 234px;
+      }
+
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+
+      /*Main Menu Bar*/
+      #mainNav{
+          display: none!important;
+      }
+
+      /*Footer Area*/
+      .footer-widget.footer-recent-news ul li {
+          justify-content: left;
+      }
+      .footer-widget.quick-links {
+          margin-top: 0;
+          border: none;
+      }
+      .footer-widget.quick-links > h4 {
+          margin-top: 0;
+      }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    /*Main Menu Bar*/
+    #mainNav {
+        display: none !important;
+    }
+
+}
+/*=======================================
+        For Small Devices
+=========================================*/
+  @media only screen and (max-width: 767px) {
+      /*Default CSS*/
+      p.section-subheading {
+          width: 100%;
+      }
+      /*Menu CSS*/
+      .mean-container .mean-nav ul.menu {
+          box-shadow: 0 0 22px -9px rgba(64,123,255,.3);
+      }
+      /*Page Banner Area CSS*/
+      header.page-banner-area .header-caption {
+          flex-direction: column-reverse;
+          height: auto;
+      }
+      .page-banner-left {
+          margin: 60px 0 80px;
+      }
+
+  }
+
+  /*========================================
+            For large mobile
+  =========================================*/
+
+  @media only screen and (max-width: 766px){
+      #scroll {
+          bottom: 5px;
+      }
+  }
+  @media only screen and (min-width: 480px) and (max-width: 766px){
+      .footer-widget > h4, .footer-widget.quick-links > h4 {
+          margin-top: 30px;
+          margin-bottom: 30px;
+      }
+  }
+
+@media only screen and (max-width: 480px){
+    /*Default CSS*/
+    .header-caption p {
+        width: 100%;
+    }
+    /*Page Banner CSS*/
+    .page-banner-area .header-caption img {
+        height: 217px;
+    }
+    /*Footer CSS*/
+    .footer-bottom-part {
+        flex-direction: column;
+        text-align: center;
+    }
+    .copyright {
+        margin-bottom: 20px;
+    }
+    .footer-social ul {
+        justify-content: center;
+    }
+}
+
+/*=========================================
+        For very little mobile
+=========================================*/
+  @media only screen and (min-width:300px) and (max-width:479px){
+      /*Default CSS*/
+      section {
+          padding: 50px 0;
+      }
+      h2 {
+          font-size: 1.45rem;
+      }
+      h1.header-caption-heading {
+          font-size: 32px;
+      }
+      /*Footer Area*/
+
+      .footer-bottom-part {
+          align-items: center;
+      }
+      .footer-social {
+          width: 40%;
+          text-align: right;
+      }
+      .footer-bottom-part {
+          flex-direction: column;
+      }
+      .copyright {
+          margin-bottom: 10px;
+      }
+      .footer-social, .copyright {
+          width: 100%;
+          text-align: center;
+      }
+      .footer-widget.footer-recent-posts ul li a > p{
+          line-height: 22px;
+      }
+      /* Contact Page CSS */
+      .contact-us-box {
+        width: 80%;
+    }
+      .contact-map-area .contact-form-wrapper {
+        padding: 30px 30px 40px;
+        width: 240px;
+    }
+    .contact-form-wrapper h4 {
+        margin-bottom: 20px;
+    }
+    .contact-form-wrapper form input {
+        height: 44px;
+    }
+    .contact-form-wrapper form textarea {
+        height: 106px;
+    }
+  }
+  /*-------------------------------------------
+        24. Responsive Design End
+  -------------------------------------------*/
