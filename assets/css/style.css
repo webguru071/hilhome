@@ -822,6 +822,10 @@ button:focus {
 .home-app-img-side img {
     height: 400px;
 }
+/*Slider CSS*/
+.owl-carousel .owl-item img {
+    width: auto;
+}
 /*-------------------------------------------
      7. Home App Download Area Area End
 -------------------------------------------*/
