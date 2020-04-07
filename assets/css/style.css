@@ -58,11 +58,13 @@
 /* Use style sheet */
 
 @import url('../vendor/bootstrap/css/bootstrap.min.css');
-@import url(../vendor/fontawesome-free/css/all.min.css);
-@import url(../vendor/flat-icon/flaticon.css);
-@import url(venobox.css);
-@import url(animate.css);
-@import url(meanmenu.min.css);
+@import url('../vendor/fontawesome-free/css/all.min.css');
+@import url('../vendor/flat-icon/flaticon.css');
+@import url('venobox.css');
+@import url('animate.css');
+@import url('owl.carousel.min.css');
+@import url('owl.theme.default.min.css');
+@import url('meanmenu.min.css');
 
 /***
 
