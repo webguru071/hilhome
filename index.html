@@ -210,22 +210,73 @@
     <!-- Home App Download Area Start -->
     <section class="home-app-download-area padding-zero">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-7">
-                    <div class="home-app-content">
-                        <h4>When you need to hire someone – a landscaper, a DJ, anyone – Hilhome finds them for you for free.</h4>
-                        <p>See price estimates, read reviews and chat with pros, all in the app.</p>
-                        <div class="apple-google-btn-wrap">
-                            <img src="assets/img/home-app-slide-img/apple-app-btn.png" alt="img">
-                            <img src="assets/img/home-app-slide-img/google-app-btn.png" alt="img">
+            <div class="row home-app-slider-outer position-relative">
+                <div class="home-app-slider-wrap owl-carousel">
+
+                    <!-- Single Item Start -->
+                    <div class="item d-flex">
+                        <div class="col-12 col-sm-12 col-md-7">
+                            <div class="home-app-content">
+                                <h4>When you need to hire someone – a landscaper, a DJ, anyone – Hilhome finds them for you for free.</h4>
+                                <p>See price estimates, read reviews and chat with pros, all in the app.</p>
+                                <div class="apple-google-btn-wrap">
+                                    <a href="#"><img src="assets/img/home-app-slide-img/apple-app-btn.png" alt="img"></a>
+                                    <a href="#"><img src="assets/img/home-app-slide-img/google-app-btn.png" alt="img"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-5">
+                            <div class="home-app-img-side">
+                                <img src="assets/img/home-app-slide-img/1.jpg" alt="img">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-5">
-                    <div class="home-app-img-side">
-                        <img src="assets/img/home-app-slide-img/1.jpg" alt="img">
+                    <!-- Single Item End -->
+
+                    <!-- Single Item Start -->
+                    <div class="item d-flex">
+                        <div class="col-12 col-sm-12 col-md-7">
+                            <div class="home-app-content">
+                                <h4>Wait, what’s a pro?</h4>
+                                <p>Thumbtack pros are local business owners right in your community. They’re the neighbors you just haven’t met yet, with the skills you need to get the job done.</p>
+                                <div class="apple-google-btn-wrap">
+                                    <a href="how-it-works.html" class="btn theme-button">Lern more</a>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-5">
+                            <div class="home-app-img-side">
+                                <img src="assets/img/home-app-slide-img/2.jpg" alt="img">
+                            </div>
+                        </div>
                     </div>
+                    <!-- Single Item End -->
+
+                    <!-- Single Item Start -->
+                    <div class="item d-flex">
+                        <div class="col-12 col-sm-12 col-md-7">
+                            <div class="home-app-content">
+                                <h4>The Hilhome Guarantee.</h4>
+                                <p>If the job isn’t done as agreed, you can get your money back. And if there’s property damage, you’re protected.</p>
+                                <div class="apple-google-btn-wrap">
+                                    <a href="guarantee.html" class="btn theme-button">Lern more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-5">
+                            <div class="home-app-img-side">
+                                <img src="assets/img/home-app-slide-img/1.jpg" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item End -->
+
                 </div>
+                <div class="slide_nav">
+                    <span class="testi_prev"><i class="fas fa-angle-left"></i></span>
+                    <span class="testi_next"><i class="fas fa-angle-right"></i></span>
+                </div>
+
             </div>
         </div>
     </section>
@@ -361,14 +412,14 @@
 
     <!-- Plugin JavaScript -->
 
-    <!--Counter Up JS Script-->
-    <script src="assets/js/purecounter.js"></script>
-
     <!--VenoBox Script-->
     <script src="assets/js/venobox.min.js"></script>
 
     <!--WOW JS Script-->
     <script src="assets/js/wow.min.js"></script>
+
+    <!--Owl Carousel JS Script-->
+    <script src="assets/js/owl.carousel.min.js"></script>
 
     <!--Mean Menu/Mobile Menu Script-->
     <script src="assets/js/jquery.meanmenu.min.js"></script>
@@ -390,7 +441,7 @@
                 img.src = path;
                 $("#randomImage").html(img);
             }
-        }
+        };
 
         randomImage.generate();
     </script>

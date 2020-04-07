@@ -121,6 +121,37 @@ $('.venobox').venobox();
 
   //Search Option End
 
+    //Our Classes Slider
+    var all_classes_slide = $('.home-app-slider-wrap');
+    all_classes_slide.owlCarousel({
+        loop:true,
+        margin:15,
+        autoplay:false,
+        nav:false,
+        dots:true,
+        smartSpeed: 1000,
+        autoplayHoverPause: !0,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            992:{
+                items:1
+            }
+        }
+    });
+    $('.slide_nav .testi_next').on('click', function() {
+        all_classes_slide.trigger('next.owl.carousel');
+    });
+
+    $('.slide_nav .testi_prev').on('click', function() {
+        all_classes_slide.trigger('prev.owl.carousel');
+    });
+//Our Classes Slider
+
   //--------- Initialize WOW JS
   new WOW().init();
 
