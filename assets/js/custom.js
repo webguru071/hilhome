@@ -121,9 +121,9 @@ $('.venobox').venobox();
 
   //Search Option End
 
-    //Our Classes Slider
-    var all_classes_slide = $('.home-app-slider-wrap');
-    all_classes_slide.owlCarousel({
+    // Home App Download Slider
+    var all_slide = $('.home-app-slider-wrap');
+    all_slide.owlCarousel({
         loop:true,
         margin:15,
         autoplay:false,
@@ -144,13 +144,44 @@ $('.venobox').venobox();
         }
     });
     $('.slide_nav .testi_next').on('click', function() {
-        all_classes_slide.trigger('next.owl.carousel');
+        all_slide.trigger('next.owl.carousel');
     });
 
     $('.slide_nav .testi_prev').on('click', function() {
-        all_classes_slide.trigger('prev.owl.carousel');
+        all_slide.trigger('prev.owl.carousel');
     });
-//Our Classes Slider
+// Home App Download Slider
+
+// Home Recent Questions Slider
+    var question_slide = $('.recent-questions-slider-wrap');
+    question_slide.owlCarousel({
+        loop:true,
+        margin:15,
+        autoplay:false,
+        nav:false,
+        dots:true,
+        smartSpeed: 1000,
+        autoplayHoverPause: !0,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            992:{
+                items:3
+            }
+        }
+    });
+    $('.slide_nav .testi_next').on('click', function() {
+        question_slide.trigger('next.owl.carousel');
+    });
+
+    $('.slide_nav .testi_prev').on('click', function() {
+        question_slide.trigger('prev.owl.carousel');
+    });
+// Home Recent Questions Slider
 
   //--------- Initialize WOW JS
   new WOW().init();

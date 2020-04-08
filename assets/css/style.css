@@ -201,6 +201,7 @@ figure {
     --dark-color: #2f3033;
     --border-radious-6: 6px;
     --border-color: #e9eced;
+    --diffrent-bg: #fafafa;
 }
 
 /*---- Home Color CSS Start*---- */
@@ -266,7 +267,7 @@ h2{
 
 @media only screen and (min-width: 1200px) {
     .container {
-        max-width: 1170px;
+        max-width: 972px;
     }
 }
 .section-title-area {
@@ -283,7 +284,7 @@ p.section-subheading {
     margin: 18px auto 50px;
 }
 section{
-    padding: 80px 0;
+    padding: 60px 0;
     position: relative;
     z-index: 9;
     overflow-x: hidden;
@@ -853,10 +854,22 @@ button:focus {
 /*-------------------------------------------
      8. Services Area Start
 -------------------------------------------*/
+.services-area{
+    background-color: var(--diffrent-bg);
+}
+.services-wrapper .tab-content .tab-pane a:last-child {
+    margin-right: 0;
+}
+.services-wrapper .nav-tabs .nav-link {
+    font-size: 17px;
+}
 .services-wrapper .tab-content .tab-pane a {
     display: inline-block;
     margin: 15px 15px 15px 0;
     float: left;
+}
+.services-box img {
+    border-radius: var(--border-radious-6);
 }
 .services-wrapper .tab-content .tab-pane a div h6 {
     margin: 12px 0 3px;
