@@ -800,7 +800,7 @@ button:focus {
             6. Slider Area End
 -------------------------------------------*/
 /*-------------------------------------------
-     7. Home App Download Area Area Start
+     7. Home App Download Area Start
 -------------------------------------------*/
 .home-app-slider-wrap {
     padding: 0 50px;
@@ -847,7 +847,27 @@ button:focus {
     width: auto;
 }
 /*-------------------------------------------
-     7. Home App Download Area Area End
+     7. Home App Download Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+     8. Services Area Start
+-------------------------------------------*/
+.services-wrapper .tab-content .tab-pane a {
+    display: inline-block;
+    margin: 15px 15px 15px 0;
+    float: left;
+}
+.services-wrapper .tab-content .tab-pane a div h6 {
+    margin: 12px 0 3px;
+}
+.services-wrapper .tab-content .tab-pane a div p i {
+    color: var(--color-blue);
+    padding-right: 5px;
+    font-size: 12px;
+}
+/*-------------------------------------------
+     8. Services Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
