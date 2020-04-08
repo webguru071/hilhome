@@ -156,7 +156,7 @@ $('.venobox').venobox();
     var question_slide = $('.recent-questions-slider-wrap');
     question_slide.owlCarousel({
         loop:true,
-        margin:15,
+        margin:5,
         autoplay:false,
         nav:false,
         dots:true,

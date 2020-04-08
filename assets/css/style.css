@@ -226,7 +226,7 @@ figure {
 .font-semi-bold{
     font-weight: 500;
 }
-.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link{
+.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span{
     font-weight: 700;
 }
 .font-black{
@@ -248,6 +248,9 @@ h2{
 }
 .font-14{
     font-size: 14px;
+}
+.font-12, .services-wrapper .tab-content .tab-pane a p, .services-wrapper .tab-content .tab-pane a div p i, .recent-questions-slider-wrap .item p {
+    font-size: 12px;
 }
 /*--------------------------------
     2.4 Theme Margin and Padding
@@ -271,17 +274,12 @@ h2{
     }
 }
 .section-title-area {
-    margin-bottom: 60px;
-    text-align: center;
+    margin-bottom: 20px;
+    text-align: left;
 }
-h2.section-heading {
-    margin-bottom: 27px;
-    line-height: 26px;
-}
-
-p.section-subheading {
-    width: 80%;
-    margin: 18px auto 50px;
+.section-title-area p {
+    width: 50%;
+    margin-top: 20px;
 }
 section{
     padding: 60px 0;
@@ -394,7 +392,7 @@ button:focus {
     padding: 13px 24px 16px;
     border-radius: var(--border-radious-6);
     font-weight: 700;
-    text-transform: capitalize;
+    text-transform: inherit;
     line-height: 1.2;
     position: relative;
     cursor: pointer;
@@ -804,7 +802,7 @@ button:focus {
      7. Home App Download Area Start
 -------------------------------------------*/
 .home-app-slider-wrap {
-    padding: 0 50px;
+    padding: 0 20px;
 }
 .home-app-content {
     width: 65%;
@@ -834,6 +832,7 @@ button:focus {
     text-align: center;
     top: 0;
     z-index: 99;
+    font-size: 21px;
 }
 .slide_nav > .testi_prev, .slide_nav > .testi_next {
     top: 45%;
@@ -874,13 +873,46 @@ button:focus {
 .services-wrapper .tab-content .tab-pane a div h6 {
     margin: 12px 0 3px;
 }
-.services-wrapper .tab-content .tab-pane a div p i {
+.services-wrapper .tab-content .tab-pane a div p i, .recent-questions-slider-wrap .item p i {
     color: var(--color-blue);
     padding-right: 5px;
-    font-size: 12px;
 }
 /*-------------------------------------------
      8. Services Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    9. Recent Questions Area Start
+-------------------------------------------*/
+.recent-questions-slider-wrap .item div h6 {
+    margin: 12px 0 3px;
+}
+.recent-questions-slider-wrap .item p span {
+    padding-left: 5px;
+}
+.recent-questions-area .testi_prev, .recent-questions-area .testi_next {
+    background-color: var(--white-color);
+    height: 35px;
+    width: 35px;
+    top: 34%;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.3);
+}
+.recent-questions-area .testi_prev {
+    left: 0;
+}
+.recent-questions-area .testi_next {
+    right: 6px;
+}
+/*-------------------------------------------
+    9. Recent Questions Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    10. Get Free Cost Estimate Area Start
+-------------------------------------------*/
+
+/*-------------------------------------------
+    10. Get Free Cost Estimate Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
