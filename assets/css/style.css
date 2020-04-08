@@ -226,7 +226,7 @@ figure {
 .font-semi-bold{
     font-weight: 500;
 }
-.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span{
+.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a{
     font-weight: 700;
 }
 .font-black{
@@ -249,7 +249,7 @@ h2{
 .font-14{
     font-size: 14px;
 }
-.font-12, .services-wrapper .tab-content .tab-pane a p, .services-wrapper .tab-content .tab-pane a div p i, .recent-questions-slider-wrap .item p {
+.font-12, .services-wrapper .tab-content .tab-pane a p, .services-wrapper .tab-content .tab-pane a div p i, .recent-questions-slider-wrap .item p, .trending-now-these-areas p a {
     font-size: 12px;
 }
 /*--------------------------------
@@ -908,11 +908,27 @@ button:focus {
 -------------------------------------------*/
 
 /*-------------------------------------------
-    10. Get Free Cost Estimate Area Start
+    10. Home States Area Start
 -------------------------------------------*/
-
+.trending-now-these-areas p {
+    margin: 30px 0;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 40px;
+}
+.trending-now-these-areas p a {
+    background-color: #e8f1fd;
+    padding: 7px 10px;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+.all-50-states-content {
+    margin-left: 50px;
+}
+.all-50-states-content p {
+    width: 82%;
+}
 /*-------------------------------------------
-    10. Get Free Cost Estimate Area End
+    10. Home States Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
