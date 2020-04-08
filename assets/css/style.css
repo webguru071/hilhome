@@ -941,11 +941,68 @@ button:focus {
 /*-------------------------------------------
     11. Open For Business Area Start
 -------------------------------------------*/
-.open-for-business .theme-button {
+.open-for-business-area .theme-button {
     margin-top: 20px;
 }
 /*-------------------------------------------
     11. Open For Business Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    12. Login Page Area Start
+-------------------------------------------*/
+.login-area form {
+    width: 50%;
+    margin: 0 auto;
+}
+.login-area form .btn.theme-button {
+    width: 100%;
+}
+.other-button-box a.btn {
+    border: 1px solid #d3d4d5;
+    display: block;
+    margin-top: 15px;
+    padding: 6px;
+    background: #fff;
+}
+.privacy-box h6 {
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--gray-color);
+}
+.privacy-box h6:before {
+    background-color:var(--border-color);
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 45%;
+    height: 1px;
+    z-index: 9;
+    top: 10px;
+}
+.privacy-box h6::after {
+    background-color: var(--border-color);
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 45%;
+    height: 1px;
+    z-index: 9;
+    top: 10px;
+}
+.privacy-box p> a, .dont-have-account a{
+    color: var(--color-blue);
+}
+.dont-have-account {
+    font-size: 17px;
+    margin-top: 40px;
+}
+/*-------------------------------------------
+    12. Login Page Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
