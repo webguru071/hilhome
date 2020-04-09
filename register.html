@@ -24,7 +24,7 @@
     <meta name="msapplication-TileColor" content="#407bff">
     <meta name="theme-color" content="#3fa3fe">
 
-    <title>Hilhome - Login</title>
+    <title>Hilhome - Register</title>
 
     <!--=======================================
       All CSS Style link
@@ -106,12 +106,22 @@
     <!-- Menu Area End -->
 
     <!-- Login Area Start -->
-    <section class="login-area">
+    <section class="login-area register-area">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h3 class="text-center">Welcome back</h3>
+                    <h3 class="text-center">Create your account</h3>
                     <form>
+                        <div class="form-group form-inline">
+                            <div class="col-12 col-md-6">
+                                <label for="first-name">First name</label>
+                                <input type="text" class="form-control" id="first-name">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="last-name">Last name</label>
+                                <input type="text" class="form-control" id="last-name">
+                            </div>
+                        </div>
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input type="email" class="form-control" id="email">
@@ -120,35 +130,31 @@
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="password">
                         </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="checkbox">
-                            <div class="remember-box d-flex justify-content-between">
-                                <label class="form-check-label" for="checkbox">Remember me</label>
-                                <a href="reset-password.html">Forgot password?</a>
-                            </div>
+
+                        <div class="privacy-box text-center">
+                            <p>By clicking Create Account, you agree to the
+                                <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+                            </p>
                         </div>
 
                         <div class="form-group">
-                            <button type="submit" class="btn theme-button">Log In</button>
+                            <button type="submit" class="btn theme-button">Create Account</button>
                         </div>
                         <div class="other-button-box">
                             <div class="privacy-box text-center">
                                 <h6>or</h6>
-                                <p>By clicking Continue with Facebook, Google, or Apple, you agree to the
+                                <p>By clicking Sign Up with Facebook or Sign Up with Google, you agree to the
                                     <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
                             </div>
                             <a href="#" class="fb btn">
-                                <img src="assets/img/facebook.svg" alt=""> Continue with facebook
+                                <img src="assets/img/facebook.svg" alt=""> Sign Up with Facebook
                             </a>
                             <a href="#" class="twitter btn">
-                                <img src="assets/img/google.svg" alt=""> Continue with google
-                            </a>
-                            <a href="#" class="google btn">
-                                <img src="assets/img/apple.svg" alt=""> Continue with apple
+                                <img src="assets/img/google.svg" alt=""> Sign Up with Google
                             </a>
                         </div>
                     </form>
-                    <p class="dont-have-account text-center">Don’t have an account? <a href="register.html">Sign up</a>.</p>
+                    <p class="dont-have-account text-center">Already have an account? <a href="login.html">Log in</a>.</p>
                 </div>
             </div>
         </div>

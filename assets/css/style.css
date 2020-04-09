@@ -994,7 +994,7 @@ button:focus {
     z-index: 9;
     top: 10px;
 }
-.privacy-box p> a, .dont-have-account a{
+.privacy-box p> a, .dont-have-account a, .remember-box a{
     color: var(--color-blue);
 }
 .dont-have-account {
