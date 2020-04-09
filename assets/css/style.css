@@ -1001,6 +1001,29 @@ button:focus {
     font-size: 17px;
     margin-top: 40px;
 }
+/*Register css*/
+section.login-area.register-area h3 {
+    margin-bottom: 30px;
+}
+.register-area form .form-group.d-flex .col-12 {
+    padding: 0;
+}
+.register-area form .form-group.d-flex .col-12 label{
+    text-align: left;
+    margin-bottom: .5rem;
+}
+.register-area form .form-group.d-flex .col-12 input {
+    width: 100%;
+}
+.register-area form .form-group.d-flex .col-12:first-child {
+    padding-right: 7px;
+}
+.register-area form .form-group.d-flex .col-12:last-child {
+    padding-left: 7px;
+}
+.register-area form .btn.theme-button {
+    margin-top: 13px;
+}
 /*-------------------------------------------
     12. Login Page Area End
 -------------------------------------------*/
