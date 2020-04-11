@@ -226,7 +226,7 @@ figure {
 .font-semi-bold{
     font-weight: 500;
 }
-.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a{
+.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > p > span.consult{
     font-weight: 700;
 }
 .font-black{
@@ -1026,6 +1026,82 @@ section.login-area.register-area h3 {
 }
 /*-------------------------------------------
     12. Login Page Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    13. Instant Result Page Area Start
+-------------------------------------------*/
+.pros-instant-profile-box > a {
+    display: flex;
+}
+.pro-img img {
+    border-radius: 6px;
+}
+.pro-profile-content, .pro-right-part {
+    padding-left: 15px;
+}
+.top-pro i {
+    background-color: #009fd9;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 16px;
+    margin-right: 10px;
+}
+.review-rating {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.review-rating i {
+    color: gold;
+    font-size: 12px;
+}
+.demand-box {
+    background-color: #e8f1fd;
+    width: 145px;
+    padding: 3px 10px;
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+.pro-profile-content h6 {
+    margin-bottom: 8px;
+}
+.demand-box {
+    background-color: #e8f1fd;
+    width: 145px;
+    padding: 3px 10px;
+    border-radius: 18px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.hire-on-hilhome {
+    margin-bottom: 8px;
+}
+.hire-on-hilhome > i{
+    padding-right: 10px;
+}
+.online-now {
+    margin: 8px 0;
+}
+.online-now i {
+    color: green;
+    font-size: 10px;
+}
+/*Right Part*/
+.pro-right-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pro-right-part > p > span.consult {
+    display: block;
+}
+/*-------------------------------------------
+    13. Instant Result Page Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
