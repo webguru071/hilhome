@@ -201,6 +201,7 @@ figure {
     --dark-color: #2f3033;
     --border-radious-6: 6px;
     --border-color: #e9eced;
+    --dark-border: #d3d4d5;
     --diffrent-bg: #fafafa;
 }
 
@@ -1031,6 +1032,13 @@ section.login-area.register-area h3 {
 /*-------------------------------------------
     13. Instant Result Page Area Start
 -------------------------------------------*/
+.instant-result-area {
+    padding-top: 0;
+}
+.pros-instant-profile-box {
+    border-bottom: 1px solid var(--border-color);
+    padding: 50px;
+}
 .pros-instant-profile-box > a {
     display: flex;
 }
@@ -1097,11 +1105,49 @@ section.login-area.register-area h3 {
     flex-direction: column;
     justify-content: space-between;
 }
-.pro-right-part > p > span.consult {
-    display: block;
+.see-more-btn {
+    margin: 30px auto 0;
+}
+.instant-result-area .see-more-btn a {
+    border: 2px solid gray;
+    padding: 4px 10px;
 }
 /*-------------------------------------------
     13. Instant Result Page Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    14. Why Hire Professionals Area Start
+-------------------------------------------*/
+.why-hire-professionals-area h4, .related-category h4 {
+    margin-bottom: 40px;
+}
+.why-hire-box {
+    text-align: center;
+}
+.why-hire-box h6 {
+    margin-top: 15px;
+}
+/*-------------------------------------------
+    14. Why Hire Professionals Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    15. Related Category Area Start
+-------------------------------------------*/
+.related-category{
+    text-align: center;
+}
+.col-12.category-wrap a {
+    border: 2px solid #d3d4d5;
+    margin: 6px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--color-blue);
+}
+/*-------------------------------------------
+    15. Related Category Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
