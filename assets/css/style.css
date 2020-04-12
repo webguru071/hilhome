@@ -1251,6 +1251,144 @@ ul.social-media li a {
 -------------------------------------------*/
 
 /*-------------------------------------------
+        20. Guarantee Page Style Start
+-------------------------------------------*/
+.page-banner-area.guarantee-page-banner {
+    background-color: var(--color-blue);
+    display: flex;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+}
+.page-banner-area.guarantee-page-banner .page-banner-content h2{
+    color: var(--white-color);
+}
+.help-content {
+    width: 70%;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+.help-content h2 {
+    margin-bottom: 30px;
+}
+.help-content p {
+    margin-top: 20px;
+}
+
+/*Guarantee Fixed Tabs CSS*/
+.sticky-menu{
+    position: fixed;
+    top: 150px;
+}
+.guarantee-menu ul li a {
+    font-size: 16px;
+    padding-bottom: 8px;
+    display: block;
+    font-weight: bold;
+}
+.guarantee-tab-content .guarantee-content-box h2 {
+    margin-bottom: 20px;
+}
+.guarantee-tab-content .guarantee-content-box {
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--dark-border);
+    padding-bottom: 40px;
+}
+.how-it-covers-second-title {
+    margin-top: 30px;
+}
+/* Accordion box */
+.accordion-box {
+    position: relative;
+}
+.accordion-box .block {
+    position: relative;
+    /*padding-top: 0;*/
+    margin-bottom: 15px;
+    box-shadow: 0 5px 21.25px 3.75px rgba(217, 217, 217, 0.1);
+    border: 1px solid var(--dark-border);
+    padding: 0 30px;
+}
+.accordion-box .block:last-child {
+    margin-bottom: 0;
+}
+.accordion-box .block .acc-btn {
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    color: var(--color-blue);
+    font-weight: 600;
+    padding: 22px 30px;
+    /*padding-left: 30px;*/
+    transition: all 500ms ease;
+    background-color: white;
+    border-radius: 6px;
+}
+.accordion-box .block .acc-btn.active {
+    background: #fff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.accordion-box .block .icon-outer {
+    position: absolute;
+    left: 0;
+    top: 47px;
+    font-size: 25px;
+    color: var(--color-blue);
+    transition: all 500ms ease;
+}
+.accordion-box .block .icon-outer .icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    font-size: 18px;
+    color: var(--color-blue);
+    line-height: 1em;
+    transition: all 0.3s ease;
+}
+.accordion-box .block .icon-outer .icon_plus {
+    opacity: 1;
+}
+.accordion-box .block .icon-outer .icon_minus {
+    opacity: 0;
+    color: var(--color-blue);
+    font-weight: 700;
+}
+.accordion-box .block .acc-btn.active .icon-outer .icon_minus {
+    opacity: 1;
+}
+.accordion-box .block .acc-btn.active .icon-outer .icon_plus {
+    opacity: 0;
+}
+.accordion-box .block .acc-content {
+    position: relative;
+    display: none;
+    padding: 0 30px 36px;
+    /*padding-left: 30px;*/
+    background: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.accordion-box .block .acc-content .content-text {
+    padding-bottom: 6px;
+}
+.accordion-box .block .acc-content.current {
+    display: block;
+}
+.accordion-box .block .content {
+    position: relative;
+    margin-bottom: 0;
+}
+.accordion-box .block .content .text {
+    margin-bottom: 0;
+}
+/*-------------------------------------------
+        20. Guarantee Page Style End
+-------------------------------------------*/
+
+/*-------------------------------------------
     22. Responsive Design CSS
 -------------------------------------------*/
 
