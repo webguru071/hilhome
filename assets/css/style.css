@@ -202,7 +202,7 @@ figure {
     --border-radious-6: 6px;
     --border-color: #e9eced;
     --dark-border: #d3d4d5;
-    --diffrent-bg: #fafafa;
+    --different-bg: #fafafa;
 }
 
 /*---- Home Color CSS Start*---- */
@@ -214,7 +214,7 @@ figure {
     background-color: var(--white-color);
 }
 .bg-different{
-    background-color: var(--bg-color-1);
+    background-color: var(--different-bg);
 }
 /*---- Home Color CSS Start*---- */
 
@@ -227,7 +227,7 @@ figure {
 .font-semi-bold{
     font-weight: 500;
 }
-.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > p > span.consult{
+.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > p > span.consult, .numbering-text span, .guarantee-menu ul li a{
     font-weight: 700;
 }
 .font-black{
@@ -240,6 +240,9 @@ h1.header-caption-heading {
 }
 h2{
     font-size: 2.25rem;
+}
+.font-16, .guarantee-menu ul li a{
+    font-size: 16px;
 }
 .font-18{
     font-size: 1.12rem;
@@ -856,7 +859,7 @@ button:focus {
      8. Services Area Start
 -------------------------------------------*/
 .services-area{
-    background-color: var(--diffrent-bg);
+    background-color: var(--different-bg);
 }
 .services-wrapper .tab-content .tab-pane a:last-child {
     margin-right: 0;
@@ -913,7 +916,7 @@ button:focus {
     10. Home States Area Start
 -------------------------------------------*/
 .home-states-area{
-    background-color: var(--diffrent-bg)
+    background-color: var(--different-bg)
 }
 .trending-now-these-areas p {
     margin: 30px 0;
@@ -1260,7 +1263,7 @@ ul.social-media li a {
     align-items: center;
     text-align: center;
 }
-.page-banner-area.guarantee-page-banner .page-banner-content h2{
+.page-banner-area.guarantee-page-banner .page-banner-content h1{
     color: var(--white-color);
 }
 .help-content {
@@ -1279,12 +1282,6 @@ ul.social-media li a {
 .sticky-menu{
     position: fixed;
     top: 150px;
-}
-.guarantee-menu ul li a {
-    font-size: 16px;
-    padding-bottom: 8px;
-    display: block;
-    font-weight: bold;
 }
 .guarantee-tab-content .guarantee-content-box h2 {
     margin-bottom: 20px;
@@ -1383,6 +1380,16 @@ ul.social-media li a {
 }
 .accordion-box .block .content .text {
     margin-bottom: 0;
+}
+/* Guarantee Terms Condition*/
+.numbering-content .number-p {
+    padding-right: 10px;
+}
+.numbering-text span {
+    color: #000;
+}
+.numbering-content {
+    margin-top: 10px;
 }
 /*-------------------------------------------
         20. Guarantee Page Style End
