@@ -244,7 +244,7 @@ h1.header-caption-heading {
 h2{
     font-size: 2.25rem;
 }
-.font-16, .guarantee-menu ul li a{
+.font-16, .guarantee-menu ul li a, .about-content-up p{
     font-size: 16px;
 }
 .font-18{
@@ -266,10 +266,15 @@ h2{
 .mb-15, .footer-widget h4 {
     margin-bottom: 15px;
 }
+.mb-20, .about-content-up h1, .about-content-up p{
+    margin-bottom: 20px;
+}
 .mb-30, .single-blog-post{
     margin-bottom: 30px;
 }
-
+.mb-10, .about-content-writer h6 {
+    margin-bottom: 10px;
+}
 /*--------------------------------
    2.5 Hilhome Template Default CSS
 -----------------------------------*/
@@ -1371,15 +1376,23 @@ ul.social-media li a {
 /*-------------------------------------------
         21. About Style Start
 -------------------------------------------*/
+.about-area {
+    padding-bottom: 0;
+}
 .about-content-up, .about-content-bottom {
     width: 50%;
     margin: 0 auto;
 }
+.about-page-img img {
+    position: relative;
+    left: -230px;
+    bottom: 0;
+}
 .about-content-writer {
     position: absolute;
     width: 26%;
-    bottom: 0;
-    left: 0;
+    bottom: 100px;
+    left: 345px;
 }
 /*-------------------------------------------
         21. About Style End
