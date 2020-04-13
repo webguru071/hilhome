@@ -213,6 +213,9 @@ figure {
 .white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover{
     color: var(--white-color);
 }
+.text-blue-color, .error-content p > a{
+    color: var(--color-blue);
+}
 .bg-white{
     background-color: var(--white-color);
 }
@@ -1411,10 +1414,29 @@ ul.social-media li a {
     width: 26%;
     bottom: 100px;
 }
-/*More About The Company*/
 
 /*-------------------------------------------
         21. About Style End
+-------------------------------------------*/
+/*-------------------------------------------
+        22. Error Style Start
+-------------------------------------------*/
+.error-content img {
+   height: 134px;
+   margin: 0 auto;
+}
+.error-warning {
+    border: 1px solid var(--border-color);
+    padding: 26px;
+    text-align: center;
+    color: #ff5a5f;
+    margin: 40px 0;
+}
+.error-content h3 {
+    margin: 30px 0 15px;
+}
+/*-------------------------------------------
+        22. Error Style End
 -------------------------------------------*/
 
 /*-------------------------------------------
