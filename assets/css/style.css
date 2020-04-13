@@ -244,7 +244,7 @@ h1.header-caption-heading {
 h2{
     font-size: 2.25rem;
 }
-.font-16, .guarantee-menu ul li a, .about-content-up p{
+.font-16, .guarantee-menu ul li a, .about-content-up p, .about-content-up > p > a{
     font-size: 16px;
 }
 .font-18{
@@ -272,8 +272,11 @@ h2{
 .mb-30, .single-blog-post{
     margin-bottom: 30px;
 }
-.mb-10, .about-content-writer h6 {
+.mb-10, .about-content-writer h6, .more-about-company-area .services-box h6 {
     margin-bottom: 10px;
+}
+.mt-10, .more-about-company-area .services-box h6 {
+    margin-top: 10px;
 }
 /*--------------------------------
    2.5 Hilhome Template Default CSS
@@ -1383,6 +1386,9 @@ ul.social-media li a {
     width: 43%;
     margin: 0 auto;
 }
+.about-content-up > p > a {
+    margin-top: 15px;
+}
 .about-page-img img {
     /*position: relative;*/
     /*bottom: 0;*/
@@ -1405,9 +1411,8 @@ ul.social-media li a {
     width: 26%;
     bottom: 100px;
 }
-.about-content-writer > p > a {
-    margin-top: 15px;
-}
+/*More About The Company*/
+
 /*-------------------------------------------
         21. About Style End
 -------------------------------------------*/
