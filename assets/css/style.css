@@ -518,32 +518,9 @@ button:focus {
 #mainNav .navbar-nav .nav-item .nav-link.theme-button {
     margin-right: 15px;
 }
-/*#mainNav .navbar-nav .nav-item:last-child .nav-link{*/
-/*    !*padding-right: 0;*!*/
-/*    color: var(--white-color);*/
-/*}*/
-/*#mainNav .navbar-nav .nav-item:last-child .nav-link:hover{*/
-/*    color: var(--white-color);*/
-/*}*/
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link.active {
     color: var(--color-blue);
 }
-/*#mainNav.navbar-shrink .navbar-nav .nav-item:last-child .nav-link {*/
-/*    color: var(--white-color);*/
-/*}*/
-/*#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover, #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link.active {*/
-/*    color: var(--color-blue)!important;*/
-/*}*/
-/*#mainNav.navbar-shrink .navbar-nav .nav-item:last-child .nav-link:hover {*/
-/*    color: var(--white-color)!important;*/
-/*}*/
-/*#mainNav .navbar-nav .nav-item:not(:last-child) .nav-link.active::after, #mainNav .navbar-nav .nav-item:not(:last-child) .nav-link:hover::after{*/
-#mainNav .navbar-nav .nav-item:not(:last-child) .nav-link.active::after{
-    /*width: 60%;*/
-    /*opacity: 1;*/
-    /*background: #321d9a;*/
-}
-
 /*---- Dropdown Menu CSS ----*/
 #mainNav ul.navbar-nav li.nav-item.dropdown-box {
     position: relative;
@@ -1389,6 +1366,23 @@ ul.social-media li a {
 }
 /*-------------------------------------------
         20. Guarantee Page Style End
+-------------------------------------------*/
+
+/*-------------------------------------------
+        21. About Style Start
+-------------------------------------------*/
+.about-content-up, .about-content-bottom {
+    width: 50%;
+    margin: 0 auto;
+}
+.about-content-writer {
+    position: absolute;
+    width: 26%;
+    bottom: 0;
+    left: 0;
+}
+/*-------------------------------------------
+        21. About Style End
 -------------------------------------------*/
 
 /*-------------------------------------------
