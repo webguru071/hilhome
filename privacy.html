@@ -24,7 +24,7 @@
     <meta name="msapplication-TileColor" content="#407bff">
     <meta name="theme-color" content="#3fa3fe">
 
-    <title>Hilhome - 404</title>
+    <title>Hilhome - Privacy </title>
 
     <!--=======================================
       All CSS Style link
@@ -71,7 +71,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-capitalize ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link theme-button" href="pro.html">Join as a pro</a>
+                            <a class="nav-link" href="pro.html">Join as a pro</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="register.html">Sign up</a>
@@ -105,23 +105,28 @@
     </header>
     <!-- Menu Area End -->
 
-    <!-- 404 Area Start -->
-    <section class="error-page-area">
+    <!-- Privacy Page Area Start -->
+    <section class="privacy-page-area">
         <div class="container">
+
+            <!-- Privacy Area Start-->
             <div class="row">
-                <div class="col-12">
-                    <div class="error-content text-center">
-                        <img src="assets/img/error.svg" alt="img">
-                        <h3 class="section-heading">Sorry, looks like there was an error completing your request.</h3>
-                        <p>What went wrong?</p>
-                        <p class="error-warning">Sorry, this request is coming from a country which we currently do not support. If you feel this is in error, please contact our support team</p>
-                        <p>Need help fixing it? We've got you covered. Visit our <a href="help.html">help center</a> for more info.</p>
+
+                <div class="col-12 col-sm-12 col-md-12">
+                    <div class="privacy-content-header">
+                        <h2>Privacy Policy</h2>
+                        <p class="parivacy-publish-date">Last Updated: December 4, 2019;
+                            Effective: January 1, 2020</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores, aspernatur ea eum illum in iusto minus mollitia nemo omnis provident quae quaerat, sapiente sed tempore. Aliquid at dolore doloremque eum ex expedita illum iure labore magnam molestiae nam nemo neque odio omnis quis quo sapiente, unde veniam, vero voluptates. Aliquid at dolore doloremque eum ex expedita illum iure labore magnam molestiae nam nemoLorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores, aspernatur ea eum illum in iusto minus mollitia nemo omnis provident quae quaerat, sapiente sed tempore. Aliquid at dolore doloremque eum ex expedita illum iure labore magnam molestiae nam nemo neque odio omnis quis quo sapiente, unde veniam, vero voluptates. Aliquid at dolore doloremque eum ex expedita illum iure
+                            <a href="terms.html">Terms of use</a>. labore magnam molestiae nam nemo neque odio omnis quis quo sapiente, unde veniam, vero voluptates.</p>
                     </div>
                 </div>
             </div>
+            <!-- Privacy Area Start-->
+
         </div>
     </section>
-    <!-- 404 Area End -->
+    <!-- Privacy Page Area End -->
 
     <!-- Footer Start -->
     <footer class="footer">
@@ -258,6 +263,25 @@
 
     <!-- Custom scripts for this template -->
     <script src="assets/js/custom.js"></script>
+
+    <script>
+        var randomImage = {
+            paths: [
+                "assets/img/hero-slide-img/1.jpg",
+                "assets/img/hero-slide-img/2.jpg",
+                "assets/img/hero-slide-img/3.jpg"
+            ],
+
+            generate: function(){
+                var path = randomImage.paths[Math.floor(Math.random()*randomImage.paths.length)];
+                var img = new Image();
+                img.src = path;
+                $("#randomImage").html(img);
+            }
+        };
+
+        randomImage.generate();
+    </script>
 </body>
 
 </html>
