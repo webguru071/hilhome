@@ -199,7 +199,7 @@ figure {
     --color-blue: #009fd9;
     --hover-color: #17a2fb;
     --dark-color: #2f3033;
-    --border-radious-6: 6px;
+    --border-radius-6: 6px;
     --border-color: #e9eced;
     --dark-border: #d3d4d5;
     --different-bg: #fafafa;
@@ -219,7 +219,7 @@ figure {
 .bg-white{
     background-color: var(--white-color);
 }
-.bg-different, .privacy-page-area table th{
+.bg-different, .login-area, .privacy-page-area table th{
     background-color: var(--different-bg);
 }
 /*---- Home Color CSS Start*---- */
@@ -273,7 +273,7 @@ h2{
 .mb-15, .footer-widget h4 {
     margin-bottom: 15px;
 }
-.mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p{
+.mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box{
     margin-bottom: 20px;
 }
 .mb-30, .single-blog-post{
@@ -409,7 +409,7 @@ button:focus {
     display: inline-block;
     outline: none;
     padding: 13px 24px 16px;
-    border-radius: var(--border-radious-6);
+    border-radius: var(--border-radius-6);
     font-weight: 700;
     text-transform: inherit;
     position: relative;
@@ -857,7 +857,7 @@ button:focus {
     float: left;
 }
 .services-box img {
-    border-radius: var(--border-radious-6);
+    border-radius: var(--border-radius-6);
 }
 .services-wrapper .tab-content .tab-pane a div h6 {
     margin: 12px 0 3px;
@@ -941,7 +941,11 @@ button:focus {
 -------------------------------------------*/
 .login-area form {
     width: 50%;
-    margin: 0 auto;
+    margin: 20px auto 0;
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    padding: 24px 30px 30px;
+    border-radius: var(--border-radius-6);
 }
 .login-area form .btn.theme-button {
     width: 100%;
