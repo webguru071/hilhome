@@ -213,13 +213,13 @@ figure {
 .white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover{
     color: var(--white-color);
 }
-.text-blue-color, .error-content p > a{
+.text-blue-color, .error-content p > a, .privacy-page-area p > a{
     color: var(--color-blue);
 }
 .bg-white{
     background-color: var(--white-color);
 }
-.bg-different{
+.bg-different, .privacy-page-area table th{
     background-color: var(--different-bg);
 }
 /*---- Home Color CSS Start*---- */
@@ -239,6 +239,9 @@ figure {
 .font-black{
     font-weight: 900;
 }
+.italic-font, .parivacy-publish-date{
+    font-style: italic;
+}
 h1.header-caption-heading {
     font-size: 80px;
     margin: 70px 0 0;
@@ -247,7 +250,8 @@ h1.header-caption-heading {
 h2{
     font-size: 2.25rem;
 }
-.font-16, .guarantee-menu ul li a, .about-content-up p, .about-content-up > p > a{
+.font-16, .guarantee-menu ul li a, .about-content-up p, .about-content-up > p > a, .parivacy-publish-date, .privacy-page-area p,
+.privacy-page-area table th, .privacy-page-area table tr td{
     font-size: 16px;
 }
 .font-18{
@@ -269,13 +273,13 @@ h2{
 .mb-15, .footer-widget h4 {
     margin-bottom: 15px;
 }
-.mb-20, .about-content-up h1, .about-content-up p{
+.mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p{
     margin-bottom: 20px;
 }
 .mb-30, .single-blog-post{
     margin-bottom: 30px;
 }
-.mb-10, .about-content-writer h6, .more-about-company-area .services-box h6 {
+.mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points {
     margin-bottom: 10px;
 }
 .mt-10, .more-about-company-area .services-box h6 {
@@ -312,10 +316,6 @@ section{
 }
 /*--------Breadcrumb Area CSS--------*/
 header.page-banner-area {
-    /* height: 600px; */
-    background-color: var(--bg-color-1);
-    /* display: flex; */
-    /* align-items: center; */
     padding-top: 80px;
 }
 header.page-banner-area .header-caption-heading {
@@ -1441,7 +1441,40 @@ ul.social-media li a {
 /*-------------------------------------------
         23. Privacy Style Start
 -------------------------------------------*/
-
+.privacy-content-header p {
+    margin-bottom: 30px;
+}
+.parivacy-publish-date {
+    margin: 20px 0 20px !important;
+}
+.privacy-page-area h3 {
+    font-size: 21px;
+}
+.privacy-content-header h3 {
+    font-size: 25px;
+}
+.privacy-content-box {
+    margin-bottom: 40px;
+}
+.privacy-points ul li, .privacy-page-area table tr td ul li {
+    font-size: 16px;
+    padding-bottom: 10px;
+    position: relative;
+    padding-left: 18px;
+}
+.privacy-points ul li::before, .privacy-page-area table tr td ul li::before {
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background-color: #2f3033;
+    left: 0;
+    content: "";
+    border-radius: 50%;
+    top: 10px;
+}
+.privacy-page-area table.privacy-page-table th {
+    vertical-align: middle;
+}
 /*-------------------------------------------
         23. Privacy Style End
 -------------------------------------------*/
