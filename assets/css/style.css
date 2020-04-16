@@ -213,7 +213,7 @@ figure {
 .white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover{
     color: var(--white-color);
 }
-.text-blue-color, .error-content p > a, .privacy-page-area p > a{
+.text-blue-color, .error-content p > a, .privacy-page-area p > a, .how-to-list li a{
     color: var(--color-blue);
 }
 .bg-white{
@@ -251,7 +251,7 @@ h2{
     font-size: 2.25rem;
 }
 .font-16, .guarantee-menu ul li a, .about-content-up p, .about-content-up > p > a, .parivacy-publish-date, .privacy-page-area p,
-.privacy-page-area table th, .privacy-page-area table tr td{
+.privacy-page-area table th, .privacy-page-area table tr td, .how-to-list li a{
     font-size: 16px;
 }
 .font-18{
@@ -1139,6 +1139,17 @@ section.login-area.register-area h3 {
 }
 /*-------------------------------------------
     15. Related Category Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    16. How To Page Area Start
+-------------------------------------------*/
+.how-to-list li a {
+    padding-top: 14px;
+    display: block;
+}
+/*-------------------------------------------
+    16. How To Page Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
