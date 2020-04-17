@@ -1144,6 +1144,14 @@ section.login-area.register-area h3 {
 /*-------------------------------------------
     16. How To Page Area Start
 -------------------------------------------*/
+.page-breadcrumb {
+    margin-bottom: 50px;
+}
+.how-to-page-area .section-heading {
+    border-bottom: 1px solid var(--border-color);
+    padding: 0 0 34px 0;
+    margin-bottom: 30px;
+}
 .how-to-list li a {
     padding-top: 14px;
     display: block;
