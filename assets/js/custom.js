@@ -169,6 +169,9 @@ $('.venobox').venobox();
             600:{
                 items:2
             },
+            768:{
+                items:3
+            },
             992:{
                 items:3
             }

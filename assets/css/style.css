@@ -615,7 +615,7 @@ button:focus {
     display: flex;
     position: relative;
     top: 30px;
-    box-shadow: 0 0 22px -3px rgba(64,123,255,.3);
+    box-shadow: 0 0 20px -8px rgba(64,123,255,.3);
 }
 .mean-container a.meanmenu-reveal span {
     background-color: var(--color-blue);
@@ -625,11 +625,11 @@ button:focus {
 .mean-container .mean-nav ul li.mean-last a.section-button:hover, .mean-container .mean-nav ul li.dropdown a:hover {
 }
 .mean-container .mean-nav ul li a {
-    color: var(--dark-blue);
+    color: var(--dark-color);
     font-size: 14px;
     font-weight: bold;
-    text-transform: capitalize;
-    border-top: 1px solid rgba(64,123,255,.5);
+    text-transform: inherit;
+    border-top: 1px solid var(--border-color);
 }
 /*Mobile Dropdown Inner CSS*/
 .mean-container .mean-nav ul li li a {
@@ -912,6 +912,8 @@ button:focus {
     padding: 7px 10px;
     border-radius: 25px;
     margin-right: 5px;
+    margin-bottom: 12px;
+    display: inline-block;
 }
 .all-50-states-content {
     margin-left: 50px;
@@ -1437,7 +1439,6 @@ ul.social-media li a {
     width: 26%;
     bottom: 100px;
 }
-
 /*-------------------------------------------
         21. About Style End
 -------------------------------------------*/
@@ -1555,12 +1556,6 @@ ul.social-media li a {
       #mainNav {
           height: 70px;
       }
-      .page-banner-area .header-caption img {
-          height: 368px;
-      }
-      header.page-banner-area {
-          padding-top: 70px;
-      }
       header.page-banner-area .header-caption {
           height: 500px;
       }
@@ -1595,13 +1590,9 @@ ul.social-media li a {
     #scroll {
         bottom: 50px;
     }
-    /*Page Banner CSS*/
-    .page-banner-area .header-caption img {
-        height: 350px;
-    }
-    /*Hero Area CSS*/
-    header.home-banner-area {
-        height: auto;
+    /*Services CSS*/
+    .services-box img {
+        height: 195px;
     }
 
     /*Footer CSS*/
@@ -1621,11 +1612,6 @@ ul.social-media li a {
     .footer-social ul li a {
         width: 30px;
         height: 30px;
-    }
-
-    /*Other Page Banner CSS*/
-    header.page-banner-area .header-caption-heading {
-        padding: 6px 0 12px;
     }
 
     /*Contact Page CSS*/
@@ -1692,6 +1678,32 @@ ul.social-media li a {
       /*Main Menu Bar*/
       #mainNav{
           display: none!important;
+      }
+      /*Home App Download CSS*/
+      .home-app-img-side img {
+          height: 360px;
+      }
+      .apple-google-btn-wrap img {
+          height: 40px;
+      }
+      .services-wrapper .nav-tabs .nav-link {
+          font-size: 14px;
+          margin-right: 14px;
+      }
+      .services-box img {
+          height: 145px;
+      }
+      .recent-questions-area .testi_prev, .recent-questions-area .testi_next {
+          top: 23%;
+      }
+      .home-states-area img {
+          height: 137px;
+      }
+      .recent-questions-area.home-states-area img {
+          height: 137px;
+      }
+      .all-50-states-content {
+          margin-left: 0;
       }
 
       /*Footer Area*/
