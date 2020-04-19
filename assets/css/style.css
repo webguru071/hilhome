@@ -643,11 +643,10 @@ button:focus {
             6. Slider Area Start
 -------------------------------------------*/
 .hero-area {
-    position: relative;
-}
-.hero-area {
     background-color: var(--white-color);
-    /*height: 525px;*/
+    min-height: 525px;
+    height: calc(100vh - 60px);
+    position: relative;
 }
 .row.hero-wrapper {
     align-items: center;
@@ -1671,7 +1670,7 @@ ul.social-media li a {
           font-size: 28px;
       }
       .hero-slider-area img {
-          height: 400px;
+          display: none;
       }
 
   }
