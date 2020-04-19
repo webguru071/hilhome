@@ -1862,6 +1862,34 @@ ul.social-media li a {
 /*=========================================
         For very little mobile
 =========================================*/
+  @media only screen and (max-width:430px){
+      /*Hero Area Search Box CSS*/
+      .hero-area .hero-wrapper .col-12.col-sm-12.col-md-10.col-lg-7 {
+          padding: 4px;
+      }
+      .hero-search-content-left ul.nav-tabs {
+          padding: 10px 10px 0;
+      }
+      .search-box h1 {
+          padding: 10px;
+      }
+      .custom-select {
+          width: 65%;
+      }
+      .select-items div, .select-selected {
+          padding: 14px 8px 14px;
+          font-size: 12px;
+      }
+      .search-box form input {
+          width: 62px;
+          padding: 7px;
+          font-size: 12px;
+      }
+      .search-box button {
+          width: 54px;
+          font-size: 12px;
+      }
+  }
   @media only screen and (min-width:300px) and (max-width:479px){
       /*Default CSS*/
       section {
@@ -1873,6 +1901,7 @@ ul.social-media li a {
       h1.header-caption-heading {
           font-size: 32px;
       }
+
       /*Footer Area*/
 
       .footer-bottom-part {
@@ -1895,23 +1924,23 @@ ul.social-media li a {
       .footer-widget.footer-recent-posts ul li a > p{
           line-height: 22px;
       }
-      /* Contact Page CSS */
-      .contact-us-box {
-        width: 80%;
-    }
-      .contact-map-area .contact-form-wrapper {
-        padding: 30px 30px 40px;
-        width: 240px;
-    }
-    .contact-form-wrapper h4 {
-        margin-bottom: 20px;
-    }
-    .contact-form-wrapper form input {
-        height: 44px;
-    }
-    .contact-form-wrapper form textarea {
-        height: 106px;
-    }
+    /*  !* Contact Page CSS *!*/
+    /*  .contact-us-box {*/
+    /*    width: 80%;*/
+    /*}*/
+    /*  .contact-map-area .contact-form-wrapper {*/
+    /*    padding: 30px 30px 40px;*/
+    /*    width: 240px;*/
+    /*}*/
+    /*.contact-form-wrapper h4 {*/
+    /*    margin-bottom: 20px;*/
+    /*}*/
+    /*.contact-form-wrapper form input {*/
+    /*    height: 44px;*/
+    /*}*/
+    /*.contact-form-wrapper form textarea {*/
+    /*    height: 106px;*/
+    /*}*/
   }
   /*-------------------------------------------
         24. Responsive Design End
