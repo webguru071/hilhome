@@ -602,7 +602,7 @@ button:focus {
     position: relative;
     top: 14px;
     left: 16px;
-    height: 23px;
+    height: 30px;
 }
 .mean-container a.meanmenu-reveal {
     top: 5px;
@@ -613,7 +613,7 @@ button:focus {
     background-color: var(--white-color);
     display: flex;
     position: relative;
-    top: 30px;
+    top: 24px;
     box-shadow: 0 0 20px -8px rgba(64,123,255,.3);
 }
 .mean-container a.meanmenu-reveal span {
@@ -1584,7 +1584,9 @@ ul.social-media li a {
 
 /*--------Min 1200px Width Screen--------*/
   @media only screen and (min-width: 1200px) {
-
+      #randomImage img {
+          height: 594px;
+      }
   }
 
 /*=====================================
@@ -1655,12 +1657,14 @@ ul.social-media li a {
     }
 
 }
-
   @media only screen and (min-width: 992px) and (max-width: 1199px){
 
       /*Main Menu Bar*/
       .mobile_menu{
           display: none!important;
+      }
+      #randomImage img {
+          height: 574px;
       }
   }
 
@@ -1742,6 +1746,10 @@ ul.social-media li a {
           box-shadow: 0 0 22px -9px rgba(64,123,255,.3);
       }
       /*Home CSS*/
+      .hero-area .row.hero-wrapper {
+          height: 100vh;
+          min-height: 410px;
+      }
       .home-app-img-side {
           display: none;
       }
@@ -1836,6 +1844,15 @@ ul.social-media li a {
 
 @media only screen and (max-width: 480px){
     /*Default CSS*/
+    .select-items div, .select-selected {
+        padding: 12px 10px;
+    }
+    .search-box form input {
+        width: 95px;
+    }
+    .search-box button {
+        width: 90px;
+    }
     .services-box, .owl-carousel .owl-item img {
         text-align: center;
         margin: 0 auto;
@@ -1865,28 +1882,32 @@ ul.social-media li a {
   @media only screen and (max-width:430px){
       /*Hero Area Search Box CSS*/
       .hero-area .hero-wrapper .col-12.col-sm-12.col-md-10.col-lg-7 {
-          padding: 4px;
+          padding: 0 7px;
+      }
+      .select-selected::after {
+          right: 7px;
+          border: 5px solid transparent;
       }
       .hero-search-content-left ul.nav-tabs {
-          padding: 10px 10px 0;
+          margin: 8px 8px 0;
       }
-      .search-box h1 {
-          padding: 10px;
+      .search-box h1, .find-customer {
+          padding: 8px;
       }
       .custom-select {
-          width: 65%;
+          width: 62%;
       }
       .select-items div, .select-selected {
           padding: 14px 8px 14px;
           font-size: 12px;
       }
       .search-box form input {
-          width: 62px;
+          width: 64px;
           padding: 7px;
           font-size: 12px;
       }
       .search-box button {
-          width: 54px;
+          width: 60px;
           font-size: 12px;
       }
   }
