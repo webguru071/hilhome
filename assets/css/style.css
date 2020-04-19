@@ -1666,8 +1666,13 @@ ul.social-media li a {
         Tablet layout
 =========================================*/
   @media only screen and (max-width: 991px){
-      /*Page Banner Area CSS*/
-
+      /*Home Page CSS*/
+      .search-box h1, .find-customer h1 {
+          font-size: 28px;
+      }
+      .hero-slider-area img {
+          height: 400px;
+      }
 
   }
   @media only screen and (min-width: 768px) and (max-width: 991px){
