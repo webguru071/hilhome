@@ -645,13 +645,16 @@ button:focus {
     background-color: var(--white-color);
     position: relative;
 }
-.row.hero-wrapper {
+.hero-area .row.hero-wrapper {
     align-items: center;
     align-content: center;
     height: 100vh;
     min-height: 521px;
 }
-
+#randomImage img {
+    height: 610px;
+    max-height: 100%;
+}
 /*-----------Hero Nav Area Start-------------*/
 .hero-wrapper .tab-content {
     padding: 15px 0 0;
