@@ -1679,6 +1679,9 @@ ul.social-media li a {
       .hero-slider-area img {
           display: none;
       }
+      .home-app-content {
+          width: 90%;
+      }
 
   }
   @media only screen and (min-width: 768px) and (max-width: 991px){
