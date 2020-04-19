@@ -1739,7 +1739,7 @@ ul.social-media li a {
           display: none;
       }
       .home-app-download-area.padding-zero {
-          padding: 60px 0;
+          padding: 55px 0 35px;
       }
       .home-app-content {
           width: 100%;
@@ -1773,6 +1773,12 @@ ul.social-media li a {
       }
       .recent-questions-area .testi_prev, .recent-questions-area .testi_next {
           top: 26%;
+      }
+      .home-states-area .row.all-states-name-area {
+          margin: 20px 0 40px;
+      }
+      .all-50-states-content .section-title-area {
+          margin-bottom: 0;
       }
       /*Footer CSS*/
       .footer-upper-area {
