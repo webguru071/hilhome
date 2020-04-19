@@ -307,8 +307,6 @@ h2{
 section{
     padding: 60px 0;
     position: relative;
-    z-index: 9;
-    overflow-x: hidden;
     border-bottom: 1px solid var(--border-color)
 }
 .default-overflow-hidden{
@@ -502,6 +500,7 @@ button:focus {
 .menu-section-area {
     padding: 0;
     z-index: 999;
+    position: relative;
 }
 .menu-section-area .navbar {
     padding: 0;
@@ -644,12 +643,13 @@ button:focus {
 -------------------------------------------*/
 .hero-area {
     background-color: var(--white-color);
-    min-height: 525px;
-    height: calc(100vh - 60px);
     position: relative;
 }
 .row.hero-wrapper {
     align-items: center;
+    align-content: center;
+    height: 100vh;
+    min-height: 521px;
 }
 
 /*-----------Hero Nav Area Start-------------*/
@@ -748,9 +748,9 @@ button:focus {
     left: 0;
     right: 0;
     z-index: 99;
-
-    height: 390px;
+    height: auto;
     overflow-y: scroll;
+    border: 1px solid var(--border-color);
 }
 
 /*hide the items when the select box is closed:*/
