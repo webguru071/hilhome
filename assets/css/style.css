@@ -1661,16 +1661,7 @@ ul.social-media li a {
 =========================================*/
   @media only screen and (max-width: 991px){
       /*Page Banner Area CSS*/
-      header.page-banner-area .header-caption p {
-          width: 93%;
-      }
-      .page-banner-area .header-caption img {
-          height: 295px;
-      }
-      /*Contact Page CSS*/
-      .contact-us-box {
-          height: 234px;
-      }
+
 
   }
   @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -1699,7 +1690,7 @@ ul.social-media li a {
       .home-states-area img {
           height: 137px;
       }
-      .recent-questions-area.home-states-area img {
+      .recent-questions-area.home-states-area img, .row.all-50-states img {
           height: 137px;
       }
       .all-50-states-content {
