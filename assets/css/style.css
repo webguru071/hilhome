@@ -1780,9 +1780,13 @@ ul.social-media li a {
       .all-50-states-content .section-title-area {
           margin-bottom: 0;
       }
+      .recent-questions-area.get-free-cost-estimate-area {
+          padding: 50px 0 60px;
+      }
+
       /*Footer CSS*/
       .footer-upper-area {
-          padding: 60px 0 60px;
+          padding: 50px 0 40px;
       }
       .footer-widget {
           margin-bottom: 20px;
@@ -1818,16 +1822,19 @@ ul.social-media li a {
     .services-area .services-wrapper .services-box img {
         height: 93px;
     }
+    .recent-questions-slider-wrap .item .services-box img {
+        height: 148px;
+    }
 }
 
 @media only screen and (max-width: 480px){
     /*Default CSS*/
-    .header-caption p {
-        width: 100%;
+    .services-box, .owl-carousel .owl-item img {
+        text-align: center;
+        margin: 0 auto;
     }
-    /*Page Banner CSS*/
-    .page-banner-area .header-caption img {
-        height: 217px;
+    .get-free-cost-estimate-area .row.home-app-slider-outer {
+        text-align: center;
     }
     /*Footer CSS*/
     .footer-bottom-part {
@@ -1839,6 +1846,9 @@ ul.social-media li a {
     }
     .footer-social ul {
         justify-content: center;
+    }
+    .footer-bottom-area {
+        padding: 20px 0 30px;
     }
 }
 
