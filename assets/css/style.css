@@ -1738,6 +1738,42 @@ ul.social-media li a {
       .home-app-img-side {
           display: none;
       }
+      .home-app-download-area.padding-zero {
+          padding: 60px 0;
+      }
+      .home-app-content {
+          width: 100%;
+      }
+      .apple-google-btn-wrap img {
+          height: 35px;
+      }
+      /*Services Area*/
+      .services-wrapper .nav-tabs .nav-link {
+          font-size: 14px;
+      }
+      .services-area .services-wrapper .services-box img {
+          height: 104px;
+      }
+      .get-free-cost-estimate-area .section-title-area p {
+          width: 100%;
+      }
+      .recent-questions-slider-wrap .item .services-box img {
+          height: 160px;
+      }
+      /*Home States Area*/
+      .row.all-50-states img {
+          height: 140px;
+          margin-bottom: 20px;
+      }
+      .all-50-states-content {
+          margin-left: 0;
+      }
+      .recent-questions-area h3 {
+          font-size: 21px;
+      }
+      .recent-questions-area .testi_prev, .recent-questions-area .testi_next {
+          top: 25%;
+      }
 
   }
 
