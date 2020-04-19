@@ -1772,7 +1772,22 @@ ul.social-media li a {
           font-size: 21px;
       }
       .recent-questions-area .testi_prev, .recent-questions-area .testi_next {
-          top: 25%;
+          top: 26%;
+      }
+      /*Footer CSS*/
+      .footer-upper-area {
+          padding: 60px 0 60px;
+      }
+      .footer-widget {
+          margin-bottom: 20px;
+          border-bottom: 1px solid var(--border-color);
+          padding-bottom: 20px;
+      }
+      .open-for-business-area .all-50-states-content .section-heading {
+          font-size: 21px;
+      }
+      .recent-questions-area {
+          padding: 60px 0 20px;
       }
 
   }
