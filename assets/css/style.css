@@ -1814,6 +1814,12 @@ ul.social-media li a {
       }
   }
 
+@media only screen and (max-width: 528px){
+    .services-area .services-wrapper .services-box img {
+        height: 93px;
+    }
+}
+
 @media only screen and (max-width: 480px){
     /*Default CSS*/
     .header-caption p {
