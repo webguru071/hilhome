@@ -214,7 +214,9 @@ figure {
     color: var(--white-color);
 }
 .text-blue-color, .error-content p > a, .privacy-page-area p > a, .how-to-list li a, .instant-result-sidebar #myBtn,
-.instant-result-sidebar #myBtn i, .instant-result-sidebar .filter-reset{
+.instant-result-sidebar #myBtn i, .instant-result-sidebar #myBtn2,
+.instant-result-sidebar #myBtn2 i, .instant-result-sidebar #myBtn3,
+.instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i{
     color: var(--color-blue);
 }
 .bg-white{
@@ -277,7 +279,7 @@ h2{
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box{
     margin-bottom: 20px;
 }
-.mb-30, .single-blog-post, .instant-result-sidebar .filters-title{
+.mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points {
@@ -1139,9 +1141,10 @@ section.login-area.register-area h3 {
 }
 .see-more-btn {
     margin: 30px auto 0;
+    text-align: center;
 }
 .instant-result-area .see-more-btn a {
-    border: 2px solid gray;
+    border: 2px solid #d0c8c8;
     padding: 4px 10px;
 }
 /*Instant Results Sidebar CSS*/
@@ -1221,8 +1224,8 @@ section.login-area.register-area h3 {
 }
 
 /*See More Buttons*/
-.instant-result-sidebar #more {display: none;}
-.instant-result-sidebar #myBtn i {
+.instant-result-sidebar #more,.instant-result-sidebar #more2 ,.instant-result-sidebar #more3 {display: none;}
+.instant-result-sidebar #myBtn i,.instant-result-sidebar #myBtn2 i,.instant-result-sidebar #myBtn3 i {
     position: relative;
     top: 1px;
 }
@@ -1247,8 +1250,12 @@ section.login-area.register-area h3 {
 .why-hire-box {
     text-align: center;
 }
+.why-hire-box i {
+    font-size: 21px;
+}
 .why-hire-box h6 {
     margin-top: 15px;
+    margin-bottom: 10px;
 }
 /*-------------------------------------------
     14. Why Hire Professionals Area End
