@@ -233,7 +233,7 @@ figure {
 .font-semi-bold{
     font-weight: 500;
 }
-.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > p > span.consult, .numbering-text span, .guarantee-menu ul li a{
+.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a{
     font-weight: 700;
 }
 .font-black{
@@ -1049,6 +1049,9 @@ section.login-area.register-area h3 {
 .pro-profile-content, .pro-right-part {
     padding-left: 15px;
 }
+.pro-profile-content {
+    width: 80%;
+}
 .top-pro i {
     background-color: #009fd9;
     color: #fff;
@@ -1105,6 +1108,10 @@ section.login-area.register-area h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 20%;
+}
+.cost-box .consult {
+    display: block;
 }
 .see-more-btn {
     margin: 30px auto 0;
