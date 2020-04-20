@@ -270,13 +270,13 @@ h2{
 /*--------------------------------
     2.4 Theme Margin and Padding
 -----------------------------------*/
-.mb-15, .footer-widget h4 {
+.mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6 {
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box{
     margin-bottom: 20px;
 }
-.mb-30, .single-blog-post{
+.mb-30, .single-blog-post, .instant-result-sidebar .filters-title{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points {
@@ -1144,6 +1144,11 @@ section.login-area.register-area h3 {
     padding: 4px 10px;
 }
 /*Instant Results Sidebar CSS*/
+.instant-result-sidebar {
+    border-right: 1px solid var(--border-color);
+    padding: 30px;
+}
+
 .instant-result-sidebar .container {
     display: block;
     position: relative;
@@ -1173,7 +1178,8 @@ section.login-area.register-area h3 {
     left: 0;
     height: 14px;
     width: 14px;
-    background-color: #eee;
+    background-color: #fff;
+    border: 2px solid #c4c4c4;
     border-radius: 3px;
 }
 
@@ -1202,8 +1208,8 @@ section.login-area.register-area h3 {
 
 /* Style the checkmark/indicator */
 .instant-result-sidebar .container .checkmark::after {
-    left: 1px;
-    top: 0px;
+    left: 2px;
+    top: 0;
     width: 5px;
     height: 8px;
     border: solid white;
