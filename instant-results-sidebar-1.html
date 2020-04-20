@@ -116,7 +116,7 @@
                     <div class="filter-wrap">
                         <h4 class="filters-title">Filters</h4>
 
-                        <div class="filter-box">
+                        <div class="filter-box filter-checkbox">
                             <h6>Project type</h6>
                             <label class="container">Repairs
                                 <input type="checkbox" checked="checked">
@@ -134,6 +134,25 @@
                                 <input type="checkbox">
                                 <span class="checkmark"></span>
                             </label>
+
+                            <span id="dots"></span><span id="more">
+
+                            <label class="container">Assembly 2
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Assembly 3
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Assembly 4
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            </span>
+                            <button onclick="myFunction()" id="myBtn">More</button>
+
                         </div>
                     </div>
 
@@ -466,22 +485,21 @@
     <script src="assets/js/custom.js"></script>
 
     <script>
-        var randomImage = {
-            paths: [
-                "assets/img/hero-slide-img/1.jpg",
-                "assets/img/hero-slide-img/2.jpg",
-                "assets/img/hero-slide-img/3.jpg"
-            ],
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
 
-            generate: function(){
-                var path = randomImage.paths[Math.floor(Math.random()*randomImage.paths.length)];
-                var img = new Image();
-                img.src = path;
-                $("#randomImage").html(img);
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "More >";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Less <";
+                moreText.style.display = "inline";
             }
-        };
-
-        randomImage.generate();
+        }
     </script>
 </body>
 
