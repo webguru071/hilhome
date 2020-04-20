@@ -1147,6 +1147,14 @@ section.login-area.register-area h3 {
     border: 2px solid #d0c8c8;
     padding: 4px 10px;
 }
+/*Instant Results Style 1 Page CSS*/
+.instant-result-style-1-area {
+    padding-bottom: 0;
+}
+.instant-result-pro-list {
+    padding-bottom: 60px;
+}
+
 /*Instant Results Sidebar CSS*/
 .instant-result-sidebar {
     border-right: 1px solid var(--border-color);
@@ -1186,12 +1194,6 @@ section.login-area.register-area h3 {
     border: 2px solid #c4c4c4;
     border-radius: 3px;
 }
-
-/* On mouse-over, add a grey background color */
-/*.instant-result-sidebar .filter-checkbox .container:hover input ~ .checkmark {*/
-/*    background-color: #ccc;*/
-/*}*/
-
 /* When the checkbox is checked, add a blue background */
 .instant-result-sidebar .filter-checkbox .container input:checked ~ .checkmark {
     background-color: #009fd9;
