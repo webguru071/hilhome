@@ -1100,9 +1100,32 @@ section.login-area.register-area h3 {
     margin: 8px 0;
 }
 .online-now i {
-    color: green;
+    color: #089908d6;
     font-size: 10px;
+    border-radius: 50%;
+    animation: shadow-pulse 3s infinite;
 }
+/*Online Button Effect */
+@keyframes shadow-pulse
+{
+    0% {
+        box-shadow: 0 0 0 0 rgba(8, 153, 8, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 5px rgba(8, 153, 8, 0);
+    }
+}
+
+@keyframes shadow-pulse-big
+{
+    0% {
+        box-shadow: 0 0 0 0 rgba(8, 153, 8, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(8, 153, 8, 0);
+    }
+}
+/*Online Button Effect */
 /*Right Part*/
 .pro-right-part {
     display: flex;
