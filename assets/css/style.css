@@ -210,7 +210,8 @@ figure {
 .default-heading-color{
     color: var(--dark-color);
 }
-.white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover{
+.white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover,
+.mobile-filter-title-button .filters-title.mobile-filters-title{
     color: var(--white-color);
 }
 .text-blue-color, .error-content p > a, .privacy-page-area p > a, .how-to-list li a, .instant-result-sidebar #myBtn,
@@ -236,7 +237,8 @@ figure {
 .font-semi-bold{
     font-weight: 500;
 }
-.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a{
+.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a,
+.mobile-filter-title-button .filters-title.mobile-filters-title{
     font-weight: 700;
 }
 .font-black{
@@ -1148,6 +1150,18 @@ section.login-area.register-area h3 {
     padding: 4px 10px;
 }
 /*Instant Results Style 1 Page CSS*/
+
+/*Filter Mobile Button CSS*/
+.mobile-filter-title-button .filters-title.mobile-filters-title {
+    background-color: var(--color-blue);
+    width: 100%;
+    padding: 7px 15px;
+    font-size: 18px;
+    display: none;
+    text-align: left;
+}
+/*Filter Mobile Button CSS*/
+
 .instant-result-style-1-area {
     padding-bottom: 0;
 }
@@ -1163,7 +1177,7 @@ section.login-area.register-area h3 {
 
 /*Filters Checkbox CSS Start*/
 .instant-result-sidebar .filter-checkbox .container, .instant-result-sidebar .filter-radio-button .container {
-    display: block;
+    /*display: block;*/
     position: relative;
     padding-left: 30px;
     margin-bottom: 8px;
@@ -1173,6 +1187,9 @@ section.login-area.register-area h3 {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.filter-box button {
+    display: block;
 }
 
 /* Hide the browser's default checkbox */
@@ -2022,7 +2039,18 @@ ul.social-media li a {
       .why-hire-professionals-area .why-hire-box {
           margin-top: 20px;
       }
-
+      .instant-result-sidebar {
+          padding: 30px 30px 0;
+      }
+      .btn.filters-title.mobile-filters-title {
+          margin-bottom: 20px;
+      }
+      .mobile-filter-title-button .filters-title.mobile-filters-title{
+          display: block;
+      }
+      .filters-title.desktop-filters-title{
+          display: none;
+      }
       /*Footer CSS*/
       .footer-upper-area {
           padding: 50px 0 40px;

@@ -113,9 +113,16 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-3 instant-result-sidebar">
-                    https://hilhome.netlify.app/instant-results-sidebar-1.html
-                    <div class="filter-wrap">
-                        <h4 class="filters-title">Filters</h4>
+
+                    <div class="mobile-filter-title-button">
+                        <button class="btn filters-title mobile-filters-title" data-toggle="collapse" data-target="#instant-filter-wrap">
+                            Filters
+                        </button>
+
+                    </div>
+
+                    <div id="instant-filter-wrap" class="filter-wrap collapse show">
+                        <h4 class="filters-title desktop-filters-title">Filters</h4>
 
                         <!-- Filter Box Start-->
                         <div class="filter-box filter-checkbox">
