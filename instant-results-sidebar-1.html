@@ -116,6 +116,7 @@
                     <div class="filter-wrap">
                         <h4 class="filters-title">Filters</h4>
 
+                        <!-- Filter Box Start-->
                         <div class="filter-box filter-checkbox">
                             <h6>Project type</h6>
                             <label class="container">Repairs
@@ -151,9 +152,93 @@
                             </label>
 
                             </span>
-                            <button onclick="myFunction()" id="myBtn">More</button>
+                            <button onclick="myFunction()" id="myBtn">More <i class="fas fa-angle-down"></i></button>
 
                         </div>
+                        <!-- Filter Box End-->
+
+                        <!-- Filter Box Start-->
+                        <div class="filter-box filter-checkbox">
+                            <h6>Project type</h6>
+                            <label class="container">Repairs
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Installation
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Maintenance
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Assembly
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            <span id="dots2"></span><span id="more2">
+
+                            <label class="container">Assembly 2
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Assembly 3
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Assembly 4
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            </span>
+                            <button onclick="myFunction()" id="myBtn2">More <i class="fas fa-angle-down"></i></button>
+
+                        </div>
+                        <!-- Filter Box End-->
+
+                        <!-- Filter Box Start-->
+                        <div class="filter-box filter-checkbox">
+                            <h6>Project type</h6>
+                            <label class="container">Repairs
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Installation
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Maintenance
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Assembly
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            <span id="dots3"></span><span id="more3">
+
+                            <label class="container">Assembly 2
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Assembly 3
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Assembly 4
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            </span>
+                            <button onclick="myFunction()" id="myBtn3">More <i class="fas fa-angle-down"></i></button>
+                            <button class="filter-reset" type="reset">Reset</button>
+
+                        </div>
+                        <!-- Filter Box End-->
                     </div>
 
                 </div>
@@ -490,14 +575,42 @@
             var moreText = document.getElementById("more");
             var btnText = document.getElementById("myBtn");
 
+            var dots2 = document.getElementById("dots2");
+            var moreText2 = document.getElementById("more2");
+            var btnText2 = document.getElementById("myBtn2");
+
+            var dots3 = document.getElementById("dots3");
+            var moreText3 = document.getElementById("more3");
+            var btnText3 = document.getElementById("myBtn3");
+
             if (dots.style.display === "none") {
                 dots.style.display = "inline";
-                btnText.innerHTML = "More >";
+                btnText.innerHTML = "More <i class='fas fa-angle-down'></i>";
                 moreText.style.display = "none";
             } else {
                 dots.style.display = "none";
-                btnText.innerHTML = "Less <";
+                btnText.innerHTML = "Less <i class='fas fa-angle-up'></i>";
                 moreText.style.display = "inline";
+            }
+
+            if (dots2.style.display === "none") {
+                dots2.style.display = "inline";
+                btnText2.innerHTML = "More <i class='fas fa-angle-down'></i>";
+                moreText2.style.display = "none";
+            } else {
+                dots2.style.display = "none";
+                btnText2.innerHTML = "Less <i class='fas fa-angle-up'></i>";
+                moreText2.style.display = "inline";
+            }
+
+            if (dots3.style.display === "none") {
+                dots3.style.display = "inline";
+                btnText3.innerHTML = "More <i class='fas fa-angle-down'></i>";
+                moreText3.style.display = "none";
+            } else {
+                dots3.style.display = "none";
+                btnText3.innerHTML = "Less <i class='fas fa-angle-up'></i>";
+                moreText3.style.display = "inline";
             }
         }
     </script>
