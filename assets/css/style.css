@@ -1872,7 +1872,7 @@ ul.social-media li a {
           width: 90%;
       }
       /*Instant Result Page*/
-      .instant-result-style-1-area {
+      .instant-result-style-1-area , .instant-result-area{
           padding-top: 70px;
       }
       .instant-result-sidebar .filter-checkbox .container, .instant-result-sidebar .filter-radio-button .container {
