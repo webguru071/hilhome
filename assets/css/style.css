@@ -1144,13 +1144,13 @@ section.login-area.register-area h3 {
     padding: 4px 10px;
 }
 /*Instant Results Sidebar CSS*/
-.container {
+.instant-result-sidebar .container {
     display: block;
     position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
+    padding-left: 30px;
+    margin-bottom: 8px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 14px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -1158,7 +1158,7 @@ section.login-area.register-area h3 {
 }
 
 /* Hide the browser's default checkbox */
-.container input {
+.instant-result-sidebar .container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -1167,45 +1167,47 @@ section.login-area.register-area h3 {
 }
 
 /* Create a custom checkbox */
-.checkmark {
+.instant-result-sidebar .checkmark {
     position: absolute;
-    top: 0;
+    top: 3px;
     left: 0;
-    height: 25px;
-    width: 25px;
+    height: 14px;
+    width: 14px;
     background-color: #eee;
+    border-radius: 3px;
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+.instant-result-sidebar .container:hover input ~ .checkmark {
     background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
-    background-color: #2196F3;
+.instant-result-sidebar .container input:checked ~ .checkmark {
+    background-color: #009fd9;
+    border: 2px solid #009fd9;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+.instant-result-sidebar .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
 
 /* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
+.instant-result-sidebar .container input:checked ~ .checkmark:after {
     display: block;
 }
 
 /* Style the checkmark/indicator */
-.container .checkmark:after {
-    left: 9px;
-    top: 5px;
+.instant-result-sidebar .container .checkmark::after {
+    left: 1px;
+    top: 0px;
     width: 5px;
-    height: 10px;
+    height: 8px;
     border: solid white;
-    border-width: 0 3px 3px 0;
+    border-width: 0 2px 2px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
