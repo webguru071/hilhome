@@ -1161,7 +1161,8 @@ section.login-area.register-area h3 {
     padding: 30px;
 }
 
-.instant-result-sidebar .filter-checkbox .container {
+/*Filters Checkbox CSS Start*/
+.instant-result-sidebar .filter-checkbox .container, .instant-result-sidebar .filter-radio-button .container {
     display: block;
     position: relative;
     padding-left: 30px;
@@ -1224,6 +1225,69 @@ section.login-area.register-area h3 {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+/*Filters Checkbox CSS End*/
+
+/*Filters Radio Button CSS Start*/
+.instant-result-sidebar .filter-radio-button .container {
+    /*display: block;*/
+    /*position: relative;*/
+    /*padding-left: 35px;*/
+    /*margin-bottom: 12px;*/
+    /*cursor: pointer;*/
+    /*font-size: 22px;*/
+    /*-webkit-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
+}
+
+/* Hide the browser's default radio button */
+.instant-result-sidebar .filter-radio-button .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.instant-result-sidebar .filter-radio-button .checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #c4c4c4;
+}
+/* When the radio button is checked, add a blue background */
+.instant-result-sidebar .filter-radio-button .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+    border: 2px solid #2196F3;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.instant-result-sidebar .filter-radio-button .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.instant-result-sidebar .filter-radio-button .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.instant-result-sidebar .filter-radio-button .container .checkmark::after {
+    top: 1px;
+    left: 1px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2196F3;
+    border: 2px solid #fff;
+}
+/*Filters Radio Button CSS End*/
+
 
 /*See More Buttons*/
 .instant-result-sidebar #more,.instant-result-sidebar #more2 ,.instant-result-sidebar #more3 {display: none;}
