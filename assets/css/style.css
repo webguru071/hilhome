@@ -223,7 +223,7 @@ figure {
 .bg-white{
     background-color: var(--white-color);
 }
-.bg-different, .login-area, .privacy-page-area table th{
+.bg-different, .login-area, .privacy-page-area table th, .customer-profile-area{
     background-color: var(--different-bg);
 }
 /*---- Home Color CSS Start*---- */
@@ -238,7 +238,7 @@ figure {
     font-weight: 500;
 }
 .font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a,
-.mobile-filter-title-button .filters-title.mobile-filters-title{
+.mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a{
     font-weight: 700;
 }
 .font-black{
@@ -580,6 +580,7 @@ button:focus {
     background-color: gray;
     overflow: hidden;
     display: block;
+    margin-right: 5px;
 }
 .menu-after-login .customer-img img {
     height: 100%;
@@ -1756,6 +1757,46 @@ ul.social-media li a {
 }
 /*-------------------------------------------
         23. Privacy Style End
+-------------------------------------------*/
+
+/*-------------------------------------------
+        24. Customer Profile Style Start
+-------------------------------------------*/
+.customer-info-box {
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 30px;
+}
+.customer-info-img-box {
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.customer-info-box button {
+    width: 119px;
+    margin: 15px auto;
+}
+.project-review-box li {
+    padding: 10px;
+    text-align: center;
+}
+.customer-profile-pages ul li {
+    margin-bottom: 10px;
+}
+.customer-profile-pages ul li a {
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    font-size: 16px;
+    padding: 9px 15px 13px;
+    display: flex;
+    justify-content: space-between;
+}
+/*-------------------------------------------
+        24. Customer Profile Style End
 -------------------------------------------*/
 
 /*-------------------------------------------
