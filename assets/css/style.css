@@ -268,7 +268,7 @@ h2{
 .font-17{
     font-size: 17px;
 }
-.font-14{
+.font-14, .customer-inbox-page-area .short-text{
     font-size: 14px;
 }
 .font-12, .services-wrapper .tab-content .tab-pane a p, .services-wrapper .tab-content .tab-pane a div p i, .recent-questions-slider-wrap .item p, .trending-now-these-areas p a,
@@ -1811,7 +1811,51 @@ ul.social-media li a {
     padding: 40px 40px 40px 10px;
 }
 
-/*Customer Inbox Page CSS*/
+/*Customer Inbox Page CSS Start*/
+
+/*Inbox Left Lists CSS Start*/
+.inbox-pro-message-list-box {
+    border: 1px solid var(--border-color)y;
+    box-shadow: 0px 1px 0px 2px rgba(0,0,0,.05);
+}
+.inbox-lists a {
+    display: flex;
+    border-top: 1px solid var(--border-color);
+    padding: 15px;
+    position: relative;
+}
+.inbox-pro-img {
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.inbox-pro-img img {
+    height: 30px;
+    width: auto;
+}
+.inbox-content p {
+    margin: 5px 0;
+}
+.inbox-content p span {
+    margin-right: 10px;
+}
+.inbox-content p span i {
+    font-size: 11px;
+    padding-right: 3px;
+    color: var(--gray-color)
+}
+.inbox-content p span.off-line.online i {
+    color: #06a606;
+}
+.inbox-pro-date {
+    position: absolute;
+    right: 15px;
+    font-size: 12px;
+}
+
+/*Inbox Right CSS Start*/
 .customer-info-box {
     border: 1px solid var(--border-color);
     display: flex;
