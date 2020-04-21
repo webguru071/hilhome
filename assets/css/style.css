@@ -568,6 +568,27 @@ button:focus {
     position: relative;
     top: 2px;
 }
+/*After Login Menu CSS Start*/
+.menu-after-login .nav-item.dropdown-box a {
+    display: flex;
+    align-items: center;
+}
+.menu-after-login .customer-img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    overflow: hidden;
+    display: block;
+}
+.menu-after-login .customer-img img {
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+/*After Login Menu CSS End*/
+
 @media (min-width: 992px) {
 
 }
