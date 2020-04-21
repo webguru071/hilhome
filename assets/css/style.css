@@ -278,7 +278,8 @@ h2{
 .mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6 {
     margin-bottom: 15px;
 }
-.mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box{
+.mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
+.customer-profile-title{
     margin-bottom: 20px;
 }
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box{
@@ -1794,7 +1795,21 @@ ul.social-media li a {
     padding: 9px 15px 13px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+/*Customer Information Page CSS*/
+/*.customer-profile-title {*/
+/*    margin-bottom: 20px;*/
+/*}*/
+.customer-info-left-box {
+    padding: 40px;
+    border-right: 1px solid var(--border-color);
+}
+.customer-information-page .customer-right-side {
+    padding: 40px 40px 40px 10px;
+}
+
 /*-------------------------------------------
         24. Customer Profile Style End
 -------------------------------------------*/
