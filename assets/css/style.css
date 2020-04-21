@@ -207,7 +207,7 @@ figure {
 
 /*---- Home Color CSS Start*---- */
 
-.default-heading-color{
+.default-heading-color, .customer-info-left-box .customer-profile-pages ul li a.active {
     color: var(--dark-color);
 }
 .white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover,
@@ -217,7 +217,8 @@ figure {
 .text-blue-color, .error-content p > a, .privacy-page-area p > a, .how-to-list li a, .instant-result-sidebar #myBtn,
 .instant-result-sidebar #myBtn i, .instant-result-sidebar #myBtn2,
 .instant-result-sidebar #myBtn2 i, .instant-result-sidebar #myBtn3,
-.instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i{
+.instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i,
+.customer-info-left-box .customer-profile-pages ul li a{
     color: var(--color-blue);
 }
 .bg-white{
@@ -231,14 +232,15 @@ figure {
 /*--------------------------------
     2.3 Theme Font Family, Font Size
 -----------------------------------*/
-.font-weight-normal{
+.font-weight-normal, .customer-information-page .customer-profile-pages ul li a {
     font-weight: 400;
 }
 .font-semi-bold{
     font-weight: 500;
 }
 .font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a,
-.mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a{
+.mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
+.customer-info-left-box .customer-profile-pages ul li a.active{
     font-weight: 700;
 }
 .font-black{
@@ -1805,6 +1807,7 @@ ul.social-media li a {
 .customer-info-left-box {
     padding: 40px;
     border-right: 1px solid var(--border-color);
+    height: 100%;
 }
 .customer-information-page .customer-right-side {
     padding: 40px 40px 40px 10px;
