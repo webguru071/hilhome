@@ -547,11 +547,12 @@ button:focus {
     transition: .5s;
     visibility: hidden;
     opacity: 0;
-    width: 200px;
+    width: 112px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 3px 13px 4px rgba(64, 123, 225, 0.15);
     /* border: 1px solid #0a8aff; */
+    right: 15px;
 }
 #mainNav ul.navbar-nav li.nav-item.dropdown-box:hover .dropdown-list {
     top: 100%;
