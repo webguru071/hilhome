@@ -207,7 +207,8 @@ figure {
 
 /*---- Home Color CSS Start*---- */
 
-.default-heading-color, .customer-info-left-box .customer-profile-pages ul li a.active {
+.default-heading-color, .customer-info-left-box .customer-profile-pages ul li a.active,
+.customer-create-password form label{
     color: var(--dark-color);
 }
 .white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover,
@@ -240,7 +241,7 @@ figure {
 }
 .font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a,
 .mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
-.customer-info-left-box .customer-profile-pages ul li a.active{
+.customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label{
     font-weight: 700;
 }
 .font-black{
@@ -287,7 +288,7 @@ h2{
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box{
     margin-bottom: 30px;
 }
-.mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points {
+.mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5 {
     margin-bottom: 10px;
 }
 .mt-10, .more-about-company-area .services-box h6 {
@@ -1801,9 +1802,6 @@ ul.social-media li a {
 }
 
 /*Customer Information Page CSS*/
-/*.customer-profile-title {*/
-/*    margin-bottom: 20px;*/
-/*}*/
 .customer-info-left-box {
     padding: 40px;
     border-right: 1px solid var(--border-color);
@@ -1811,6 +1809,33 @@ ul.social-media li a {
 }
 .customer-information-page .customer-right-side {
     padding: 40px 40px 40px 10px;
+}
+
+/*Customer Inbox Page CSS*/
+.customer-info-box {
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 30px;
+}
+.inbox-app-content {
+    margin: 20px auto;
+}
+.customer-inbox-page-area form .form-group {
+    display: flex;
+    align-items: center;
+}
+.customer-inbox-page-area form .form-group input {
+    min-width: 110px;
+    width: 100%;
+}
+.customer-inbox-page-area form .form-group button {
+    width: 20%;
+    margin: 0 0 0 -4px;
+    min-width: 89px;
+    padding: 7px 8px 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 /*-------------------------------------------

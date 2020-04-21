@@ -24,7 +24,7 @@
     <meta name="msapplication-TileColor" content="#407bff">
     <meta name="theme-color" content="#3fa3fe">
 
-    <title>Hilhome - Login</title>
+    <title>Hilhome - Customer Inbox</title>
 
     <!--=======================================
       All CSS Style link
@@ -59,8 +59,8 @@
 <!--    </div>-->
     <!-- Pre Loader Area End -->
 
-    <!-- Menu Area Start -->
-    <header class="menu-section-area padding-zero">
+    <!-- Menu After Login Area Start -->
+    <header class="menu-section-area menu-after-login padding-zero">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg d-none d-sm-none d-md-block d-lg-block d-xl-block" id="mainNav">
             <div class="container-fluid">
@@ -71,13 +71,20 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-capitalize ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="pro.html">Join as a pro</a>
+                            <a class="nav-link theme-button" href="pro.html">Sign up as a pro</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="register.html">Sign up</a>
+                            <a class="nav-link" href="customer-projects.html">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.html">Login</a>
+                            <a class="nav-link" href="customer-inbox.html">inbox</a>
+                        </li>
+                        <li class="nav-item dropdown-box">
+                            <a class="nav-link" href="#"><span class="customer-img"><img src="assets/img/pros-img/1.jpg" alt="img"></span>Suraiya<i class="fas fa-angle-down"></i></a>
+                            <ul class="dropdown-list">
+                                <li><a href="customer-profile.html">Profile</a></li>
+                                <li><a href="index.html">Log out</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -90,70 +97,68 @@
             <a href="index.html"><img class="mobile-logo" src="assets/img/logo.png" alt="logo"></a>
             <ul class="nav navbar-nav navbar-right menu">
                 <li class="nav-item">
-                    <a class="nav-link" href="pro.html">Join as a pro</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="register.html">Sign up</a>
+                    <a class="nav-link" href="pro.html">Sign up as a pro</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link" href="customer-projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer-inbox.html">inbox</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer-profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Log out</a>
                 </li>
             </ul>
         </nav>
         <!-- Mobile Menu End -->
 
     </header>
-    <!-- Menu Area End -->
+    <!-- Menu After Login Area End -->
 
-    <!-- Login Area Start -->
-    <section class="login-area">
+    <!-- Customer Profile Area Start -->
+    <section class="customer-profile-area customer-inbox-page-area">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="text-center">Welcome back</h3>
-                    <form>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email">
+            <div class="row customer-profile-wrap">
+                <div class="col-12 col-sm-12 col-md-8">
+                    <div class="customer-right-side">
+                        <div class="customer-profile-pages">
+                            <ul>
+                                <li><a href="customer-information.html">Account Settings<i class="fas fa-angle-right"></i></a></li>
+                                <li><a href="customer-notifications.html">Notification Settings<i class="fas fa-angle-right"></i></a></li>
+                                <li><a href="index.html">Logout</a></li>
+                            </ul>
                         </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                    <div class="customer-info-box inbox-page-app-side">
+                        <div class="customer-info-img-box inbox-app-img">
+                            <img src="assets/img/pros-img/1.jpg" alt="img">
                         </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="checkbox">
-                            <div class="remember-box d-flex justify-content-between">
-                                <label class="form-check-label" for="checkbox">Remember me</label>
-                                <a href="reset-password.html">Forgot password?</a>
-                            </div>
+                        <div class="inbox-app-content">
+                            <h5>Bring Hilhome with you.</h5>
+                            <p>Get the app to keep your conversations going — on the go.</p>
                         </div>
 
-                        <div class="form-group">
-                            <button type="submit" class="btn theme-button">Log In</button>
-                        </div>
-                        <div class="other-button-box">
-                            <div class="privacy-box text-center">
-                                <h6>or</h6>
-                                <p>By clicking Continue with Facebook, Google, or Apple, you agree to the
-                                    <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="number" placeholder="(555) 555-5555">
+                                <button class="btn theme-button">Send link</button>
                             </div>
-                            <a href="#" class="fb btn">
-                                <img src="assets/img/facebook.svg" alt=""> Continue with facebook
-                            </a>
-                            <a href="#" class="twitter btn">
-                                <img src="assets/img/google.svg" alt=""> Continue with google
-                            </a>
-                            <a href="#" class="google btn">
-                                <img src="assets/img/apple.svg" alt=""> Continue with apple
-                            </a>
-                        </div>
-                    </form>
-                    <p class="dont-have-account text-center">Don’t have an account? <a href="register.html">Sign up</a>.</p>
+                        </form>
+
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Login Area End -->
+    <!-- Customer Profile Area End -->
 
     <!-- Footer Start -->
     <footer class="footer">
@@ -291,6 +296,24 @@
     <!-- Custom scripts for this template -->
     <script src="assets/js/custom.js"></script>
 
+    <script>
+        var randomImage = {
+            paths: [
+                "assets/img/hero-slide-img/1.jpg",
+                "assets/img/hero-slide-img/2.jpg",
+                "assets/img/hero-slide-img/3.jpg"
+            ],
+
+            generate: function(){
+                var path = randomImage.paths[Math.floor(Math.random()*randomImage.paths.length)];
+                var img = new Image();
+                img.src = path;
+                $("#randomImage").html(img);
+            }
+        };
+
+        randomImage.generate();
+    </script>
 </body>
 
 </html>
