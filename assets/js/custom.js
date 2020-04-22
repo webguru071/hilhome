@@ -189,6 +189,43 @@ $('.venobox').venobox();
     });
 // Home Recent Questions Slider
 
+// Home Popular Services Slider
+    var popular_slide = $('.popular-services-slider-wrap');
+    popular_slide.owlCarousel({
+        loop:true,
+        margin:5,
+        autoplay:false,
+        nav:false,
+        dots:true,
+        smartSpeed: 1000,
+        autoplayHoverPause: !0,
+        responsive:{
+            0:{
+                items:1
+            },
+            500:{
+                items:2
+            },
+            600:{
+                items:2
+            },
+            768:{
+                items:3
+            },
+            992:{
+                items:3
+            }
+        }
+    });
+    $('.popular_slide_nav .testi_next').on('click', function() {
+        popular_slide.trigger('next.owl.carousel');
+    });
+
+    $('.popular_slide_nav .testi_prev').on('click', function() {
+        popular_slide.trigger('prev.owl.carousel');
+    });
+// Home Popular Services Slider
+
 // Guarantee Fixed Nav Tabs
     $(window).scroll(function () {
         if ($(this).scrollTop() > 500) {
