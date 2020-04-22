@@ -1855,8 +1855,8 @@ ul.social-media li a {
     padding-right: 3px;
     color: var(--gray-color)
 }
-.inbox-content p span.off-line.online i {
-    color: #06a606;
+.inbox-content p span.online, .inbox-content p span.online i {
+    color: #06a606!important;
 }
 .inbox-pro-date {
     position: absolute;
