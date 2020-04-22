@@ -1783,6 +1783,7 @@ ul.social-media li a {
 .customer-info-box button {
     width: 119px;
     margin: 15px auto;
+    padding: 8px 15px 11px;
 }
 .project-review-box li {
     padding: 10px;
@@ -2276,6 +2277,9 @@ ul.social-media li a {
       .customer-info-left-box, .customer-information-page .customer-right-side {
           padding: 30px;
       }
+      .customer-inbox-page-area .inbox-page-app-side {
+          margin-top: 50px;
+      }
 
   }
 
@@ -2295,6 +2299,12 @@ ul.social-media li a {
       }
   }
 
+@media only screen and (max-width: 580px){
+    .customer-inbox-page-area {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
 @media only screen and (max-width: 528px){
     .services-area .services-wrapper .services-box img {
         height: 93px;
