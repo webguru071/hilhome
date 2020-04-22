@@ -2081,6 +2081,16 @@ ul.social-media li a {
           padding: 8px 11px 11px;
           font-size: 13px;
       }
+      /*Customer Profile Page*/
+      .customer-profile-area {
+          padding-top: 110px;
+      }
+      .customer-information-page .customer-right-side {
+          padding: 25px 40px 40px 0;
+      }
+      .customer-info-left-box {
+          padding: 25px;
+      }
 
   }
   @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -2174,7 +2184,7 @@ ul.social-media li a {
       .get-free-cost-estimate-area .section-title-area p {
           width: 100%;
       }
-      .recent-questions-slider-wrap .item .services-box img {
+      .recent-questions-slider-wrap .item .services-box img, .popular-services-slider-wrap .item .services-box img {
           height: 160px;
       }
       /*Home States Area*/
@@ -2229,6 +2239,16 @@ ul.social-media li a {
       }
       .recent-questions-area {
           padding: 60px 0 20px;
+      }
+      /*Customer Profile Page*/
+      .customer-info-box {
+          width: 50%;
+          margin: 0 auto 50px;
+      }
+      .customer-info-box button {
+          width: 111px;
+          font-size: 13px;
+          padding: 6px 14px 8px;
       }
 
   }
@@ -2361,23 +2381,10 @@ ul.social-media li a {
       .footer-widget.footer-recent-posts ul li a > p{
           line-height: 22px;
       }
-    /*  !* Contact Page CSS *!*/
-    /*  .contact-us-box {*/
-    /*    width: 80%;*/
-    /*}*/
-    /*  .contact-map-area .contact-form-wrapper {*/
-    /*    padding: 30px 30px 40px;*/
-    /*    width: 240px;*/
-    /*}*/
-    /*.contact-form-wrapper h4 {*/
-    /*    margin-bottom: 20px;*/
-    /*}*/
-    /*.contact-form-wrapper form input {*/
-    /*    height: 44px;*/
-    /*}*/
-    /*.contact-form-wrapper form textarea {*/
-    /*    height: 106px;*/
-    /*}*/
+      /*Customer Profile CSS*/
+      .customer-info-box {
+          width: 70%;
+      }
   }
   /*-------------------------------------------
         24. Responsive Design End
