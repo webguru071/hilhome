@@ -1879,6 +1879,9 @@ ul.social-media li a {
 .inbox-app-content {
     margin: 20px auto;
 }
+.customer-inbox-page-area .inbox-content h6 {
+    font-size: 13px;
+}
 .customer-inbox-page-area form .form-group {
     display: flex;
     align-items: center;
@@ -2082,7 +2085,7 @@ ul.social-media li a {
           font-size: 13px;
       }
       /*Customer Profile Page*/
-      .customer-profile-area {
+      .customer-profile-area, .customer-create-password , .customer-inbox-page-area{
           padding-top: 110px;
       }
       .customer-information-page .customer-right-side {
@@ -2090,6 +2093,21 @@ ul.social-media li a {
       }
       .customer-info-left-box {
           padding: 25px;
+      }
+      .customer-information-page {
+          padding-top: 60px;
+      }
+      .customer-inbox-page-area .inbox-page-app-side {
+          padding: 30px 20px 20px;
+      }
+      .customer-inbox-page-area form .form-group input {
+          min-width: 110px;
+          font-size: 13px;
+      }
+      .customer-inbox-page-area form .form-group button {
+          min-width: 71px;
+          font-size: 13px;
+          padding: 9px 8px 8px;
       }
 
   }
@@ -2250,6 +2268,14 @@ ul.social-media li a {
           font-size: 13px;
           padding: 6px 14px 8px;
       }
+      .customer-info-left-box {
+          border-right: none;
+          padding-left: 0;
+      }
+      /*Customer Profile Page CSS*/
+      .customer-info-left-box, .customer-information-page .customer-right-side {
+          padding: 30px;
+      }
 
   }
 
@@ -2310,6 +2336,7 @@ ul.social-media li a {
     .footer-bottom-area {
         padding: 20px 0 30px;
     }
+
 }
 
 /*=========================================
@@ -2384,6 +2411,9 @@ ul.social-media li a {
       /*Customer Profile CSS*/
       .customer-info-box {
           width: 70%;
+      }
+      .login-area form {
+          width: 90%;
       }
   }
   /*-------------------------------------------
