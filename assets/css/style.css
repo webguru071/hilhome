@@ -2308,6 +2308,11 @@ ul.social-media li a {
         padding-right: 30px;
     }
 }
+@media only screen and (max-width: 575px){
+    .register-area form .form-group.d-flex {
+        flex-direction: column;
+    }
+}
 @media only screen and (max-width: 528px){
     .services-area .services-wrapper .services-box img {
         height: 93px;
