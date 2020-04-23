@@ -2046,6 +2046,11 @@ ul.social-media li a {
         Tablet layout
 =========================================*/
   @media only screen and (max-width: 991px){
+      /*Mobile Search Menu CSS Start*/
+      .mean-nav ul .search-box {
+          padding: 1em 5%;
+      }
+      /*Mobile Search Menu CSS End*/
       /*Home Page CSS*/
       .search-box h1, .find-customer h1 {
           font-size: 28px;
