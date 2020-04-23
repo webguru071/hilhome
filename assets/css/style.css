@@ -2086,7 +2086,7 @@ ul.social-media li a {
           font-size: 13px;
       }
       /*Customer Profile Page*/
-      .customer-profile-area, .customer-create-password , .customer-inbox-page-area, .register-area{
+      .customer-profile-area, .customer-create-password , .customer-inbox-page-area, .register-area, .login-area{
           padding-top: 110px;
       }
       .customer-information-page .customer-right-side {
