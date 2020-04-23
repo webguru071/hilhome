@@ -2280,6 +2280,9 @@ ul.social-media li a {
       .customer-inbox-page-area .inbox-page-app-side {
           margin-top: 50px;
       }
+      .login-area form {
+          width: 100%;
+      }
 
   }
 
