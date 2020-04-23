@@ -2387,6 +2387,19 @@ ul.social-media li a {
     .recent-questions-slider-wrap .item .services-box img {
         height: 148px;
     }
+    /*Home Projects Lists*/
+    .hero-area.home-hero-projects-area {
+        padding-top: 30px;
+    }
+    .home-hero-projects-wrap .hero-project-lists {
+        flex-direction: column;
+    }
+    .home-hero-projects-wrap .hero-project-box {
+        margin: 10px 10px 10px 0;
+        min-width: 80%;
+        max-width: 100%;
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 480px){
