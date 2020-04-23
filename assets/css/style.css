@@ -208,7 +208,7 @@ figure {
 /*---- Home Color CSS Start*---- */
 
 .default-heading-color, .customer-info-left-box .customer-profile-pages ul li a.active,
-.customer-create-password form label{
+.customer-create-password form label, .home-hero-projects-wrap .hero-project-box i{
     color: var(--dark-color);
 }
 .white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover,
@@ -219,7 +219,8 @@ figure {
 .instant-result-sidebar #myBtn i, .instant-result-sidebar #myBtn2,
 .instant-result-sidebar #myBtn2 i, .instant-result-sidebar #myBtn3,
 .instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i,
-.customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a{
+.customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
+.home-hero-projects-wrap .see-all-btn{
     color: var(--color-blue);
 }
 .bg-white{
@@ -241,7 +242,8 @@ figure {
 }
 .font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a,
 .mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
-.customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label{
+.customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label,
+.home-hero-projects-wrap .see-all-btn{
     font-weight: 700;
 }
 .font-black{
@@ -708,6 +710,30 @@ button:focus {
 .hero-wrapper .nav-tabs .nav-item.show .nav-link, .hero-wrapper .nav-tabs .nav-link.active {
     border-bottom-color: var(--color-blue);
 }
+
+/*Hero Area With Projects Lists*/
+.home-hero-projects-wrap > p {
+    margin-top: 20px;
+}
+.home-hero-projects-wrap .hero-project-lists {
+    margin: 10px 0;
+}
+.home-hero-projects-wrap .hero-project-box {
+    padding: 15px 40px;
+    border: 1px solid var(--border-color);
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 6px;
+}
+.home-hero-projects-wrap .hero-project-box i {
+    padding-right: 15px;
+    font-size: 20px;
+}
+.home-hero-projects-wrap .see-all-btn i {
+    padding-left: 4px;
+    font-size: 12px;
+}
+
 /*-----------Hero Nav Area End-------------*/
 
 /*-----------Select Box Area-------------*/
