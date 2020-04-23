@@ -667,6 +667,11 @@ button:focus {
     font-size: 13px;
     border-top: 1px solid rgba(64,123,255,.4);
 }
+/*Menu Search Bar Area CSS*/
+.menu-search-area .search-box {
+    width: 450px;
+    max-width: 100%;
+}
 /*-------------------------------------------
            5. Navbar Area CSS End
 -------------------------------------------*/
@@ -2041,7 +2046,17 @@ ul.social-media li a {
           height: 574px;
       }
   }
-
+  @media only screen and (max-width: 992px){
+      .menu-search-area .search-box {
+          width: 410px;
+      }
+      .menu-search-area .search-box form input {
+          width: 90px;
+      }
+      .menu-search-area .search-box button {
+          width: 90px;
+      }
+  }
 /*======================================
         Tablet layout
 =========================================*/
