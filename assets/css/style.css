@@ -2049,6 +2049,10 @@ ul.social-media li a {
       /*Mobile Search Menu CSS Start*/
       .mean-nav ul .search-box {
           padding: 1em 5%;
+          width: 70%;
+      }
+      .mean-nav ul .custom-select {
+          height: 47px;
       }
       /*Mobile Search Menu CSS End*/
       /*Home Page CSS*/
@@ -2299,6 +2303,12 @@ ul.social-media li a {
       #scroll {
           bottom: 5px;
       }
+      .mean-nav ul .search-box form input {
+          width: 70px;
+      }
+      .mean-nav ul .search-box button {
+          width: 95px;
+      }
   }
   @media only screen and (min-width: 480px) and (max-width: 766px){
       .footer-widget > h4, .footer-widget.quick-links > h4 {
@@ -2314,6 +2324,9 @@ ul.social-media li a {
     }
 }
 @media only screen and (max-width: 575px){
+    .mean-nav ul .search-box {
+        width: 84%;
+    }
     .register-area, .login-area {
         padding-left: 30px;
         padding-right: 30px;
@@ -2374,6 +2387,16 @@ ul.social-media li a {
         For very little mobile
 =========================================*/
   @media only screen and (max-width:430px){
+      .mean-nav ul .custom-select {
+          width: 78%;
+          padding: 0;
+      }
+      .mean-nav ul .search-box form input {
+          width: 50px;
+      }
+      .mean-nav ul .search-box button {
+          width: 78px;
+      }
       /*Hero Area Search Box CSS*/
       .hero-area .hero-wrapper .col-12.col-sm-12.col-md-10.col-lg-7 {
           padding: 0 7px;
@@ -2407,6 +2430,9 @@ ul.social-media li a {
   }
   @media only screen and (min-width:300px) and (max-width:479px){
       /*Default CSS*/
+      .mean-nav ul .search-box {
+          width: 94%;
+      }
       section {
           padding: 50px 0;
       }
