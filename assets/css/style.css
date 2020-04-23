@@ -2309,8 +2309,16 @@ ul.social-media li a {
     }
 }
 @media only screen and (max-width: 575px){
+    .register-area, .login-area {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     .register-area form .form-group.d-flex {
         flex-direction: column;
+    }
+    .register-area form .form-group.d-flex .col-12:last-child {
+        padding-left: 0;
+        padding-top: 15px;
     }
 }
 @media only screen and (max-width: 528px){
@@ -2432,6 +2440,28 @@ ul.social-media li a {
       }
       .login-area form {
           width: 90%;
+      }
+      /*Login Register Page CSS*/
+      .login-area form {
+          width: 100%;
+      }
+      .other-button-box a.btn {
+          font-size: 12px;
+      }
+      .other-button-box a.btn img {
+          height: 21px;
+      }
+      .login-area form {
+          padding: 24px 20px 30px;
+      }
+      .privacy-box h6::before, .privacy-box h6::after {
+          width: 40%;
+      }
+      .dont-have-account {
+          font-size: 14px;
+      }
+      .remember-box {
+          font-size: 13px;
       }
   }
   /*-------------------------------------------
