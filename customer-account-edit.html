@@ -24,7 +24,7 @@
     <meta name="msapplication-TileColor" content="#407bff">
     <meta name="theme-color" content="#3fa3fe">
 
-    <title>Hilhome - Customer Notifications</title>
+    <title>Hilhome - Customer Account Edit</title>
 
     <!--=======================================
       All CSS Style link
@@ -71,7 +71,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-capitalize ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="pro.html">Sign up as a pro</a>
+                            <a class="nav-link theme-button" href="pro.html">Sign up as a pro</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="customer-projects.html">Projects</a>
@@ -121,173 +121,54 @@
     </header>
     <!-- Menu After Login Area End -->
 
-    <!-- Customer Profile Area Start -->
-    <section class="customer-profile-area customer-information-page customer-notifications-page padding-zero">
+    <!-- Login Area Start -->
+    <section class="login-area register-area customer-account-edit-area">
         <div class="container">
-            <div class="row customer-profile-wrap">
-                <div class="col-12 col-sm-12 col-md-4">
-                    <div class="customer-info-left-box">
-                        <h4 class="customer-profile-title">Settings</h4>
-
-                        <div class="customer-profile-pages">
-                            <ul>
-                                <li><a href="customer-information.html">Account<i class="fas fa-angle-right"></i></a></li>
-                                <li><a href="customer-notifications.html" class="active">Notifications<i class="fas fa-angle-right"></i></a></li>
-                            </ul>
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-center">Edit personal information</h3>
+                    <form>
+                        <div class="form-group d-flex">
+                            <div class="col-12 col-sm-6 col-md-6">
+                                <label for="first-name">First name</label>
+                                <input type="text" class="form-control" id="first-name">
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6">
+                                <label for="last-name">Last name</label>
+                                <input type="text" class="form-control" id="last-name">
+                            </div>
                         </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" class="form-control" id="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="time_zone">Time Zone</label>
+                            <select id="time_zone" class="form-control">
+                                <option value="pacific" selected>Pacific (currently 11:44pm)</option>
+                                <option value="pacific">Eastern (currently 02:10pm)</option>
+                                <option value="pacific">Atlantic (currently 4:05pm)</option>
+                                <option value="pacific" selected>Pacific (currently 11:44pm)</option>
+                                <option value="pacific">Eastern (currently 02:10pm)</option>
+                                <option value="pacific">Atlantic (currently 4:05pm)</option>
+                            </select>
+                        </div>
+
+                    </form>
+                    <div>
+                        <button type="submit" class="btn theme-button">Save</button>
+                        <button type="reset" class="btn">Cancel</button>
                     </div>
-                </div>
 
-                <div class="col-12 col-sm-12 col-md-8">
-                    <div class="customer-right-side">
-                        <h4 class="customer-profile-title text-center">Notifications </h4>
-
-                        <!--Notifications Part Start-->
-                        <div class="notifications-part">
-                            <h6>Get push notifications when:</h6>
-                            <div class="notifications-wrap">
-                                <div class="notification-lists d-flex">
-                                    <div class="notification-content">
-                                        <h6>Messages </h6>
-                                        <p>Pros send you messages.</p>
-                                    </div>
-                                    <div class="notifications-switch-content">
-                                        <label class="switch">
-                                            <input type="checkbox" checked>
-                                            <span class="slider round"></span>
-                                        </label>
-                                    </div>
-                                </div>
-
-                                <div class="notification-lists d-flex">
-                                    <div class="notification-content">
-                                        <h6>Project reminders and updates</h6>
-                                        <p>You’ve got upcoming projects or there are other updates about your projects. </p>
-                                    </div>
-                                    <div class="notifications-switch-content">
-                                        <label class="switch">
-                                            <input type="checkbox" checked>
-                                            <span class="slider round"></span>
-                                        </label>
-                                    </div>
-                                </div>
-
-                                <div class="notification-lists d-flex">
-                                    <div class="notification-content">
-                                        <h6>Promotions and tips  </h6>
-                                        <p>We have updates about your account, projects, and security/privacy matters. </p>
-                                    </div>
-                                    <div class="notifications-switch-content">
-                                        <label class="switch">
-                                            <input type="checkbox" checked>
-                                            <span class="slider round"></span>
-                                        </label>
-                                    </div>
-                                </div>
-
-                                <div class="notification-lists d-flex">
-                                    <div class="notification-content">
-                                        <h6>Messages </h6>
-                                        <p>Pros send you messages. </p>
-                                    </div>
-                                    <div class="notifications-switch-content">
-                                        <label class="switch">
-                                            <input type="checkbox" checked>
-                                            <span class="slider round"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Notifications Part End-->
-
-                        <!--Notifications Part Start-->
-                        <div class="notifications-part">
-                            <h6>Text me about... </h6>
-                            <div class="notifications-wrap">
-                                <div class="notification-lists d-flex">
-                                    <div class="notification-content">
-                                        <h6>All Text Notifications</h6>
-                                    </div>
-                                    <div class="notifications-switch-content">
-                                        <label class="switch">
-                                            <input type="checkbox">
-                                            <span class="slider round"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Notifications Part End-->
-
-                        <!--Notifications Part Start-->
-                        <div class="notifications-part">
-                            <h6>Email me about... </h6>
-                            <div class="notifications-wrap">
-                                <div class="notification-lists d-flex">
-                                    <div class="notification-content">
-                                        <h6>Messages </h6>
-                                        <p>Pros send you messages. </p>
-                                    </div>
-                                    <div class="notifications-switch-content">
-                                        <label class="switch">
-                                            <input type="checkbox" checked>
-                                            <span class="slider round"></span>
-                                        </label>
-                                    </div>
-                                </div>
-
-                                <div class="notification-lists d-flex">
-                                    <div class="notification-content">
-                                        <h6>Project reminders and updates</h6>
-                                        <p>You’ve got upcoming projects or there are other updates about your projects. </p>
-                                    </div>
-                                    <div class="notifications-switch-content">
-                                        <label class="switch">
-                                            <input type="checkbox" checked>
-                                            <span class="slider round"></span>
-                                        </label>
-                                    </div>
-                                </div>
-
-                                <div class="notification-lists d-flex">
-                                    <div class="notification-content">
-                                        <h6>Promotions and tips  </h6>
-                                        <p>We have updates about your account, projects, and security/privacy matters. </p>
-                                    </div>
-                                    <div class="notifications-switch-content">
-                                        <label class="switch">
-                                            <input type="checkbox" checked>
-                                            <span class="slider round"></span>
-                                        </label>
-                                    </div>
-                                </div>
-
-                                <div class="notification-lists d-flex">
-                                    <div class="notification-content">
-                                        <h6>Messages </h6>
-                                        <p>Pros send you messages. </p>
-                                    </div>
-                                    <div class="notifications-switch-content">
-                                        <label class="switch">
-                                            <input type="checkbox" checked>
-                                            <span class="slider round"></span>
-                                        </label>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <button class="notifications-button">Unsubscribe All</button>
-                        </div>
-                        <!--Notifications Part End-->
-
-                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Customer Profile Area End -->
+    <!-- Login Area End -->
 
     <!-- Footer Start -->
     <footer class="footer">
@@ -425,24 +306,6 @@
     <!-- Custom scripts for this template -->
     <script src="assets/js/custom.js"></script>
 
-    <script>
-        var randomImage = {
-            paths: [
-                "assets/img/hero-slide-img/1.jpg",
-                "assets/img/hero-slide-img/2.jpg",
-                "assets/img/hero-slide-img/3.jpg"
-            ],
-
-            generate: function(){
-                var path = randomImage.paths[Math.floor(Math.random()*randomImage.paths.length)];
-                var img = new Image();
-                img.src = path;
-                $("#randomImage").html(img);
-            }
-        };
-
-        randomImage.generate();
-    </script>
 </body>
 
 </html>

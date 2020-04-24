@@ -223,7 +223,7 @@ figure {
 .home-hero-projects-wrap .see-all-btn{
     color: var(--color-blue);
 }
-.bg-white{
+.bg-white, .customer-notifications-page .notifications-wrap{
     background-color: var(--white-color);
 }
 .bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area{
@@ -237,13 +237,13 @@ figure {
 .font-weight-normal, .customer-information-page .customer-profile-pages ul li a {
     font-weight: 400;
 }
-.font-semi-bold{
+.font-semi-bold, .notification-content > h6{
     font-weight: 500;
 }
 .font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a,
 .mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
 .customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label,
-.home-hero-projects-wrap .see-all-btn{
+.home-hero-projects-wrap .see-all-btn, .customer-notifications-page .notifications-button{
     font-weight: 700;
 }
 .font-black{
@@ -287,7 +287,8 @@ h2{
 .customer-profile-title{
     margin-bottom: 20px;
 }
-.mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box{
+.mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
+.customer-notifications-page .notifications-part{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5 {
@@ -1941,8 +1942,22 @@ ul.social-media li a {
      justify-content: space-between;
      align-items: center;
  }
+.notifications-wrap .notification-lists:first-child {
+    border-top: 0;
+}
 .notifications-part > h6 {
     margin: 30px 0 20px;
+}
+.notification-content > h6 {
+    margin-bottom: 5px;
+}
+.notifications-button {
+    border: 2px solid #d3d4d5;
+    color: #ff5a5f;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 30px;
+    font-size: 15px;
 }
 
 /*Switch box css*/
@@ -1985,11 +2000,11 @@ ul.social-media li a {
 }
 
 .customer-notifications-page input:checked + .slider {
-    background-color: #2196F3;
+    background-color: var(--color-blue);
 }
 
 .customer-notifications-page input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px var(--color-blue);
 }
 
 .customer-notifications-page input:checked + .slider:before {
@@ -2004,6 +2019,11 @@ ul.social-media li a {
 }
 .customer-notifications-page .slider.round:before {
     border-radius: 50%;
+}
+/*Customer Account Edit CSS*/
+select#time_zone.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: none;
 }
 
 /*-------------------------------------------
