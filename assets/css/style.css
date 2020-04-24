@@ -168,6 +168,10 @@ img::selection {
 .form-control::placeholder {
     /*color: #a0a3aa;*/
 }
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: none;
+}
 
 /*------------------------------------------
             2.  Typography
@@ -2021,14 +2025,13 @@ ul.social-media li a {
     border-radius: 50%;
 }
 /*Customer Account Edit CSS*/
-select#time_zone.form-control:focus {
-    border-color: #80bdff;
-    box-shadow: none;
+.customer-account-edit-area form {
+    width: 60%;
 }
 .customer-account-edit-button button {
     width: 30% !important;
     padding: 9px 20px;
-    margin-top: 13px;
+    margin-top: 6px !important;
 }
 .customer-account-edit-button button:last-child {
     border: 2px solid #d3d4d5;
