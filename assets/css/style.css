@@ -1932,6 +1932,15 @@ ul.social-media li a {
 }
 
 /*Customer Notifications Page CSS*/
+.notifications-wrap {
+    border: 1px solid var(--border-color);
+}
+.notification-lists {
+    border-top: 1px solid var(--border-color);
+    padding: 30px;
+}
+
+/*Switch box css*/
 .customer-notifications-page .switch {
     position: relative;
     display: inline-block;
@@ -1987,7 +1996,6 @@ ul.social-media li a {
 .customer-notifications-page .slider.round {
     border-radius: 34px;
 }
-
 .customer-notifications-page .slider.round:before {
     border-radius: 50%;
 }
