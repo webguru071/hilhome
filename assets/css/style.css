@@ -2025,7 +2025,16 @@ select#time_zone.form-control:focus {
     border-color: #80bdff;
     box-shadow: none;
 }
-
+.customer-account-edit-button button {
+    width: 30% !important;
+    padding: 9px 20px;
+    margin-top: 13px;
+}
+.customer-account-edit-button button:last-child {
+    border: 2px solid #d3d4d5;
+    margin-left: 10px;
+    color: #676d73;
+}
 /*-------------------------------------------
         24. Customer Profile Style End
 -------------------------------------------*/
