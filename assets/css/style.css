@@ -224,7 +224,7 @@ figure {
 .instant-result-sidebar #myBtn2 i, .instant-result-sidebar #myBtn3,
 .instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i,
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
-.home-hero-projects-wrap .see-all-btn{
+.home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a{
     color: var(--color-blue);
 }
 .bg-white, .customer-notifications-page .notifications-wrap{
@@ -247,7 +247,8 @@ figure {
 .font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a,
 .mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
 .customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label,
-.home-hero-projects-wrap .see-all-btn, .customer-notifications-page .notifications-button{
+.home-hero-projects-wrap .see-all-btn, .customer-notifications-page .notifications-button,
+.customer-profile-go-back-btn a{
     font-weight: 700;
 }
 .font-black{
@@ -265,7 +266,7 @@ h2{
     font-size: 2.25rem;
 }
 .font-16, .guarantee-menu ul li a, .about-content-up p, .about-content-up > p > a, .parivacy-publish-date, .privacy-page-area p,
-.privacy-page-area table th, .privacy-page-area table tr td, .how-to-list li a{
+.privacy-page-area table th, .privacy-page-area table tr td, .how-to-list li a, .customer-profile-go-back-btn a{
     font-size: 16px;
 }
 .font-18{
@@ -295,7 +296,8 @@ h2{
 .customer-notifications-page .notifications-part{
     margin-bottom: 30px;
 }
-.mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5 {
+.mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
+.customer-account-deactivate-content h5{
     margin-bottom: 10px;
 }
 .mt-10, .more-about-company-area .services-box h6 {
@@ -2025,6 +2027,10 @@ ul.social-media li a {
     border-radius: 50%;
 }
 /*Customer Account Edit CSS*/
+.customer-profile-go-back-btn a i {
+    font-size: 15px;
+    padding-right: 5px;
+}
 .customer-account-edit-area form {
     width: 60%;
 }
@@ -2037,6 +2043,22 @@ ul.social-media li a {
     border: 2px solid #d3d4d5;
     margin-left: 10px;
     color: #676d73;
+}
+/*Customer Account Deactivate CSS*/
+.customer-account-deactivate-content {
+    margin: 35px 0 25px;
+}
+.customer-account-deactivate-content p {
+    padding-top: 10px;
+}
+.customer-account-deactivate-area form {
+    width: 69%;
+    border: none;
+    padding: 0;
+}
+.customer-account-deactivate-area .remember-box {
+    font-size: 15px;
+    font-weight: 600;
 }
 /*-------------------------------------------
         24. Customer Profile Style End
