@@ -1936,16 +1936,22 @@ ul.social-media li a {
     border: 1px solid var(--border-color);
 }
 .notification-lists {
-    border-top: 1px solid var(--border-color);
-    padding: 30px;
+     border-top: 1px solid var(--border-color);
+     padding: 30px;
+     justify-content: space-between;
+     align-items: center;
+ }
+.notifications-part > h6 {
+    margin: 30px 0 20px;
 }
 
 /*Switch box css*/
 .customer-notifications-page .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    width: 56px;
+    height: 30px;
+    margin-bottom: 0;
 }
 
 .customer-notifications-page .switch input {
@@ -1969,8 +1975,8 @@ ul.social-media li a {
 .customer-notifications-page .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 22px;
+    width: 22px;
     left: 4px;
     bottom: 4px;
     background-color: white;
