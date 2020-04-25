@@ -2535,6 +2535,9 @@ ul.social-media li a {
         max-width: 100%;
         width: 80%;
     }
+    .customer-account-deactivate-area .customer-account-edit-button button {
+        width: 50% !important;
+    }
 }
 
 @media only screen and (max-width: 480px){
