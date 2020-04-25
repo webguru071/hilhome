@@ -2610,6 +2610,16 @@ ul.social-media li a {
           width: 60px;
           font-size: 12px;
       }
+      /*Customer Notification Page*/
+      .customer-notifications-page .customer-right-side {
+          padding: 0;
+      }
+      .customer-notifications-page {
+          padding: 70px 0 30px;
+      }
+      .notification-lists {
+          padding: 30px 15px;
+      }
   }
   @media only screen and (min-width:300px) and (max-width:479px){
       /*Default CSS*/
