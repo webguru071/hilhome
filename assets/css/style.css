@@ -2620,6 +2620,13 @@ ul.social-media li a {
       .notification-lists {
           padding: 30px 15px;
       }
+      .customer-account-edit-area {
+          padding-left: 10px;
+          padding-right: 10px;
+      }
+      .customer-account-edit-button button {
+          width: 40% !important;
+      }
   }
   @media only screen and (min-width:300px) and (max-width:479px){
       /*Default CSS*/
