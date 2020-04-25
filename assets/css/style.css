@@ -224,7 +224,8 @@ figure {
 .instant-result-sidebar #myBtn2 i, .instant-result-sidebar #myBtn3,
 .instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i,
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
-.home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a{
+.home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a
+{
     color: var(--color-blue);
 }
 .bg-white, .customer-notifications-page .notifications-wrap{
@@ -279,7 +280,7 @@ h2{
     font-size: 14px;
 }
 .font-12, .services-wrapper .tab-content .tab-pane a p, .services-wrapper .tab-content .tab-pane a div p i, .recent-questions-slider-wrap .item p, .trending-now-these-areas p a,
-.row.all-states-name-area ul li a{
+.row.all-states-name-area ul li a, .popular-services-slider-wrap .services-box p{
     font-size: 12px;
 }
 /*--------------------------------
@@ -937,7 +938,7 @@ button:focus {
 .services-wrapper .tab-content .tab-pane a div h6 {
     margin: 12px 0 3px;
 }
-.services-wrapper .tab-content .tab-pane a div p i, .recent-questions-slider-wrap .item p i {
+.services-wrapper .tab-content .tab-pane a div p i, .recent-questions-slider-wrap .item p i, .popular-services-slider-wrap .services-box p i {
     color: var(--color-blue);
     padding-right: 5px;
 }
