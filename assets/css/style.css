@@ -2289,6 +2289,9 @@ ul.social-media li a {
           font-size: 13px;
           padding: 9px 8px 8px;
       }
+      .customer-account-deactivate-area form {
+          width: 90%;
+      }
 
   }
   @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -2462,6 +2465,9 @@ ul.social-media li a {
       .login-area form {
           width: 100%;
       }
+      .customer-account-deactivate-area .customer-account-edit-button button {
+          width: 40% !important;
+      }
 
   }
 
@@ -2562,6 +2568,22 @@ ul.social-media li a {
     }
     .footer-bottom-area {
         padding: 20px 0 30px;
+    }
+    .customer-account-deactivate-area {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .customer-account-deactivate-area .customer-account-edit-button button {
+        width: 50% !important;
+        padding: 9px 10px;
+        font-size: 12px;
+    }
+    .customer-account-deactivate-area form {
+        padding: 24px 0 30px;
+    }
+    .customer-account-deactivate-area form {
+        padding: 0 !important;
+        margin: 0;
     }
 
 }
@@ -2693,6 +2715,9 @@ ul.social-media li a {
       }
       .remember-box {
           font-size: 13px;
+      }
+      .customer-account-deactivate-area form {
+          padding: 24px 0 30px;
       }
   }
   /*-------------------------------------------
