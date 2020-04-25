@@ -216,7 +216,7 @@ figure {
     color: var(--dark-color);
 }
 .white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover,
-.mobile-filter-title-button .filters-title.mobile-filters-title{
+.mobile-filter-title-button .filters-title.mobile-filters-title, .customer-activity-list-right span.new-tag{
     color: var(--white-color);
 }
 .text-blue-color, .error-content p > a, .privacy-page-area p > a, .how-to-list li a, .instant-result-sidebar #myBtn,
@@ -249,7 +249,7 @@ figure {
 .mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
 .customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label,
 .home-hero-projects-wrap .see-all-btn, .customer-notifications-page .notifications-button,
-.customer-profile-go-back-btn a{
+.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag{
     font-weight: 700;
 }
 .font-black{
@@ -2061,6 +2061,41 @@ ul.social-media li a {
     font-size: 15px;
     font-weight: 600;
 }
+/*Customer Activity Page*/
+.customer-activity-page .customer-activity-content {
+    width: 55%;
+    margin: 0 auto;
+}
+.customer-activity-page .home-hero-projects-wrap .hero-project-lists {
+    margin: 15px 0 22px;
+    flex-direction: column;
+}
+.customer-activity-page .home-hero-projects-wrap .hero-project-box {
+    padding: 15px 10px 15px 30px;
+    margin-right: 0;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.customer-activity-page .customer-activity-list-left {
+    display: flex;
+    align-items: center;
+}
+.customer-activity-list-right {
+    position: relative;
+}
+.customer-activity-list-right span.new-tag {
+    position: absolute;
+    background-color: #0eb50e;
+    display: flex;
+    padding: 3px;
+    width: 50px;
+    border-radius: 4px;
+    justify-content: center;
+    font-size: 10px;
+    right: 42px;
+    top: -9px;
+    text-transform: uppercase;
+}
 /*-------------------------------------------
         24. Customer Profile Style End
 -------------------------------------------*/
@@ -2293,6 +2328,10 @@ ul.social-media li a {
       .customer-account-deactivate-area form {
           width: 90%;
       }
+      .customer-activity-page .customer-activity-content {
+          width: 80%;
+          margin: 50px auto 0;
+      }
 
   }
   @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -2469,6 +2508,9 @@ ul.social-media li a {
       .customer-account-deactivate-area .customer-account-edit-button button {
           width: 40% !important;
       }
+      .customer-activity-page .customer-activity-content {
+          width: 100%!important;
+      }
 
   }
 
@@ -2538,6 +2580,9 @@ ul.social-media li a {
     }
     .customer-account-deactivate-area .customer-account-edit-button button {
         width: 50% !important;
+    }
+    .customer-activity-page .customer-activity-content .hero-project-box {
+        width: 100%!important;
     }
 }
 
