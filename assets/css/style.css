@@ -2101,6 +2101,29 @@ ul.social-media li a {
 -------------------------------------------*/
 
 /*-------------------------------------------
+        25. How To Details Page Style Start
+-------------------------------------------*/
+.how-to-details-page-area .details-content-box {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+.details-content-box img {
+    width: 100%;
+}
+.details-content-box h3 {
+    margin: 20px 0;
+}
+.details-content-box h3 {
+    margin: 20px 0;
+}
+/*-------------------------------------------
+        25. How To Details Page Style End
+-------------------------------------------*/
+
+/*-------------------------------------------
     22. Responsive Design CSS
 -------------------------------------------*/
 
