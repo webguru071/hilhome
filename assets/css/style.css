@@ -227,7 +227,7 @@ figure {
 .instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i,
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
-.details-content-box p a {
+.details-content-box p a, .questions-details-right-box li a {
     color: var(--color-blue);
 }
 .bg-white, .customer-notifications-page .notifications-wrap{
@@ -288,7 +288,7 @@ h2{
 /*--------------------------------
     2.4 Theme Margin and Padding
 -----------------------------------*/
-.mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6 {
+.mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5  {
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
