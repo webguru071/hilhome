@@ -2144,9 +2144,11 @@ ul.social-media li a {
 /*-------------------------------------------
         26. Opt Out Page Style Start
 -------------------------------------------*/
+.opt-out-page-area form p {
+    padding-bottom: 15px;
+}
 .opt-out-page-area .theme-button {
     padding: 7px 15px 8px;
-    margin-top: 20px;
 }
 /*-------------------------------------------
         26. Opt Out Page Style End
