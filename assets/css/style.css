@@ -212,11 +212,13 @@ figure {
 /*---- Home Color CSS Start*---- */
 
 .default-heading-color, .customer-info-left-box .customer-profile-pages ul li a.active,
-.customer-create-password form label, .home-hero-projects-wrap .hero-project-box i{
+.customer-create-password form label, .home-hero-projects-wrap .hero-project-box i,
+.details-content-box h6{
     color: var(--dark-color);
 }
 .white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover,
-.mobile-filter-title-button .filters-title.mobile-filters-title, .customer-activity-list-right span.new-tag{
+.mobile-filter-title-button .filters-title.mobile-filters-title, .customer-activity-list-right span.new-tag, .page-banner-area .page-banner-content h1,
+.page-banner-area .page-banner-content p{
     color: var(--white-color);
 }
 .text-blue-color, .error-content p > a, .privacy-page-area p > a, .how-to-list li a, .instant-result-sidebar #myBtn,
@@ -224,8 +226,8 @@ figure {
 .instant-result-sidebar #myBtn2 i, .instant-result-sidebar #myBtn3,
 .instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i,
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
-.home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a
-{
+.home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
+.details-content-box p a {
     color: var(--color-blue);
 }
 .bg-white, .customer-notifications-page .notifications-wrap{
@@ -239,7 +241,7 @@ figure {
 /*--------------------------------
     2.3 Theme Font Family, Font Size
 -----------------------------------*/
-.font-weight-normal, .customer-information-page .customer-profile-pages ul li a {
+.font-weight-normal, .customer-information-page .customer-profile-pages ul li a, .details-content-box h6 {
     font-weight: 400;
 }
 .font-semi-bold, .notification-content > h6{
@@ -273,7 +275,7 @@ h2{
 .font-18{
     font-size: 1.12rem;
 }
-.font-17{
+.font-17, .page-banner-area .page-banner-content p{
     font-size: 17px;
 }
 .font-14, .customer-inbox-page-area .short-text{
@@ -332,6 +334,13 @@ section{
     overflow-x:hidden;
 }
 /*--------Breadcrumb Area CSS--------*/
+.page-banner-area{
+    background-color: var(--color-blue);
+    display: flex;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+}
 header.page-banner-area {
     padding-top: 80px;
 }
@@ -1565,15 +1574,18 @@ ul.social-media li a {
         20. Guarantee Page Style Start
 -------------------------------------------*/
 .page-banner-area.guarantee-page-banner {
-    background-color: var(--color-blue);
-    display: flex;
-    height: 300px;
-    align-items: center;
-    text-align: center;
+    /*background-color: var(--color-blue);*/
+    /*display: flex;*/
+    /*height: 300px;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
 }
-.page-banner-area.guarantee-page-banner .page-banner-content h1{
-    color: var(--white-color);
-}
+/*.page-banner-area.guarantee-page-banner .page-banner-content h1{*/
+/*    color: var(--white-color);*/
+/*}*/
+/*.page-banner-area .page-banner-content h1{*/
+/*    color: var(--white-color);*/
+/*}*/
 .help-content {
     width: 70%;
     margin: 0 auto 80px;
@@ -2103,21 +2115,27 @@ ul.social-media li a {
 /*-------------------------------------------
         25. How To Details Page Style Start
 -------------------------------------------*/
+.how-to-details-page-banner{
+    background-image: url('../img/how-to-details-img/1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .how-to-details-page-area .details-content-box {
     width: 60%;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
     padding-bottom: 30px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--border-color);
 }
 .details-content-box img {
     width: 100%;
+    margin-bottom: 30px;
 }
 .details-content-box h3 {
     margin: 20px 0;
 }
-.details-content-box h3 {
-    margin: 20px 0;
+.details-content-box h6 {
+    text-transform: uppercase;
 }
 /*-------------------------------------------
         25. How To Details Page Style End
