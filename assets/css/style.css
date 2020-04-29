@@ -288,7 +288,7 @@ h2{
 /*--------------------------------
     2.4 Theme Margin and Padding
 -----------------------------------*/
-.mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5  {
+.mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5, .question-details-page-area .question-details-author  {
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
@@ -2174,6 +2174,11 @@ ul.social-media li a {
 .questions-details-right-box ul li a {
     padding: 0 0 7px;
     display: block;
+}
+.question-details-author img {
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
 }
 /*-------------------------------------------
         27. Question Details Page Style End
