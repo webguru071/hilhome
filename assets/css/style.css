@@ -227,7 +227,7 @@ figure {
 .instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i,
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
-.details-content-box p a, .questions-details-right-box li a {
+.details-content-box p a, .questions-details-right-box li a, .question-details-last-text a {
     color: var(--color-blue);
 }
 .bg-white, .customer-notifications-page .notifications-wrap{
@@ -292,7 +292,7 @@ h2{
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
-.customer-profile-title{
+.customer-profile-title, .questions-details-right-box{
     margin-bottom: 20px;
 }
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
@@ -2152,6 +2152,31 @@ ul.social-media li a {
 }
 /*-------------------------------------------
         26. Opt Out Page Style End
+-------------------------------------------*/
+
+/*-------------------------------------------
+        27. Question Details Page Style Start
+-------------------------------------------*/
+.question-details-page-area .guarantee-content-box h1 {
+    margin-bottom: 20px;
+}
+.question-details-page-area .numbering-content .number-p {
+    font-size: 9px;
+    position: relative;
+    top: 5px;
+}
+.question-details-last-text {
+    margin-top: 10px;
+}
+.question-details-ready-to-hire p {
+    margin: 10px 0 15px;
+}
+.questions-details-right-box ul li a {
+    padding: 0 0 7px;
+    display: block;
+}
+/*-------------------------------------------
+        27. Question Details Page Style End
 -------------------------------------------*/
 
 /*-------------------------------------------
