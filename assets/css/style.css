@@ -2190,6 +2190,9 @@ ul.social-media li a {
 /*-------------------------------------------
         28. How Hilhome Works Page Start
 -------------------------------------------*/
+.how-hilhome-works-get-app-area {
+    padding: 60px 0 0;
+}
 .how-hilhome-works-left ul {
     border-left: 1px solid var(--border-color);
 }
@@ -2222,6 +2225,25 @@ ul.social-media li a {
     border-top: 1px solid var(--border-color);
     padding-top: 20px;
 }
+.how-hilhome-works-get-app-area {
+    padding: 60px 0 0;
+    background-color: var(--different-bg);
+}
+.how-hilhome-works-get-app-content p {
+    margin: 15px 0 25px;
+}
+.still-need-help-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.still-need-help-area {
+    padding: 30px 0;
+}
+.still-need-help-content p {
+    margin-right: 20px;
+}
+
 /*-------------------------------------------
         28. How Hilhome Works Page End
 -------------------------------------------*/
