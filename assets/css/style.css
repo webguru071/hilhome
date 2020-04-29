@@ -2190,9 +2190,6 @@ ul.social-media li a {
 /*-------------------------------------------
         28. How Hilhome Works Page Start
 -------------------------------------------*/
-.how-hilhome-works-get-app-area {
-    padding: 60px 0 0;
-}
 .how-hilhome-works-left ul {
     border-left: 1px solid var(--border-color);
 }
@@ -2205,6 +2202,14 @@ ul.social-media li a {
     border-radius: 6px;
     border-top: 4px solid var(--hover-color);
     padding: 15px 15px 2px;
+}
+.how-hilhome-works-right h1 {
+    display: flex;
+    align-items: center;
+}
+.how-hilhome-works-right h1 > i {
+    font-size: 21px;
+    padding-right: 10px;
 }
 .how-hilhome-works-content-box ul li a {
     position: relative;
@@ -2226,7 +2231,7 @@ ul.social-media li a {
     padding-top: 20px;
 }
 .how-hilhome-works-get-app-area {
-    padding: 60px 0 0;
+    padding: 0;
     background-color: var(--different-bg);
 }
 .how-hilhome-works-get-app-content p {
