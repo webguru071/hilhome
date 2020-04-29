@@ -227,7 +227,9 @@ figure {
 .instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i,
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
-.details-content-box p a, .questions-details-right-box li a, .question-details-last-text a {
+.details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
+.was-this-article-helpful button
+{
     color: var(--color-blue);
 }
 .bg-white, .customer-notifications-page .notifications-wrap{
@@ -288,15 +290,16 @@ h2{
 /*--------------------------------
     2.4 Theme Margin and Padding
 -----------------------------------*/
-.mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5, .question-details-page-area .question-details-author  {
+.mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5, .question-details-page-area .question-details-author,
+.how-hilhome-works-content-box p, .how-hilhome-works-content-box h3{
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
-.customer-profile-title, .questions-details-right-box{
+.customer-profile-title, .questions-details-right-box, .how-hilhome-works-content-box{
     margin-bottom: 20px;
 }
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
-.customer-notifications-page .notifications-part{
+.customer-notifications-page .notifications-part, .how-hilhome-works-right h1{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
@@ -2181,15 +2184,46 @@ ul.social-media li a {
     margin-right: 7px;
 }
 /*-------------------------------------------
-        27. Question Details Page Style End
+        27. Question Details Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-        28. How Hilhome Works Page Style Start
+        28. How Hilhome Works Page Start
 -------------------------------------------*/
-
+.how-hilhome-works-left ul {
+    border-left: 1px solid var(--border-color);
+}
+.how-hilhome-works-left ul li a {
+    display: block;
+    padding: 5px 0 5px 10px;
+}
+.how-hilhome-works-area .how-works-pro-tips {
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    border-top: 4px solid var(--hover-color);
+    padding: 15px 15px 2px;
+}
+.how-hilhome-works-content-box ul li a {
+    position: relative;
+    padding: 0 0 10px 14px;
+    display: block;
+}
+.how-hilhome-works-content-box ul li a::before {
+    position: absolute;
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: var(--dark-color);
+    left: 0;
+    top: 8px;
+    border-radius: 50%;
+}
+.was-this-article-helpful {
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+}
 /*-------------------------------------------
-        28. How Hilhome Works Page Style End
+        28. How Hilhome Works Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
