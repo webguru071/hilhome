@@ -213,7 +213,7 @@ figure {
 
 .default-heading-color, .customer-info-left-box .customer-profile-pages ul li a.active,
 .customer-create-password form label, .home-hero-projects-wrap .hero-project-box i,
-.details-content-box h6{
+.details-content-box h6, .page-banner-area.how-it-works-page-banner .page-banner-content h1, .page-banner-area.how-it-works-page-banner .page-banner-content p{
     color: var(--dark-color);
 }
 .white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover,
@@ -295,7 +295,7 @@ h2{
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
-.customer-profile-title, .questions-details-right-box, .how-hilhome-works-content-box{
+.customer-profile-title, .questions-details-right-box, .how-hilhome-works-content-box, .page-banner-area.how-it-works-page-banner .page-banner-content h1{
     margin-bottom: 20px;
 }
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
@@ -340,7 +340,7 @@ section{
 .page-banner-area{
     background-color: var(--color-blue);
     display: flex;
-    height: 300px;
+    height: 380px;
     align-items: center;
     text-align: center;
 }
@@ -547,6 +547,9 @@ button:focus {
 #mainNav .navbar-brand {
     position: relative;
     top: 0;
+}
+#mainNav .navbar-brand img {
+    height: 45px;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 1rem;
@@ -2251,6 +2254,43 @@ ul.social-media li a {
 
 /*-------------------------------------------
         28. How Hilhome Works Page End
+-------------------------------------------*/
+
+/*-------------------------------------------
+        29. How It Works Page Start
+-------------------------------------------*/
+.how-it-works-page-banner {
+    background-image: url('../img/how-it-works-img/how-it-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+}
+.how-it-works-page-banner .page-banner-content {
+    width: 60%;
+    margin: 0 auto;
+}
+.how-it-works-content-area .how-it-content-box {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.how-it-works-content-area .how-it-content-box img {
+    height: 360px;
+}
+.how-it-works-content-area .how-it-content p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box {
+    flex-direction: row-reverse;
+}
+.how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box .how-it-content {
+    text-align: right;
+}
+/*-------------------------------------------
+        29. How It Works Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
