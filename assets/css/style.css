@@ -235,7 +235,7 @@ figure {
 .bg-white, .customer-notifications-page .notifications-wrap{
     background-color: var(--white-color);
 }
-.bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area{
+.bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area, .how-it-try-it-out-area{
     background-color: var(--different-bg);
 }
 /*---- Home Color CSS Start*---- */
@@ -299,7 +299,7 @@ h2{
     margin-bottom: 20px;
 }
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
-.customer-notifications-page .notifications-part, .how-hilhome-works-right h1{
+.customer-notifications-page .notifications-part, .how-hilhome-works-right h1, .how-it-try-it-out-area .search-box h3{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
@@ -538,7 +538,7 @@ button:focus {
 }
 #mainNav {
     background-color: var(--white-color);
-    height: 60px;
+    height: 70px;
     display: flex !important;
     transition: all ease .6s;
     top: 0;
@@ -2288,6 +2288,12 @@ ul.social-media li a {
 }
 .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box .how-it-content {
     text-align: right;
+}
+.how-it-try-it-out-area {
+    padding: 90px 0 100px;
+}
+.how-it-try-it-out-area .search-box form {
+    justify-content: center;
 }
 /*-------------------------------------------
         29. How It Works Page End
