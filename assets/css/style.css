@@ -228,7 +228,7 @@ figure {
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
 .details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
-.was-this-article-helpful button
+.was-this-article-helpful button, .pro-interview-details-content a
 {
     color: var(--color-blue);
 }
@@ -295,7 +295,7 @@ h2{
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
-.customer-profile-title, .questions-details-right-box, .how-hilhome-works-content-box, .page-banner-area.how-it-works-page-banner .page-banner-content h1{
+.customer-profile-title, .questions-details-right-box, .how-hilhome-works-content-box, .page-banner-area.how-it-works-page-banner .page-banner-content h1, .pro-interview-details-wrap h2, .pro-interview-details-content h4, .pro-interview-details-content p{
     margin-bottom: 20px;
 }
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
@@ -696,6 +696,9 @@ button:focus {
 .menu-search-area .search-box {
     width: 450px;
     max-width: 100%;
+}
+.menu-search-area .search-box button {
+    width: 63px;
 }
 /*-------------------------------------------
            5. Navbar Area CSS End
@@ -2259,7 +2262,7 @@ ul.social-media li a {
 /*-------------------------------------------
         29. How It Works Page Start
 -------------------------------------------*/
-.how-it-works-page-banner {
+.how-it-works-page-banner, .pro-interview-details-banner {
     background-image: url('../img/how-it-works-img/how-it-banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -2297,6 +2300,23 @@ ul.social-media li a {
 }
 /*-------------------------------------------
         29. How It Works Page End
+-------------------------------------------*/
+
+/*-------------------------------------------
+        30. Pro Interview Details Page Start
+-------------------------------------------*/
+.pro-interview-details-banner{
+    background-image: url('../img/pro-interview-img/pro-interview-details-banner.jpg');
+}
+.pro-interview-details-wrap p {
+    font-size: 20px;
+}
+.pro-interview-details-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+/*-------------------------------------------
+        30. Pro Interview Details Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
