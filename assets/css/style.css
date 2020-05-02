@@ -246,7 +246,7 @@ figure {
 .font-weight-normal, .customer-information-page .customer-profile-pages ul li a, .details-content-box h6 {
     font-weight: 400;
 }
-.font-semi-bold, .notification-content > h6{
+.font-semi-bold, .notification-content > h6, .pro-interview-details-link{
     font-weight: 500;
 }
 .font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a,
@@ -2308,12 +2308,19 @@ ul.social-media li a {
 .pro-interview-details-banner{
     background-image: url('../img/pro-interview-img/pro-interview-details-banner.jpg');
 }
-.pro-interview-details-wrap p {
+.pro-interview-details-link {
+    margin-bottom: 22px;
+}
+.pro-interview-details-wrap p, .pro-interview-details-tags {
     font-size: 20px;
 }
 .pro-interview-details-wrap {
     width: 80%;
     margin: 0 auto;
+}
+.pro-interview-details-tags a {
+    color: #8c8c8c;
+    padding-right: 6px;
 }
 /*-------------------------------------------
         30. Pro Interview Details Page End
