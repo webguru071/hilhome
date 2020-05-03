@@ -1957,7 +1957,7 @@ ul.social-media li a {
     width: 20%;
     margin: 0 0 0 -4px;
     min-width: 89px;
-    padding: 7px 8px 8px;
+    padding: 10px 8px 14px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
@@ -2380,6 +2380,19 @@ ul.social-media li a {
 }
 /*-------------------------------------------
         30. Pro Interview Details Page End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    31. Customer Project Details Page Start
+-------------------------------------------*/
+.get-the-app-check-message-area {
+    padding-bottom: 0;
+}
+.get-the-app-check-message-area .downloads-app-img img {
+    height: 300px;
+}
+/*-------------------------------------------
+    31. Customer Project Details Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
