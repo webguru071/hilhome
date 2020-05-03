@@ -235,7 +235,7 @@ figure {
 .bg-white, .customer-notifications-page .notifications-wrap{
     background-color: var(--white-color);
 }
-.bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area, .how-it-try-it-out-area{
+.bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area, .how-it-try-it-out-area, .related-article-page-area{
     background-color: var(--different-bg);
 }
 /*---- Home Color CSS Start*---- */
@@ -299,11 +299,12 @@ h2{
     margin-bottom: 20px;
 }
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
-.customer-notifications-page .notifications-part, .how-hilhome-works-right h1, .how-it-try-it-out-area .search-box h3{
+.customer-notifications-page .notifications-part, .how-hilhome-works-right h1, .how-it-try-it-out-area .search-box h3,
+.related-article-page-area .related-article-title h3{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
-.customer-account-deactivate-content h5{
+.customer-account-deactivate-content h5, .related-pro-tips-title{
     margin-bottom: 10px;
 }
 .mt-10, .more-about-company-area .services-box h6 {
@@ -2321,6 +2322,14 @@ ul.social-media li a {
 .pro-interview-details-tags a {
     color: #8c8c8c;
     padding-right: 6px;
+}
+/*Related Articles CSS*/
+.related-article-wrap .services-box {
+    margin-right: 15px;
+}
+
+.related-pro-tips-title {
+    color: #828282;
 }
 /*-------------------------------------------
         30. Pro Interview Details Page End
