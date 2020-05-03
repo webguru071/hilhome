@@ -301,7 +301,7 @@ h2{
 }
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
 .customer-notifications-page .notifications-part, .how-hilhome-works-right h1, .how-it-try-it-out-area .search-box h3,
-.related-article-page-area .related-article-title h3{
+.related-article-page-area .related-article-title h3, .how-to-details-page-how-works-area .section-heading{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
@@ -2147,6 +2147,13 @@ ul.social-media li a {
 }
 .details-content-box h6 {
     text-transform: uppercase;
+}
+/*How It Works Area CSS*/
+.how-to-details-page-how-works-area .how-it-img img {
+    height: 200px;
+}
+.how-to-details-page-how-works-area .how-it-content {
+    padding: 0 10px;
 }
 /*-------------------------------------------
         25. How To Details Page Style End
