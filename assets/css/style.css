@@ -235,7 +235,8 @@ figure {
 .bg-white, .customer-notifications-page .notifications-wrap{
     background-color: var(--white-color);
 }
-.bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area, .how-it-try-it-out-area, .related-article-page-area{
+.bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area, .how-it-try-it-out-area, .related-article-page-area,
+.pro-app-page-area{
     background-color: var(--different-bg);
 }
 /*---- Home Color CSS Start*---- */
@@ -2330,9 +2331,16 @@ ul.social-media li a {
 .related-article-wrap .services-box {
     margin-right: 15px;
 }
-
 .related-pro-tips-title {
     color: #828282;
+}
+/*Pro Mobile App Page CSS*/
+.pro-app-page-area .pro-app-mobile-photo img {
+    height: 550px;
+}
+.pro-app-page-area .home-app-content p {
+    margin: 13px 0 20px;
+    font-size: 16px;
 }
 /*-------------------------------------------
         30. Pro Interview Details Page End
