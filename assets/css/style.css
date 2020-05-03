@@ -157,7 +157,7 @@ img::selection {
     /*border-radius: 5px;*/
     /*border: none;*/
     /*background-color: #fff;*/
-    /*height: 50px;*/
+    height: 50px;
     /*color: #777c87;*/
 }
 .form-control:focus {
@@ -439,7 +439,7 @@ button:focus {
     background-color: var(--color-blue);
     display: inline-block;
     outline: none;
-    padding: 13px 24px 16px;
+    padding: 11px 24px 13px;
     border-radius: var(--border-radius-6);
     font-weight: 700;
     text-transform: inherit;
@@ -2341,6 +2341,35 @@ ul.social-media li a {
 .pro-app-page-area .home-app-content p {
     margin: 13px 0 20px;
     font-size: 16px;
+}
+/*Pro App Link Page CSS*/
+.pro-app-link-page-area {
+    border-bottom: none;
+}
+.pro-app-link-page-area .welcome-to-hilhome-pro-content {
+    width: 70%;
+    border: 1px solid var(--border-color);
+    padding: 50px 70px 50px;
+    margin: 0 auto;
+}
+.pro-app-link-page-area .welcome-to-hilhome-pro-content form {
+    width: 50%;
+    margin: 40px auto 0;
+}
+.pro-app-link-page-area .welcome-to-hilhome-pro-content form label {
+    font-size: 24px;
+}
+.pro-app-link-page-area .welcome-to-hilhome-pro-content form input {
+    text-align: center;
+}
+.pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button {
+    width: 100%;
+}
+.pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button:hover {
+    background-color: var(--hover-color);
+}
+.pro-app-link-page-area .welcome-to-hilhome-pro-content form p {
+    font-size: 9px;
 }
 /*-------------------------------------------
         30. Pro Interview Details Page End
