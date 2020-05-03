@@ -2241,6 +2241,9 @@ ul.social-media li a {
     padding: 0;
     background-color: var(--different-bg);
 }
+.downloads-app-img img {
+    height: 415px;
+}
 .how-hilhome-works-get-app-content p {
     margin: 15px 0 25px;
 }
