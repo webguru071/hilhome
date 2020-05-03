@@ -2391,6 +2391,14 @@ ul.social-media li a {
 .get-the-app-check-message-area .downloads-app-img img {
     height: 300px;
 }
+.get-the-app-check-message-area form input {
+    width: 310px !important;
+}
+.get-the-app-check-message-area form button {
+    margin-left: -6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
 /*-------------------------------------------
     31. Customer Project Details Page End
 -------------------------------------------*/
