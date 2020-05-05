@@ -228,7 +228,7 @@ figure {
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
 .details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
-.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a
+.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a
 {
     color: var(--color-blue);
 }
@@ -236,7 +236,7 @@ figure {
     background-color: var(--white-color);
 }
 .bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area, .how-it-try-it-out-area, .related-article-page-area,
-.pro-app-page-area{
+.pro-app-page-area, .get-the-app-check-message-area{
     background-color: var(--different-bg);
 }
 /*---- Home Color CSS Start*---- */
@@ -305,7 +305,7 @@ h2{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
-.customer-account-deactivate-content h5, .related-pro-tips-title{
+.customer-account-deactivate-content h5, .related-pro-tips-title, .customer-project-details-wrap h5{
     margin-bottom: 10px;
 }
 .mt-10, .more-about-company-area .services-box h6 {
@@ -1160,7 +1160,7 @@ section.login-area.register-area h3 {
     padding-left: 10px;
 }
 .review-rating i {
-    color: gold;
+    color: #ffbb19f2;
     font-size: 12px;
 }
 .demand-box {
@@ -2385,20 +2385,12 @@ ul.social-media li a {
 /*-------------------------------------------
     31. Customer Project Details Page Start
 -------------------------------------------*/
+.customer-project-details-wrap h5 i {
+    padding-right: 10px;
+}
+
 .get-the-app-check-message-area {
     padding: 0;
-}
-.get-the-app-check-message-area p {
-    padding: 20px 100px 20px 0;
-}
-.get-the-app-check-message-area p.contacted-pro-responded {
-    color: #06a306;
-}
-.get-the-app-check-message-area p.contacted-pro-unavailable {
-    color: #f05d5d;
-}
-.pro-profile-content p i {
-    padding-right: 5px;
 }
 .get-the-app-check-message-area .downloads-app-img img {
     height: 300px;
@@ -2410,6 +2402,30 @@ ul.social-media li a {
     margin-left: -6px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+.get-the-app-check-message-area p {
+    padding: 20px 100px 20px 0;
+}
+.get-the-app-check-message-area p.contacted-pro-responded {
+    color: #06a306;
+}
+.get-the-app-check-message-area p.contacted-pro-unavailable {
+    color: #f05d5d;
+}
+.get-the-app-check-message-area p.contacted-pro-waiting, .get-the-app-check-message-area p.contacted-pro-responded, .get-the-app-check-message-area p.contacted-pro-unavailable {
+    padding-bottom: 5px;
+}
+.pro-profile-content p i {
+    padding-right: 5px;
+}
+.contacted-pros-area .pros-instant-profile-box .pro-right-part .theme-button {
+    padding: 11px 8px 13px;
+}
+.contacted-pros-area .pros-instant-profile-box .pro-right-part .theme-button i {
+    padding-right: 5px;
+}
+.contacted-pros-area .pro-profile-content .review-rating {
+    padding-left: 0;
 }
 /*-------------------------------------------
     31. Customer Project Details Page End
