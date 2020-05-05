@@ -228,9 +228,12 @@ figure {
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
 .details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
-.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a
+.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button
 {
     color: var(--color-blue);
+}
+.text-gray-color, .project-details-modal h5{
+    color: var(--gray-color);
 }
 .bg-white, .customer-notifications-page .notifications-wrap{
     background-color: var(--white-color);
@@ -247,7 +250,7 @@ figure {
 .font-weight-normal, .customer-information-page .customer-profile-pages ul li a, .details-content-box h6 {
     font-weight: 400;
 }
-.font-semi-bold, .notification-content > h6, .pro-interview-details-link{
+.font-semi-bold, .notification-content > h6, .pro-interview-details-link, .project-details-modal h5{
     font-weight: 500;
 }
 .font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a,
@@ -296,7 +299,8 @@ h2{
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
-.customer-profile-title, .questions-details-right-box, .how-hilhome-works-content-box, .page-banner-area.how-it-works-page-banner .page-banner-content h1, .pro-interview-details-wrap h2, .pro-interview-details-content h4, .pro-interview-details-content p{
+.customer-profile-title, .questions-details-right-box, .how-hilhome-works-content-box, .page-banner-area.how-it-works-page-banner .page-banner-content h1, .pro-interview-details-wrap h2, .pro-interview-details-content h4, .pro-interview-details-content p,
+.project-details-modal h5{
     margin-bottom: 20px;
 }
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
@@ -2388,6 +2392,34 @@ ul.social-media li a {
 .customer-project-details-wrap h5 i {
     padding-right: 10px;
 }
+.customer-project-details-wrap p button{
+    cursor: pointer;
+}
+/*Customer project Details Modal Start*/
+.customer-project-details-area .modal-body {
+    padding: 2rem;
+}
+.customer-project-details-area .modal-header {
+    border-bottom: none;
+}
+.customer-project-details-area .modal-body > h5 {
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.customer-project-details-area .project-details-modal img {
+    height: 186px;
+    width: 100%;
+    overflow: hidden;
+}
+.project-details-box {
+    padding-top: 15px;
+}
+.project-details-box p i {
+    color: #2db783;
+    padding-right: 5px;
+}
+/*Customer project Details Modal End*/
 
 .get-the-app-check-message-area {
     padding: 0;
@@ -2426,6 +2458,14 @@ ul.social-media li a {
 }
 .contacted-pros-area .pro-profile-content .review-rating {
     padding-left: 0;
+}
+/*Contacted Pros Area*/
+.contacted-pros-area {
+    padding: 60px 0;
+}
+.contacted-pros-title {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
 }
 /*-------------------------------------------
     31. Customer Project Details Page End
