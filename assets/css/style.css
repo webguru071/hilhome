@@ -2449,15 +2449,35 @@ ul.social-media li a {
     padding-bottom: 20px;
     cursor: pointer;
 }
-.contacted-pros-title p .contacted-pros-show {
+.contacted-pros-title p .contacted-pros-show , .contacted-pros-title .contacted-pros-short-list{
     display: none;
 }
 .contacted-pros-title.collapsed p .contacted-pros-show{
     display: block;
 }
+.contacted-pros-title.collapsed .contacted-pros-short-list{
+    display: flex;
+}
 .contacted-pros-title.collapsed p .contacted-pros-hide{
     display: none;
 }
+.contacted-pros-short-list {
+    padding-left: 15px;
+}
+.contacted-pros-short-list img {
+    height: 35px;
+    width: 35px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+.contacted-pros-short-list h6 {
+    background-color: #e2e2e2;
+    width: auto;
+    padding: 8px 10px 9px;
+    border-radius: 6px;
+}
+
+
 
 .contacted-pros-list-wrap p.contacted-pro-responded {
     color: #06a306;
