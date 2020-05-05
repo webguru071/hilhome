@@ -2438,13 +2438,34 @@ ul.social-media li a {
 .get-the-app-check-message-area p {
     padding: 20px 100px 20px 0;
 }
-.get-the-app-check-message-area p.contacted-pro-responded {
+
+/*Contacted Pros Area*/
+.contacted-pros-area {
+    padding: 60px 0;
+}
+
+.contacted-pros-title {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.contacted-pros-title p .contacted-pros-show {
+    display: none;
+}
+.contacted-pros-title.collapsed p .contacted-pros-show{
+    display: block;
+}
+.contacted-pros-title.collapsed p .contacted-pros-hide{
+    display: none;
+}
+
+.contacted-pros-list-wrap p.contacted-pro-responded {
     color: #06a306;
 }
-.get-the-app-check-message-area p.contacted-pro-unavailable {
+.contacted-pros-list-wrap p.contacted-pro-unavailable {
     color: #f05d5d;
 }
-.get-the-app-check-message-area p.contacted-pro-waiting, .get-the-app-check-message-area p.contacted-pro-responded, .get-the-app-check-message-area p.contacted-pro-unavailable {
+.contacted-pros-list-wrap p.contacted-pro-waiting, .contacted-pros-list-wrap p.contacted-pro-responded, .contacted-pros-list-wrap p.contacted-pro-unavailable {
     padding-bottom: 5px;
 }
 .pro-profile-content p i {
@@ -2458,14 +2479,6 @@ ul.social-media li a {
 }
 .contacted-pros-area .pro-profile-content .review-rating {
     padding-left: 0;
-}
-/*Contacted Pros Area*/
-.contacted-pros-area {
-    padding: 60px 0;
-}
-.contacted-pros-title {
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 20px;
 }
 /*-------------------------------------------
     31. Customer Project Details Page End
