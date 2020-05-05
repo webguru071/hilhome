@@ -228,7 +228,7 @@ figure {
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
 .details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
-.was-this-article-helpful button, .pro-interview-details-content a
+.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a
 {
     color: var(--color-blue);
 }
@@ -2386,7 +2386,19 @@ ul.social-media li a {
     31. Customer Project Details Page Start
 -------------------------------------------*/
 .get-the-app-check-message-area {
-    padding-bottom: 0;
+    padding: 0;
+}
+.get-the-app-check-message-area p {
+    padding: 20px 100px 20px 0;
+}
+.get-the-app-check-message-area p.contacted-pro-responded {
+    color: #06a306;
+}
+.get-the-app-check-message-area p.contacted-pro-unavailable {
+    color: #f05d5d;
+}
+.pro-profile-content p i {
+    padding-right: 5px;
 }
 .get-the-app-check-message-area .downloads-app-img img {
     height: 300px;
