@@ -59,8 +59,8 @@
 <!--    </div>-->
     <!-- Pre Loader Area End -->
 
-    <!-- Menu Area Start -->
-    <header class="menu-section-area menu-search-area padding-zero">
+    <!-- Menu After Login Area Start -->
+    <header class="menu-section-area menu-search-area menu-after-login padding-zero">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg d-none d-sm-none d-md-block d-lg-block d-xl-block" id="mainNav">
             <div class="container-fluid">
@@ -68,37 +68,44 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
+
+                <!-- Search Bar in Main Menu Area Start-->
+                <div class="search-box">
+                    <form action="#" method="post">
+                        <div class="custom-select">
+                            <select>
+                                <option value="House Cleaning">House Cleaning</option>
+                                <option value="Photographers">Photographers</option>
+                                <option value="Makeup artists">Makeup artists</option>
+                                <option value="Handyman">Handyman</option>
+                                <option value="Massage Therapy">Massage Therapy</option>
+                                <option value="Dog Training">Dog Training</option>
+                                <option value="Event Planners">Event Planners</option>
+                            </select>
+                        </div>
+                        <input type="text" placeholder="Zip code">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+                <!-- Search Bar in Main Menu Area End-->
+
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-
-                    <!-- Search Bar in Main Menu Area Start-->
-                    <div class="search-box">
-                        <form action="#" method="post">
-                            <div class="custom-select">
-                                <select>
-                                    <option value="House Cleaning">House Cleaning</option>
-                                    <option value="Photographers">Photographers</option>
-                                    <option value="Makeup artists">Makeup artists</option>
-                                    <option value="Handyman">Handyman</option>
-                                    <option value="Massage Therapy">Massage Therapy</option>
-                                    <option value="Dog Training">Dog Training</option>
-                                    <option value="Event Planners">Event Planners</option>
-                                </select>
-                            </div>
-                            <input type="text" placeholder="Zip code">
-                            <button type="submit">Search</button>
-                        </form>
-                    </div>
-                    <!-- Search Bar in Main Menu Area End-->
-
                     <ul class="navbar-nav text-capitalize ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link theme-button" href="pro.html">Join as a pro</a>
+                            <a class="nav-link" href="pro.html">Sign up as a pro</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="register.html">Sign up</a>
+                            <a class="nav-link" href="customer-activity.html">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.html">Login</a>
+                            <a class="nav-link" href="customer-inbox.html">inbox</a>
+                        </li>
+                        <li class="nav-item dropdown-box">
+                            <a class="nav-link" href="#"><span class="customer-img"><img src="assets/img/pros-img/1.jpg" alt="img"></span>Suraiya<i class="fas fa-angle-down"></i></a>
+                            <ul class="dropdown-list">
+                                <li><a href="customer-profile.html">Profile</a></li>
+                                <li><a href="index.html">Log out</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -135,20 +142,26 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pro.html">Join as a pro</a>
+                    <a class="nav-link" href="pro.html">Sign up as a pro</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="register.html">Sign up</a>
+                    <a class="nav-link" href="customer-activity.html">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link" href="customer-inbox.html">inbox</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer-profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Log out</a>
                 </li>
             </ul>
         </nav>
         <!-- Mobile Menu End -->
 
     </header>
-    <!-- Menu Area End -->
+    <!-- Menu After Login Area End -->
 
     <!-- Message Pro Page Start -->
     <section class="message-pro-page padding-zero">
@@ -172,7 +185,61 @@
                         <div class="message-main-box">
                             <div class="message-main-header text-center">
                                 <h6>Handyman</h6>
-                                <button>See project details</button>
+                                <button data-toggle="modal" data-target="#exampleModal">See project details</button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>Handyman</h5>
+                                                <div class="project-details-modal">
+                                                    <h5>Project details</h5>
+                                                    <img src="assets/img/common-img/customer-project-details-map.png" alt="img">
+                                                    <div class="project-details-box">
+                                                        <h6>When</h6>
+                                                        <p>Discuss with the pro when you want this done.</p>
+                                                    </div>
+
+                                                    <div class="project-details-box">
+                                                        <h6>Location</h6>
+                                                        <p>Auburn, WA 98001</p>
+                                                    </div>
+                                                    <div class="project-details-box">
+                                                        <h6>Property type</h6>
+                                                        <p>Home</p>
+                                                    </div>
+                                                    <div class="project-details-box">
+                                                        <h6>Project type</h6>
+                                                        <p> Repairs</p>
+                                                    </div>
+                                                    <div class="project-details-box">
+                                                        <h6>Project location</h6>
+                                                        <p>Kitchen</p>
+                                                    </div>
+                                                    <div class="project-details-box">
+                                                        <h6>Work focus</h6>
+                                                        <p>Doors</p>
+                                                    </div>
+                                                    <div class="project-details-box">
+                                                        <h6>Estimated hours</h6>
+                                                        <p>A full day (Complex or long-term projects)</p>
+                                                    </div>
+                                                    <div class="project-details-box">
+                                                        <h6>Travel preferences</h6>
+                                                        <p><i class="fas fa-check"></i> Professionals may travel to my address</p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <!--Chat Box Wrap Start-->
@@ -218,7 +285,7 @@
                                             <div class="chat-box-text">
                                                 <h6>More information about price</h6>
                                                 <p>Would love yo discuss this project with you if your interested in discussing this further and possibly schedule something please feel free to contact me directly by call or text my cell phone number is listed
-                                                    <br> <br>down below my name is Angelo thanks.</p>
+                                                    <br> <br>down below <a href="#">my name is Angelo thanks</a>.</p>
                                             </div>
                                             <p class="chat-box-time text-uppercase">2:00 am</p>
                                         </div>
@@ -249,7 +316,7 @@
                                             <div class="chat-box-text">
                                                 <h6>More information about price</h6>
                                                 <p>Would love yo discuss this project with you if your interested in discussing this further and possibly schedule something please feel free to contact me directly by call or text my cell phone number is listed
-                                                    <br> <br>down below my name is Angelo thanks.</p>
+                                                    <br> <br>down below my name <a href="tel:01254588">+02154 000 254</a>.</p>
                                             </div>
                                             <p class="chat-box-time text-uppercase">2:00 am</p>
                                         </div>

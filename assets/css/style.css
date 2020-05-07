@@ -229,7 +229,7 @@ figure {
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
 .details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
-.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button
+.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button, .chat-box-text p a
 {
     color: var(--color-blue);
 }
@@ -2384,18 +2384,18 @@ ul.social-media li a {
     cursor: pointer;
 }
 /*Customer project Details Modal Start*/
-.customer-project-details-area .modal-body {
+.customer-project-details-area .modal-body, .message-pro-page .modal-body {
     padding: 2rem;
 }
-.customer-project-details-area .modal-header {
+.customer-project-details-area .modal-header, .message-pro-page .modal-header {
     border-bottom: none;
 }
-.customer-project-details-area .modal-body > h5 {
+.customer-project-details-area .modal-body > h5 , .message-pro-page .modal-body > h5 {
     border-bottom: 1px solid #d6d6d6;
     margin-bottom: 15px;
     padding-bottom: 15px;
 }
-.customer-project-details-area .project-details-modal img {
+.customer-project-details-area .project-details-modal img, .message-pro-page .project-details-modal img {
     height: 186px;
     width: 100%;
     overflow: hidden;
@@ -2581,7 +2581,7 @@ ul.social-media li a {
 .message-pro-left-part {
     border-right: 1px solid var(--border-color);
 }
-.chat-box-wrap {
+.message-main-box {
     height: 670px;
     overflow-y: scroll;
     max-height: 100vh;
@@ -2621,7 +2621,7 @@ ul.social-media li a {
 }
 .chat-box-pro img, .message-pro-profile img {
     height: 35px;
-    width: 35px;
+    width: auto;
     border-radius: 50%;
     margin-right: 15px;
 }
@@ -2640,6 +2640,10 @@ ul.social-media li a {
     min-height: 500px;
     max-height: 100vh;
     overflow-y: scroll;
+}
+.message-pro-profile img {
+    height: 65px;
+    width: auto;
 }
 .message-pro-photos {
     width: 601px;
