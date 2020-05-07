@@ -2576,6 +2576,12 @@ ul.social-media li a {
 /*-------------------------------------------
     32. Message Pro Page Start
 -------------------------------------------*/
+.chat-box-wrap {
+    height: 670px;
+    overflow: scroll;
+    max-height: 100vh;
+    min-height: 500px;
+}
 .message-header {
     border-bottom: 1px solid var(--border-color);
     padding: 10px;
@@ -2586,6 +2592,24 @@ ul.social-media li a {
 .message-header-right {
     width: 8%;
 }
+.chat-box-content {
+    margin-top: 20px;
+    align-items: flex-end;
+    width: 40%;
+}
+.chat-box {
+    width: 100%;
+    float: left;
+}
+.chat-box.chat-box-customer-message .chat-box-content {
+    float: right;
+}
+.chat-box-customer-message .chat-box-time {
+    text-align: right;
+}
+.chat-box-pro {
+    padding-bottom: 30px;
+}
 .chat-box-pro img {
     height: 35px;
     width: 35px;
@@ -2593,10 +2617,12 @@ ul.social-media li a {
     margin-right: 15px;
 }
 .chat-box-text {
-    width: 40%;
-    background-color: #efefef;
+    background-color: #e9eced;
     padding: 15px;
     border-radius: 6px;
+}
+.chat-box-text h6, .chat-box-text {
+    margin-bottom: 5px;
 }
 /*-------------------------------------------
     32. Message Pro Page End
