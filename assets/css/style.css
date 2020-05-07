@@ -213,12 +213,13 @@ figure {
 
 .default-heading-color, .customer-info-left-box .customer-profile-pages ul li a.active,
 .customer-create-password form label, .home-hero-projects-wrap .hero-project-box i,
-.details-content-box h6, .page-banner-area.how-it-works-page-banner .page-banner-content h1, .page-banner-area.how-it-works-page-banner .page-banner-content p{
+.details-content-box h6, .page-banner-area.how-it-works-page-banner .page-banner-content h1, .page-banner-area.how-it-works-page-banner .page-banner-content p, .message-pro-right-part .review-text
+{
     color: var(--dark-color);
 }
 .white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover,
 .mobile-filter-title-button .filters-title.mobile-filters-title, .customer-activity-list-right span.new-tag, .page-banner-area .page-banner-content h1,
-.page-banner-area .page-banner-content p{
+.page-banner-area .page-banner-content p, .chat-box.chat-box-customer-message .chat-box-content .chat-box-text p{
     color: var(--white-color);
 }
 .text-blue-color, .error-content p > a, .privacy-page-area p > a, .how-to-list li a, .instant-result-sidebar #myBtn,
@@ -2607,6 +2608,10 @@ ul.social-media li a {
 }
 .chat-box.chat-box-customer-message .chat-box-content {
     float: right;
+    width: 32%;
+}
+.chat-box.chat-box-customer-message .chat-box-content .chat-box-text{
+    background-color: var(--color-blue);
 }
 .chat-box-customer-message .chat-box-time {
     text-align: right;
@@ -2630,11 +2635,16 @@ ul.social-media li a {
 }
 
 /*Message Right Part CSS*/
+.message-pro-right-part {
+    height: 859px;
+    min-height: 500px;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
 .message-pro-photos {
-    width: auto;
+    width: 601px;
     overflow-x: scroll;
-    height: 90px;
-    overflow-y: hidden;
+    max-width: 100%;
 }
 .message-pro-photos ul li {
     display: inline;
@@ -2647,7 +2657,24 @@ ul.social-media li a {
     border-radius: 6px;
     margin-right: 10px;
 }
-
+.message-pro-right-part .review-text {
+    margin: 10px 0;
+}
+.message-pro-right-part .message-review-date {
+    font-size: 12px;
+}
+.message-review-date span::before {
+    content: "\2022";
+    margin: 0 6px;
+    font-size: 16px;
+    color: #d3d4d5;
+}
+.message-customer-review h6 {
+    margin-bottom: 5px;
+}
+.message-customer-review {
+    margin-top: 50px;
+}
 /*-------------------------------------------
     32. Message Pro Page End
 -------------------------------------------*/
