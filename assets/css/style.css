@@ -1134,10 +1134,11 @@ section.login-area.register-area h3 {
 }
 .pros-instant-profile-box {
     border-bottom: 1px solid var(--border-color);
-    padding: 30px 30px 30px 0;
+    padding: 30px 0 30px 0;
 }
-.pros-instant-profile-box > a {
+.pros-instant-profile-box > a.pro-left-part {
     display: flex;
+    width: 82%;
 }
 .pro-img img {
     border-radius: 6px;
@@ -1168,23 +1169,18 @@ section.login-area.register-area h3 {
     color: #ffbb19f2;
     font-size: 12px;
 }
-.demand-box {
-    background-color: #e8f1fd;
-    width: 145px;
-    padding: 3px 10px;
-    border-radius: 18px;
-    margin-bottom: 10px;
-}
 .pro-profile-content h6 {
     margin-bottom: 8px;
 }
 .demand-box {
     background-color: #e8f1fd;
-    width: 145px;
-    padding: 3px 10px;
+    min-width: 160px;
+    padding: 5px 10px;
     border-radius: 18px;
     margin-bottom: 8px;
     margin-top: 8px;
+    text-align: center;
+    width: 185px;
 }
 .hire-on-hilhome {
     margin-bottom: 8px;
@@ -1227,7 +1223,7 @@ section.login-area.register-area h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 20%;
+    width: 18%;
 }
 .cost-box .consult {
     display: block;
@@ -1255,6 +1251,8 @@ section.login-area.register-area h3 {
 
 .instant-result-style-1-area {
     padding-bottom: 0;
+    width: 70%;
+    margin: 0 auto;
 }
 .instant-result-pro-list {
     padding-bottom: 60px;
@@ -2478,7 +2476,7 @@ ul.social-media li a {
     padding-bottom: 5px;
 }
 .pro-profile-content p i {
-    padding-right: 5px;
+    margin-right: 5px;
 }
 .contacted-pros-area .pros-instant-profile-box .pro-right-part .theme-button {
     padding: 11px 8px 13px;
