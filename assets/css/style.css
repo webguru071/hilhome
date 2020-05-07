@@ -229,7 +229,8 @@ figure {
 .customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
 .details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
-.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button, .chat-box-text p a
+.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button, .chat-box-text p a,
+.message-main-header button, .message-header-right a
 {
     color: var(--color-blue);
 }
@@ -2400,10 +2401,10 @@ ul.social-media li a {
     width: 100%;
     overflow: hidden;
 }
-.project-details-box {
+.project-details-box, .message-pro-page .project-details-box {
     padding-top: 15px;
 }
-.project-details-box p i {
+.project-details-box p i, .message-pro-page .project-details-box p i {
     color: #2db783;
     padding-right: 5px;
 }
@@ -2596,6 +2597,17 @@ ul.social-media li a {
 }
 .message-header-right {
     width: 8%;
+}
+.message-header-right a {
+    border: 1px solid var(--color-blue);
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.message-main-box {
+    padding-top: 25px;
+}
+.message-main-header button {
+    margin: 6px 0 20px;
 }
 .chat-box-content {
     margin-top: 20px;
