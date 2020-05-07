@@ -2576,13 +2576,17 @@ ul.social-media li a {
 /*-------------------------------------------
     32. Message Pro Page Start
 -------------------------------------------*/
+/*Message Left Part CSS*/
+.message-pro-left-part {
+    border-right: 1px solid var(--border-color);
+}
 .chat-box-wrap {
     height: 670px;
-    overflow: scroll;
+    overflow-y: scroll;
     max-height: 100vh;
     min-height: 500px;
 }
-.message-header {
+.message-header , .message-pro-profile-wrap, .message-pro-address{
     border-bottom: 1px solid var(--border-color);
     padding: 10px;
 }
@@ -2610,7 +2614,7 @@ ul.social-media li a {
 .chat-box-pro {
     padding-bottom: 30px;
 }
-.chat-box-pro img {
+.chat-box-pro img, .message-pro-profile img {
     height: 35px;
     width: 35px;
     border-radius: 50%;
@@ -2624,6 +2628,26 @@ ul.social-media li a {
 .chat-box-text h6, .chat-box-text {
     margin-bottom: 5px;
 }
+
+/*Message Right Part CSS*/
+.message-pro-photos {
+    width: auto;
+    overflow-x: scroll;
+    height: 90px;
+    overflow-y: hidden;
+}
+.message-pro-photos ul li {
+    display: inline;
+}
+.message-pro-photos ul li a {
+    display: inline;
+}
+.message-pro-photos ul li a img {
+    height: 55px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
 /*-------------------------------------------
     32. Message Pro Page End
 -------------------------------------------*/
