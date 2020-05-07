@@ -2464,8 +2464,6 @@ ul.social-media li a {
     border-radius: 6px;
 }
 
-
-
 .contacted-pros-list-wrap p.contacted-pro-responded {
     color: #06a306;
 }
@@ -2573,6 +2571,23 @@ ul.social-media li a {
 
 /*-------------------------------------------
     31. Customer Project Details Page End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    32. Message Pro Page Start
+-------------------------------------------*/
+.message-header {
+    border-bottom: 1px solid var(--border-color);
+    padding: 10px;
+}
+.message-header-left {
+    width: 92%;
+}
+.message-header-right {
+    width: 8%;
+}
+/*-------------------------------------------
+    32. Message Pro Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
