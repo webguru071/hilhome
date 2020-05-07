@@ -59,8 +59,8 @@
 <!--    </div>-->
     <!-- Pre Loader Area End -->
 
-    <!-- Menu Area Start -->
-    <header class="menu-section-area menu-search-area padding-zero">
+    <!-- Menu After Login Area Start -->
+    <header class="menu-section-area menu-search-area menu-after-login padding-zero">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg d-none d-sm-none d-md-block d-lg-block d-xl-block" id="mainNav">
             <div class="container-fluid">
@@ -68,37 +68,44 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
+
+                <!-- Search Bar in Main Menu Area Start-->
+                <div class="search-box">
+                    <form action="#" method="post">
+                        <div class="custom-select">
+                            <select>
+                                <option value="House Cleaning">House Cleaning</option>
+                                <option value="Photographers">Photographers</option>
+                                <option value="Makeup artists">Makeup artists</option>
+                                <option value="Handyman">Handyman</option>
+                                <option value="Massage Therapy">Massage Therapy</option>
+                                <option value="Dog Training">Dog Training</option>
+                                <option value="Event Planners">Event Planners</option>
+                            </select>
+                        </div>
+                        <input type="text" placeholder="Zip code">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+                <!-- Search Bar in Main Menu Area End-->
+
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-
-                    <!-- Search Bar in Main Menu Area Start-->
-                    <div class="search-box">
-                        <form action="#" method="post">
-                            <div class="custom-select">
-                                <select>
-                                    <option value="House Cleaning">House Cleaning</option>
-                                    <option value="Photographers">Photographers</option>
-                                    <option value="Makeup artists">Makeup artists</option>
-                                    <option value="Handyman">Handyman</option>
-                                    <option value="Massage Therapy">Massage Therapy</option>
-                                    <option value="Dog Training">Dog Training</option>
-                                    <option value="Event Planners">Event Planners</option>
-                                </select>
-                            </div>
-                            <input type="text" placeholder="Zip code">
-                            <button type="submit">Search</button>
-                        </form>
-                    </div>
-                    <!-- Search Bar in Main Menu Area End-->
-
                     <ul class="navbar-nav text-capitalize ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link theme-button" href="pro.html">Join as a pro</a>
+                            <a class="nav-link" href="pro.html">Sign up as a pro</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="register.html">Sign up</a>
+                            <a class="nav-link" href="customer-activity.html">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.html">Login</a>
+                            <a class="nav-link" href="customer-inbox.html">inbox</a>
+                        </li>
+                        <li class="nav-item dropdown-box">
+                            <a class="nav-link" href="#"><span class="customer-img"><img src="assets/img/pros-img/1.jpg" alt="img"></span>Suraiya<i class="fas fa-angle-down"></i></a>
+                            <ul class="dropdown-list">
+                                <li><a href="customer-profile.html">Profile</a></li>
+                                <li><a href="index.html">Log out</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -135,30 +142,36 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pro.html">Join as a pro</a>
+                    <a class="nav-link" href="pro.html">Sign up as a pro</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="register.html">Sign up</a>
+                    <a class="nav-link" href="customer-activity.html">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link" href="customer-inbox.html">inbox</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer-profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Log out</a>
                 </li>
             </ul>
         </nav>
         <!-- Mobile Menu End -->
 
     </header>
-    <!-- Menu Area End -->
+    <!-- Menu After Login Area End -->
 
     <!-- Customer Project Cancel Start -->
     <section class="customer-project-cancel-page">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="">
+                    <div class="project-cancel-wrap">
                         <!-- Project Cancel Box Start-->
                         <div class="customer-project-cancel-radio-button">
-                            <h5>What's the current status of your Handyman project at Hilhome? </h5>
+                            <h5>What's the current status of your Handyman project at Hilhome?</h5>
                             <label class="container">Done
                                 <input type="radio" checked="checked" name="radio">
                                 <span class="checkmark"></span>
@@ -177,6 +190,24 @@
                             </label>
                         </div>
                         <!-- Project Cancel Box End-->
+
+                        <!-- Project Cancel Box Start-->
+                        <div class="customer-project-cancel-radio-button">
+                            <h5>Which pro did you hire? </h5>
+                            <label class="container"><img src="assets/img/pros-img/1.jpg" alt="img">Day and Knight Remodel
+                                <input type="radio" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container"><img src="assets/img/pros-img/2.jpg" alt="img">Alpha Male Handyman
+                                <input type="radio" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <!-- Project Cancel Box End-->
+
+                        <div class="customer-project-cancel-submit-btn text-right">
+                            <button class="theme-button">Submit</button>
+                        </div>
                     </div>
                 </div>
             </div>

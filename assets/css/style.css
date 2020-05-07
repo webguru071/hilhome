@@ -239,7 +239,7 @@ figure {
     background-color: var(--white-color);
 }
 .bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area, .how-it-try-it-out-area, .related-article-page-area,
-.pro-app-page-area, .get-the-app-check-message-area{
+.pro-app-page-area, .get-the-app-check-message-area, .customer-project-cancel-page{
     background-color: var(--different-bg);
 }
 /*---- Home Color CSS Start*---- */
@@ -305,7 +305,8 @@ h2{
 }
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
 .customer-notifications-page .notifications-part, .how-hilhome-works-right h1, .how-it-try-it-out-area .search-box h3,
-.related-article-page-area .related-article-title h3, .how-to-details-page-how-works-area .section-heading{
+.related-article-page-area .related-article-title h3, .how-to-details-page-how-works-area .section-heading,
+.customer-project-cancel-radio-button h5{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
@@ -2488,7 +2489,28 @@ ul.social-media li a {
 .contacted-pros-area .pro-profile-content .review-rating {
     padding-left: 0;
 }
+
 /*Customer Project Cancel Page*/
+.customer-project-cancel-page {
+    padding: 60px 0 40px;
+}
+.customer-project-cancel-page .project-cancel-wrap {
+    width: 70%;
+    margin: 0 auto 20px;
+}
+.customer-project-cancel-radio-button .container img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.customer-project-cancel-radio-button {
+    border: 1px solid var(--border-color);
+    padding: 30px 30px 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
 
 /*Filters Radio Button CSS Start*/
 .customer-project-cancel-radio-button .container {
@@ -2497,7 +2519,7 @@ ul.social-media li a {
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
+    /*font-size: 22px;*/
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
