@@ -2586,6 +2586,18 @@ ul.social-media li a {
 .message-header-right {
     width: 8%;
 }
+.chat-box-pro img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.chat-box-text {
+    width: 40%;
+    background-color: #efefef;
+    padding: 15px;
+    border-radius: 6px;
+}
 /*-------------------------------------------
     32. Message Pro Page End
 -------------------------------------------*/
