@@ -230,7 +230,7 @@ figure {
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
 .details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
 .was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button, .chat-box-text p a,
-.message-main-header button, .message-header-right a
+.message-main-header button, .message-header-right a, .message-pro-page .message-footer form .form-group:nth-child(1) i
 {
     color: var(--color-blue);
 }
@@ -2654,7 +2654,9 @@ ul.social-media li a {
 .chat-box-text h6, .chat-box-text {
     margin-bottom: 5px;
 }
+
 /*Message Left Footer Send Message Part Start*/
+
 .message-footer {
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
@@ -2663,6 +2665,55 @@ ul.social-media li a {
 .message-footer textarea {
     background-color: #e9eced;
     padding: 10px;
+}
+
+/*Custom File Uploade css*/
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.upload-btn-wrapper button {
+    /*border: 2px solid gray;*/
+    /*color: gray;*/
+    /*background-color: white;*/
+    /*padding: 8px 20px;*/
+    /*border-radius: 8px;*/
+    /*font-size: 20px;*/
+    /*font-weight: bold;*/
+}
+.message-pro-page .upload-btn-wrapper input[type=file] {
+    cursor: pointer;
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.message-pro-page .message-footer form {
+    width: 100%;
+}
+.message-pro-page .message-footer form .form-group:nth-child(1) {
+    width: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.message-pro-page .message-footer form .form-group:nth-child(2){
+    width: 84%;
+}
+.message-pro-page .message-footer form .form-group:nth-child(2) textarea {
+    width: 100%;
+    height: 41px;
+    border-radius: 5px;
+    margin: 0 20px;
+    resize: inherit;
+}
+.message-pro-page .message-footer form .form-group:nth-child(3){
+    width: 10%;
+}
+
+.message-pro-page .message-footer form .theme-button {
+    padding: 5px 24px 10px;
 }
 /*Message Left Footer Send Message Part End*/
 

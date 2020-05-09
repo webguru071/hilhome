@@ -361,19 +361,24 @@
                         <!--Message Main Box End-->
 
                         <div class="message-footer d-flex justify-content-around align-items-center">
+<!--                            <form class="form-inline">-->
                             <form class="form-inline">
                                 <div class="form-group">
-                                    <input type="file"><i class="fas fa-paperclip"></i>
-                                </div>
-                                <div class="form-group">
-                                    <i class="fas fa-phone"></i>
-                                    <i class="far fa-star"></i>
+                                    <div class="upload-btn-wrapper">
+                                        <button><i class="fas fa-paperclip"></i></button>
+                                        <input type="file" name="myfile" title="Attach a file" />
+                                    </div>
+
+                                    <a href="tel:+55 1254 254" title="Place a call"><i class="fas fa-phone"></i></a>
+                                    <a href="customer-review.html" title="Leave a review"><i class="far fa-star"></i></a>
                                 </div>
 
-                                <div class="form-group mb-2">
-                                    <textarea name="send_message" id="" cols="30" rows="1" placeholder="Type a message..."></textarea>
+                                <div class="form-group">
+                                    <textarea name="send_message" cols="30" rows="1" placeholder="Type a message..."></textarea>
                                 </div>
-                                <button type="submit" class="btn theme-button mb-2">Send</button>
+                                <div class="form-group">
+                                    <button type="submit" class="btn theme-button">Send</button>
+                                </div>
                             </form>
 
                         </div>
