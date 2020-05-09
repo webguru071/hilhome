@@ -2654,8 +2654,19 @@ ul.social-media li a {
 .chat-box-text h6, .chat-box-text {
     margin-bottom: 5px;
 }
+/*Message Left Footer Send Message Part Start*/
+.message-footer {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 10px;
+}
+.message-footer textarea {
+    background-color: #e9eced;
+    padding: 10px;
+}
+/*Message Left Footer Send Message Part End*/
 
-/*Message Right Part CSS*/
+/*Message Right Part CSS Start*/
 .message-pro-right-part {
     height: 859px;
     min-height: 500px;
