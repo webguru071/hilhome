@@ -24,7 +24,10 @@
   // MAIN MENU SCRIPT END
 
 // Veno Box
-$('.venobox').venobox();
+$('.venobox').venobox({
+    titleattr  : 'data-title',
+    numeratio  : true,
+});
 
 // --------Scroll To Top---------
 

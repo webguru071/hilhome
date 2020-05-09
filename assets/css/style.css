@@ -2660,7 +2660,7 @@ ul.social-media li a {
     height: 859px;
     min-height: 500px;
     max-height: 100vh;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     overflow-y: scroll;
 }
 .message-pro-profile img {
@@ -2677,20 +2677,23 @@ ul.social-media li a {
     margin-right: 10px;
 }
 .message-pro-photos {
-    width: 601px;
     overflow-x: scroll;
-    max-width: 100%;
+    margin-right: 15px;
+}
+.message-pro-photos ul {
+    min-width: 846px;
+    width: 100%;
 }
 .message-pro-photos ul li {
-    display: inline;
+    display: inline-block;
 }
 .message-pro-photos ul li a {
-    display: inline;
+    display: block;
+    margin: 4px 2px;
 }
 .message-pro-photos ul li a img {
     height: 55px;
     border-radius: 6px;
-    margin-right: 10px;
 }
 .message-pro-right-part .review-text {
     margin: 10px 0;
@@ -2721,6 +2724,9 @@ ul.social-media li a {
 }
 .customer-reviews-rating-left {
     padding-right: 40px;
+}
+.customer-reviews-rating-right {
+    width: 60%;
 }
 .customer-reviews-rating-left .fa.fa-star.checked, .customer-reviews-rating-left .fa.fa-star {
     font-size: 15px;
