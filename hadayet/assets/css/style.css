@@ -7259,7 +7259,10 @@ strong {
 
 .together-box-secend p {
     padding-top: 10px;
+}
 
+.together-box-secend img {
+    width: 100%;
 }
 
 .food-box-area {
@@ -7366,13 +7369,84 @@ strong {
     color: var(--color-blue);
 }
 
+.like-area-img-box {
+    border-right: 1px solid;
+    padding-top: 30px;
+}
+
+.like-area-img-box img {
+    width: 100%;
+}
+
+.like-here-area .row .col-lg-3:last-child .like-area-img-box {
+    border: none;
+}
+
+
+
+
+/* --price page-- */
+
+.price-area-banner {
+    padding: 150px 0;
+    background-color: #f7f7f7;
+}
+
+.price-banner-text {}
+
+.price-banner-text h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.price-banner-text p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.price-banner-text ul {
+    padding-top: 10px;
+}
+
+.price-banner-text ul li {
+    padding-top: 5px;
+    position: relative;
+    font-weight: 900;
+}
+
+.price-banner-text ul li i {
+    font-size: 4px;
+    color: var(--color-blue);
+    padding-right: 5px;
+}
+
+.price-img-arae img {
+    width: 100%;
+}
+
+.poular-link-item img {
+    width: 100%;
+}
+
 /*=======================================
     For Small Devices
 =========================================*/
+@media only screen and (max-width: 1800px) {
+    .client-asking-area .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
 
 @media only screen and (max-width: 992px) {
     .downloads-content-text {
         padding-top: 40px;
+    }
+
+    .client-asking-inner {
+        padding-left: 30px;
     }
 
     .guarantee-terms-area-text {
