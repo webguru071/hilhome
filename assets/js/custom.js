@@ -263,7 +263,6 @@ $('.venobox').venobox({
     }
 
     // Review Rating Js Start
-
     /* 1. Visualizing things on Hover - See next part for action on click */
     $('#stars li').on('mouseover', function(){
         var onStar = parseInt($(this).data('value'), 10); // The star currently mouse on
@@ -299,13 +298,13 @@ $('.venobox').venobox({
         }
 
         // JUST RESPONSE (Not needed)
-        var ratingValue = parseInt($('#stars li.selected').last().data('value'), 10);
+        var ratingValue = $('#stars li.selected').last().data('title');
         var msg = "";
         if (ratingValue > 1) {
-            msg = "Thanks! You rated this " + ratingValue + " stars.";
+            msg = ratingValue;
         }
         else {
-            msg = "We will improve ourselves. You rated this " + ratingValue + " stars.";
+            msg = ratingValue;
         }
         responseMessage(msg);
 
