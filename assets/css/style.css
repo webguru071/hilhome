@@ -234,14 +234,14 @@ figure {
 {
     color: var(--color-blue);
 }
-.text-gray-color, .project-details-modal h5, .message-pro-rightside-header{
+.text-gray-color, .project-details-modal h5, .message-pro-rightside-header, .guarantee-menu ul li a{
     color: var(--gray-color);
 }
 .bg-white, .customer-notifications-page .notifications-wrap{
     background-color: var(--white-color);
 }
 .bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area, .how-it-try-it-out-area, .related-article-page-area,
-.pro-app-page-area, .get-the-app-check-message-area, .customer-project-cancel-page{
+.pro-app-page-area, .get-the-app-check-message-area, .customer-project-cancel-page, .customer-review-page{
     background-color: var(--different-bg);
 }
 /*---- Home Color CSS Start*---- */
@@ -259,7 +259,7 @@ figure {
 .mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
 .customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label,
 .home-hero-projects-wrap .see-all-btn, .customer-notifications-page .notifications-button,
-.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag{
+.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag, .menu-after-login .nav-item.dropdown-box a{
     font-weight: 700;
 }
 .font-black{
@@ -297,7 +297,7 @@ h2{
     2.4 Theme Margin and Padding
 -----------------------------------*/
 .mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5, .question-details-page-area .question-details-author,
-.how-hilhome-works-content-box p, .how-hilhome-works-content-box h3{
+.how-hilhome-works-content-box p, .how-hilhome-works-content-box h3, .guarantee-menu ul li{
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
@@ -1601,8 +1601,29 @@ ul.social-media li a {
 .help-content p {
     margin-top: 20px;
 }
+.we-here-to-help-area .guarantee-tab-content {
+    margin-left: 30px;
+}
 
 /*Guarantee Fixed Tabs CSS*/
+.guarantee-menu ul {
+    border-left: 4px solid #d1d1d1;
+    padding-left: 15px;
+}
+.guarantee-menu ul li a.active, .guarantee-menu ul li a:hover {
+    color: var(--color-blue);
+    position: relative;
+}
+.guarantee-menu ul li a.active::before {
+    content: "";
+    background-color: var(--color-blue);
+    height: 25px;
+    width: 4px;
+    left: -19px;
+    top: -3px;
+    position: absolute;
+}
+
 .sticky-menu{
     position: fixed;
     top: 150px;
@@ -2126,8 +2147,7 @@ ul.social-media li a {
     background-size: cover;
 }
 .how-to-details-page-area .details-content-box {
-    width: 60%;
-    margin: 0 auto 30px;
+    margin: 0 auto 30px 30px;
     padding-bottom: 30px;
     border-bottom: 1px solid var(--border-color);
 }
@@ -2578,12 +2598,15 @@ ul.social-media li a {
 /*-------------------------------------------
     32. Message Pro Page Start
 -------------------------------------------*/
+.message-pro-page {
+    border-bottom: none;
+}
 /*Message Left Part CSS*/
 .message-pro-left-part {
     border-right: 1px solid var(--border-color);
 }
 .message-main-box {
-    height: 670px;
+    height: 734px;
     overflow-y: scroll;
     max-height: 100vh;
     min-height: 500px;
@@ -2597,6 +2620,10 @@ ul.social-media li a {
 }
 .message-pro-page .online-now {
     margin: 0;
+}
+.message-pro-page .message-header-left p > i, .message-pro-page .message-pro-right-part .message-pro-content p >i {
+    font-size: 10px;
+    border-radius: 50%;
 }
 .message-main-header button {
     cursor: pointer;
@@ -2790,6 +2817,9 @@ ul.social-media li a {
 .customer-reviews-rating-right {
     width: 60%;
 }
+.message-customer-review .message-customer-review-rate .review-rating {
+    padding-left: 0;
+}
 .customer-reviews-rating-left .fa.fa-star.checked, .customer-reviews-rating-left .fa.fa-star {
     font-size: 15px;
 }
@@ -2799,7 +2829,7 @@ ul.social-media li a {
 }
 
 .message-pro-page .checked {
-    color: orange;
+    color: #ffbb19f2;
 }
 
 /* Three column layout */
@@ -2849,6 +2879,14 @@ ul.social-media li a {
 .message-pro-page .bar-3 {width: 10%;}
 .message-pro-page .bar-2 {width: 4%;}
 .message-pro-page .bar-1 {width: 15%;}
+
+.customer-reviews-rating-right .side div > i {
+    font-size: 9px;
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+    color: #d1d1d1;
+}
 
 /* Responsive layout - make the columns stack on top of each other instead of next to each other */
 @media (max-width: 400px) {
@@ -2903,6 +2941,145 @@ ul.social-media li a {
 }
 /*-------------------------------------------
     32. Message Pro Page End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    33. Customer Review Page Start
+-------------------------------------------*/
+.customer-review-rating-wrap {
+    width: 30%;
+    margin: 0 auto 30px;
+    min-width: 300px;
+    border: 1px solid var(--border-color);
+    padding: 30px;
+    background-color: #fff;
+}
+.customer-review-rating-wrap .choose-up-to-three {
+    margin: 15px 0;
+}
+.customer-review-rating-wrap .choose-up-to-three p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.customer-review-rating-wrap .quality-choose-box span {
+    display: inline-block;
+    border: 1px solid #c7c6c6;
+    border-radius: 25px;
+    padding: 8px 10px;
+    margin: 0 5px 10px 0;
+    cursor: pointer;
+}
+.customer-review-rating-wrap .quality-choose-box span:hover, .customer-review-rating-wrap .quality-choose-box span.active {
+    background-color: var(--color-blue);
+    color: #fff;
+    border: 1px solid var(--color-blue);
+}
+
+.customer-review-rating-wrap .message-pro-profile img {
+    margin-bottom: 15px;
+}
+.success-box {
+    margin: 12px 0;
+    font-size: 16px;
+}
+.customer-review-rating-wrap .upload-btn-wrapper {
+    width: 100%;
+}
+.customer-review-rating-wrap h5 {
+    margin-bottom: 15px;
+}
+.customer-review-rating-wrap textarea, .customer-review-page-img-wrap .photo-wrap form input {
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 15px;
+    border-radius: 6px;
+}
+.upload-btn-wrapper button {
+    height: 51px;
+    border: 1px dashed gray;
+    padding: 15px;
+    width: 100%;
+    color: var(--color-blue);
+    border-radius: 6px;
+}
+.upload-btn-wrapper button i {
+    margin-right: 5px;
+}
+.customer-review-rating-wrap .upload-btn-wrapper input[type=file] {
+    cursor: pointer;
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+    list-style-type:none;
+    padding:0;
+
+    -moz-user-select:none;
+    -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+    display:inline-block;
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+    font-size:1.5em; /* Change the size of the stars */
+    color:#d1d1d1; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+    color:#ffbb19f2;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+    color:#ffbb19f2;
+}
+
+/*Customer Review Details CSS*/
+.customer-review-page-img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.customer-review-page-img-wrap .photo-wrap img {
+    height: 170px;
+    width: auto;
+}
+.customer-review-page-img-wrap .alert {
+    padding: 0;
+}
+.customer-review-page-img-wrap .photo-wrap {
+    border: 1px solid #d8d8d8;
+    width: 30%;
+    overflow: hidden;
+    margin: 3px 3px 20px;
+}
+.customer-review-page-img-wrap .photo-wrap input {
+    border: 1px solid #d8d8d8;
+    padding: 12px;
+}
+.customer-review-page-img-wrap .close {
+    padding: 0px 8px 3px !important;
+    border: 1px solid #d8d8d8;
+    background-color: #cecccc;
+    color: #fff !important;
+    opacity: 1 !important;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 6px;
+    right: 5px;
+    top: 5px;
+}
+
+/*-------------------------------------------
+    33. Customer Review Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
