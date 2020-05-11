@@ -241,7 +241,7 @@ figure {
     background-color: var(--white-color);
 }
 .bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area, .how-it-try-it-out-area, .related-article-page-area,
-.pro-app-page-area, .get-the-app-check-message-area, .customer-project-cancel-page{
+.pro-app-page-area, .get-the-app-check-message-area, .customer-project-cancel-page, .customer-review-page{
     background-color: var(--different-bg);
 }
 /*---- Home Color CSS Start*---- */
@@ -2930,12 +2930,45 @@ ul.social-media li a {
     width: 30%;
     margin: 0 auto;
     min-width: 300px;
-    border: 1px solid gray;
+    border: 1px solid var(--border-color);
     padding: 50px 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
 }
 .success-box {
     margin: 12px 0;
     font-size: 16px;
+}
+.customer-review-rating-wrap .upload-btn-wrapper {
+    width: 100%;
+}
+.customer-review-rating-wrap h5 {
+    margin-bottom: 15px;
+}
+.customer-review-rating-wrap textarea {
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 15px;
+    border-radius: 6px;
+}
+.upload-btn-wrapper button {
+    height: 51px;
+    border: 1px dashed gray;
+    padding: 15px;
+    width: 100%;
+    color: var(--color-blue);
+    border-radius: 6px;
+}
+.upload-btn-wrapper button i {
+    margin-right: 5px;
+}
+.customer-review-rating-wrap .upload-btn-wrapper input[type=file] {
+    cursor: pointer;
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
 }
 
 /* Rating Star Widgets Style */
