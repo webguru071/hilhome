@@ -234,7 +234,7 @@ figure {
 {
     color: var(--color-blue);
 }
-.text-gray-color, .project-details-modal h5, .message-pro-rightside-header{
+.text-gray-color, .project-details-modal h5, .message-pro-rightside-header, .guarantee-menu ul li a{
     color: var(--gray-color);
 }
 .bg-white, .customer-notifications-page .notifications-wrap{
@@ -259,7 +259,7 @@ figure {
 .mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
 .customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label,
 .home-hero-projects-wrap .see-all-btn, .customer-notifications-page .notifications-button,
-.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag{
+.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag, .menu-after-login .nav-item.dropdown-box a{
     font-weight: 700;
 }
 .font-black{
@@ -297,7 +297,7 @@ h2{
     2.4 Theme Margin and Padding
 -----------------------------------*/
 .mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5, .question-details-page-area .question-details-author,
-.how-hilhome-works-content-box p, .how-hilhome-works-content-box h3{
+.how-hilhome-works-content-box p, .how-hilhome-works-content-box h3, .guarantee-menu ul li{
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
@@ -1601,8 +1601,29 @@ ul.social-media li a {
 .help-content p {
     margin-top: 20px;
 }
+.we-here-to-help-area .guarantee-tab-content {
+    margin-left: 30px;
+}
 
 /*Guarantee Fixed Tabs CSS*/
+.guarantee-menu ul {
+    border-left: 4px solid #d1d1d1;
+    padding-left: 15px;
+}
+.guarantee-menu ul li a.active, .guarantee-menu ul li a:hover {
+    color: var(--color-blue);
+    position: relative;
+}
+.guarantee-menu ul li a.active::before {
+    content: "";
+    background-color: var(--color-blue);
+    height: 25px;
+    width: 4px;
+    left: -19px;
+    top: -3px;
+    position: absolute;
+}
+
 .sticky-menu{
     position: fixed;
     top: 150px;
@@ -2126,8 +2147,7 @@ ul.social-media li a {
     background-size: cover;
 }
 .how-to-details-page-area .details-content-box {
-    width: 60%;
-    margin: 0 auto 30px;
+    margin: 0 auto 30px 30px;
     padding-bottom: 30px;
     border-bottom: 1px solid var(--border-color);
 }

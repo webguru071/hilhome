@@ -315,6 +315,23 @@ $('.venobox').venobox({
     }
     // Review Rating Js End
 
+    // Guarantee Left Sticky Menu Active Class Add Start
+
+    // Add active class to the current button (highlight it)
+    var guarantee_tab = document.getElementById("guarantee_menu");
+    var guarantee_inner = guarantee_tab.getElementsByClassName("guarantee_inner");
+    for (var i = 0; i < guarantee_inner.length; i++) {
+        btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            if (current.length > 0) {
+                current[0].className = current[0].className.replace(" active", "");
+            }
+            this.className += " active";
+        });
+    }
+
+    // Guarantee Left Sticky Menu Active Class Add End
+
 
   //--------- Initialize WOW JS
   new WOW().init();
