@@ -2928,12 +2928,11 @@ ul.social-media li a {
 -------------------------------------------*/
 .customer-review-rating-wrap {
     width: 30%;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     min-width: 300px;
     border: 1px solid var(--border-color);
-    padding: 50px 30px;
+    padding: 30px;
     background-color: #fff;
-    margin-bottom: 30px;
 }
 .success-box {
     margin: 12px 0;
@@ -2945,7 +2944,7 @@ ul.social-media li a {
 .customer-review-rating-wrap h5 {
     margin-bottom: 15px;
 }
-.customer-review-rating-wrap textarea {
+.customer-review-rating-wrap textarea, .customer-review-page-img-wrap .photo-wrap form input {
     width: 100%;
     border: 1px solid #d8d8d8;
     padding: 15px;
@@ -2997,6 +2996,38 @@ ul.social-media li a {
 /* Selected state of the stars */
 .rating-stars ul > li.star.selected > i.fa {
     color:#ffbb19f2;
+}
+
+/*Customer Review Details CSS*/
+.customer-review-page-img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.customer-review-page-img-wrap .alert {
+    padding: 0;
+}
+.customer-review-page-img-wrap .photo-wrap {
+    border: 1px solid #d8d8d8;
+    width: 30%;
+    overflow: hidden;
+    margin: 3px 3px 20px;
+}
+.customer-review-page-img-wrap .photo-wrap input {
+    border: 1px solid #d8d8d8;
+    padding: 12px;
+}
+.customer-review-page-img-wrap .close {
+    padding: 0px 8px 3px !important;
+    border: 1px solid #d8d8d8;
+    background-color: #cecccc;
+    color: #fff !important;
+    opacity: 1 !important;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 6px;
+    right: 5px;
+    top: 5px;
 }
 
 /*-------------------------------------------
