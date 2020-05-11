@@ -237,7 +237,7 @@ figure {
 .text-gray-color, .project-details-modal h5, .message-pro-rightside-header, .guarantee-menu ul li a{
     color: var(--gray-color);
 }
-.bg-white, .customer-notifications-page .notifications-wrap{
+.bg-white, .customer-notifications-page .notifications-wrap, .how-to-details-page-how-works-area{
     background-color: var(--white-color);
 }
 .bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area, .how-it-try-it-out-area, .related-article-page-area,
@@ -262,7 +262,7 @@ figure {
 .customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag, .menu-after-login .nav-item.dropdown-box a{
     font-weight: 700;
 }
-.font-black{
+.font-black, .how-to-details-help-wrap .how-to-details-content h6{
     font-weight: 900;
 }
 .italic-font, .parivacy-publish-date{
@@ -1626,7 +1626,10 @@ ul.social-media li a {
 
 .sticky-menu{
     position: fixed;
-    top: 150px;
+    top: 33px;
+}
+.guarantee-menu.sticky-menu {
+    width: 300px;
 }
 .guarantee-tab-content .guarantee-content-box h2 {
     margin-bottom: 20px;
@@ -2146,6 +2149,31 @@ ul.social-media li a {
     background-position: center;
     background-size: cover;
 }
+/*How to Left Side CSS*/
+.how-to-details-help-wrap {
+    background-image: url('../img/how-to-details-img/2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    background-size: contain;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+.how-to-details-help-wrap .how-to-details-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.how-to-details-help-wrap .how-to-details-content h6 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+/*How to Right Side CSS*/
 .how-to-details-page-area .details-content-box {
     margin: 0 auto 30px 30px;
     padding-bottom: 30px;
