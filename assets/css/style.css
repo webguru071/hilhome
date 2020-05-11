@@ -2578,12 +2578,15 @@ ul.social-media li a {
 /*-------------------------------------------
     32. Message Pro Page Start
 -------------------------------------------*/
+.message-pro-page {
+    border-bottom: none;
+}
 /*Message Left Part CSS*/
 .message-pro-left-part {
     border-right: 1px solid var(--border-color);
 }
 .message-main-box {
-    height: 670px;
+    height: 734px;
     overflow-y: scroll;
     max-height: 100vh;
     min-height: 500px;
@@ -2794,6 +2797,9 @@ ul.social-media li a {
 .customer-reviews-rating-right {
     width: 60%;
 }
+.message-customer-review .message-customer-review-rate .review-rating {
+    padding-left: 0;
+}
 .customer-reviews-rating-left .fa.fa-star.checked, .customer-reviews-rating-left .fa.fa-star {
     font-size: 15px;
 }
@@ -2803,7 +2809,7 @@ ul.social-media li a {
 }
 
 .message-pro-page .checked {
-    color: orange;
+    color: #ffbb19f2;
 }
 
 /* Three column layout */
@@ -2853,6 +2859,14 @@ ul.social-media li a {
 .message-pro-page .bar-3 {width: 10%;}
 .message-pro-page .bar-2 {width: 4%;}
 .message-pro-page .bar-1 {width: 15%;}
+
+.customer-reviews-rating-right .side div > i {
+    font-size: 9px;
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+    color: #d1d1d1;
+}
 
 /* Responsive layout - make the columns stack on top of each other instead of next to each other */
 @media (max-width: 400px) {
@@ -2907,6 +2921,50 @@ ul.social-media li a {
 }
 /*-------------------------------------------
     32. Message Pro Page End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    33. Customer Review Page Start
+-------------------------------------------*/
+.customer-review-rating-wrap {
+    width: 30%;
+    margin: 0 auto;
+    min-width: 300px;
+    border: 1px solid gray;
+    padding: 50px 30px;
+}
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+    list-style-type:none;
+    padding:0;
+
+    -moz-user-select:none;
+    -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+    display:inline-block;
+
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+    font-size:2.5em; /* Change the size of the stars */
+    color:#d1d1d1; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+    color:#ffbb19f2;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+    color:#ffbb19f2;
+}
+
+/*-------------------------------------------
+    33. Customer Review Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
