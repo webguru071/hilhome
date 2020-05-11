@@ -2598,6 +2598,10 @@ ul.social-media li a {
 .message-pro-page .online-now {
     margin: 0;
 }
+.message-pro-page .message-header-left p > i, .message-pro-page .message-pro-right-part .message-pro-content p >i {
+    font-size: 10px;
+    border-radius: 50%;
+}
 .message-main-header button {
     cursor: pointer;
 }
