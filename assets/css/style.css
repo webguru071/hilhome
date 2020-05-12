@@ -3216,6 +3216,10 @@ ul.social-media li a {
     .services-box img {
         height: 195px;
     }
+    /*About CSS*/
+    .about-content-up, .about-content-bottom {
+        width: 60%;
+    }
 
     /*Footer CSS*/
     .footer-about p {
@@ -3283,7 +3287,12 @@ ul.social-media li a {
       .mean-nav ul .custom-select {
           height: 47px;
       }
-      /*Mobile Search Menu CSS End*/
+      .error-page-area, .about-story-main {
+          padding-top: 120px;
+      }
+      .about-story-main .about-area:first-child {
+          padding-top: 0;
+      }
       /*Home Page CSS*/
       .search-box h1, .find-customer h1 {
           font-size: 28px;
@@ -3294,6 +3303,11 @@ ul.social-media li a {
       .home-app-content {
           width: 90%;
       }
+      /*About CSS*/
+      .about-content-up, .about-content-bottom {
+          width: 80%;
+      }
+
       /*Instant Result Page*/
       .instant-result-style-1-area , .instant-result-area{
           padding-top: 70px;
@@ -3564,6 +3578,22 @@ ul.social-media li a {
         padding-left: 30px;
         padding-right: 30px;
     }
+    /*About CSS*/
+    .about-content-up, .about-content-bottom {
+        width: 95%;
+    }
+    .about-story-main .about-area:nth-child(2n+1) .about-content-writer {
+        left: 300px;
+    }
+    .about-story-main .about-area:nth-child(2n) .about-content-writer {
+        right: 300px;
+    }
+    .about-page-img img {
+        height: 440px;
+    }
+    .about-content-writer {
+        width: 36%;
+    }
 }
 @media only screen and (max-width: 575px){
     .mean-nav ul .search-box {
@@ -3657,6 +3687,7 @@ ul.social-media li a {
         padding: 0 !important;
         margin: 0;
     }
+
 
 }
 
@@ -3790,6 +3821,18 @@ ul.social-media li a {
       }
       .customer-account-deactivate-area form {
           padding: 24px 0 30px;
+      }
+      .about-story-main .about-area:nth-child(2n+1) .about-content-writer {
+          left: 0;
+      }
+      .about-story-main .about-area:nth-child(2n) .about-content-writer {
+          right: 0;
+      }
+      .about-content-writer {
+          position: relative;
+          width: 80%;
+          bottom: 0;
+          margin: 20px 10px;
       }
   }
   /*-------------------------------------------
