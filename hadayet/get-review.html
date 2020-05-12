@@ -156,6 +156,7 @@
     </section>
     <!--Business-info End -->
 
+
     <!-- footer-fixed-arae start  -->
     <section class="footer-fixed-next">
         <div class="container">
@@ -166,7 +167,8 @@
                         </div>
                         <div class="next-arae">
                             <a href="why-should-customer-hire.html" class="skip-area">Skip</a>
-                            <a href="#!" class="theme-button">Send request</a>
+                            <button type="button" class="theme-button" data-toggle="modal" data-target="#mail-sent">Send
+                                request</button>
                         </div>
                     </div>
                 </div>
@@ -174,6 +176,29 @@
         </div>
     </section>
     <!-- footer-fixed-arae end -->
+
+
+    <!--Createt account mail Modal-->
+    <div class="modal fade" id="mail-sent" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="email-sent-area">
+                        <i class="fas fa-check"></i>
+                        <h2>Email sent</h2>
+                        <p>We’ve sent those customers an email requesting them to leave a review.</p>
+                        <a href="why-should-customer-hire.html" class="theme-button">Continue</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!--Go To Top Arrow area start-->

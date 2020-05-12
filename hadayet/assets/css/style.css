@@ -4979,7 +4979,7 @@ strong {
 }
 
 .why-items {
-    background-image: url(../img/pros-img/cus-1.webp);
+    background-image: url(../img/pros-img/cus-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -5104,10 +5104,10 @@ strong {
 
 .area-text-new-customer {
     text-align: center;
-    background-image: url(../img/pros-img/1600.webp);
+    background-image: url(../img/pros-img/tools.png);
     padding: 170px 0 130px 0;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .area-text-new-customer h1 {
@@ -5119,8 +5119,9 @@ strong {
 
 .new-downloads-app {
     width: 41%;
-    margin: 0 auto;
+    margin: 25px auto 115px auto;
     text-align: center;
+    padding-top: 24px
 }
 
 .new-downloads-app a img {
@@ -5733,7 +5734,7 @@ strong {
     padding-top: 60px;
 }
 
-/* get-Review page-- */
+/* --get-Review page-- */
 
 .add-customer-area p {
     font-size: 16px;
@@ -5857,11 +5858,34 @@ strong {
     border-radius: 51%;
 }
 
+.email-sent-area i {
+    font-size: 14px;
+    color: #fff;
+    background: #28a745;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%
+}
+
+.email-sent-area h2 {
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 15px;
+}
+
+.email-sent-area p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.email-sent-area a {
+    float: right;
+    margin-top: 30px;
+}
+
 /* --We-just-need-page-- */
-
-.we-jkust-neeed-wrapper {}
-
-.we-just-need-area {}
 
 .we-just-need-heading h6 {
     font-size: 20px;
@@ -5950,8 +5974,6 @@ strong {
 }
 
 /* --add-profile-img-page-- */
-
-.add-profile-photo-area {}
 
 .add-profile-photo-area h2 {
     font-size: 24px;
@@ -6055,7 +6077,7 @@ strong {
 
 /* --Where do you want to work page-- */
 
-.where-went-heading {}
+
 
 .where-went-heading h5 {
     font-size: 24px;
@@ -7392,6 +7414,10 @@ strong {
     background-color: #f7f7f7;
 }
 
+.border-none-area {
+    border: none;
+}
+
 .price-banner-text {}
 
 .price-banner-text h2 {
@@ -7427,6 +7453,232 @@ strong {
 
 .poular-link-item img {
     width: 100%;
+}
+
+.popular-wrapper-arae {
+    padding: 20px 10px;
+    box-shadow: 0 -1px 1px 0 rgba(47, 48, 51, .04), 0 1px 2px 0 rgba(47, 48, 51, .16);
+}
+
+.popular-inner-heading p {
+    font-size: 14px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.popular-link-area-inner {}
+
+.price-amount {
+    background: var(--color-blue);
+    padding: 3px 6px;
+    font-size: 12px;
+    border-radius: 22px;
+    color: #fff;
+
+}
+
+.price-amount-det {
+    font-size: 12px;
+    padding-left: 9px;
+    color: #676d73;
+}
+
+.popular-service-box {
+    box-shadow: 0 -1px 1px 0 rgba(47, 48, 51, .04), 0 1px 2px 0 rgba(47, 48, 51, .16);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.popular-service-heading-area {
+    margin-bottom: 40px;
+}
+
+.popular-service-heading-area h2 {
+    font-size: 32px;
+}
+
+.popular-heading-two {
+    padding-top: 30px;
+}
+
+.quate-area-client {
+    background-image: url(../img/price/primary.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.quate-inner-text {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.quate-inner-text i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.quate-inner-text blockquote {
+    font-size: 24px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.quate-inner-text h6 {
+    font-size: 16px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.prices-lidt-mian-heading h2 {
+    font-size: 32px
+}
+
+.price-list-inner-heading h6 {
+    font-weight: 800;
+    margin: 30px 0 15px 0;
+}
+
+.price-list-item ul li {
+    margin-bottom: 10px;
+}
+
+.price-list-item ul li a {
+    color: #676d73;
+    font-size: 16px;
+}
+
+.price-list-item ul li a:hover {
+    color: var(--color-blue);
+}
+
+.price-list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --Guides Page Area-- */
+.guides-list-arae {
+    margin-top: 20px;
+}
+
+.guides-list-arae ul li {
+    margin-bottom: 10px;
+}
+
+.guides-list-arae ul li a {
+    font-size: 16px;
+    color: var(--color-blue);
+}
+
+.guides-list-arae ul li a i {
+    font-size: 7px;
+    padding-right: 10px;
+}
+
+
+
+/*--pro account-deactived-area --*/
+.area-wrapper-account-deactived h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.pro-account-inner {
+    background-color: #fff;
+    border: 1px solid #e9eced;
+    border-radius: 4px;
+    padding: 24px 32px 40px;
+    margin-bottom: 40px;
+    margin: 40px 120px 0 120px;
+}
+
+.pro-account-inner p {
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.pro-account-inner p a {
+    color: var(--color-blue);
+}
+
+.pro-account-inner h4 {
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 15px;
+}
+
+.pro-account-inner ul li {
+    margin-top: 10px;
+}
+
+.pro-account-inner ul li a {
+    color: var(--color-blue);
+}
+
+.pro-account-inner ul li a i {
+    font-size: 7px;
+    padding-right: 6px;
+}
+
+
+/* -reactivation page-- */
+.pro-help-menu-box {
+    position: relative;
+}
+
+.pro-help-menu-box {
+    padding-left: 55px;
+}
+
+.pro-help-menu-box input {
+    width: 100% !important;
+    border: none !important;
+}
+
+.pro-help-menu-box i {
+    position: relative;
+    top: 20px;
+}
+
+.reactivation-heading h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.reactivation-heading p {
+    padding-top: 20px;
+}
+
+.reactivation-inner-area {
+    padding-top: 30px;
+}
+
+#reactivation-form {}
+
+#reactivation-form .form-group {
+    margin-bottom: 35px;
+}
+
+#reactivation-form label {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.reactivation-button button {
+    width: 100%;
+}
+
+.pro-search-area {
+    height: 100%;
+}
+
+.proaccount-deactived-area {
+    height: 100%;
 }
 
 /*=======================================
@@ -7558,6 +7810,10 @@ strong {
         background-size: cover;
         background: #e6e6e6;
     }
+
+    .price-img-arae {
+        padding-top: 40px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -7602,6 +7858,15 @@ strong {
 
     .form-fixed .form-group {
         width: 100%;
+    }
+
+    .price-list-item {
+        display: inherit;
+        text-align: center;
+    }
+
+    .price-list-inner-heading {
+        text-align: center;
     }
 }
 
