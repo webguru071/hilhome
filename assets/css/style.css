@@ -1860,18 +1860,33 @@ ul.social-media li a {
 }
 .customer-info-img-box {
     background-color: #eee;
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto;
 }
 .customer-info-img-box img {
-    height: 120px;
+    height: 140px;
     width: auto;
 }
+.customer-inbox-page-area .customer-info-img-box {
+    /*background-color: #eee;*/
+    width: 120px;
+    height: 120px;
+    /*overflow: hidden;*/
+    /*border-radius: 50%;*/
+    /*margin: 0 auto;*/
+}
+.customer-inbox-page-area .customer-info-img-box img {
+    height: 120px;
+    /*width: auto;*/
+}
+.customer-info-box .customer-email {
+    word-break: break-word;
+}
 .customer-info-box button {
-    width: 119px;
+    width: 137px;
     margin: 15px auto;
     padding: 8px 15px 11px;
 }
@@ -3190,6 +3205,12 @@ ul.social-media li a {
           font-size: 16px;
       }
       /*---Default CSS End---*/
+
+      /*Customer Profile CSS*/
+      .customer-info-box button {
+          padding: 10px 15px 11px;
+      }
+
   }
 
 
