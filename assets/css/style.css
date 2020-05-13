@@ -3313,7 +3313,7 @@ ul.social-media li a {
       .mean-nav ul .custom-select {
           height: 47px;
       }
-      .error-page-area, .about-story-main {
+      .error-page-area, .about-story-main, .customer-project-cancel-page {
           padding-top: 120px;
       }
       .about-story-main .about-area:first-child {
@@ -3574,6 +3574,9 @@ ul.social-media li a {
       .customer-activity-page .customer-activity-content {
           width: 100%!important;
       }
+      .customer-project-cancel-page .project-cancel-wrap {
+          width: 95%;
+      }
 
   }
 
@@ -3779,6 +3782,19 @@ ul.social-media li a {
           width: 40% !important;
       }
   }
+  @media only screen and (max-width:364px){
+      .customer-project-cancel-page .project-cancel-wrap {
+          width: 100%;
+      }
+      .customer-project-cancel-radio-button {
+          padding: 30px 20px 20px;
+      }
+      .customer-project-cancel-radio-button .container {
+          padding-left: 24px;
+      }
+
+  }
+
   @media only screen and (min-width:300px) and (max-width:479px){
       /*Default CSS*/
       .mean-nav ul .search-box {
