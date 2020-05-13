@@ -1425,6 +1425,9 @@ section.login-area.register-area h3 {
 /*Instant Results Sidebar CSS*/
 
 @media only screen and (max-width: 1366px){
+    .instant-result-style-1-area {
+        width: 80%;
+    }
     .instant-result-sidebar {
         padding: 30px 19px;
     }
@@ -1442,6 +1445,11 @@ section.login-area.register-area h3 {
     }
     .pro-profile-content, .pro-right-part {
         padding-left: 0;
+    }
+    .pro-profile-content {
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 20px;
     }
     .pros-instant-profile-box > a.pro-left-part .pro-img img {
         height: 90px;
@@ -3304,7 +3312,7 @@ ul.social-media li a {
 
     /*Instant Result Page CSS*/
     .pro-profile-content {
-        width: 64%;
+        /*width: 64%;*/
     }
     .pros-instant-profile-box .pro-img img {
         height: 95px;
@@ -3374,6 +3382,9 @@ ul.social-media li a {
       .instant-result-style-1-area , .instant-result-area{
           padding-top: 70px;
       }
+      .instant-result-style-1-area {
+          width: 90%;
+      }
       .instant-result-sidebar .filter-checkbox .container, .instant-result-sidebar .filter-radio-button .container {
           padding-left: 25px;
           font-size: 12px;
@@ -3385,19 +3396,19 @@ ul.social-media li a {
           width: 100%;
       }
       .pro-right-part {
-          width: 40%;
+          /*width: 40%;*/
       }
       .pro-profile-content, .pro-right-part {
-          padding-left: 0;
-          padding-top: 20px;
+          /*padding-left: 0;*/
+          /*padding-top: 20px;*/
       }
       .pro-right-part .cost-box {
-          margin-bottom: 15px;
+          /*margin-bottom: 15px;*/
       }
       .pro-right-part .btn.theme-button {
-          width: 109px;
-          padding: 8px 11px 11px;
-          font-size: 13px;
+          /*width: 109px;*/
+          /*padding: 8px 11px 11px;*/
+          /*font-size: 13px;*/
       }
       /*Customer Profile Page*/
       .customer-profile-area, .customer-create-password , .customer-inbox-page-area, .register-area, .login-area{
@@ -3568,7 +3579,9 @@ ul.social-media li a {
           margin-top: 20px;
       }
       .instant-result-sidebar {
-          padding: 30px 30px 0;
+          padding: 30px 30px;
+          border-right: none;
+          border-bottom: 1px solid var(--border-color);
       }
       .btn.filters-title.mobile-filters-title {
           margin-bottom: 20px;
@@ -3925,6 +3938,10 @@ ul.social-media li a {
           width: 80%;
           bottom: 0;
           margin: 20px 10px;
+      }
+      /*Instant Result Page*/
+      .instant-result-style-1-area {
+          width: 100%;
       }
   }
   /*-------------------------------------------
