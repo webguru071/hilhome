@@ -3052,13 +3052,31 @@ ul.social-media li a {
 /*-------------------------------------------
     33. Customer Review Page Start
 -------------------------------------------*/
+.customer-review-page {
+    padding: 60px 0 30px;
+}
 .customer-review-rating-wrap {
-    width: 30%;
+    width: 35%;
     margin: 0 auto 30px;
     min-width: 300px;
     border: 1px solid var(--border-color);
     padding: 30px;
     background-color: #fff;
+}
+@media only screen and (max-width: 1600px){
+    .customer-review-rating-wrap {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 1366px){
+    .customer-review-rating-wrap {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .customer-review-rating-wrap {
+        width: 50%;
+    }
 }
 .customer-review-rating-wrap .choose-up-to-three {
     margin: 15px 0;
@@ -3155,8 +3173,9 @@ ul.social-media li a {
     justify-content: space-between;
 }
 .customer-review-page-img-wrap .photo-wrap img {
-    height: 170px;
+    height: 220px;
     width: auto;
+    min-height: 220px;
 }
 .customer-review-page-img-wrap .alert {
     padding: 0;
@@ -3326,6 +3345,9 @@ ul.social-media li a {
     .error-page-area h3.section-subheading {
         font-size: 22px;
     }
+    .customer-review-rating-wrap {
+        width: 55%;
+    }
 
 }
   @media only screen and (min-width: 992px) and (max-width: 1199px){
@@ -3348,6 +3370,10 @@ ul.social-media li a {
       .menu-search-area .search-box button {
           width: 90px;
       }
+      .customer-review-page-img-wrap .photo-wrap img {
+          height: 170px;
+          min-height: 166px;
+      }
   }
 /*======================================
         Tablet layout
@@ -3361,7 +3387,7 @@ ul.social-media li a {
       .mean-nav ul .custom-select {
           height: 47px;
       }
-      .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area {
+      .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page {
           padding-top: 120px;
       }
       .about-story-main .about-area:first-child {
@@ -3505,6 +3531,9 @@ ul.social-media li a {
       }
       .footer-widget.quick-links > h4 {
           margin-top: 0;
+      }
+      .customer-review-rating-wrap {
+          width: 69%;
       }
 
   }
