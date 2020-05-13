@@ -1234,6 +1234,10 @@ section.login-area.register-area h3 {
     justify-content: space-between;
     width: 18%;
 }
+.pro-right-part .btn.theme-button {
+    width: 134px;
+    padding: 11px 14px 13px;
+}
 .cost-box .consult {
     display: block;
 }
@@ -1420,6 +1424,31 @@ section.login-area.register-area h3 {
 }
 /*Instant Results Sidebar CSS*/
 
+@media only screen and (max-width: 1366px){
+    .instant-result-sidebar {
+        padding: 30px 19px;
+    }
+    .pros-instant-profile-box {
+        flex-direction: column;
+    }
+    .pros-instant-profile-box > a.pro-left-part {
+        width: 100%;
+        flex-direction: column;
+    }
+    .pro-right-part {
+        width: 100%;
+        flex-direction: row-reverse;
+        margin-top: 20px;
+    }
+    .pro-profile-content, .pro-right-part {
+        padding-left: 0;
+    }
+    .pros-instant-profile-box > a.pro-left-part .pro-img img {
+        height: 90px;
+        margin-bottom: 20px;
+    }
+}
+
 /*-------------------------------------------
     13. Instant Result Page Area End
 -------------------------------------------*/
@@ -1489,8 +1518,8 @@ footer{
 }
  /* ----  13.1 Footer Upper Style ---------*/
 .footer-upper-area {
-    padding: 80px 0 65px;
-    /*border-top: 1px solid var(--border-color);*/
+    padding: 52px 0 49px;
+    /* border-top: 1px solid var(--border-color); */
     border-bottom: 1px solid var(--border-color);
 }
 .footer-widget p {
@@ -2463,6 +2492,12 @@ ul.social-media li a {
     cursor: pointer;
 }
 /*Customer project Details Modal Start*/
+.modal-backdrop.show {
+    opacity: 1;
+}
+.modal-backdrop {
+    background-color: rgba(0,0,0,.8);
+}
 .customer-project-details-area .modal-body, .message-pro-page .modal-body {
     padding: 2rem;
 }
@@ -2475,7 +2510,7 @@ ul.social-media li a {
     padding-bottom: 15px;
 }
 .customer-project-details-area .project-details-modal img, .message-pro-page .project-details-modal img {
-    height: 186px;
+    height: 140px;
     width: 100%;
     overflow: hidden;
 }
@@ -2501,6 +2536,7 @@ ul.social-media li a {
     margin-left: -6px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    height: 50px;
 }
 .get-the-app-check-message-area p {
     padding: 20px 100px 20px 0;
@@ -3313,7 +3349,7 @@ ul.social-media li a {
       .mean-nav ul .custom-select {
           height: 47px;
       }
-      .error-page-area, .about-story-main, .customer-project-cancel-page {
+      .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area {
           padding-top: 120px;
       }
       .about-story-main .about-area:first-child {
@@ -3394,6 +3430,20 @@ ul.social-media li a {
       .customer-activity-page .customer-activity-content {
           width: 80%;
           margin: 50px auto 0;
+      }
+
+      /*Contacted pros Area*/
+      .contacted-pros-area {
+          padding: 60px 0;
+      }
+      .contacted-pros-area .pros-instant-profile-box .pro-right-part .theme-button {
+          width: 122px;
+      }
+      .contacted-pros-list-wrap .pros-instant-profile-box > a.pro-left-part {
+          width: 80%;
+      }
+      .contacted-pros-list-wrap .pro-right-part {
+          width: 20%;
       }
 
   }
