@@ -1679,7 +1679,11 @@ ul.social-media li a {
     position: fixed;
     top: 33px;
 }
-.guarantee-menu.sticky-menu {
+/*.guarantee-menu.sticky-menu {*/
+/*    width: 300px;*/
+/*    padding-right: 50px;*/
+/*}*/
+.guarantee-menu {
     width: 300px;
     padding-right: 50px;
 }
@@ -2238,6 +2242,7 @@ ul.social-media li a {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 15px;
 }
 .how-to-details-help-wrap .how-to-details-content a.theme-button:hover{
     background-color: var(--hover-color);
@@ -2245,7 +2250,7 @@ ul.social-media li a {
 .how-to-details-help-wrap .how-to-details-content h6 {
     font-size: 18px;
     color: #fff;
-    margin-bottom: 15px;
+    margin: 0 0 15px;
 }
 
 /*How to Right Side CSS*/
@@ -3407,7 +3412,7 @@ ul.social-media li a {
           height: 47px;
       }
       .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page,
-      .page-banner-area, .how-hilhome-works-area{
+      .page-banner-area, .how-hilhome-works-area, .how-to-page-area{
           padding-top: 120px;
       }
       .sticky-menu {
@@ -3729,6 +3734,10 @@ ul.social-media li a {
           min-height: 224px;
       }
       /*Guarantee Sidebar Fixed Menu*/
+      .guarantee-menu {
+          width: 100%;
+          padding-right: 0;
+      }
       .guarantee-menu ul {
           border: 1px solid #d0cfcf;
           border-bottom: none;
@@ -3755,6 +3764,12 @@ ul.social-media li a {
       }
       .how-works-youtube-video iframe {
           width: 100%;
+      }
+      .how-to-details-help-wrap {
+          margin-bottom: 30px;
+      }
+      .how-to-details-help-wrap .how-to-details-content {
+          padding: 15px 130px;
       }
 
   }
@@ -3984,6 +3999,9 @@ ul.social-media li a {
       .how-it-try-it-out-area .select-items div, .how-it-try-it-out-area .select-selected {
           padding: 14px 3px 14px;
       }
+      .how-to-details-help-wrap .how-to-details-content {
+          padding: 15px 40px;
+      }
 
   }
   @media only screen and (max-width:364px){
@@ -4101,6 +4119,9 @@ ul.social-media li a {
       .how-it-works-page-banner .page-banner-content {
           width: 100%;
       }
+      .how-to-details-help-wrap .how-to-details-content {
+          padding: 15px 90px;
+      }
 
   }
 
@@ -4109,6 +4130,9 @@ ul.social-media li a {
         width: 285px;
         padding: 20px;
         margin: 0 auto 30px;
+    }
+    .how-to-details-help-wrap .how-to-details-content {
+        padding: 15px 40px;
     }
 
 }
