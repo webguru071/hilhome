@@ -2328,6 +2328,9 @@ ul.social-media li a {
     display: block;
     padding: 5px 0 5px 10px;
 }
+.how-works-youtube-video {
+    margin-top: 35px;
+}
 .how-hilhome-works-area .how-works-pro-tips {
     border: 1px solid var(--border-color);
     border-radius: 6px;
@@ -3282,6 +3285,9 @@ ul.social-media li a {
       .customer-info-box button {
           padding: 10px 15px 11px;
       }
+      .downloads-app-img img {
+          height: 300px;
+      }
 
   }
 
@@ -3401,7 +3407,7 @@ ul.social-media li a {
           height: 47px;
       }
       .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page,
-      .page-banner-area{
+      .page-banner-area, .how-hilhome-works-area{
           padding-top: 120px;
       }
       .sticky-menu {
@@ -3504,6 +3510,12 @@ ul.social-media li a {
           /*width: 20%;*/
       }
       .pro-app-link-page-area .welcome-to-hilhome-pro-content {
+          width: 100%;
+      }
+      .how-hilhome-works-area .how-hilhome-works-right {
+          margin-top: 40px;
+      }
+      .how-it-works-content-area .how-it-content-box {
           width: 100%;
       }
 
@@ -3738,6 +3750,12 @@ ul.social-media li a {
       .pro-app-link-page-area .welcome-to-hilhome-pro-content form {
           width: 100%;
       }
+      .how-hilhome-works-get-app-content {
+          margin: 0 0 40px;
+      }
+      .how-works-youtube-video iframe {
+          width: 100%;
+      }
 
   }
 
@@ -3757,6 +3775,12 @@ ul.social-media li a {
       }
       .help-content {
           width: 100%;
+      }
+      .how-it-works-content-area .how-it-content-box , .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box{
+          flex-direction: column;
+      }
+      .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box .how-it-content {
+          text-align: left;
       }
   }
   @media only screen and (min-width: 480px) and (max-width: 766px){
@@ -3956,6 +3980,10 @@ ul.social-media li a {
       .get-the-app-check-message-area form input {
           width: 207px !important;
       }
+      /*How It works CSS*/
+      .how-it-try-it-out-area .select-items div, .how-it-try-it-out-area .select-selected {
+          padding: 14px 3px 14px;
+      }
 
   }
   @media only screen and (max-width:364px){
@@ -4065,6 +4093,13 @@ ul.social-media li a {
       }
       .pro-app-link-page-area .welcome-to-hilhome-pro-content {
           padding: 36px 30px 50px;
+      }
+
+      .how-hilhome-works-right h1 > i {
+          display: none;
+      }
+      .how-it-works-page-banner .page-banner-content {
+          width: 100%;
       }
 
   }
