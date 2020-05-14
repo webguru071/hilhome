@@ -7873,10 +7873,12 @@ strong {
 
 .pro-help-menu-box input {
     width: 100% !important;
-    border: none !important;
+    border: 1px solid #ced4da;
+    padding: 10px 16px 11px 33px !important;
 }
 
 .pro-help-menu-box i {
+    left: 24px;
     position: relative;
     top: 20px;
 }
@@ -7948,15 +7950,224 @@ strong {
 }
 
 
+.area-community-box a {
+    display: flex;
+    align-items: center;
+}
+
+.area-community-box i {
+    color: var(--color-blue);
+    font-size: 30px;
+    padding-right: 12px;
+}
+
+.area-community-box h5 {
+    font-size: 18px;
+    font-weight: 800;
+    padding-right: 10px;
+    color: var(--color-blue);
+}
+
+.area-community-box p {
+    padding-top: 20px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 15px;
+}
+
+.area-community-box ul {
+    padding-top: 6px;
+}
+
+.area-community-box ul li {
+    padding-top: 5px;
+}
+
+.area-community-box ul li a {
+    color: var(--color-blue)
+}
+
+.community-banner-box-bottom {
+    padding-top: 30px;
+}
+
+.community-topic-heading h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.community-topic-flex a img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid var(--hover-color);
+    margin-right: 10px;
+}
+
+.community-topic-box {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 0;
+    padding: 24px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.coomunity-topic-box-inner p {
+    padding-top: 10px;
+}
+
+.community-topic-flex {
+    padding-top: 20px;
+}
+
+.top-ic-community-top-link a {
+    color: #676d73;
+}
+
+.community-topice-area {
+    border: none;
+}
+
+#community-area-discuss {
+    margin-top: 40px;
+}
+
+#community-area-discuss .nav-tabs .nav-item.show .nav-link,
+#community-area-discuss .nav-tabs .nav-link.active {
+    color: #242f51;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid red;
+    font-weight: 800;
+}
+
+#community-area-discuss .nav-tabs .nav-link:focus,
+#community-area-discuss .nav-tabs .nav-link:hover {
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+#community-area-discuss .nav-tabs .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.community-discuss-item-arae table tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.community-discuss-item-arae table tr td {
+    padding: 20px 20px;
+}
+
+.community-discuss-item-arae table tr td .community-discus-flex-area-one h2 {
+    font-size: 18px;
+}
 
 
+.post-com a {
+    display: flex;
+    align-items: center;
+}
+
+.post-com a img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 8px;
+    border: 1px solid;
+}
+
+table .comment-area h6 {
+    display: flex;
+}
+
+table .comment-area h6 i {
+    margin-right: 2px;
+}
+
+.community-member-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.community-member-heading h2 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.community-member-heading h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.customer-community-member-tacking-area,
+.top-pros-area {
+    display: inline-block;
+    padding: 15px 24px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.customer-community-member-tacking-area h4,
+.top-pros-area h4 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.top-pros-area ul li {
+    display: inline-block;
+    width: calc(100% / 2 - 14px);
+    margin-top: 30px;
+}
+
+.top-pros-area ul li a img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.top-pros-area ul li a span {
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.customer-community-member-tacking-area,
+.top-pros-area {
+    margin-top: 30px;
+}
 
 /* Reviews page */
 .reviews-banner-area {
     padding: 0;
 }
-
-.reviews-banner-wrapper {}
 
 .reviews-banner-wrapper h2 {
     font-size: 40px;
@@ -8050,6 +8261,35 @@ strong {
     width: 100%;
 }
 
+/* --Pro-profile-message-page-- */
+.latest-messages-area {}
+
+.latest-messages-area h6 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.latest-messages-area h5 {
+    padding-top: 21px;
+    font-size: 16px;
+}
+
+.profile-img-area-details img {
+    width: 38px;
+    padding-top: 19px;
+    margin-right: 30px;
+
+}
+
+.item-photo-detail-slider {}
+
+.item-photo-detail-slider a i {
+    position: absolute;
+    left: 42%;
+    top: 42%;
+    color: #fff;
+    font-size: 29px;
+}
 
 
 /*=======================================
@@ -8112,6 +8352,10 @@ strong {
 }
 
 @media only screen and (max-width: 767px) {
+    .community-banner-box-area {
+        width: 450px;
+
+    }
 
     /* --press-room-- */
     .list-navigation ul {
