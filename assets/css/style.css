@@ -1458,6 +1458,10 @@ section.login-area.register-area h3 {
         height: 90px;
         margin-bottom: 20px;
     }
+    .pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button {
+        height: 50px;
+    }
+
 }
 
 /*-------------------------------------------
@@ -3499,6 +3503,9 @@ ul.social-media li a {
       .contacted-pros-list-wrap .pro-right-part {
           /*width: 20%;*/
       }
+      .pro-app-link-page-area .welcome-to-hilhome-pro-content {
+          width: 100%;
+      }
 
   }
   @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -3727,6 +3734,9 @@ ul.social-media li a {
       }
       .guarantee-menu ul li a.active::before {
           display: none;
+      }
+      .pro-app-link-page-area .welcome-to-hilhome-pro-content form {
+          width: 100%;
       }
 
   }
@@ -4052,6 +4062,9 @@ ul.social-media li a {
       .customer-review-page-img-wrap .photo-wrap {
           width: 70%;
           margin: 0 auto 30px;
+      }
+      .pro-app-link-page-area .welcome-to-hilhome-pro-content {
+          padding: 36px 30px 50px;
       }
 
   }
