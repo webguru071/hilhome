@@ -1458,6 +1458,10 @@ section.login-area.register-area h3 {
         height: 90px;
         margin-bottom: 20px;
     }
+    .pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button {
+        height: 50px;
+    }
+
 }
 
 /*-------------------------------------------
@@ -1677,6 +1681,7 @@ ul.social-media li a {
 }
 .guarantee-menu.sticky-menu {
     width: 300px;
+    padding-right: 50px;
 }
 .guarantee-tab-content .guarantee-content-box h2 {
     margin-bottom: 20px;
@@ -2322,6 +2327,9 @@ ul.social-media li a {
 .how-hilhome-works-left ul li a {
     display: block;
     padding: 5px 0 5px 10px;
+}
+.how-works-youtube-video {
+    margin-top: 35px;
 }
 .how-hilhome-works-area .how-works-pro-tips {
     border: 1px solid var(--border-color);
@@ -3277,6 +3285,9 @@ ul.social-media li a {
       .customer-info-box button {
           padding: 10px 15px 11px;
       }
+      .downloads-app-img img {
+          height: 300px;
+      }
 
   }
 
@@ -3359,6 +3370,14 @@ ul.social-media li a {
       #randomImage img {
           height: 574px;
       }
+      .customer-review-rating-wrap {
+          width: 523px;
+      }
+      .customer-review-page-img-wrap .photo-wrap img {
+          height: 170px;
+          min-height: 166px;
+      }
+
   }
   @media only screen and (max-width: 992px){
       .menu-search-area .search-box {
@@ -3370,10 +3389,10 @@ ul.social-media li a {
       .menu-search-area .search-box button {
           width: 90px;
       }
-      .customer-review-page-img-wrap .photo-wrap img {
-          height: 170px;
-          min-height: 166px;
-      }
+      /*.customer-review-page-img-wrap .photo-wrap img {*/
+      /*    height: 170px;*/
+      /*    min-height: 166px;*/
+      /*}*/
   }
 /*======================================
         Tablet layout
@@ -3387,8 +3406,12 @@ ul.social-media li a {
       .mean-nav ul .custom-select {
           height: 47px;
       }
-      .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page {
+      .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page,
+      .page-banner-area, .how-hilhome-works-area{
           padding-top: 120px;
+      }
+      .sticky-menu {
+          top: 90px;
       }
       .about-story-main .about-area:first-child {
           padding-top: 0;
@@ -3486,6 +3509,15 @@ ul.social-media li a {
       .contacted-pros-list-wrap .pro-right-part {
           /*width: 20%;*/
       }
+      .pro-app-link-page-area .welcome-to-hilhome-pro-content {
+          width: 100%;
+      }
+      .how-hilhome-works-area .how-hilhome-works-right {
+          margin-top: 40px;
+      }
+      .how-it-works-content-area .how-it-content-box {
+          width: 100%;
+      }
 
   }
   @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -3533,7 +3565,11 @@ ul.social-media li a {
           margin-top: 0;
       }
       .customer-review-rating-wrap {
-          width: 69%;
+          width: 518px;
+      }
+      .customer-review-page-img-wrap .photo-wrap img {
+          height: 171px;
+          min-height: 171px;
       }
 
   }
@@ -3684,6 +3720,42 @@ ul.social-media li a {
       .downloads-app-img {
           margin-bottom: 30px;
       }
+      /*Customer Review Page*/
+      .customer-review-rating-wrap {
+          width: 666px;
+      }
+      .customer-review-page-img-wrap .photo-wrap img {
+          height: 224px;
+          min-height: 224px;
+      }
+      /*Guarantee Sidebar Fixed Menu*/
+      .guarantee-menu ul {
+          border: 1px solid #d0cfcf;
+          border-bottom: none;
+          padding-left: 0;
+          margin-bottom: 45px;
+      }
+      .guarantee-menu ul li {
+          margin-bottom: 0;
+      }
+      .guarantee-menu ul li a {
+          display: block;
+          text-align: center;
+          border-bottom: 1px solid #d0cfcf;
+          padding: 14px 0;
+      }
+      .guarantee-menu ul li a.active::before {
+          display: none;
+      }
+      .pro-app-link-page-area .welcome-to-hilhome-pro-content form {
+          width: 100%;
+      }
+      .how-hilhome-works-get-app-content {
+          margin: 0 0 40px;
+      }
+      .how-works-youtube-video iframe {
+          width: 100%;
+      }
 
   }
 
@@ -3701,12 +3773,29 @@ ul.social-media li a {
       .mean-nav ul .search-box button {
           width: 95px;
       }
+      .help-content {
+          width: 100%;
+      }
+      .how-it-works-content-area .how-it-content-box , .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box{
+          flex-direction: column;
+      }
+      .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box .how-it-content {
+          text-align: left;
+      }
   }
   @media only screen and (min-width: 480px) and (max-width: 766px){
       .footer-widget > h4, .footer-widget.quick-links > h4 {
           margin-top: 30px;
           margin-bottom: 30px;
       }
+      .customer-review-rating-wrap {
+          width: 442px;
+      }
+      .customer-review-page-img-wrap .photo-wrap img {
+          height: 146px;
+          min-height: 146px;
+      }
+
   }
 
 @media only screen and (max-width: 580px){
@@ -3891,6 +3980,11 @@ ul.social-media li a {
       .get-the-app-check-message-area form input {
           width: 207px !important;
       }
+      /*How It works CSS*/
+      .how-it-try-it-out-area .select-items div, .how-it-try-it-out-area .select-selected {
+          padding: 14px 3px 14px;
+      }
+
   }
   @media only screen and (max-width:364px){
       .customer-project-cancel-page .project-cancel-wrap {
@@ -3990,7 +4084,34 @@ ul.social-media li a {
       .instant-result-style-1-area {
           width: 100%;
       }
+      .customer-review-rating-wrap {
+          width: 325px;
+      }
+      .customer-review-page-img-wrap .photo-wrap {
+          width: 70%;
+          margin: 0 auto 30px;
+      }
+      .pro-app-link-page-area .welcome-to-hilhome-pro-content {
+          padding: 36px 30px 50px;
+      }
+
+      .how-hilhome-works-right h1 > i {
+          display: none;
+      }
+      .how-it-works-page-banner .page-banner-content {
+          width: 100%;
+      }
+
   }
+
+@media only screen and (max-width:320px){
+    .customer-review-rating-wrap {
+        width: 285px;
+        padding: 20px;
+        margin: 0 auto 30px;
+    }
+
+}
   /*-------------------------------------------
         24. Responsive Design End
   -------------------------------------------*/
