@@ -3359,6 +3359,14 @@ ul.social-media li a {
       #randomImage img {
           height: 574px;
       }
+      .customer-review-rating-wrap {
+          width: 523px;
+      }
+      .customer-review-page-img-wrap .photo-wrap img {
+          height: 170px;
+          min-height: 166px;
+      }
+
   }
   @media only screen and (max-width: 992px){
       .menu-search-area .search-box {
@@ -3370,10 +3378,10 @@ ul.social-media li a {
       .menu-search-area .search-box button {
           width: 90px;
       }
-      .customer-review-page-img-wrap .photo-wrap img {
-          height: 170px;
-          min-height: 166px;
-      }
+      /*.customer-review-page-img-wrap .photo-wrap img {*/
+      /*    height: 170px;*/
+      /*    min-height: 166px;*/
+      /*}*/
   }
 /*======================================
         Tablet layout
@@ -3533,7 +3541,11 @@ ul.social-media li a {
           margin-top: 0;
       }
       .customer-review-rating-wrap {
-          width: 69%;
+          width: 518px;
+      }
+      .customer-review-page-img-wrap .photo-wrap img {
+          height: 171px;
+          min-height: 171px;
       }
 
   }
@@ -3684,6 +3696,14 @@ ul.social-media li a {
       .downloads-app-img {
           margin-bottom: 30px;
       }
+      /*Customer Review Page*/
+      .customer-review-rating-wrap {
+          width: 666px;
+      }
+      .customer-review-page-img-wrap .photo-wrap img {
+          height: 224px;
+          min-height: 224px;
+      }
 
   }
 
@@ -3707,6 +3727,14 @@ ul.social-media li a {
           margin-top: 30px;
           margin-bottom: 30px;
       }
+      .customer-review-rating-wrap {
+          width: 442px;
+      }
+      .customer-review-page-img-wrap .photo-wrap img {
+          height: 146px;
+          min-height: 146px;
+      }
+
   }
 
 @media only screen and (max-width: 580px){
@@ -3891,6 +3919,7 @@ ul.social-media li a {
       .get-the-app-check-message-area form input {
           width: 207px !important;
       }
+
   }
   @media only screen and (max-width:364px){
       .customer-project-cancel-page .project-cancel-wrap {
@@ -3990,7 +4019,24 @@ ul.social-media li a {
       .instant-result-style-1-area {
           width: 100%;
       }
+      .customer-review-rating-wrap {
+          width: 325px;
+      }
+      .customer-review-page-img-wrap .photo-wrap {
+          width: 70%;
+          margin: 0 auto 30px;
+      }
+
   }
+
+@media only screen and (max-width:320px){
+    .customer-review-rating-wrap {
+        width: 285px;
+        padding: 20px;
+        margin: 0 auto 30px;
+    }
+
+}
   /*-------------------------------------------
         24. Responsive Design End
   -------------------------------------------*/
