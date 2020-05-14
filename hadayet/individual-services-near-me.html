@@ -39,8 +39,10 @@
     <link rel="shortcut icon" href="assets/img/favicon-16x16.png">
 
     <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-72x72.png" sizes="72x72" />
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-114x114.png" sizes="114x114" />
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-144x144.png" sizes="144x144" />
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-114x114.png"
+        sizes="114x114" />
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-144x144.png"
+        sizes="144x144" />
     <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/favicon-16x16.png" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -54,9 +56,9 @@
 <body>
 
     <!-- Pre Loader Area start -->
-<!--    <div id="preloader">-->
-<!--        <div class="loader"></div>-->
-<!--    </div>-->
+    <!--    <div id="preloader">-->
+    <!--        <div class="loader"></div>-->
+    <!--    </div>-->
     <!-- Pre Loader Area End -->
 
     <!-- Menu Area Start -->
@@ -64,8 +66,10 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg d-none d-sm-none d-md-block d-lg-block d-xl-block" id="mainNav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo" class="img-fluid"></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"
+                        class="img-fluid"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -114,8 +118,10 @@
                     <nav aria-label="breadcrumb text-center">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item text-uppercase"><a href="index.html">Hilhome</a></li>
-                            <li class="breadcrumb-item text-uppercase" aria-current="page"><a href="near-me.html">Hilhome Services Near Me</a></li>
-                            <li class="breadcrumb-item text-uppercase active" aria-current="page"><a href="near-me.html">Business Services</a></li>
+                            <li class="breadcrumb-item text-uppercase" aria-current="page"><a
+                                    href="near-me.html">Hilhome Services Near Me</a></li>
+                            <li class="breadcrumb-item text-uppercase active" aria-current="page"><a
+                                    href="near-me.html">Business Services</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -252,7 +258,7 @@
                 </div>
             </div>
 
-            </div>
+        </div>
         </div>
     </section>
     <!-- Individual Services Near Me Page Area End -->
@@ -347,7 +353,8 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="footer-bottom-part">
-                            <div class="copyright"><a href="https://hilhome.com/"><img src="assets/img/favicon.png" alt="icon"> &copy; 2020 Hilhome, Inc.</a></div>
+                            <div class="copyright"><a href="https://hilhome.com/"><img src="assets/img/favicon.png"
+                                        alt="icon"> &copy; 2020 Hilhome, Inc.</a></div>
                             <div class="bottom-footer-right">
                                 <a href="guarantee.html"><i class="fas fa-shield-alt"></i>Hilhome Guarantee</a>
                             </div>
@@ -401,8 +408,8 @@
                 "assets/img/hero-slide-img/3.jpg"
             ],
 
-            generate: function(){
-                var path = randomImage.paths[Math.floor(Math.random()*randomImage.paths.length)];
+            generate: function () {
+                var path = randomImage.paths[Math.floor(Math.random() * randomImage.paths.length)];
                 var img = new Image();
                 img.src = path;
                 $("#randomImage").html(img);

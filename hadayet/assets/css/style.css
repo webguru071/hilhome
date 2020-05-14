@@ -4636,8 +4636,8 @@ strong {
     margin-right: 10px;
 }
 
-.sidebar-area-stckey input {
-    margin-top: 15px;
+.sidebar-area-stckey label {
+    padding-top: 15px;
 }
 
 .trainer-area {
@@ -6779,8 +6779,6 @@ strong {
     padding-top: 70px;
 }
 
-.author-blog-commint-img {}
-
 .author-blog-commint-img img {
     width: 100px;
     height: 100px;
@@ -7949,6 +7947,111 @@ strong {
     margin-bottom: 24px;
 }
 
+
+
+
+
+/* Reviews page */
+.reviews-banner-area {
+    padding: 0;
+}
+
+.reviews-banner-wrapper {}
+
+.reviews-banner-wrapper h2 {
+    font-size: 40px;
+    line-height: 55px
+}
+
+.reviews-banner-wrapper p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.reviews-button-banner-area {
+    margin-top: 25px;
+}
+
+.reviews-top-btn {
+    font-size: 16px;
+    color: var(--color-blue);
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.reviews-top-btn i {
+    padding-left: 10px;
+}
+
+.reviewa-quate-area {
+    width: 57%;
+    float: right;
+    margin-top: 20px;
+    border-left: 3px solid var(--color-blue);
+    padding-left: 25px;
+}
+
+.reviewa-quate-area h6 {
+    padding-top: 10px;
+}
+
+.reviews-banner-area .row {
+    align-items: center;
+}
+
+.hear-area-heading h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hear-pro-box {
+    padding-top: 30px;
+}
+
+.hear-pro-box p {
+    padding-top: 15px;
+}
+
+.hear-pro-box h6 {
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: 800;
+}
+
+.pro-reviews-box {
+    padding-top: 30px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 30px;
+}
+
+.pro-reviews-box h5 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.pro-reviews-box p {
+    padding-top: 15px;
+}
+
+.pro-reviews-box h6 {
+    padding-top: 10px;
+    font-weight: 800;
+}
+
+.pro-reviews-box h6 span {
+    font-weight: 400;
+}
+
+.hear-area-pro-reviews .row .col-lg-8 {
+    margin: 0 auto;
+}
+
+.reviews-banner-img img {
+    width: 100%;
+}
+
+
+
 /*=======================================
     For Small Devices
 =========================================*/
@@ -8100,6 +8203,10 @@ strong {
 
     .work-space-counter-inner {
         padding-top: 30px;
+    }
+
+    .reviews-banner-wrapper {
+        padding-top: 60px;
     }
 }
 
