@@ -1677,6 +1677,7 @@ ul.social-media li a {
 }
 .guarantee-menu.sticky-menu {
     width: 300px;
+    padding-right: 50px;
 }
 .guarantee-tab-content .guarantee-content-box h2 {
     margin-bottom: 20px;
@@ -3395,8 +3396,12 @@ ul.social-media li a {
       .mean-nav ul .custom-select {
           height: 47px;
       }
-      .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page {
+      .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page,
+      .page-banner-area{
           padding-top: 120px;
+      }
+      .sticky-menu {
+          top: 90px;
       }
       .about-story-main .about-area:first-child {
           padding-top: 0;
@@ -3704,6 +3709,25 @@ ul.social-media li a {
           height: 224px;
           min-height: 224px;
       }
+      /*Guarantee Sidebar Fixed Menu*/
+      .guarantee-menu ul {
+          border: 1px solid #d0cfcf;
+          border-bottom: none;
+          padding-left: 0;
+          margin-bottom: 45px;
+      }
+      .guarantee-menu ul li {
+          margin-bottom: 0;
+      }
+      .guarantee-menu ul li a {
+          display: block;
+          text-align: center;
+          border-bottom: 1px solid #d0cfcf;
+          padding: 14px 0;
+      }
+      .guarantee-menu ul li a.active::before {
+          display: none;
+      }
 
   }
 
@@ -3720,6 +3744,9 @@ ul.social-media li a {
       }
       .mean-nav ul .search-box button {
           width: 95px;
+      }
+      .help-content {
+          width: 100%;
       }
   }
   @media only screen and (min-width: 480px) and (max-width: 766px){

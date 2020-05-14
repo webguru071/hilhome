@@ -230,14 +230,31 @@ $('.venobox').venobox({
 // Home Popular Services Slider
 
 // Guarantee Fixed Nav Tabs
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 500) {
-            $('.guarantee-menu').addClass("sticky-menu");
-        } else {
-            $('.guarantee-menu').removeClass("sticky-menu");
-        }
-    });
+    if($(window).width() > 767 ){
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 700) {
+                $('.guarantee-menu').addClass("sticky-menu");
+            } else {
+                $('.guarantee-menu').removeClass("sticky-menu");
+            }
+        });
+    }
 // Guarantee Fixed Nav Tabs
+
+// How To Details Fixed Nav Tabs
+
+    if($(window).width() > 767 ){
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 500) {
+                $('.how-to-details-page-area .guarantee-menu').addClass("sticky-menu");
+            } else {
+                $('.how-to-details-page-area .guarantee-menu').removeClass("sticky-menu");
+            }
+        });
+    }
+
+// How To Details Fixed Nav Tabs
 
 //Accordion Box
     if($('.accordion-box').length){
