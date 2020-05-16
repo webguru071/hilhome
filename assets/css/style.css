@@ -2861,9 +2861,9 @@ ul.social-media li a {
 .message-pro-page .message-footer form .form-group:nth-child(3){
     width: 10%;
 }
-
 .message-pro-page .message-footer form .theme-button {
     padding: 5px 24px 10px;
+    height: 41px;
 }
 /*Message Left Footer Send Message Part End*/
 
@@ -3594,6 +3594,9 @@ ul.social-media li a {
       .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-5.col-xl-3 {
           display: none;
       }
+      .chat-box-content , .chat-box.chat-box-customer-message .chat-box-content{
+          max-width: 80%;
+      }
   }
 
   @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -4238,14 +4241,62 @@ ul.social-media li a {
       .how-to-details-help-wrap .how-to-details-content {
           padding: 15px 90px;
       }
-      
+
       /*Message Pro CSS*/
+      .message-header-left {
+          width: 75%;
+      }
+      .message-header-right {
+          width: 25%;
+      }
+      .message-pro-page .message-footer form .form-group:nth-child(1) {
+          width: 18%;
+      }
+      .message-pro-page .message-footer form .form-group:nth-child(2) {
+          width: 55%;
+      }
+      .message-pro-page .message-footer form .form-group:nth-child(3) {
+          width: 25%;
+      }
+      .message-pro-page .message-footer form .form-group:nth-child(2) textarea {
+          margin: 0 12px;
+      }
       .message-pro-page .message-footer form .theme-button {
           padding: 5px 15px 10px;
+      }
+      .message-pro-page .message-footer form .form-group:nth-child(1) i {
+          font-size: 12px;
+      }
+      .chat-box-content, .chat-box.chat-box-customer-message .chat-box-content {
+          max-width: 100%;
       }
 
   }
 
+@media only screen and (max-width:300px) and (min-width: 415px){
+    /*.message-pro-page .message-footer form .theme-button {*/
+    /*    padding: 5px 15px 10px;*/
+    /*    height: 40px;*/
+    /*}*/
+    /*.message-pro-page .message-footer form .form-group:nth-child(1) i {*/
+    /*    font-size: 12px;*/
+    /*}*/
+    .message-pro-page .message-footer form .form-group:nth-child(2) {
+        width: 52%;
+    }
+    .message-pro-page .message-footer form .form-group:nth-child(3) {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:370px){
+    .message-pro-page .message-footer form .form-group:nth-child(2) {
+        width: 50%;
+    }
+    .message-pro-page .message-footer form .form-group:nth-child(3) {
+        width: 30%;
+    }
+}
 @media only screen and (max-width:320px){
     .customer-review-rating-wrap {
         width: 285px;
