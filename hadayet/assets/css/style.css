@@ -4797,36 +4797,6 @@ strong {
 }
 
 
-/*----------------------------
-    preloder
---------------------------------*/
-
-#preloader {
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-}
-
-#status {
-    background-image: url(../img/preloader.gif);
-    background-repeat: no-repeat;
-    width: 20%;
-    height: 48%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-top: -35px;
-    margin-left: -35px;
-}
-
-
-
-
-
 /* --Pro main Page-- */
 
 .pros-banner {
@@ -8554,7 +8524,33 @@ table .comment-area h6 i {
 }
 
 
+/*----------------------------
+    preloder
+--------------------------------*/
 
+#preloader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status {
+    background-image: url(../img/preloader.gif);
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 48%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+/* -- hadayet css end--  */
 
 /*=======================================
     For Small Devices
