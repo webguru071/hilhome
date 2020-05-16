@@ -907,6 +907,10 @@ button:focus {
     height: 100%;
     justify-content: center;
 }
+.pro-app-mobile-photo {
+    text-align: right;
+    padding-right: 20px;
+}
 .home-app-content h4 {
     line-height: 30px;
 }
@@ -1521,6 +1525,14 @@ section.login-area.register-area h3 {
     padding-top: 14px;
     display: block;
 }
+/*Near Me Page CSS*/
+.near-me-page-area .page-breadcrumb {
+    margin-bottom: 0;
+}
+.near-me-page-area.how-to-page-area .section-heading {
+    padding: 0 0 60px 0;
+}
+
 /*-------------------------------------------
     16. How To Page Area End
 -------------------------------------------*/
@@ -1891,7 +1903,7 @@ ul.social-media li a {
     border-radius: 50%;
     top: 10px;
 }
-.privacy-page-area table.privacy-page-table th {
+.privacy-page-area .privacy-page-table table th {
     vertical-align: middle;
 }
 /*-------------------------------------------
@@ -3343,6 +3355,13 @@ ul.social-media li a {
           width: 15%;
           text-align: right;
       }
+      .pro-interview-details-wrap h2 {
+          font-size: 2rem;
+      }
+      .pro-interview-details-content h4 {
+          font-size: 1.5rem;
+          line-height: 34px;
+      }
 
   }
 
@@ -3414,6 +3433,9 @@ ul.social-media li a {
     .customer-review-rating-wrap {
         width: 55%;
     }
+    .pro-app-page-area .pro-app-mobile-photo img {
+        height: 450px;
+    }
 
 }
   @media only screen and (min-width: 992px) and (max-width: 1199px){
@@ -3470,6 +3492,9 @@ ul.social-media li a {
       .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page,
       .page-banner-area, .how-hilhome-works-area, .how-to-page-area, .privacy-page-area, .pro-app-page-area{
           padding-top: 120px;
+      }
+      .near-me-main, .how-to-page-area.near-me-page-area {
+          padding-top: 60px;
       }
       .sticky-menu {
           top: 90px;
@@ -3596,6 +3621,23 @@ ul.social-media li a {
       }
       .chat-box-content , .chat-box.chat-box-customer-message .chat-box-content{
           max-width: 80%;
+      }
+      .pro-app-mobile-photo {
+          text-align: left;
+          padding-right: 0;
+          padding-bottom: 30px;
+      }
+      .pro-app-page-area .pro-app-mobile-photo img {
+          height: 320px;
+      }
+      .home-app-content , .pro-app-mobile-photo{
+          text-align: center;
+      }
+      .apple-google-btn-wrap {
+          justify-content: center;
+      }
+      .services-box img {
+          height: 107px;
       }
   }
 
@@ -3970,6 +4012,29 @@ ul.social-media li a {
     }
 
 }
+@media only screen and (max-width: 555px){
+    .privacy-page-table {
+        overflow-x: scroll;
+    }
+    .privacy-page-table .table {
+        min-width: 100%;
+        width: 870px;
+    }
+}
+@media only screen and (max-width: 535px){
+    .related-article-wrap {
+        flex-direction: column;
+    }
+    .related-article-wrap a{
+        width: 50%;
+    }
+    .related-article-wrap .services-box {
+        margin-bottom: 30px;
+    }
+    .services-box img {
+        height: 155px;
+    }
+}
 @media only screen and (max-width: 528px){
     .services-area .services-wrapper .services-box img {
         height: 93px;
@@ -4270,6 +4335,18 @@ ul.social-media li a {
       .chat-box-content, .chat-box.chat-box-customer-message .chat-box-content {
           max-width: 100%;
       }
+      /*Pro Review Details CSS*/
+      .related-article-wrap a {
+          width: 300px;
+          margin: 0 auto;
+      }
+      .related-article-wrap .services-box {
+          width: 244px;
+          margin: 0 auto 30px;
+      }
+      .related-pro-tips-title {
+          text-align: center;
+      }
 
   }
 
@@ -4287,6 +4364,10 @@ ul.social-media li a {
     .message-pro-page .message-footer form .form-group:nth-child(3) {
         width: 30%;
     }
+    /*.related-article-wrap .services-box h6 {*/
+    /*    width: 50%;*/
+    /*    margin: 0 auto;*/
+    /*}*/
 }
 
 @media only screen and (max-width:370px){
@@ -4306,6 +4387,11 @@ ul.social-media li a {
     .how-to-details-help-wrap .how-to-details-content {
         padding: 15px 40px;
     }
+    /*.related-article-page-area .services-box h6 {*/
+    /*    !*padding: 5px;*!*/
+    /*    width: 70%;*/
+    /*    margin: 0 auto;*/
+    /*}*/
 
 }
   /*-------------------------------------------
