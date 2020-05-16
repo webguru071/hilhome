@@ -59,46 +59,53 @@
 <!--    </div>-->
     <!-- Pre Loader Area End -->
 
-    <!-- Menu Area Start -->
-    <header class="menu-section-area menu-search-area padding-zero">
+    <!-- Menu After Login Area Start -->
+    <header class="menu-section-area menu-search-area menu-after-login padding-zero">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg d-none d-sm-none d-md-block d-lg-block d-xl-block" id="mainNav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo" class="img-fluid"></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/img/mobile-logo.png" alt="logo" class="img-fluid"></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
+
+                <!-- Search Bar in Main Menu Area Start-->
+                <div class="search-box">
+                    <form action="#" method="post">
+                        <div class="custom-select">
+                            <select>
+                                <option value="House Cleaning">House Cleaning</option>
+                                <option value="Photographers">Photographers</option>
+                                <option value="Makeup artists">Makeup artists</option>
+                                <option value="Handyman">Handyman</option>
+                                <option value="Massage Therapy">Massage Therapy</option>
+                                <option value="Dog Training">Dog Training</option>
+                                <option value="Event Planners">Event Planners</option>
+                            </select>
+                        </div>
+                        <input type="text" placeholder="Zip code">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+                <!-- Search Bar in Main Menu Area End-->
+
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-
-                    <!-- Search Bar in Main Menu Area Start-->
-                    <div class="search-box">
-                        <form action="#" method="post">
-                            <div class="custom-select">
-                                <select>
-                                    <option value="House Cleaning">House Cleaning</option>
-                                    <option value="Photographers">Photographers</option>
-                                    <option value="Makeup artists">Makeup artists</option>
-                                    <option value="Handyman">Handyman</option>
-                                    <option value="Massage Therapy">Massage Therapy</option>
-                                    <option value="Dog Training">Dog Training</option>
-                                    <option value="Event Planners">Event Planners</option>
-                                </select>
-                            </div>
-                            <input type="text" placeholder="Zip code">
-                            <button type="submit">Search</button>
-                        </form>
-                    </div>
-                    <!-- Search Bar in Main Menu Area End-->
-
                     <ul class="navbar-nav text-capitalize ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link theme-button" href="pro.html">Join as a pro</a>
+                            <a class="nav-link" href="pro.html">Sign up as a pro</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="register.html">Sign up</a>
+                            <a class="nav-link" href="customer-activity.html">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.html">Login</a>
+                            <a class="nav-link" href="customer-inbox.html">inbox</a>
+                        </li>
+                        <li class="nav-item dropdown-box">
+                            <a class="nav-link"><span class="customer-img"><img src="assets/img/pros-img/1.jpg" alt="img"></span>Suraiya<i class="fas fa-angle-down"></i></a>
+                            <ul class="dropdown-list">
+                                <li><a href="customer-profile.html">Profile</a></li>
+                                <li><a href="index.html">Log out</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -135,20 +142,26 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pro.html">Join as a pro</a>
+                    <a class="nav-link" href="pro.html">Sign up as a pro</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="register.html">Sign up</a>
+                    <a class="nav-link" href="customer-activity.html">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link" href="customer-inbox.html">inbox</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer-profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Log out</a>
                 </li>
             </ul>
         </nav>
         <!-- Mobile Menu End -->
 
     </header>
-    <!-- Menu Area End -->
+    <!-- Menu After Login Area End -->
 
     <!-- Login Area Start -->
     <section class="login-area customer-account-deactivate-area opt-out-page-area">
@@ -165,7 +178,7 @@
                         <p>We'd hate to see you go. If there's anything we can do to help, please visit our <a
                             href="#">example@hilhome.com</a></p>
 
-                        <div><button type="submit" class="btn theme-button">Opt out</button></div>
+                        <div><button type="button" class="btn theme-button" onclick="location.href='index.html'">Opt out</button></div>
                     </form>
                 </div>
             </div>

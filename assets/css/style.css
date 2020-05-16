@@ -1068,6 +1068,7 @@ button:focus {
 }
 .login-area form .btn.theme-button {
     width: 100%;
+    height: 50px;
 }
 .other-button-box a.btn {
     border: 1px solid #d3d4d5;
@@ -1880,6 +1881,7 @@ ul.social-media li a {
 }
 .privacy-page-area h3 {
     font-size: 21px;
+    line-height: 34px;
 }
 .privacy-content-header h3 {
     font-size: 25px;
@@ -2330,6 +2332,9 @@ ul.social-media li a {
     width: 40px;
     height: 40px;
     margin-right: 7px;
+}
+.how-to-page-area.question-details-page-banner .page-breadcrumb, .how-to-page-area.question-details-page-banner .breadcrumb {
+    margin-bottom: 0;
 }
 /*-------------------------------------------
         27. Question Details Page End
@@ -3911,6 +3916,12 @@ ul.social-media li a {
       }
       .message-header-right {
           width: 15%;
+      }
+      .we-here-to-help-area .guarantee-tab-content {
+          margin-left: 0;
+      }
+      .question-details-ready-to-hire .theme-button {
+          margin-bottom: 30px;
       }
 
   }
