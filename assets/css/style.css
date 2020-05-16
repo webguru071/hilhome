@@ -2729,6 +2729,8 @@ ul.social-media li a {
     overflow-y: scroll;
     max-height: 100vh;
     min-height: 500px;
+    padding-top: 25px;
+    padding-right: 20px;
 }
 .message-header , .message-pro-profile-wrap, .message-pro-address, .message-pro-photos{
     border-bottom: 1px solid var(--border-color);
@@ -2758,16 +2760,17 @@ ul.social-media li a {
     padding: 5px 10px;
     border-radius: 6px;
 }
-.message-main-box {
-    padding-top: 25px;
-}
+/*.message-main-box {*/
+/*    padding-top: 25px;*/
+/*}*/
 .message-main-header button {
     margin: 6px 0 20px;
 }
 .chat-box-content {
     margin-top: 20px;
     align-items: flex-end;
-    width: 40%;
+    width: auto;
+    max-width: 70%;
 }
 .chat-box {
     width: 100%;
@@ -2775,7 +2778,8 @@ ul.social-media li a {
 }
 .chat-box.chat-box-customer-message .chat-box-content {
     float: right;
-    width: 32%;
+    width: auto;
+    max-width: 70%;
 }
 .chat-box.chat-box-customer-message .chat-box-content .chat-box-text{
     background-color: var(--color-blue);
@@ -3240,7 +3244,32 @@ ul.social-media li a {
   @media only screen and (max-width: 1775px) {
 
   }
-  @media only screen and (max-width: 1675px) {
+  @media only screen and (min-width: 1367px) and (max-width: 1675px){
+
+      /*Message Pro CSS*/
+      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-7.col-xl-9 {
+          max-width: 70%;
+      }
+      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-5.col-xl-3 {
+          max-width: 30%;
+      }
+
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1366px){
+
+      /*Message Pro CSS*/
+      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-7.col-xl-9 {
+          max-width: 65%;
+      }
+      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-5.col-xl-3 {
+          max-width: 35%;
+      }
+      .message-header-left {
+          width: 90%;
+      }
+      .message-header-right {
+          width: 10%;
+      }
 
   }
 
@@ -3295,6 +3324,24 @@ ul.social-media li a {
       }
       .downloads-app-img img {
           height: 300px;
+      }
+
+      /*Message Pro CSS*/
+      /*.chat-box-content {*/
+      /*    width: 46%;*/
+      /*}*/
+      /*.chat-box.chat-box-customer-message .chat-box-content {*/
+      /*    width: 46%;*/
+      /*}*/
+      .message-pro-page .message-footer form .form-group:nth-child(1) {
+          width: 10%;
+      }
+      .message-pro-page .message-footer form .form-group:nth-child(2) {
+          width: 75%;
+      }
+      .message-pro-page .message-footer form .form-group:nth-child(3) {
+          width: 15%;
+          text-align: right;
       }
 
   }
@@ -3384,6 +3431,12 @@ ul.social-media li a {
       .customer-review-page-img-wrap .photo-wrap img {
           height: 170px;
           min-height: 166px;
+      }
+      .message-header-left {
+          width: 87%;
+      }
+      .message-header-right {
+          width: 13%;
       }
 
   }
@@ -3475,6 +3528,9 @@ ul.social-media li a {
       .customer-profile-area, .customer-create-password , .customer-inbox-page-area, .register-area, .login-area{
           padding-top: 110px;
       }
+      .message-pro-page{
+          padding-top: 60px;
+      }
       .customer-information-page .customer-right-side {
           padding: 25px 40px 40px 0;
       }
@@ -3528,6 +3584,18 @@ ul.social-media li a {
       }
 
   }
+
+  @media only screen and (max-width: 767px){
+
+      /*Message Pro CSS*/
+      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-7.col-xl-9 {
+          max-width: 100%;
+      }
+      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-5.col-xl-3 {
+          display: none;
+      }
+  }
+
   @media only screen and (min-width: 768px) and (max-width: 991px){
 
       /*Main Menu Bar*/
@@ -3578,6 +3646,23 @@ ul.social-media li a {
       .customer-review-page-img-wrap .photo-wrap img {
           height: 171px;
           min-height: 171px;
+      }
+
+      /*Message Pro CSS*/
+      .chat-box-content ,.chat-box.chat-box-customer-message .chat-box-content{
+          max-width: 85%;
+      }
+      .message-header-left {
+          width: 79%;
+      }
+      .message-header-right {
+          width: 21%;
+      }
+      .message-pro-page .message-footer form .form-group:nth-child(1) {
+          width: 15%;
+      }
+      .message-pro-page .message-footer form .form-group:nth-child(2) {
+          width: 61%;
       }
 
   }
@@ -3775,6 +3860,14 @@ ul.social-media li a {
           padding: 15px 130px;
       }
 
+      /*Message Pro CSS*/
+      .message-header-left {
+          width: 85%;
+      }
+      .message-header-right {
+          width: 15%;
+      }
+
   }
 
   /*========================================
@@ -3853,6 +3946,26 @@ ul.social-media li a {
         padding-left: 0;
         padding-top: 15px;
     }
+
+    /*Message Pro CSS*/
+    .message-header-left {
+        width: 82%;
+    }
+    .message-header-right {
+        width: 18%;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(1) {
+        width: 15%;
+    }
+    .message-pro-page .message-footer form .form-group:nth-child(2) {
+        width: 60%;
+    }
+    .message-pro-page .message-footer form .form-group:nth-child(3) {
+        width: 25%;
+        /*text-align: right;*/
+    }
+
 }
 @media only screen and (max-width: 528px){
     .services-area .services-wrapper .services-box img {
@@ -4124,6 +4237,11 @@ ul.social-media li a {
       }
       .how-to-details-help-wrap .how-to-details-content {
           padding: 15px 90px;
+      }
+      
+      /*Message Pro CSS*/
+      .message-pro-page .message-footer form .theme-button {
+          padding: 5px 15px 10px;
       }
 
   }
