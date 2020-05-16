@@ -410,6 +410,23 @@
         $("#close-two").click();
     });
 
+    // massages-modal-area
+
+    $("#close-area-next-btn").click(function () {
+        $("#close-three").click();
+    });
+
+
+    $("#close-area-next-btn-one").click(function () {
+        $("#close-four").click();
+    });
+
+
+
+
+
+
+
     //Hadayet  JS End
 
     //--------- Initialize WOW JS
