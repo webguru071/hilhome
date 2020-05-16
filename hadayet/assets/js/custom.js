@@ -361,9 +361,6 @@
         }
     });
 
-
-
-
     // Bottom area fixed
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 620) {
@@ -374,12 +371,9 @@
         }
     });
 
-
-
     $("#fun-one").click(function () {
         $("#close-one").click();
     });
-
 
     // Why love Slider
     $('.business-slider-text ').owlCarousel({
@@ -410,22 +404,11 @@
         $("#close-two").click();
     });
 
-    // massages-modal-area
-
-    $("#close-area-next-btn").click(function () {
-        $("#close-three").click();
+    // preloader
+    $(window).on('load', function () {
+        $('#status').fadeOut();
+        $('#preloader').delay(350).fadeOut('slow');
     });
-
-
-    $("#close-area-next-btn-one").click(function () {
-        $("#close-four").click();
-    });
-
-
-
-
-
-
 
     //Hadayet  JS End
 

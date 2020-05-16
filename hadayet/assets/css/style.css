@@ -4751,33 +4751,10 @@ strong {
 
 }
 
-.event-modal textarea {
-    width: 100%;
-    border: 1px solid #d3d4d5;
-    padding: 20px 25px;
-    font-size: 18px;
-    margin-top: 30px;
-}
-
-.event-modal .add-photos-btn {
-    border: 2px solid #d3d4d5;
-    width: 100%;
-    padding: 10px 10px;
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: 800;
-    color: #676d73;
-    cursor: pointer;
-}
-
 .event-skip-button {
     border-top: 1px solid #d3d4d5;
     margin-top: 46px;
     padding-top: 23px;
-}
-
-.img-upload-before img {
-    width: 60%;
 }
 
 .event-modal h3 {
@@ -4790,11 +4767,13 @@ strong {
 }
 
 .event-modal .radio-build {
-    border: 1px solid red;
+    border: 1px solid #dadada;
+    padding: 10px 0 10px 0;
+    ;
     padding: 10px 0 10px 0;
 }
 
-#dog-old .checkmark {
+#messages-modal .checkmark {
     position: absolute;
     top: 11px;
     left: 13px;
@@ -4804,7 +4783,7 @@ strong {
     border-radius: 50%;
 }
 
-#dog-old .radio-build input:checked~.checkmark {
+#messages-modal .radio-build input:checked~.checkmark {
     background-color: #2196F3;
 }
 
@@ -4816,6 +4795,37 @@ strong {
     margin-right: 20px;
     font-weight: 700;
 }
+
+
+/*----------------------------
+    preloder
+--------------------------------*/
+
+#preloader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status {
+    background-image: url(../img/preloader.gif);
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 48%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+
+
+
 
 /* --Pro main Page-- */
 
@@ -8343,8 +8353,6 @@ table .comment-area h6 i {
 }
 
 /* --Pro-profile-message-page-- */
-.latest-messages-area {}
-
 .latest-messages-area h6 {
     font-size: 16px;
     font-weight: 800;
@@ -8369,6 +8377,183 @@ table .comment-area h6 i {
     color: #fff;
     font-size: 29px;
 }
+
+/* --Stories page -- */
+.stories-area-banner {
+    background-image: url(../img/stories/banner.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    text-align: left;
+    position: relative;
+    padding: 0;
+
+}
+
+.stories-area-banner::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0202028c;
+}
+
+.stories-banner-inner {
+    z-index: 999;
+    position: relative;
+    padding-bottom: 110px;
+}
+
+.stories-banner-inner a {
+    color: #fff;
+}
+
+.stories-banner-inner a h2 {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.stories-banner-inner a h6 {
+    font-size: 22px;
+    letter-spacing: 0;
+    display: inline-block;
+    padding-top: 15px;
+    color: #fff;
+}
+
+.stories-banner-inner a h6 i {
+    color: #fff;
+    padding-right: 10px;
+}
+
+.vbox-container {
+    overflow: hidden;
+}
+
+.stories-inner-area {
+    border: none;
+    margin-bottom: 60px;
+}
+
+.stories-section-heading-area {
+    text-align: center;
+}
+
+.stories-section-heading-area h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.stories-item-box {
+    border-bottom: 1px solid #d3d4d5;
+    height: 96%;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+
+.stories-item-box a h6 {
+    color: #676d73;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.stories-item-box a img {
+    width: 100%;
+}
+
+.stories-item-box a h2 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #2f3033;
+    padding-top: 10px;
+}
+
+.stories-item-box a p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f3033;
+    padding-top: 10px;
+}
+
+.cat-stories-area {
+    border: none;
+    background-image: url(../img/stories/item-2.png);
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cat-stories-inner {
+    padding-top: 100px;
+}
+
+.cat-stories-inner a {
+    color: #fff;
+}
+
+.cat-stories-inner a h2 {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.cat-stories-inner a h6 {
+    font-size: 22px;
+    letter-spacing: 0;
+    display: inline-block;
+    padding-top: 15px;
+    color: #fff;
+}
+
+.cat-stories-inner a h6 i {
+    color: #fff;
+    padding-right: 10px;
+}
+
+.secend-area-stries {
+    padding: 0 0 60px 0px;
+}
+
+.pagenation-stories {
+    text-align: center;
+}
+
+.stories-pagenation-top {
+    margin-top: 60px;
+}
+
+.border-are-storis {
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 0;
+}
+
+
+/* --stories-details page -- */
+.stories-details-area-banner {
+    height: 400px;
+    background-image: url(../img/stories/item-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 
 /*=======================================

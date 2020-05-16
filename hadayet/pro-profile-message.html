@@ -44,8 +44,6 @@
     sizes="144x144" />
   <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/favicon-16x16.png" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.6.0/venobox.min.css" type="text/css"
-    media="screen" />
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -278,10 +276,12 @@
                     class="far fa-comments"></i>Message</a>
               </div>
               <div class="messages-box-detils">
-                <a href="#!"><i class="far fa-calendar"></i>Check availability</a>
+                <a href="#!" data-toggle="modal" data-target="#messages-modal"><i class="far fa-calendar"></i>Check
+                  availability</a>
               </div>
               <div class="messages-box-detils">
-                <a href="#!"><i class="fas fa-phone-volume"></i>Request a call</a>
+                <a href="#!" data-toggle="modal" data-target="#messages-modal"><i
+                    class="fas fa-phone-volume"></i>Request a call</a>
               </div>
             </div>
             <hr class="border-bottom margin-hr" />
@@ -292,15 +292,15 @@
               </div>
               <div class="details-photo-slider owl-carousel owl-theme">
                 <div class="item-photo-detail-slider">
-                  <a href="assets/img/services-img/1.jpg" class="venobox" data-type="img"><img
+                  <a href="assets/img/services-img/1.jpg" class="venobox" data-gall="myGallery"><img
                       src="assets/img/services-img/1.jpg" alt="img" /></a>
                 </div>
                 <div class="item-photo-detail-slider">
-                  <a href="assets/img/services-img/2.jpg" class="venobox" data-type="img"><img
+                  <a href="assets/img/services-img/2.jpg" class="venobox" data-gall="myGallery"><img
                       src="assets/img/services-img/2.jpg" alt="img" /></a>
                 </div>
                 <div class="item-photo-detail-slider">
-                  <a href="https://player.vimeo.com/video/78741166" class="venobox" data-type="vimeo">
+                  <a href="https://player.vimeo.com/video/78741166" class="venobox" data-gall="myGallery">
                     <i class="far fa-play-circle"></i><img src="assets/img/services-img/3.jpg" alt="img" /></a>
                 </div>
                 <div class="item-photo-detail-slider">
@@ -309,15 +309,15 @@
                 </div>
                 <div class="item-photo-detail-slider">
                   <a href="https://player.vimeo.com/video/78741166" class="venobox" data-type="vimeo"><img
-                      src="assets/img/services-img/5.jpg" alt="img" />
+                      src=" assets/img/services-img/5.jpg" alt="img" />
                     <i class="far fa-play-circle"></i></a>
                 </div>
                 <div class="item-photo-detail-slider">
-                  <a href="assets/img/services-img/6.jpg" class="venobox" data-type="img"><img
+                  <a href="assets/img/services-img/6.jpg" class="venobox" data-gall="myGallery"><img
                       src="assets/img/services-img/6.jpg" alt="img" /></a>
                 </div>
                 <div class="item-photo-detail-slider">
-                  <a href="assets/img/services-img/7.jpg" class="venobox" data-type="img"><img
+                  <a href="assets/img/services-img/7.jpg" class="venobox" data-gall="myGallery"><img
                       src="assets/img/services-img/7.jpg" alt="img" /></a>
                 </div>
               </div>
@@ -975,19 +975,51 @@
     </div>
   </div>
 
-  <!-- messages Modal-->
+  <!-- Dog Modal-->
   <div class="modal fade" id="messages-modal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close-three">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
           <!--Contact Form-->
-          <div class="messages-modal">
+          <div class="event-modal">
+            <h3>How old is your dog?</h3>
 
+            <ul>
+              <li>
+                <label class="radio-build">0-6 months old
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="radio-build">6-12 months old
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+
+              <li>
+                <label class="radio-build">1-2 Years old
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="radio-build">2-10 Years old
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+            </ul>
+            <div class="event-skip-button">
+              <a href="#!" class="skip-arae-btn">Back</a>
+              <a href="#!" class="theme-button">Next</a>
+            </div>
           </div>
         </div>
       </div>
@@ -1014,33 +1046,13 @@
   <!--Owl Carousel JS Script-->
   <script src="assets/js/owl.carousel.min.js"></script>
 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.6.0/venobox.min.js"></script>
-
   <!--Mean Menu/Mobile Menu Script-->
   <script src="assets/js/jquery.meanmenu.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="assets/js/custom.js"></script>
 
-  <script>
-    $(document).ready(function () {
 
-      /* default settings */
-      $('.venobox').venobox();
-
-
-      /* custom settings */
-      $('.venobox_custom').venobox({
-        framewidth: '400px', // default: ''
-        frameheight: '300px', // default: ''
-        border: '10px', // default: '0'
-        bgcolor: '#5dff5e', // default: '#fff'
-        titleattr: 'data-title', // default: 'title'
-        numeratio: true, // default: false
-        infinigall: true // default: false
-      });
-    });
-  </script>
 </body>
 
 </html>
