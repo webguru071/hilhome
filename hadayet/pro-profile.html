@@ -1003,6 +1003,17 @@
     </div>
   </div>
 
+
+
+
+
+
+
+
+
+
+
+
   <!-- messages Modal-->
   <div class="modal fade" id="messages-modal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
@@ -1014,7 +1025,79 @@
         </div>
         <div class="modal-body">
           <!--Contact Form-->
-          <div class="messages-modal">
+          <div class="event-modal">
+            <h2>Tell this pro briefly what you’re looking for.</h2>
+            <p>You’ll have a chance to add more details next.</p>
+            <form action="#!">
+              <div class="form-group">
+                <textarea rows="5" placeholder="Add your messages here"></textarea>
+                <button class="add-photos-btn"><i class="fas fa-plus-circle"></i> Add Photos</button>
+              </div>
+            </form>
+            <div class="img-upload-before text-left">
+              <img src="assets/img/price/gym-1.png" alt="img">
+              <textarea rows="4"></textarea>
+            </div>
+
+            <div class="messages-skip-button">
+              <a href="#!" data-toggle="modal" data-target="#dog-old" class="theme-button">Next</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Dog Modal-->
+  How old is your dog?
+  <div class="modal fade" id="dog-old" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!--Contact Form-->
+          <div class="event-modal">
+            <h3>How old is your dog?</h3>
+
+            <ul>
+              <li>
+                <label class="radio-build">0-6 months old
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="radio-build">6-12 months old
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+
+              <li>
+                <label class="radio-build">1-2 Years old
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="radio-build">2-10 Years old
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+            </ul>
+
+            <div class="event-skip-button">
+              <a href="#!" data-toggle="modal" data-target="#messages-modal" class="skip-arae-btn">Back</a>
+              <a href="#!" data-toggle="modal" data-target="#dog-old" class="theme-button">Next</a>
+
+            </div>
 
           </div>
         </div>

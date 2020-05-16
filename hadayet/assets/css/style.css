@@ -4163,7 +4163,7 @@ ul.social-media li a {
     margin-top: 20px;
 }
 
-/* --Service Details Page-- */
+/* --pro-profile Page-- */
 
 .details-service-heading-area {
     display: flex;
@@ -4364,7 +4364,6 @@ ul.social-media li a {
     font-weight: 900;
 }
 
-.specialties-area {}
 
 .specialties-area h6 {
     line-height: 24px;
@@ -4735,8 +4734,90 @@ strong {
     font-weight: 800;
 }
 
-/* --Pros Page Start-- */
-/* --Pros Main Page-- */
+/* --modeal  area-- */
+.event-modal {
+    text-align: center;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.event-modal h2 {
+    font-size: 32px;
+}
+
+.event-modal p {
+    padding-top: 15px;
+
+}
+
+.event-modal textarea {
+    width: 100%;
+    border: 1px solid #d3d4d5;
+    padding: 20px 25px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.event-modal .add-photos-btn {
+    border: 2px solid #d3d4d5;
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #676d73;
+    cursor: pointer;
+}
+
+.event-skip-button {
+    border-top: 1px solid #d3d4d5;
+    margin-top: 46px;
+    padding-top: 23px;
+}
+
+.img-upload-before img {
+    width: 60%;
+}
+
+.event-modal h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.event-modal ul {
+    padding-top: 40px;
+}
+
+.event-modal .radio-build {
+    border: 1px solid red;
+    padding: 10px 0 10px 0;
+}
+
+#dog-old .checkmark {
+    position: absolute;
+    top: 11px;
+    left: 13px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+#dog-old .radio-build input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+.skip-arae-btn {
+    border: 2px solid #d3d4d5;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+/* --Pro main Page-- */
 
 .pros-banner {
     background-image: url(../img/pros-img/banner.jpg);
@@ -8280,8 +8361,6 @@ table .comment-area h6 i {
     margin-right: 30px;
 
 }
-
-.item-photo-detail-slider {}
 
 .item-photo-detail-slider a i {
     position: absolute;
