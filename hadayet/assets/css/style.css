@@ -3294,7 +3294,11 @@ ul.social-media li a {
 /*-------------------------------------------
         Hadayet Ali Css Start
   -------------------------------------------*/
-/* --Press Room-- */
+
+
+/*----------------------------------
+          Press Room
+------------------------------------*/
 
 .press-room-banner {
     background-image: url(../img/press-room/banner.jpg);
@@ -3620,7 +3624,10 @@ ul.social-media li a {
     padding-right: 20px;
 }
 
-/* --Contact-Support page-- */
+/*----------------------------------
+  Contact-Support page
+------------------------------------*/
+
 
 .contact-suport {
     padding: 100px 0;
@@ -3720,7 +3727,10 @@ ul.social-media li a {
     line-height: 20px;
 }
 
-/* --Help Page-- */
+
+/*----------------------------------
+   Help Page
+------------------------------------*/
 
 .help-banner {
     padding: 100px 0;
@@ -3863,7 +3873,10 @@ ul.social-media li a {
     padding-top: 15px;
 }
 
-/* --Downloads pages Start-- */
+/*----------------------------------
+     Downloads-customaer-app-pages 
+------------------------------------*/
+
 
 .downloads-area-tabs {
     position: relative;
@@ -4095,7 +4108,10 @@ ul.social-media li a {
     margin-top: 30px;
 }
 
-/* Hilhome-guarantee-terms page */
+/*----------------------------------
+ Hilhome-guarantee-terms page
+------------------------------------*/
+
 
 .text-big-heading {
     font-size: 40px;
@@ -4163,7 +4179,9 @@ ul.social-media li a {
     margin-top: 20px;
 }
 
-/* --pro-profile Page-- */
+/*----------------------------------
+    pro-profile Page
+------------------------------------*/
 
 .details-service-heading-area {
     display: flex;
@@ -4797,7 +4815,9 @@ strong {
 }
 
 
-/* --Pro main Page-- */
+/*----------------------------------
+     Pro main Page
+------------------------------------*/
 
 .pros-banner {
     background-image: url(../img/pros-img/banner.jpg);
@@ -5227,7 +5247,9 @@ strong {
     border-top: 1px solid var(--border-color);
 }
 
-/* --partner page-- */
+/*----------------------------------
+    partner page
+------------------------------------*/
 
 .partner-heading h2 {
     font-size: 32px;
@@ -5288,9 +5310,9 @@ strong {
     margin-bottom: 10px;
 }
 
-/* --Service-do page-- */
-
-.service-do-heading {}
+/*----------------------------------
+  Service-do page
+------------------------------------*/
 
 .service-do-heading h6 {
     font-size: 20px;
@@ -5537,7 +5559,9 @@ strong {
     margin-top: 20px;
 }
 
-/* build-a-wining-profile-page */
+/*----------------------------------
+  build-a-wining-profile-page
+------------------------------------*/
 
 .service-do-area {
     border: none;
@@ -5627,7 +5651,9 @@ strong {
     font-size: 24px;
 }
 
-/* build-a-wining-profile-page two */
+/*----------------------------------
+  build-a-wining-profile-page two 
+------------------------------------*/
 
 .build-img-area img {
     width: 20%;
@@ -5691,7 +5717,9 @@ strong {
     padding-top: 10px;
 }
 
-/* --business gole page-- */
+/*----------------------------------
+        business gole page
+------------------------------------*/
 
 .business-gole-heading h3 {
     font-size: 24px;
@@ -5737,9 +5765,10 @@ strong {
     padding-top: 25px;
 }
 
-/* --info Business-- */
+/*----------------------------------
+         info Business
+------------------------------------*/
 
-.business-info-area-form {}
 
 .business-info-area-form h3 {
     font-size: 24px;
@@ -5796,8 +5825,9 @@ strong {
     padding-top: 60px;
 }
 
-/* --get-Review page-- */
-
+/*----------------------------------
+          get-Review page
+------------------------------------*/
 .add-customer-area p {
     font-size: 16px;
     font-weight: 70
@@ -5947,7 +5977,10 @@ strong {
     margin-top: 30px;
 }
 
-/* --We-just-need-page-- */
+/*----------------------------------
+   We-just-need-page
+------------------------------------*/
+
 
 .we-just-need-heading h6 {
     font-size: 20px;
@@ -6035,7 +6068,11 @@ strong {
     margin-top: 40px;
 }
 
-/* --add-profile-img-page-- */
+
+
+/*----------------------------------
+   add-profile-img-page
+------------------------------------*/
 
 .add-profile-photo-area h2 {
     font-size: 24px;
@@ -6072,7 +6109,9 @@ strong {
     border: none;
 }
 
-/* --Price Lead page-- */
+/*----------------------------------
+     Price Lead page
+------------------------------------*/
 
 .price-lead-text {
     padding-top: 25px;
@@ -6094,7 +6133,11 @@ strong {
     padding-top: 30px;
 }
 
-/* --Whyn you pay page-- */
+
+/*----------------------------------
+ Whyn you pay page
+------------------------------------*/
+
 
 .when-pay-model-body h3 {
     font-size: 24px;
@@ -6126,7 +6169,11 @@ strong {
     font-size: 16px;
 }
 
-/* --get strated page-- */
+
+
+/*----------------------------------
+  get strated page
+------------------------------------*/
 
 .get-started-img-area {
     text-align: center;
@@ -6137,7 +6184,10 @@ strong {
     font-size: 16px;
 }
 
-/* --Where do you want to work page-- */
+
+/*----------------------------------
+  Where do you want to work page
+------------------------------------*/
 
 
 
@@ -6381,8 +6431,9 @@ strong {
     margin-bottom: 10px;
 }
 
-/* --where-you-time-date-- */
-
+/*----------------------------
+    where-you-time-date
+--------------------------------*/
 .time-list-main-arae {
     border: 1px solid #d3d4d5;
     padding: 25px;
@@ -6401,8 +6452,9 @@ strong {
     font-size: 16px;
 }
 
-/* --What kind job page-- */
-
+/*----------------------------
+ What kind job page
+--------------------------------*/
 .what-kind-area {
     padding: 55px 0 135px 0;
 }
@@ -6426,9 +6478,10 @@ strong {
     color: var(--color-blue);
 }
 
+/*--------------------------------------
+  Company Announcements Area page start
+-----------------------------------------*/
 
-
-/* Company Announcements Area page start */
 .announcements-top-heading h6 {
     font-size: 14px;
     font-weight: 900;
@@ -6462,8 +6515,6 @@ strong {
     font-weight: 700;
     margin-bottom: 10px;
 }
-
-.how-work-hilhome {}
 
 .how-icon {
     display: -webkit-box;
@@ -6504,8 +6555,9 @@ strong {
     font-weight: 700;
 }
 
-/* --Blog-page-- */
-
+/*----------------------------
+    Blog-page
+--------------------------------*/
 
 .sidebar-wedget-area {
     padding-left: 40px;
@@ -6635,7 +6687,6 @@ strong {
     margin: 25px 0;
 }
 
-.blog-main-wedget h2 {}
 
 .blog-main-wedget h2 a {
     font-size: 40px;
@@ -6652,7 +6703,6 @@ strong {
     width: 100%;
 }
 
-.blog-main-wedget P {}
 
 .blog-main-wedget p a {
     margin-top: 8px;
@@ -6685,7 +6735,6 @@ strong {
     font-weight: 500;
 }
 
-.pagenation-arae {}
 
 .pagenation-arae ul {
     display: flex;
@@ -6709,12 +6758,13 @@ strong {
     background-color: #e9eced;
 }
 
-/* --BLog-Details-- */
+/*----------------------------
+      BLog-Details
+--------------------------------*/
+/* ---- */
 .catgory-link {
     color: var(--color-blue);
 }
-
-.blog-details-wedget-top-area {}
 
 .blog-details-wedget-top-area p {
     padding-top: 10px;
@@ -7145,8 +7195,9 @@ strong {
     color: var(--color-blue);
 }
 
-
-/* --Careers page-- */
+/*----------------------------
+      Careers page
+--------------------------------*/
 .careers-banner-area {
     background-image: url(../img/careers/careers-banner.png);
     height: 100vh;
@@ -7465,9 +7516,9 @@ strong {
 }
 
 
-
-
-/* --price page-- */
+/*----------------------------
+         price page
+--------------------------------*/
 
 .price-area-banner {
     padding: 150px 0;
@@ -7616,8 +7667,10 @@ strong {
     justify-content: space-between;
 }
 
+/*----------------------------
+ Price details page 
+--------------------------------*/
 
-/* --Price details page-- */
 .price-details-banner-area {
     background-color: #fafafa;
 
@@ -7697,7 +7750,9 @@ strong {
     display: none;
 }
 
-/* --Guides Page Area-- */
+/*----------------------------
+  Guides Page Area
+--------------------------------*/
 .guides-list-arae {
     margin-top: 20px;
 }
@@ -7724,8 +7779,6 @@ strong {
 .price-details-inner-cattagory ul li a {
     color: #676d73;
 }
-
-.price-artical-header {}
 
 .price-artical-header h2 {
     font-size: 32px;
@@ -7876,9 +7929,10 @@ strong {
     right: 6px;
 }
 
+/*----------------------------
+     pro account-deactived-area 
+--------------------------------*/
 
-
-/*--pro account-deactived-area --*/
 .area-wrapper-account-deactived h2 {
     font-size: 32px;
     text-align: center;
@@ -7922,8 +7976,9 @@ strong {
     padding-right: 6px;
 }
 
-
-/* -reactivation page-- */
+/*----------------------------
+     reactivation page
+--------------------------------*/
 .pro-help-menu-box {
     position: relative;
 }
@@ -7978,8 +8033,9 @@ strong {
     height: 100%;
 }
 
-/* -- Comunity page -- */
-
+/*----------------------------
+       Comunity page
+--------------------------------*/
 .community-banner-area {
     background-image: url(../img/careers/careers-banner.png);
     background-size: cover;
@@ -8117,14 +8173,14 @@ strong {
     color: #242f51;
     background-color: #fff;
     border: none;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #008eff;
     font-weight: 800;
 }
 
 #community-area-discuss .nav-tabs .nav-link:focus,
 #community-area-discuss .nav-tabs .nav-link:hover {
     border: none;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #008eff;
 }
 
 #community-area-discuss .nav-tabs .nav-link {
@@ -8225,7 +8281,9 @@ table .comment-area h6 i {
     margin-top: 30px;
 }
 
-/* Reviews page */
+/*----------------------------
+    Reviews page
+--------------------------------*/
 .reviews-banner-area {
     padding: 0;
 }
@@ -8322,7 +8380,9 @@ table .comment-area h6 i {
     width: 100%;
 }
 
-/* --Pro-profile-message-page-- */
+/*----------------------------
+    Pro-profile-message-page
+--------------------------------*/
 .latest-messages-area h6 {
     font-size: 16px;
     font-weight: 800;
@@ -8348,7 +8408,9 @@ table .comment-area h6 i {
     font-size: 29px;
 }
 
-/* --Stories page -- */
+/*----------------------------
+      Stories page 
+--------------------------------*/
 .stories-area-banner {
     background-image: url(../img/stories/banner.jpg);
     min-height: 400px;
@@ -8514,15 +8576,96 @@ table .comment-area h6 i {
     margin-bottom: 0;
 }
 
-
-/* --stories-details page -- */
-.stories-details-area-banner {
-    height: 400px;
-    background-image: url(../img/stories/item-2.png);
-    background-size: cover;
-    background-position: center;
+/*----------------------------
+  stories-catagorys page
+--------------------------------*/
+.stories-catagory-area-banner {
+    background-color: #fafafa;
+    border: none;
 }
 
+.stories-catagory-banner-inner h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+
+/*----------------------------
+    Saftey page
+--------------------------------*/
+.saftey-baner-area {
+    background-image: url(../img/stories/item-2.png);
+    padding: 155px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.saftey-heading-banner {}
+
+.saftey-heading-banner h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.saftey-area-heading-box {}
+
+.saftey-heading-box {}
+
+.saftey-heading-box p {
+    color: #676d73;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 120px;
+}
+
+.saftey-heading-box p a {
+    color: var(--color-blue);
+}
+
+.saftey-sidebar-area {}
+
+.saftey-sidebar-area ul {
+    position: relative;
+}
+
+.saftey-sidebar-area ul:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background: #e9eced;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+.active-saftey-item {
+    position: relative;
+}
+
+.active-saftey-item:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: var(--color-blue);
+    left: 0;
+    border-radius: 30px;
+}
+
+.saftey-sidebar-area ul li {
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.saftey-sidebar-area ul li a {
+    font-size: 16px;
+    color: #676d73;
+}
 
 /*----------------------------
     preloder
