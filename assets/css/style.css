@@ -464,45 +464,25 @@ button:focus {
     4. Preloader and Scroll To Top Area Start
 -------------------------------------------*/
 #preloader {
+    background-color: #fff;
     position: fixed;
     top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    background-color: #fff;
-    z-index: 99999999;
+    z-index: 9999;
 }
 
-.loader {
-    position: absolute;
-    left: 53%;
-    top: 53%;
+#status {
+    background-image: url(../img/preloader.gif);
     background-repeat: no-repeat;
-    background-position: center;
-    margin: -100px 0 0 -100px;
-    border: 10px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 10px solid #ed553b;
-    border-bottom: 10px solid #232d39;
-    width: 90px;
-    height: 90px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-@media only screen and (min-width:300px) and (max-width:479px){
-    .loader {
-        margin: -100px 0 0 -48px;
-    }
+    width: 20%;
+    height: 48%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
 }
 
 /*---------Scroll To Top--------*/

@@ -2,14 +2,10 @@
 "use strict"; // Start of use strict
 
 // Preloader Start
-//   $(window).load(function () {
-//     $('.loader').fadeOut();
-//     $('#preloader')
-//         .delay(350)
-//         .slideUp('slow');
-//     $('body')
-//         .delay(350)
-//   });
+    $(window).on('load', function () {
+        $('#status').fadeOut();
+        $('#preloader').delay(350).fadeOut('slow');
+    });
 // Preloader End
 
 /// MAIN MENU SCRIPT START
@@ -331,6 +327,151 @@ $('.venobox').venobox({
         $('.success-box div.text-message').html("<span>" + msg + "</span>");
     }
     // Review Rating Js End
+
+    // Hadayet Js Start
+
+    // Logo Slider
+    $('.details-photo-slider').owlCarousel({
+        loop: true,
+        dots: false,
+        margin: 10,
+        nav: true,
+        navText: [
+
+            "<i class='fas fa-angle-left'></i>",
+            "<i class='fas fa-angle-right'></i>"
+
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 3,
+            },
+            1200: {
+                items: 3,
+            }
+        }
+    });
+
+    // Customer Slider
+    $('.customer-slider-area ').owlCarousel({
+        loop: true,
+        dots: false,
+        margin: 10,
+        nav: true,
+        navText: [
+
+            "<i class='fas fa-angle-left'></i>",
+            "<i class='fas fa-angle-right'></i>"
+
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 3,
+            },
+            1200: {
+                items: 3,
+            }
+        }
+    });
+    // Why love Slider
+    $('.why-love-slider-area').owlCarousel({
+        loop: true,
+        dots: true,
+        margin: 10,
+        nav: true,
+        navText: [
+
+            "<i class='fas fa-angle-left'></i>",
+            "<i class='fas fa-angle-right'></i>"
+
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            },
+            1200: {
+                items: 1,
+            }
+        }
+    });
+    // client asking
+    $('.client-asking-slider').owlCarousel({
+        loop: true,
+        dots: true,
+        margin: 0,
+        nav: true,
+        navText: [
+
+            "<i class='fas fa-angle-left'></i>",
+            "<i class='fas fa-angle-right'></i>"
+
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            },
+            1200: {
+                items: 1,
+            }
+        }
+    });
+
+    // Bottom area fixed
+    $(window).on('scroll', function () {
+        if ($(this).scrollTop() > 620) {
+
+            $('.fixed-area').addClass("fixed-sticky");
+        } else {
+            $('.fixed-area').removeClass("fixed-sticky");
+        }
+    });
+
+    $("#fun-one").click(function () {
+        $("#close-one").click();
+    });
+
+    // Why love Slider
+    $('.business-slider-text ').owlCarousel({
+        loop: true,
+        dots: false,
+        margin: 10,
+        nav: true,
+        navText: [
+
+            "<i class='fas fa-angle-left'></i>",
+            "<i class='fas fa-angle-right'></i>"
+
+        ],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            },
+            1200: {
+                items: 1,
+            }
+        }
+    });
+    // when page
+    $("#when-close").click(function () {
+        $("#close-two").click();
+    });
+
+    // Hadayet Js End
 
   //--------- Initialize WOW JS
   new WOW().init();
