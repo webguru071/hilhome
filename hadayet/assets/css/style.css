@@ -3291,17 +3291,16 @@ ul.social-media li a {
 -------------------------------------------*/
 
 /*---------Hadayet's Work Start----------*/
+
 /*-------------------------------------------
         Hadayet Ali Css Start
-  -------------------------------------------*/
-
+-------------------------------------------*/
 
 /*----------------------------------
           Press Room
 ------------------------------------*/
-
 .press-room-banner {
-    background-image: url(../img/press-room/banner.jpg);
+    background-image: url("../img/press-room/banner.jpg");
     background-size: cover;
     padding: 150px 0;
     position: relative;
@@ -3727,11 +3726,9 @@ ul.social-media li a {
     line-height: 20px;
 }
 
-
 /*----------------------------------
    Help Page
 ------------------------------------*/
-
 .help-banner {
     padding: 100px 0;
 }
@@ -3817,7 +3814,6 @@ ul.social-media li a {
 }
 
 /* Tabs Card */
-
 .tab-card-header {
     background: none;
     padding: 0 0;
@@ -3876,8 +3872,6 @@ ul.social-media li a {
 /*----------------------------------
      Downloads-customaer-app-pages 
 ------------------------------------*/
-
-
 .downloads-area-tabs {
     position: relative;
 }
@@ -4111,8 +4105,6 @@ ul.social-media li a {
 /*----------------------------------
  Hilhome-guarantee-terms page
 ------------------------------------*/
-
-
 .text-big-heading {
     font-size: 40px;
     line-height: 44px;
@@ -4182,7 +4174,6 @@ ul.social-media li a {
 /*----------------------------------
     pro-profile Page
 ------------------------------------*/
-
 .details-service-heading-area {
     display: flex;
     margin-top: 20px;
@@ -4462,7 +4453,6 @@ del {
     font-size: 10px;
     padding-right: 5px;
     color: #d3d4d5;
-    ;
 }
 
 .area-rate-coror {
@@ -4472,7 +4462,6 @@ del {
     border-radius: 15px;
     margin-right: 5px;
 }
-
 
 .review-rating-main-area {
     display: flex;
@@ -4807,13 +4796,11 @@ del {
     font-weight: 700;
 }
 
-
 /*----------------------------------
      Pro main Page
 ------------------------------------*/
-
 .pros-banner {
-    background-image: url(../img/pros-img/banner.jpg);
+    background-image: url("../img/pros-img/banner.jpg");
     background-size: cover;
     height: 70vh;
     align-items: center;
@@ -5053,7 +5040,7 @@ del {
 }
 
 .why-items {
-    background-image: url(../img/pros-img/cus-1.jpg);
+    background-image: url("../img/pros-img/cus-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -5178,7 +5165,7 @@ del {
 
 .area-text-new-customer {
     text-align: center;
-    background-image: url(../img/pros-img/tools.png);
+    background-image: url("../img/pros-img/tools.png");
     padding: 170px 0 130px 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5555,7 +5542,6 @@ del {
 /*----------------------------------
   build-a-wining-profile-page
 ------------------------------------*/
-
 .service-do-area {
     border: none;
 }
@@ -5713,7 +5699,6 @@ del {
 /*----------------------------------
         business gole page
 ------------------------------------*/
-
 .business-gole-heading h3 {
     font-size: 24px;
 }
@@ -5761,8 +5746,6 @@ del {
 /*----------------------------------
          info Business
 ------------------------------------*/
-
-
 .business-info-area-form h3 {
     font-size: 24px;
     font-weight: 900;
@@ -5828,7 +5811,7 @@ del {
 ------------------------------------*/
 .add-customer-area p {
     font-size: 16px;
-    font-weight: 70
+    font-weight: 700px;
 }
 
 .add-customer-area form input {
@@ -5978,8 +5961,6 @@ del {
 /*----------------------------------
    We-just-need-page
 ------------------------------------*/
-
-
 .we-just-need-heading h6 {
     font-size: 20px;
     font-weight: 800;
@@ -6066,12 +6047,9 @@ del {
     margin-top: 40px;
 }
 
-
-
 /*----------------------------------
    add-profile-img-page
 ------------------------------------*/
-
 .add-profile-photo-area h2 {
     font-size: 24px;
     font-weight: 800;
@@ -6131,12 +6109,9 @@ del {
     padding-top: 30px;
 }
 
-
 /*----------------------------------
  Whyn you pay page
 ------------------------------------*/
-
-
 .when-pay-model-body h3 {
     font-size: 24px;
 }
@@ -6167,12 +6142,9 @@ del {
     font-size: 16px;
 }
 
-
-
 /*----------------------------------
   get strated page
 ------------------------------------*/
-
 .get-started-img-area {
     text-align: center;
 }
@@ -6182,13 +6154,9 @@ del {
     font-size: 16px;
 }
 
-
-/*----------------------------------
+/*---------------------------------
   Where do you want to work page
 ------------------------------------*/
-
-
-
 .where-went-heading h5 {
     font-size: 24px;
     font-weight: 800;
@@ -6273,7 +6241,7 @@ del {
 
 .accordion-wrapper .card .card-header a[aria-expanded="false"]:after {
     content: "\f107";
-    color: var(--text-dark-color);
+    color: --tex;
 }
 
 .faq-right-side {
@@ -6479,7 +6447,6 @@ del {
 /*--------------------------------------
   Company Announcements Area page start
 -----------------------------------------*/
-
 .announcements-top-heading h6 {
     font-size: 14px;
     font-weight: 900;
@@ -6556,10 +6523,8 @@ del {
 /*----------------------------
     Blog-page
 --------------------------------*/
-
 .sidebar-wedget-area {
     padding-left: 40px;
-
 }
 
 .form-wedget {
@@ -6685,7 +6650,6 @@ del {
     margin: 25px 0;
 }
 
-
 .blog-main-wedget h2 a {
     font-size: 40px;
     line-height: 44px;
@@ -6700,7 +6664,6 @@ del {
 .blog-main-wedget a img {
     width: 100%;
 }
-
 
 .blog-main-wedget p a {
     margin-top: 8px;
@@ -6733,7 +6696,6 @@ del {
     font-weight: 500;
 }
 
-
 .pagenation-arae ul {
     display: flex;
     justify-content: center;
@@ -6759,7 +6721,6 @@ del {
 /*----------------------------
       BLog-Details
 --------------------------------*/
-/* ---- */
 .catgory-link {
     color: var(--color-blue);
 }
@@ -7091,7 +7052,6 @@ del {
     bottom: 5px;
 }
 
-
 .social-login-area ul li a {
     font-size: 20px;
     font-weight: 800;
@@ -7168,7 +7128,6 @@ del {
 .blog-detail-bottom-area h3 a {
     text-transform: uppercase;
     font-weight: 900;
-
 }
 
 .blog-commient-single-post {
@@ -7197,12 +7156,11 @@ del {
       Careers page
 --------------------------------*/
 .careers-banner-area {
-    background-image: url(../img/careers/careers-banner.png);
+    background-image: url("../img/careers/careers-banner.png");
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     border: none;
-
 }
 
 .career-banner-text {
@@ -7267,7 +7225,6 @@ del {
 
 .client-asking-area .container-fluid {
     padding: 0;
-
 }
 
 .client-asking-area {
@@ -7276,7 +7233,7 @@ del {
 }
 
 .client-asking-item {
-    background-image: url(../img/careers/test-img.png);
+    background-image: url("../img/careers/test-img.png");
     padding: 130px 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -7381,7 +7338,6 @@ del {
     text-align: center;
     padding-top: 30px;
 }
-
 
 .together-box-secend h6 {
     padding-top: 10px;
@@ -7513,11 +7469,9 @@ del {
     border: none;
 }
 
-
 /*----------------------------
          price page
 --------------------------------*/
-
 .price-area-banner {
     padding: 150px 0;
     background-color: #f7f7f7;
@@ -7611,7 +7565,7 @@ del {
 }
 
 .quate-area-client {
-    background-image: url(../img/price/primary.jpg);
+    background-image: url("../img/price/primary.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -7860,7 +7814,6 @@ del {
     color: #fff;
 }
 
-
 .work-space-arae h3 {
     font-size: 20px;
     font-weight: 800;
@@ -7930,7 +7883,6 @@ del {
 /*----------------------------
      pro account-deactived-area 
 --------------------------------*/
-
 .area-wrapper-account-deactived h2 {
     font-size: 32px;
     text-align: center;
@@ -8035,7 +7987,7 @@ del {
        Comunity page
 --------------------------------*/
 .community-banner-area {
-    background-image: url(../img/careers/careers-banner.png);
+    background-image: url("../img/careers/careers-banner.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -8197,7 +8149,6 @@ del {
 .community-discuss-item-arae table tr td .community-discus-flex-area-one h2 {
     font-size: 18px;
 }
-
 
 .post-com a {
     display: flex;
@@ -8395,7 +8346,6 @@ table .comment-area h6 i {
     width: 38px;
     padding-top: 19px;
     margin-right: 30px;
-
 }
 
 .item-photo-detail-slider a i {
@@ -8410,7 +8360,7 @@ table .comment-area h6 i {
       Stories page 
 --------------------------------*/
 .stories-area-banner {
-    background-image: url(../img/stories/banner.jpg);
+    background-image: url("../img/stories/banner.jpg");
     min-height: 400px;
     background-size: cover;
     background-position: center;
@@ -8424,7 +8374,6 @@ table .comment-area h6 i {
     text-align: left;
     position: relative;
     padding: 0;
-
 }
 
 .stories-area-banner::after {
@@ -8492,7 +8441,6 @@ table .comment-area h6 i {
     padding-top: 30px;
 }
 
-
 .stories-item-box a h6 {
     color: #676d73;
     font-size: 14px;
@@ -8521,7 +8469,7 @@ table .comment-area h6 i {
 
 .cat-stories-area {
     border: none;
-    background-image: url(../img/stories/item-2.png);
+    background-image: url("../img/stories/item-2.png");
     background-repeat: no-repeat;
     min-height: 400px;
     background-size: cover;
@@ -8587,27 +8535,21 @@ table .comment-area h6 i {
     font-weight: 800;
 }
 
-
-
 /*----------------------------
     Saftey page
 --------------------------------*/
 .saftey-baner-area {
-    background-image: url(../img/stories/item-2.png);
+    background-image: url("../img/stories/item-2.png");
     padding: 155px 0;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-.saftey-heading-banner {}
 
 .saftey-heading-banner h2 {
     color: #fff;
     font-size: 40px;
     font-weight: 800;
 }
-
-.saftey-area-heading-box {}
 
 .saftey-heading-box {
     margin-bottom: 80px;
@@ -8642,8 +8584,6 @@ table .comment-area h6 i {
     line-height: 1.6;
     margin-bottom: 10px;
 }
-
-.safety-number-list {}
 
 .safety-number-list ul {
     padding: 0 0 0 25px;
@@ -8680,7 +8620,7 @@ table .comment-area h6 i {
 }
 
 #status {
-    background-image: url(../img/preloader.gif);
+    background-image: url("../img/preloader.gif");
     background-repeat: no-repeat;
     width: 20%;
     height: 48%;
@@ -8991,10 +8931,7 @@ table .comment-area h6 i {
         height: 40px;
         font-size: 16px;
     }
-
-    /*---Default CSS End---*/
 }
-
 
 /*--------Max 1200px Width Screen---------*/
 
