@@ -56,7 +56,7 @@
 <body>
     <!-- preloader-->
     <div id="preloader">
-        <div id="status">&nbsp;</div>
+        <div id="status"></div>
     </div>
     <!-- preloader-->
     <!-- Menu Area Start -->
@@ -104,20 +104,24 @@
                         <div class="area-form-business-info">
                             <form action="#!">
                                 <div class="form-group">
-                                    <label for="text">Business name</label>
-                                    <input type="text" class="form-control" placeholder="e.g. Squeaky Cleaners">
+                                    <label for="name">Business name</label>
+                                    <input type="text" class="form-control" name="name"
+                                        placeholder="e.g. Squeaky Cleaners" id="name">
                                 </div>
                                 <div class="form-group">
-                                    <label for="text">Year founded</label>
-                                    <input type="number" class="form-control" placeholder="e.g. Squeaky Cleaners">
+                                    <label for="founder">Year founded</label>
+                                    <input type="number" class="form-control" name="founder"
+                                        placeholder="e.g. Squeaky Cleaners" id="founder">
                                 </div>
                                 <div class="form-group">
-                                    <label for="text">Number of employees</label>
-                                    <input type="number" class="form-control" placeholder="e.g. Squeaky Cleaners">
+                                    <label for="employees">Number of employees</label>
+                                    <input type="number" class="form-control" name="employees"
+                                        placeholder="e.g. Squeaky Cleaners" id="employees">
                                 </div>
                                 <div class="form-group">
-                                    <label for="text">Business address (optional)</label>
-                                    <input type="text" class="form-control" placeholder="e.g. Squeaky Cleaners">
+                                    <label for="optional">Business address (optional)</label>
+                                    <input type="text" class="form-control" placeholder="e.g. Squeaky Cleaners"
+                                        name="optional" id="optional">
                                     <input type="text" class="form-control" placeholder="e.g. Squeaky Cleaners">
                                     <input type="text" class="form-control" placeholder="e.g. Squeaky Cleaners">
                                     <div class="custom-select">
@@ -154,6 +158,7 @@
                 <div class="col-lg-12">
                     <div class="next-back-area">
                         <div class="back-arae">
+                            <h2 class="d-none">heading</h2>
                         </div>
                         <div class="next-arae">
                             <a href="get-review.html" class="theme-button">Next</a>
