@@ -22,30 +22,36 @@
   1. General CSS
   2. Typography CSS
   3. Button CSS
-  4. Chat Bot Area CSS
-  5. Scroll To Top Area
-  6.Preloader Area Start
-  7. Header Area
-  13. Counter Area CSS
-  14. Our Speciality Area
-  15. Testimonial Area CSS
-  16. Call To Action CSS
-  17. Home Blog Posts
-  18. FAQ Area CSS
-  19. Client Logo Slider
-  20. Contact/Support Forum CSS
-  21. Footer Area/Copyright Area
-  22. Video Play CSS
-  23. About Page
-  24. Blog Page
-  25. Blog Details Page
-  26. Services Page CSS
-  27. FAQ Page CSS
-  28. 404 Page CSS
-  29. Contact Page CSS
-  30. Home Version 2
-  31. Home Version 3 Page
-  32. Login Page CSS
+  5. Scroll To Top Area and Preloader Area Start
+  6.
+  7. Navbar CSS
+  13. Slider Area CSS
+  14. Home App Download Area
+  15. Services Area Start
+  16. Recent Questions Area
+  17. Home States Area
+  18. Open For Business Area
+  19. Login Page Area
+  20. Instant Result Page
+  21. Why Hire Professionals Area
+  22. Related Category Area
+  23. How To Page Area
+  24. Footer Area
+  25. 404 Area
+  26. Guarantee Page
+  27. About Style
+  28. Error Style
+  29. Privacy Style
+  30. Customer Profile
+  31. How To Details Page
+  32. Opt Out Page
+  33. Question Details Page
+  31. How Hilhome Works Page
+  32. How It Works Page
+  33. Pro Interview Details Page
+  31. Customer Project Details Page
+  32. Message Pro Page
+  32. Customer Review Page
   33. Responsive CSS
 
 ------------------------------------------------ */
@@ -154,19 +160,7 @@ img::selection {
 /*----Form Control Reset CSS----*/
 
 .form-control {
-    /*border-radius: 5px;*/
-    /*border: none;*/
-    /*background-color: #fff;*/
     height: 50px;
-    /*color: #777c87;*/
-}
-.form-control:focus {
-    /*background-color: #fff;*/
-    /*border-color: #dddddd;*/
-    /*box-shadow: none;*/
-}
-.form-control::placeholder {
-    /*color: #a0a3aa;*/
 }
 .form-control:focus {
     border-color: #80bdff;
@@ -374,7 +368,6 @@ header.page-banner-area .header-caption p {
 .breadcrumb-item.active {
     color: #8e8e8e;
     position: relative;
-    /*margin-left: 20px;*/
 }
 .breadcrumb-item + .breadcrumb-item {
     padding-left: 0;
@@ -384,9 +377,6 @@ header.page-banner-area .header-caption p {
     line-height: 31px;
 }
 /*--------Breadcrumb Area CSS--------*/
-textarea, input{
-    /*width: 100%;*/
-}
 /*Page Banner Default  CSS End*/
 
 .padding-zero{
@@ -472,9 +462,8 @@ button:focus {
     right: 0;
     z-index: 9999;
 }
-
 #status {
-    background-image: url(../img/preloader.gif);
+    background-image: url('../img/preloader.gif');
     background-repeat: no-repeat;
     width: 20%;
     height: 48%;
@@ -484,7 +473,6 @@ button:focus {
     margin-top: -35px;
     margin-left: -35px;
 }
-
 /*---------Scroll To Top--------*/
 #scroll {
     position: fixed;
@@ -569,7 +557,6 @@ button:focus {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 3px 13px 4px rgba(64, 123, 225, 0.15);
-    /* border: 1px solid #0a8aff; */
     right: 15px;
 }
 #mainNav ul.navbar-nav li.nav-item.dropdown-box:hover .dropdown-list {
@@ -617,7 +604,6 @@ button:focus {
     background-color: transparent;
 }
 .mean-container .mean-nav ul li a:hover {
-    /*background-color: var(--home-1-color-blue);*/
     color: var(--color-blue) !important;
 }
 .mean-container .mean-bar {
@@ -710,7 +696,6 @@ button:focus {
     display: flex;
 }
 #randomImage img {
-    /*height: 610px;*/
     max-height: 100%;
 }
 /*-----------Hero Nav Area Start-------------*/
@@ -758,10 +743,7 @@ button:focus {
 /*-----------Select Box Area-------------*/
 .search-box h1 {
     color: var(--dark-color);
-    /*font-size: 42px;*/
     margin-bottom: 20px;
-    /*text-shadow: 1px 0 4px rgba(0, 0, 0, 0.33);*/
-    /*text-transform: capitalize;*/
 }
 .search-box.text-center {
     width: 85%;
@@ -775,15 +757,11 @@ button:focus {
     border: 1px solid #ced4da;
     padding: 10px;
 }
-.search-box .custom-select, .search-box button {
-    /*display: inline-block;*/
-}
 /*the container must be positioned relative:*/
 .custom-select {
     position: relative;
     text-align: left;
     width: 60%;
-    /* width: 100%; */
     height: 49px;
     padding: 0 10px 0 0;
     border: 1px solid #ced4da;
@@ -815,12 +793,9 @@ button:focus {
 }
 /*style the items (options), including the selected item:*/
 .select-items div, .select-selected {
-    /*border-color: transparent transparent rgba(0, 0, 0, 0.1);*/
     border: none;
     border-image: none;
     border-radius: 4px;
-    /*border-style: solid;*/
-    /*border-width: 1px;*/
     color: #000;
     cursor: pointer;
     padding: 12px 16px;
@@ -1341,8 +1316,6 @@ section.login-area.register-area h3 {
     border-radius: 50%;
     width: 18px;
     height: 18px;
-    /* text-align: center; */
-    /* line-height: 19px; */
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -1527,7 +1500,6 @@ footer{
  /* ----  13.1 Footer Upper Style ---------*/
 .footer-upper-area {
     padding: 52px 0 49px;
-    /* border-top: 1px solid var(--border-color); */
     border-bottom: 1px solid var(--border-color);
 }
 .footer-widget p {
@@ -1588,52 +1560,8 @@ ul.social-media li a {
 -------------------------------------------*/
 
 /*-------------------------------------------
-    19. Contact Page Style Start
--------------------------------------------*/
-/*--- Contact Form ---*/
-.contact-map-area .container .col-12{
-    position: relative;
-}
-.contact-map-area .contact-form-wrapper {
-    background-color: #fff;
-    padding: 45px 33px 50px;
-    width: 370px;
-    box-shadow: 0 7px 18px 0 rgba(64, 123, 255, 0.25);
-    position: absolute;
-    right: 0;
-    bottom: -3px;
-    z-index: 99;
-}
-.contact-form-wrapper h4 {
-    margin-bottom: 38px;
-}
-.contact-form-wrapper form .form-group {
-    position: relative;
-    margin-bottom: 2.10rem;
-}
-.contact-form-wrapper form textarea {
-    height: 200px;
-}
-/*-------------------------------------------
-        19. Contact Page Style End
--------------------------------------------*/
-
-/*-------------------------------------------
         20. Guarantee Page Style Start
 -------------------------------------------*/
-.page-banner-area.guarantee-page-banner {
-    /*background-color: var(--color-blue);*/
-    /*display: flex;*/
-    /*height: 300px;*/
-    /*align-items: center;*/
-    /*text-align: center;*/
-}
-/*.page-banner-area.guarantee-page-banner .page-banner-content h1{*/
-/*    color: var(--white-color);*/
-/*}*/
-/*.page-banner-area .page-banner-content h1{*/
-/*    color: var(--white-color);*/
-/*}*/
 .help-content {
     width: 70%;
     margin: 0 auto 80px;
@@ -1672,10 +1600,6 @@ ul.social-media li a {
     position: fixed;
     top: 33px;
 }
-/*.guarantee-menu.sticky-menu {*/
-/*    width: 300px;*/
-/*    padding-right: 50px;*/
-/*}*/
 .guarantee-menu {
     width: 300px;
     padding-right: 50px;
@@ -1697,7 +1621,6 @@ ul.social-media li a {
 }
 .accordion-box .block {
     position: relative;
-    /*padding-top: 0;*/
     margin-bottom: 15px;
     box-shadow: 0 5px 21.25px 3.75px rgba(217, 217, 217, 0.1);
     border: 1px solid var(--dark-border);
@@ -1715,7 +1638,6 @@ ul.social-media li a {
     color: var(--color-blue);
     font-weight: 600;
     padding: 22px 30px;
-    /*padding-left: 30px;*/
     transition: all 500ms ease;
     background-color: white;
     border-radius: 6px;
@@ -1760,7 +1682,6 @@ ul.social-media li a {
     position: relative;
     display: none;
     padding: 0 30px 36px;
-    /*padding-left: 30px;*/
     background: #fff;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -1806,8 +1727,6 @@ ul.social-media li a {
     margin-top: 15px;
 }
 .about-page-img img {
-    /*position: relative;*/
-    /*bottom: 0;*/
     z-index: -1;
 }
 .about-story-main .about-area:nth-child(2n+1) .about-page-img {
@@ -1914,16 +1833,11 @@ ul.social-media li a {
     width: auto;
 }
 .customer-inbox-page-area .customer-info-img-box {
-    /*background-color: #eee;*/
     width: 120px;
     height: 120px;
-    /*overflow: hidden;*/
-    /*border-radius: 50%;*/
-    /*margin: 0 auto;*/
 }
 .customer-inbox-page-area .customer-info-img-box img {
     height: 120px;
-    /*width: auto;*/
 }
 .customer-info-box .customer-email {
     word-break: break-word;
@@ -2085,13 +1999,11 @@ ul.social-media li a {
     height: 30px;
     margin-bottom: 0;
 }
-
 .customer-notifications-page .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
-
 .customer-notifications-page .slider {
     position: absolute;
     cursor: pointer;
@@ -2103,7 +2015,6 @@ ul.social-media li a {
     -webkit-transition: .4s;
     transition: .4s;
 }
-
 .customer-notifications-page .slider:before {
     position: absolute;
     content: "";
@@ -2115,15 +2026,12 @@ ul.social-media li a {
     -webkit-transition: .4s;
     transition: .4s;
 }
-
 .customer-notifications-page input:checked + .slider {
     background-color: var(--color-blue);
 }
-
 .customer-notifications-page input:focus + .slider {
     box-shadow: 0 0 1px var(--color-blue);
 }
-
 .customer-notifications-page input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
@@ -2567,7 +2475,6 @@ ul.social-media li a {
 .contacted-pros-area {
     padding: 60px 0;
 }
-
 .contacted-pros-title {
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 20px;
@@ -2600,7 +2507,6 @@ ul.social-media li a {
     padding: 8px 10px 9px;
     border-radius: 6px;
 }
-
 .contacted-pros-list-wrap p.contacted-pro-responded {
     color: #06a306;
 }
@@ -2659,14 +2565,12 @@ ul.social-media li a {
     -ms-user-select: none;
     user-select: none;
 }
-
 /* Hide the browser's default radio button */
 .customer-project-cancel-radio-button .container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
 }
-
 /* Create a custom radio button */
 .customer-project-cancel-radio-button .checkmark {
     position: absolute;
@@ -2689,12 +2593,10 @@ ul.social-media li a {
     position: absolute;
     display: none;
 }
-
 /* Show the indicator (dot/circle) when checked */
 .customer-project-cancel-radio-button .container input:checked ~ .checkmark:after {
     display: block;
 }
-
 /* Style the indicator (dot/circle) */
 .customer-project-cancel-radio-button .container .checkmark::after {
     top: 1px;
@@ -2757,9 +2659,6 @@ ul.social-media li a {
     padding: 5px 10px;
     border-radius: 6px;
 }
-/*.message-main-box {*/
-/*    padding-top: 25px;*/
-/*}*/
 .message-main-header button {
     margin: 6px 0 20px;
 }
@@ -2820,15 +2719,6 @@ ul.social-media li a {
     overflow: hidden;
     display: inline-block;
 }
-.upload-btn-wrapper button {
-    /*border: 2px solid gray;*/
-    /*color: gray;*/
-    /*background-color: white;*/
-    /*padding: 8px 20px;*/
-    /*border-radius: 8px;*/
-    /*font-size: 20px;*/
-    /*font-weight: bold;*/
-}
 .message-pro-page .upload-btn-wrapper input[type=file] {
     cursor: pointer;
     font-size: 100px;
@@ -2869,7 +2759,6 @@ ul.social-media li a {
     height: 859px;
     min-height: 500px;
     max-height: 100vh;
-    /*overflow-x: hidden;*/
     overflow-y: scroll;
 }
 .message-pro-profile img {
@@ -2877,10 +2766,9 @@ ul.social-media li a {
     width: auto;
 }
 .message-pro-rightside-header {
-    padding: 15px 0;
+    padding: 6px 0 15px;
     margin: 10px 0;
     border-bottom: 1px solid var(--border-color);
-    border-top: 1px solid var(--border-color);
 }
 .message-pro-address p i {
     margin-right: 10px;
@@ -2943,11 +2831,9 @@ ul.social-media li a {
 .customer-reviews-rating-left .fa.fa-star.checked, .customer-reviews-rating-left .fa.fa-star {
     font-size: 15px;
 }
-
 .message-pro-page .fa {
     font-size: 25px;
 }
-
 .message-pro-page .checked {
     color: #ffbb19f2;
 }
@@ -2958,25 +2844,21 @@ ul.social-media li a {
     width: 15%;
     margin-top:10px;
 }
-
 .message-pro-page .middle {
     margin-top:20px;
     float: left;
     width: 70%;
 }
-
 /* Place text to the right */
 .message-pro-page .right {
     text-align: right;
 }
-
 /* Clear floats after the columns */
 .message-pro-page .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
 /* The bar container */
 .message-pro-page .bar-container {
     width: 100%;
@@ -2985,7 +2867,6 @@ ul.social-media li a {
     color: white;
     border-radius: 5px;
 }
-
 /* Individual bars */
 .message-pro-page .bar {
     height: 7px;
@@ -3007,7 +2888,6 @@ ul.social-media li a {
     top: -2px;
     color: #d1d1d1;
 }
-
 /* Responsive layout - make the columns stack on top of each other instead of next to each other */
 @media (max-width: 400px) {
     .message-pro-page .side, .message-pro-page .middle {
@@ -3163,23 +3043,19 @@ ul.social-media li a {
 .rating-stars ul > li.star {
     display:inline-block;
 }
-
 /* Idle State of the stars */
 .rating-stars ul > li.star > i.fa {
     font-size:1.5em; /* Change the size of the stars */
     color:#d1d1d1; /* Color on idle state */
 }
-
 /* Hover state of the stars */
 .rating-stars ul > li.star.hover > i.fa {
     color:#ffbb19f2;
 }
-
 /* Selected state of the stars */
 .rating-stars ul > li.star.selected > i.fa {
     color:#ffbb19f2;
 }
-
 /*Customer Review Details CSS*/
 .customer-review-page-img-wrap {
     display: flex;
@@ -3324,12 +3200,6 @@ ul.social-media li a {
       }
 
       /*Message Pro CSS*/
-      /*.chat-box-content {*/
-      /*    width: 46%;*/
-      /*}*/
-      /*.chat-box.chat-box-customer-message .chat-box-content {*/
-      /*    width: 46%;*/
-      /*}*/
       .message-pro-page .message-footer form .form-group:nth-child(1) {
           width: 10%;
       }
@@ -3457,10 +3327,6 @@ ul.social-media li a {
       .menu-search-area .search-box button {
           width: 90px;
       }
-      /*.customer-review-page-img-wrap .photo-wrap img {*/
-      /*    height: 170px;*/
-      /*    min-height: 166px;*/
-      /*}*/
   }
 /*======================================
         Tablet layout
@@ -3519,21 +3385,6 @@ ul.social-media li a {
       .pro-profile-content {
           width: 100%;
       }
-      .pro-right-part {
-          /*width: 40%;*/
-      }
-      .pro-profile-content, .pro-right-part {
-          /*padding-left: 0;*/
-          /*padding-top: 20px;*/
-      }
-      .pro-right-part .cost-box {
-          /*margin-bottom: 15px;*/
-      }
-      .pro-right-part .btn.theme-button {
-          /*width: 109px;*/
-          /*padding: 8px 11px 11px;*/
-          /*font-size: 13px;*/
-      }
       /*Customer Profile Page*/
       .customer-profile-area, .customer-create-password , .customer-inbox-page-area, .register-area, .login-area{
           padding-top: 110px;
@@ -3573,15 +3424,6 @@ ul.social-media li a {
       /*Contacted pros Area*/
       .contacted-pros-area {
           padding: 60px 0;
-      }
-      .contacted-pros-area .pros-instant-profile-box .pro-right-part .theme-button {
-          /*width: 122px;*/
-      }
-      .contacted-pros-list-wrap .pros-instant-profile-box > a.pro-left-part {
-          /*width: 80%;*/
-      }
-      .contacted-pros-list-wrap .pro-right-part {
-          /*width: 20%;*/
       }
       .pro-app-link-page-area .welcome-to-hilhome-pro-content {
           width: 100%;
@@ -3990,7 +3832,6 @@ ul.social-media li a {
     .message-header-right {
         width: 18%;
     }
-
     .message-pro-page .message-footer form .form-group:nth-child(1) {
         width: 15%;
     }
@@ -3999,7 +3840,6 @@ ul.social-media li a {
     }
     .message-pro-page .message-footer form .form-group:nth-child(3) {
         width: 25%;
-        /*text-align: right;*/
     }
 
 }
@@ -4287,7 +4127,6 @@ ul.social-media li a {
       .pro-app-link-page-area .welcome-to-hilhome-pro-content {
           padding: 36px 30px 50px;
       }
-
       .how-hilhome-works-right h1 > i {
           display: none;
       }
@@ -4342,23 +4181,12 @@ ul.social-media li a {
   }
 
 @media only screen and (max-width:300px) and (min-width: 415px){
-    /*.message-pro-page .message-footer form .theme-button {*/
-    /*    padding: 5px 15px 10px;*/
-    /*    height: 40px;*/
-    /*}*/
-    /*.message-pro-page .message-footer form .form-group:nth-child(1) i {*/
-    /*    font-size: 12px;*/
-    /*}*/
     .message-pro-page .message-footer form .form-group:nth-child(2) {
         width: 52%;
     }
     .message-pro-page .message-footer form .form-group:nth-child(3) {
         width: 30%;
     }
-    /*.related-article-wrap .services-box h6 {*/
-    /*    width: 50%;*/
-    /*    margin: 0 auto;*/
-    /*}*/
 }
 
 @media only screen and (max-width:370px){
@@ -4378,11 +4206,6 @@ ul.social-media li a {
     .how-to-details-help-wrap .how-to-details-content {
         padding: 15px 40px;
     }
-    /*.related-article-page-area .services-box h6 {*/
-    /*    !*padding: 5px;*!*/
-    /*    width: 70%;*/
-    /*    margin: 0 auto;*/
-    /*}*/
 
 }
   /*-------------------------------------------
