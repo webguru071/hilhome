@@ -253,7 +253,7 @@ figure {
 .mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
 .customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label,
 .home-hero-projects-wrap .see-all-btn, .customer-notifications-page .notifications-button,
-.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag, .menu-after-login .nav-item.dropdown-box a{
+.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag, .menu-after-login .nav-item.dropdown-box a, .more-services-page-area figcaption{
     font-weight: 700;
 }
 .font-black, .how-to-details-help-wrap .how-to-details-content h6{
@@ -3096,6 +3096,27 @@ ul.social-media li a {
 
 /*-------------------------------------------
     33. Customer Review Page End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    34.  More Services Page Area Start
+-------------------------------------------*/
+.category-group-lists.photo-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.more-services-page-area figure {
+    border-radius: 6px;
+    border: 1px solid #dbdada;
+    overflow: hidden;
+    margin: 0 0 15px 15px;
+}
+.more-services-page-area figcaption {
+    padding: 15px;
+}
+/*-------------------------------------------
+    34.  More Services Page Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
