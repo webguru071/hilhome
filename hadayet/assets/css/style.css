@@ -98,10 +98,10 @@ body {
     font-family: 'Lato', sans-serif;
     color: #505359;
     letter-spacing: 0.05em;
-    overflow-x: hidden!important;
+    overflow-x: hidden !important;
 }
 
-p{
+p {
     line-height: 1.75;
     color: #505359;
     margin-bottom: 0;
@@ -112,15 +112,24 @@ p{
 a {
     color: var(--dark-color);
 }
-a:hover {
-}
+
+a:hover {}
+
 /* Theme All Transitions
 ------------------------------- */
-a, #mainNav, .theme-button, .owl-carousel button.owl-dot {
+a,
+#mainNav,
+.theme-button,
+.owl-carousel button.owl-dot {
     transition: all .5s ease-in-out;
 }
 
-.slow-transition, .testimonial_slide_nav .testi_prev, .testimonial_slide_nav .testi_next, .testi_prev, .testi_next, #scroll{
+.slow-transition,
+.testimonial_slide_nav .testi_prev,
+.testimonial_slide_nav .testi_next,
+.testi_prev,
+.testi_next,
+#scroll {
     transition: all .7s ease-in-out;
 }
 
@@ -136,7 +145,7 @@ ul {
 }
 
 a,
-a > * {
+a>* {
     outline: none;
     cursor: pointer;
     text-decoration: none;
@@ -150,9 +159,11 @@ a:hover {
 ::selection {
     background-color: #009fd9;
 }
+
 img::selection {
     background: transparent;
 }
+
 .page-link:focus {
     box-shadow: none;
 }
@@ -162,6 +173,7 @@ img::selection {
 .form-control {
     height: 50px;
 }
+
 .form-control:focus {
     border-color: #80bdff;
     box-shadow: none;
@@ -180,9 +192,11 @@ h6 {
     margin: 0;
     color: #242f51;
 }
+
 h2 {
     line-height: 44px;
 }
+
 figure {
     margin: 0 0 0;
 }
@@ -191,7 +205,7 @@ figure {
             2.1 Theme Color
 -----------------------------------*/
 
-:root{
+:root {
     --white-color: #fff;
     --gray-color: #676d73;
     --color-blue: #009fd9;
@@ -205,113 +219,249 @@ figure {
 
 /*---- Home Color CSS Start*---- */
 
-.default-heading-color, .customer-info-left-box .customer-profile-pages ul li a.active,
-.customer-create-password form label, .home-hero-projects-wrap .hero-project-box i,
-.details-content-box h6, .page-banner-area.how-it-works-page-banner .page-banner-content h1, .page-banner-area.how-it-works-page-banner .page-banner-content p, .message-pro-right-part .review-text
-{
+.default-heading-color,
+.customer-info-left-box .customer-profile-pages ul li a.active,
+.customer-create-password form label,
+.home-hero-projects-wrap .hero-project-box i,
+.details-content-box h6,
+.page-banner-area.how-it-works-page-banner .page-banner-content h1,
+.page-banner-area.how-it-works-page-banner .page-banner-content p,
+.message-pro-right-part .review-text {
     color: var(--dark-color);
 }
-.white-color, #mainNav .navbar-nav .nav-item .nav-link.theme-button,  #mainNav .navbar-nav .nav-item .nav-link.theme-button:hover,
-.mobile-filter-title-button .filters-title.mobile-filters-title, .customer-activity-list-right span.new-tag, .page-banner-area .page-banner-content h1,
-.page-banner-area .page-banner-content p, .chat-box.chat-box-customer-message .chat-box-content .chat-box-text p{
+
+.white-color,
+#mainNav .navbar-nav .nav-item .nav-link.theme-button,
+#mainNav .navbar-nav .nav-item .nav-link.theme-button:hover,
+.mobile-filter-title-button .filters-title.mobile-filters-title,
+.customer-activity-list-right span.new-tag,
+.page-banner-area .page-banner-content h1,
+.page-banner-area .page-banner-content p,
+.chat-box.chat-box-customer-message .chat-box-content .chat-box-text p {
     color: var(--white-color);
 }
-.text-blue-color, .error-content p > a, .privacy-page-area p > a, .how-to-list li a, .instant-result-sidebar #myBtn,
-.instant-result-sidebar #myBtn i, .instant-result-sidebar #myBtn2,
-.instant-result-sidebar #myBtn2 i, .instant-result-sidebar #myBtn3,
-.instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i,
-.customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
-.home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
-.details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
-.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button, .chat-box-text p a,
-.message-main-header button, .message-header-right a, .message-pro-page .message-footer form .form-group:nth-child(1) i, .contacted-pros-area .contacted-pros-hide, .contacted-pros-area .contacted-pros-show
-{
+
+.text-blue-color,
+.error-content p>a,
+.privacy-page-area p>a,
+.how-to-list li a,
+.instant-result-sidebar #myBtn,
+.instant-result-sidebar #myBtn i,
+.instant-result-sidebar #myBtn2,
+.instant-result-sidebar #myBtn2 i,
+.instant-result-sidebar #myBtn3,
+.instant-result-sidebar #myBtn3 i,
+.instant-result-sidebar .filter-reset,
+.why-hire-box i,
+.customer-info-left-box .customer-profile-pages ul li a,
+.customer-inbox-page-area form p a,
+.home-hero-projects-wrap .see-all-btn,
+.customer-profile-go-back-btn a,
+.customer-account-deactivate-content p>a,
+.details-content-box p a,
+.questions-details-right-box li a,
+.question-details-last-text a,
+.how-hilhome-works-content-box p a,
+.how-hilhome-works-content-box a,
+.was-this-article-helpful button,
+.pro-interview-details-content a,
+.get-the-app-check-message-area p>a,
+.customer-project-details-wrap p a,
+.customer-project-details-wrap p button,
+.chat-box-text p a,
+.message-main-header button,
+.message-header-right a,
+.message-pro-page .message-footer form .form-group:nth-child(1) i,
+.contacted-pros-area .contacted-pros-hide,
+.contacted-pros-area .contacted-pros-show {
     color: var(--color-blue);
 }
-.text-gray-color, .project-details-modal h5, .message-pro-rightside-header, .guarantee-menu ul li a{
+
+.text-gray-color,
+.project-details-modal h5,
+.message-pro-rightside-header,
+.guarantee-menu ul li a {
     color: var(--gray-color);
 }
-.bg-white, .customer-notifications-page .notifications-wrap, .how-to-details-page-how-works-area{
+
+.bg-white,
+.customer-notifications-page .notifications-wrap,
+.how-to-details-page-how-works-area {
     background-color: var(--white-color);
 }
-.bg-different, .login-area, .privacy-page-area table th, .customer-profile-area, .customer-inbox-page-area, .how-it-try-it-out-area, .related-article-page-area,
-.pro-app-page-area, .get-the-app-check-message-area, .customer-project-cancel-page, .customer-review-page{
+
+.bg-different,
+.login-area,
+.privacy-page-area table th,
+.customer-profile-area,
+.customer-inbox-page-area,
+.how-it-try-it-out-area,
+.related-article-page-area,
+.pro-app-page-area,
+.get-the-app-check-message-area,
+.customer-project-cancel-page,
+.customer-review-page {
     background-color: var(--different-bg);
 }
+
 /*---- Home Color CSS Start*---- */
 
 /*--------------------------------
     2.3 Theme Font Family, Font Size
 -----------------------------------*/
-.font-weight-normal, .customer-information-page .customer-profile-pages ul li a, .details-content-box h6, .message-pro-rightside-header {
+.font-weight-normal,
+.customer-information-page .customer-profile-pages ul li a,
+.details-content-box h6,
+.message-pro-rightside-header {
     font-weight: 400;
 }
-.font-semi-bold, .notification-content > h6, .pro-interview-details-link, .project-details-modal h5{
+
+.font-semi-bold,
+.notification-content>h6,
+.pro-interview-details-link,
+.project-details-modal h5 {
     font-weight: 500;
 }
-.font-bold, #scroll, .footer-widget p, .bottom-footer-right a, .hero-wrapper .nav-tabs .nav-link, .recent-questions-slider-wrap .item p span, .trending-now-these-areas p a, .pro-right-part > div > span.consult, .numbering-text span, .guarantee-menu ul li a,
-.mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
-.customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label,
-.home-hero-projects-wrap .see-all-btn, .customer-notifications-page .notifications-button,
-.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag, .menu-after-login .nav-item.dropdown-box a{
+
+.font-bold,
+#scroll,
+.footer-widget p,
+.bottom-footer-right a,
+.hero-wrapper .nav-tabs .nav-link,
+.recent-questions-slider-wrap .item p span,
+.trending-now-these-areas p a,
+.pro-right-part>div>span.consult,
+.numbering-text span,
+.guarantee-menu ul li a,
+.mobile-filter-title-button .filters-title.mobile-filters-title,
+.customer-profile-pages ul li a,
+.customer-info-left-box .customer-profile-pages ul li a.active,
+.customer-create-password form label,
+.home-hero-projects-wrap .see-all-btn,
+.customer-notifications-page .notifications-button,
+.customer-profile-go-back-btn a,
+.customer-activity-list-right span.new-tag,
+.menu-after-login .nav-item.dropdown-box a {
     font-weight: 700;
 }
-.font-black, .how-to-details-help-wrap .how-to-details-content h6{
+
+.font-black,
+.how-to-details-help-wrap .how-to-details-content h6 {
     font-weight: 900;
 }
-.italic-font, .parivacy-publish-date{
+
+.italic-font,
+.parivacy-publish-date {
     font-style: italic;
 }
+
 h1.header-caption-heading {
     font-size: 80px;
     margin: 70px 0 0;
     line-height: 1.1;
 }
-h2{
+
+h2 {
     font-size: 2.25rem;
 }
-.font-16, .guarantee-menu ul li a, .about-content-up p, .about-content-up > p > a, .parivacy-publish-date, .privacy-page-area p,
-.privacy-page-area table th, .privacy-page-area table tr td, .how-to-list li a, .customer-profile-go-back-btn a{
+
+.font-16,
+.guarantee-menu ul li a,
+.about-content-up p,
+.about-content-up>p>a,
+.parivacy-publish-date,
+.privacy-page-area p,
+.privacy-page-area table th,
+.privacy-page-area table tr td,
+.how-to-list li a,
+.customer-profile-go-back-btn a {
     font-size: 16px;
 }
-.font-18{
+
+.font-18 {
     font-size: 1.12rem;
 }
-.font-17, .page-banner-area .page-banner-content p{
+
+.font-17,
+.page-banner-area .page-banner-content p {
     font-size: 17px;
 }
-.font-14, .customer-inbox-page-area .short-text{
+
+.font-14,
+.customer-inbox-page-area .short-text {
     font-size: 14px;
 }
-.font-12, .services-wrapper .tab-content .tab-pane a p, .services-wrapper .tab-content .tab-pane a div p i, .recent-questions-slider-wrap .item p, .trending-now-these-areas p a,
-.row.all-states-name-area ul li a, .popular-services-slider-wrap .services-box p{
+
+.font-12,
+.services-wrapper .tab-content .tab-pane a p,
+.services-wrapper .tab-content .tab-pane a div p i,
+.recent-questions-slider-wrap .item p,
+.trending-now-these-areas p a,
+.row.all-states-name-area ul li a,
+.popular-services-slider-wrap .services-box p {
     font-size: 12px;
 }
+
 /*--------------------------------
     2.4 Theme Margin and Padding
 -----------------------------------*/
-.mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5, .question-details-page-area .question-details-author,
-.how-hilhome-works-content-box p, .how-hilhome-works-content-box h3, .guarantee-menu ul li{
+.mb-15,
+.footer-widget h4,
+.instant-result-sidebar .filter-box h6,
+.questions-details-right-box h5,
+.question-details-page-area .question-details-author,
+.how-hilhome-works-content-box p,
+.how-hilhome-works-content-box h3,
+.guarantee-menu ul li {
     margin-bottom: 15px;
 }
-.mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
-.customer-profile-title, .questions-details-right-box, .how-hilhome-works-content-box, .page-banner-area.how-it-works-page-banner .page-banner-content h1, .pro-interview-details-wrap h2, .pro-interview-details-content h4, .pro-interview-details-content p,
-.project-details-modal h5{
+
+.mb-20,
+.about-content-up h1,
+.about-content-up p,
+.privacy-content-box>h3,
+.privacy-content-box p,
+.reset-password-area .privacy-box,
+.customer-profile-title,
+.questions-details-right-box,
+.how-hilhome-works-content-box,
+.page-banner-area.how-it-works-page-banner .page-banner-content h1,
+.pro-interview-details-wrap h2,
+.pro-interview-details-content h4,
+.pro-interview-details-content p,
+.project-details-modal h5 {
     margin-bottom: 20px;
 }
-.mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
-.customer-notifications-page .notifications-part, .how-hilhome-works-right h1, .how-it-try-it-out-area .search-box h3,
-.related-article-page-area .related-article-title h3, .how-to-details-page-how-works-area .section-heading,
-.customer-project-cancel-radio-button h5{
+
+.mb-30,
+.single-blog-post,
+.instant-result-sidebar .filters-title,
+.instant-result-sidebar .filter-box,
+.customer-notifications-page .notifications-part,
+.how-hilhome-works-right h1,
+.how-it-try-it-out-area .search-box h3,
+.related-article-page-area .related-article-title h3,
+.how-to-details-page-how-works-area .section-heading,
+.customer-project-cancel-radio-button h5 {
     margin-bottom: 30px;
 }
-.mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
-.customer-account-deactivate-content h5, .related-pro-tips-title, .customer-project-details-wrap h5{
+
+.mb-10,
+.about-content-writer h6,
+.more-about-company-area .services-box h6,
+.privacy-points,
+.inbox-app-content h5,
+.customer-account-deactivate-content h5,
+.related-pro-tips-title,
+.customer-project-details-wrap h5 {
     margin-bottom: 10px;
 }
-.mt-10, .more-about-company-area .services-box h6 {
+
+.mt-10,
+.more-about-company-area .services-box h6 {
     margin-top: 10px;
 }
+
 /*--------------------------------
    2.5 Hilhome Template Default CSS
 -----------------------------------*/
@@ -323,69 +473,88 @@ h2{
         max-width: 972px;
     }
 }
+
 .section-title-area {
     margin-bottom: 20px;
     text-align: left;
 }
+
 .section-title-area p {
     width: 50%;
     margin-top: 20px;
 }
-section{
+
+section {
     padding: 60px 0;
     position: relative;
     border-bottom: 1px solid var(--border-color)
 }
-.default-overflow-hidden{
-    overflow-x:hidden;
+
+.default-overflow-hidden {
+    overflow-x: hidden;
 }
+
 /*--------Breadcrumb Area CSS--------*/
-.page-banner-area{
+.page-banner-area {
     background-color: var(--color-blue);
     display: flex;
     height: 380px;
     align-items: center;
     text-align: center;
 }
+
 header.page-banner-area {
     padding-top: 80px;
 }
+
 header.page-banner-area .header-caption-heading {
     padding: 19px 0 18px;
 }
+
 header.page-banner-area .header-caption p {
-    width:62%;
+    width: 62%;
     margin: 0;
 }
+
 .breadcrumb {
     background-color: transparent;
     padding: 0;
     justify-content: flex-start;
 }
+
 .breadcrumb li.breadcrumb-item {
     margin-right: 10px;
 }
+
 .breadcrumb-item.active {
     color: #8e8e8e;
     position: relative;
 }
-.breadcrumb-item + .breadcrumb-item {
+
+.breadcrumb-item+.breadcrumb-item {
     padding-left: 0;
 }
+
 .breadcrumb-item i {
     padding-right: 7px;
     line-height: 31px;
 }
+
 /*--------Breadcrumb Area CSS--------*/
 /*Page Banner Default  CSS End*/
 
-.padding-zero{
+.padding-zero {
     padding: 0 0;
 }
+
 /*Flat Icon Default Settings*/
-[class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+[class^="flaticon-"]::before,
+[class*=" flaticon-"]::before,
+[class^="flaticon-"]::after,
+[class*=" flaticon-"]::after {
     margin-left: 0;
 }
+
 .card-footer {
     padding: 0;
     background-color: transparent;
@@ -403,21 +572,27 @@ header.page-banner-area .header-caption p {
 /*--------------------------------------------
             3. Button Style
 ---------------------------------------------*/
-.btn{
+.btn {
     padding: 0;
 }
-.btn.focus, .btn:focus {
+
+.btn.focus,
+.btn:focus {
     outline: 0;
     box-shadow: none;
 }
-button{
+
+button {
     background-color: transparent;
 }
+
 button:focus {
     outline: 0;
 }
+
 /*Slider Default Button CSS*/
-.testi_prev, .testi_next {
+.testi_prev,
+.testi_next {
     cursor: pointer;
     line-height: 39px;
     position: absolute;
@@ -427,10 +602,12 @@ button:focus {
     justify-content: center;
     align-items: center;
 }
+
 /*-----Theme Button Style-----*/
 .button-wrap {
     margin: 35px auto 0;
 }
+
 .theme-button {
     color: var(--white-color);
     background-color: var(--color-blue);
@@ -443,9 +620,11 @@ button:focus {
     position: relative;
     cursor: pointer;
 }
+
 .theme-button:hover {
     color: var(--white-color);
 }
+
 /*--------------------------------------------
             3. Button Style End
 ---------------------------------------------*/
@@ -462,6 +641,7 @@ button:focus {
     right: 0;
     z-index: 9999;
 }
+
 #status {
     background-image: url('../img/preloader.gif');
     background-repeat: no-repeat;
@@ -473,6 +653,7 @@ button:focus {
     margin-top: -35px;
     margin-left: -35px;
 }
+
 /*---------Scroll To Top--------*/
 #scroll {
     position: fixed;
@@ -488,16 +669,24 @@ button:focus {
     color: var(--color-blue);
     animation: pulse 2s infinite;
 }
+
 @keyframes pulse {
     0% {
         -webkit-transform: translate(0, 0);
-        transform: translate(0, 0); }
+        transform: translate(0, 0);
+    }
+
     50% {
         -webkit-transform: translate(0, 10px);
-        transform: translate(0, 10px); }
+        transform: translate(0, 10px);
+    }
+
     100% {
         -webkit-transform: translate(0, 0);
-        transform: translate(0, 0); } }
+        transform: translate(0, 0);
+    }
+}
+
 /*-------------------------------------------
    4. Preloader and Scroll To Top Area End
 -------------------------------------------*/
@@ -510,9 +699,11 @@ button:focus {
     z-index: 999;
     position: relative;
 }
+
 .menu-section-area .navbar {
     padding: 0;
 }
+
 #mainNav {
     background-color: var(--white-color);
     height: 70px;
@@ -521,13 +712,16 @@ button:focus {
     top: 0;
     border: 1px solid var(--border-color);
 }
+
 #mainNav .navbar-brand {
     position: relative;
     top: 0;
 }
+
 #mainNav .navbar-brand img {
     height: 45px;
 }
+
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 1rem;
     padding: 0.55em 15px 0.75em;
@@ -536,16 +730,21 @@ button:focus {
     font-weight: bold;
     text-transform: initial;
 }
+
 #mainNav .navbar-nav .nav-item .nav-link.theme-button {
     margin-right: 15px;
 }
-#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link.active {
+
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link.active {
     color: var(--color-blue);
 }
+
 /*---- Dropdown Menu CSS ----*/
 #mainNav ul.navbar-nav li.nav-item.dropdown-box {
     position: relative;
 }
+
 #mainNav ul.navbar-nav li.nav-item.dropdown-box .dropdown-list {
     background-color: #fff;
     top: 213%;
@@ -559,25 +758,30 @@ button:focus {
     box-shadow: 0 3px 13px 4px rgba(64, 123, 225, 0.15);
     right: 15px;
 }
+
 #mainNav ul.navbar-nav li.nav-item.dropdown-box:hover .dropdown-list {
     top: 100%;
     visibility: visible;
     opacity: 1;
 }
+
 .dropdown-list li a {
     padding: 6px 10px;
     display: block;
 }
-#mainNav .navbar-nav .nav-item .nav-link > i.fa-angle-down {
+
+#mainNav .navbar-nav .nav-item .nav-link>i.fa-angle-down {
     padding-left: 5px;
     position: relative;
     top: 2px;
 }
+
 /*After Login Menu CSS Start*/
 .menu-after-login .nav-item.dropdown-box a {
     display: flex;
     align-items: center;
 }
+
 .menu-after-login .customer-img {
     height: 25px;
     width: 25px;
@@ -587,42 +791,47 @@ button:focus {
     display: block;
     margin-right: 5px;
 }
+
 .menu-after-login .customer-img img {
     height: 100%;
     width: auto;
     border-radius: 50%;
     margin-right: 5px;
 }
+
 /*After Login Menu CSS End*/
 
-@media (min-width: 992px) {
+@media (min-width: 992px) {}
 
-}
 /* Mean Menu / Mobile Menu Style */
 .mean-container .mean-nav ul {
     margin: 14px 0 0 0;
     background-color: transparent;
 }
+
 .mean-container .mean-nav ul li a:hover {
     color: var(--color-blue) !important;
 }
+
 .mean-container .mean-bar {
     background-color: var(--white-color);
     height: 54px;
     z-index: 999;
     padding: 0;
-    box-shadow: 0 0 15px 2px rgba(64,123,255,.2);
+    box-shadow: 0 0 15px 2px rgba(64, 123, 255, .2);
 }
+
 .mean-container .mean-nav {
     background-color: var(--white-color);
     margin-top: 0;
     height: 100%;
 }
+
 .mean-container .mean-nav ul li a.mean-expand {
     padding: 0 !important;
     margin-top: 3px;
     top: -2px;
-    background: rgba(255,255,255,.1);
+    background: rgba(255, 255, 255, .1);
     width: 45px;
     height: 45px;
     text-align: center;
@@ -630,31 +839,37 @@ button:focus {
     justify-content: center;
     align-items: center;
 }
+
 .mobile-logo {
     position: relative;
     top: 14px;
     left: 16px;
     height: 30px;
 }
+
 .mean-container a.meanmenu-reveal {
     top: 5px;
     color: var(--color-blue);
 }
+
 .mean-container .mean-nav ul.menu {
     margin: 0 0 0 0;
     background-color: var(--white-color);
     display: flex;
     position: relative;
     top: 24px;
-    box-shadow: 0 0 20px -8px rgba(64,123,255,.3);
+    box-shadow: 0 0 20px -8px rgba(64, 123, 255, .3);
 }
+
 .mean-container a.meanmenu-reveal span {
     background-color: var(--color-blue);
 }
-.mean-container .mean-nav ul li a:hover {
-}
-.mean-container .mean-nav ul li.mean-last a.section-button:hover, .mean-container .mean-nav ul li.dropdown a:hover {
-}
+
+.mean-container .mean-nav ul li a:hover {}
+
+.mean-container .mean-nav ul li.mean-last a.section-button:hover,
+.mean-container .mean-nav ul li.dropdown a:hover {}
+
 .mean-container .mean-nav ul li a {
     color: var(--dark-color);
     font-size: 14px;
@@ -662,19 +877,23 @@ button:focus {
     text-transform: inherit;
     border-top: 1px solid var(--border-color);
 }
+
 /*Mobile Dropdown Inner CSS*/
 .mean-container .mean-nav ul li li a {
     font-size: 13px;
-    border-top: 1px solid rgba(64,123,255,.4);
+    border-top: 1px solid rgba(64, 123, 255, .4);
 }
+
 /*Menu Search Bar Area CSS*/
 .menu-search-area .search-box {
     width: 450px;
     max-width: 100%;
 }
+
 .menu-search-area .search-box button {
     width: 63px;
 }
+
 /*-------------------------------------------
            5. Navbar Area CSS End
 -------------------------------------------*/
@@ -685,23 +904,28 @@ button:focus {
     background-color: var(--white-color);
     position: relative;
 }
+
 .hero-area .row.hero-wrapper {
     align-items: flex-end;
     height: 100vh;
     min-height: 521px;
 }
-.hero-left-wrap{
+
+.hero-left-wrap {
     height: 100vh;
     align-items: center;
     display: flex;
 }
+
 #randomImage img {
     max-height: 100%;
 }
+
 /*-----------Hero Nav Area Start-------------*/
 .hero-wrapper .tab-content {
     padding: 15px 0 0;
 }
+
 .hero-wrapper .nav-tabs .nav-link {
     border-width: 0 0 3px 0;
     border-style: solid;
@@ -711,17 +935,21 @@ button:focus {
     font-size: 20px;
     border-radius: 0;
 }
-.hero-wrapper .nav-tabs .nav-item.show .nav-link, .hero-wrapper .nav-tabs .nav-link.active {
+
+.hero-wrapper .nav-tabs .nav-item.show .nav-link,
+.hero-wrapper .nav-tabs .nav-link.active {
     border-bottom-color: var(--color-blue);
 }
 
 /*Hero Area With Projects Lists*/
-.home-hero-projects-wrap > p {
+.home-hero-projects-wrap>p {
     margin-top: 20px;
 }
+
 .home-hero-projects-wrap .hero-project-lists {
     margin: 10px 0;
 }
+
 .home-hero-projects-wrap .hero-project-box {
     padding: 15px 40px;
     border: 1px solid var(--border-color);
@@ -729,10 +957,12 @@ button:focus {
     align-items: center;
     border-radius: 6px;
 }
+
 .home-hero-projects-wrap .hero-project-box i {
     padding-right: 15px;
     font-size: 20px;
 }
+
 .home-hero-projects-wrap .see-all-btn i {
     padding-left: 4px;
     font-size: 12px;
@@ -745,18 +975,22 @@ button:focus {
     color: var(--dark-color);
     margin-bottom: 20px;
 }
+
 .search-box.text-center {
     width: 85%;
 }
+
 .search-box form {
     margin: 0 auto;
     display: flex;
 }
+
 .search-box form input {
     width: 107px;
     border: 1px solid #ced4da;
     padding: 10px;
 }
+
 /*the container must be positioned relative:*/
 .custom-select {
     position: relative;
@@ -769,12 +1003,16 @@ button:focus {
     border-bottom-right-radius: 0;
     border-right: 0;
 }
+
 .custom-select select {
-    display: none; /*hide original SELECT element:*/
+    display: none;
+    /*hide original SELECT element:*/
 }
+
 .select-selected {
     background-color: #fff;
 }
+
 /*style the arrow inside the select element:*/
 .select-selected:after {
     position: absolute;
@@ -786,13 +1024,16 @@ button:focus {
     border: 6px solid transparent;
     border-color: #000 transparent transparent transparent;
 }
+
 /*point the arrow upwards when the select box is open (active):*/
 .select-selected.select-arrow-active:after {
     border-color: transparent transparent #000 transparent;
     top: 14px;
 }
+
 /*style the items (options), including the selected item:*/
-.select-items div, .select-selected {
+.select-items div,
+.select-selected {
     border: none;
     border-image: none;
     border-radius: 4px;
@@ -800,6 +1041,7 @@ button:focus {
     cursor: pointer;
     padding: 12px 16px;
 }
+
 /*style items (options):*/
 .select-items {
     position: absolute;
@@ -817,14 +1059,17 @@ button:focus {
 .select-hide {
     display: none;
 }
+
 .select-items div:hover {
     background-color: var(--color-blue);
     color: #fff;
 }
+
 .same-as-selected {
     background-color: #eeedeb;
     color: #fff;
 }
+
 .search-box button {
     background-color: var(--color-blue);
     border-bottom-right-radius: 4px;
@@ -839,10 +1084,12 @@ button:focus {
     width: 122px;
     cursor: pointer;
 }
+
 /*Find Customer*/
 .find-customer p {
     padding: 10px 0 20px;
 }
+
 /*-------------------------------------------
             6. Slider Area End
 -------------------------------------------*/
@@ -852,9 +1099,11 @@ button:focus {
 .home-app-download-area {
     background-color: #fff;
 }
+
 .home-app-slider-wrap {
     padding: 0 20px;
 }
+
 .home-app-content {
     width: 65%;
     display: flex;
@@ -862,28 +1111,36 @@ button:focus {
     height: 100%;
     justify-content: center;
 }
+
 .pro-app-mobile-photo {
     text-align: right;
     padding-right: 20px;
 }
+
 .home-app-content h4 {
     line-height: 30px;
 }
+
 .home-app-content p {
     margin: 13px 0 20px;
 }
+
 .apple-google-btn-wrap {
     display: flex;
 }
+
 .apple-google-btn-wrap img {
     height: 49px;
     padding-right: 15px;
 }
+
 .home-app-img-side img {
     height: 400px;
 }
+
 /*Slider CSS*/
-.testi_prev, .testi_next {
+.testi_prev,
+.testi_next {
     cursor: pointer;
     line-height: 39px;
     position: absolute;
@@ -892,18 +1149,24 @@ button:focus {
     z-index: 99;
     font-size: 21px;
 }
-.slide_nav > .testi_prev, .slide_nav > .testi_next {
+
+.slide_nav>.testi_prev,
+.slide_nav>.testi_next {
     top: 45%;
 }
-.slide_nav > .testi_prev {
+
+.slide_nav>.testi_prev {
     left: 15px;
 }
-.slide_nav > .testi_next {
+
+.slide_nav>.testi_next {
     right: 15px;
 }
+
 .owl-carousel .owl-item img {
     width: auto;
 }
+
 /*-------------------------------------------
      7. Home App Download Area End
 -------------------------------------------*/
@@ -911,30 +1174,39 @@ button:focus {
 /*-------------------------------------------
      8. Services Area Start
 -------------------------------------------*/
-.services-area{
+.services-area {
     background-color: var(--different-bg);
 }
+
 .services-wrapper .tab-content .tab-pane a:last-child {
     margin-right: 0;
 }
+
 .services-wrapper .nav-tabs .nav-link {
     font-size: 17px;
 }
+
 .services-wrapper .tab-content .tab-pane a {
     display: inline-block;
     margin: 15px 15px 15px 0;
     float: left;
 }
+
 .services-box img {
     border-radius: var(--border-radius-6);
 }
+
 .services-wrapper .tab-content .tab-pane a div h6 {
     margin: 12px 0 3px;
 }
-.services-wrapper .tab-content .tab-pane a div p i, .recent-questions-slider-wrap .item p i, .popular-services-slider-wrap .services-box p i {
+
+.services-wrapper .tab-content .tab-pane a div p i,
+.recent-questions-slider-wrap .item p i,
+.popular-services-slider-wrap .services-box p i {
     color: var(--color-blue);
     padding-right: 5px;
 }
+
 /*-------------------------------------------
      8. Services Area End
 -------------------------------------------*/
@@ -945,25 +1217,32 @@ button:focus {
 .recent-questions-slider-wrap .item div h6 {
     margin: 12px 0 3px;
 }
+
 .services-box h6 {
     padding: 5px;
 }
+
 .recent-questions-slider-wrap .item p span {
     padding-left: 5px;
 }
-.recent-questions-area .testi_prev, .recent-questions-area .testi_next {
+
+.recent-questions-area .testi_prev,
+.recent-questions-area .testi_next {
     background-color: var(--white-color);
     height: 35px;
     width: 35px;
     top: 34%;
-    box-shadow: 0 0 4px 0 rgba(0,0,0,.3);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .3);
 }
+
 .recent-questions-area .testi_prev {
     left: 0;
 }
+
 .recent-questions-area .testi_next {
     right: 6px;
 }
+
 /*-------------------------------------------
     9. Recent Questions Area End
 -------------------------------------------*/
@@ -971,14 +1250,16 @@ button:focus {
 /*-------------------------------------------
     10. Home States Area Start
 -------------------------------------------*/
-.home-states-area{
+.home-states-area {
     background-color: var(--different-bg)
 }
+
 .trending-now-these-areas p {
     margin: 30px 0 60px;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 40px;
 }
+
 .trending-now-these-areas p a {
     background-color: #e8f1fd;
     padding: 7px 10px;
@@ -987,15 +1268,19 @@ button:focus {
     margin-bottom: 12px;
     display: inline-block;
 }
+
 .all-50-states-content {
     margin-left: 50px;
 }
+
 .all-50-states-content p {
     width: 82%;
 }
+
 .row.all-states-name-area {
     margin: 50px 0 0;
 }
+
 /*-------------------------------------------
     10. Home States Area End
 -------------------------------------------*/
@@ -1006,6 +1291,7 @@ button:focus {
 .open-for-business-area .theme-button {
     margin-top: 20px;
 }
+
 /*-------------------------------------------
     11. Open For Business Area End
 -------------------------------------------*/
@@ -1021,10 +1307,12 @@ button:focus {
     padding: 24px 30px 30px;
     border-radius: var(--border-radius-6);
 }
+
 .login-area form .btn.theme-button {
     width: 100%;
     height: 50px;
 }
+
 .other-button-box a.btn {
     border: 1px solid #d3d4d5;
     display: block;
@@ -1032,6 +1320,7 @@ button:focus {
     padding: 6px;
     background: #fff;
 }
+
 .privacy-box h6 {
     text-align: center;
     text-transform: uppercase;
@@ -1041,8 +1330,9 @@ button:focus {
     margin-bottom: 8px;
     color: var(--gray-color);
 }
+
 .privacy-box h6:before {
-    background-color:var(--border-color);
+    background-color: var(--border-color);
     content: "";
     position: absolute;
     left: 0;
@@ -1051,6 +1341,7 @@ button:focus {
     z-index: 9;
     top: 10px;
 }
+
 .privacy-box h6::after {
     background-color: var(--border-color);
     content: "";
@@ -1061,36 +1352,48 @@ button:focus {
     z-index: 9;
     top: 10px;
 }
-.privacy-box p> a, .dont-have-account a, .remember-box a{
+
+.privacy-box p>a,
+.dont-have-account a,
+.remember-box a {
     color: var(--color-blue);
 }
+
 .dont-have-account {
     font-size: 17px;
     margin-top: 40px;
 }
+
 /*Register css*/
 section.login-area.register-area h3 {
     margin-bottom: 30px;
 }
+
 .register-area form .form-group.d-flex .col-12 {
     padding: 0;
 }
-.register-area form .form-group.d-flex .col-12 label{
+
+.register-area form .form-group.d-flex .col-12 label {
     text-align: left;
     margin-bottom: .5rem;
 }
+
 .register-area form .form-group.d-flex .col-12 input {
     width: 100%;
 }
+
 .register-area form .form-group.d-flex .col-12:first-child {
     padding-right: 7px;
 }
+
 .register-area form .form-group.d-flex .col-12:last-child {
     padding-left: 7px;
 }
+
 .register-area form .btn.theme-button {
     margin-top: 13px;
 }
+
 /*-------------------------------------------
     12. Login Page Area End
 -------------------------------------------*/
@@ -1101,26 +1404,34 @@ section.login-area.register-area h3 {
 .instant-result-area {
     padding-top: 0;
 }
+
 .pros-instant-profile-box {
     border-bottom: 1px solid var(--border-color);
     padding: 30px 0 30px 0;
 }
+
 .pros-instant-profile-box.pros-unavailable-box a {
     opacity: .7;
 }
-.pros-instant-profile-box > a.pro-left-part {
+
+.pros-instant-profile-box>a.pro-left-part {
     display: flex;
     width: 82%;
 }
+
 .pro-img img {
     border-radius: 6px;
 }
-.pro-profile-content, .pro-right-part {
+
+.pro-profile-content,
+.pro-right-part {
     padding-left: 15px;
 }
+
 .pro-profile-content {
     width: 80%;
 }
+
 .top-pro i {
     background-color: #009fd9;
     color: #fff;
@@ -1133,17 +1444,21 @@ section.login-area.register-area h3 {
     line-height: 16px;
     margin-right: 10px;
 }
+
 .review-rating {
     padding-right: 10px;
     padding-left: 10px;
 }
+
 .review-rating i {
     color: #ffbb19f2;
     font-size: 12px;
 }
+
 .pro-profile-content h6 {
     margin-bottom: 8px;
 }
+
 .demand-box {
     background-color: #e8f1fd;
     min-width: 160px;
@@ -1154,41 +1469,47 @@ section.login-area.register-area h3 {
     text-align: center;
     width: 185px;
 }
+
 .hire-on-hilhome {
     margin-bottom: 8px;
 }
-.hire-on-hilhome > i{
+
+.hire-on-hilhome>i {
     padding-right: 10px;
 }
+
 .online-now {
     margin: 8px 0;
 }
+
 .online-now i {
     color: #089908d6;
     font-size: 10px;
     border-radius: 50%;
     animation: shadow-pulse 3s infinite;
 }
+
 /*Online Button Effect */
-@keyframes shadow-pulse
-{
+@keyframes shadow-pulse {
     0% {
         box-shadow: 0 0 0 0 rgba(8, 153, 8, 0.5);
     }
+
     100% {
         box-shadow: 0 0 0 5px rgba(8, 153, 8, 0);
     }
 }
 
-@keyframes shadow-pulse-big
-{
+@keyframes shadow-pulse-big {
     0% {
         box-shadow: 0 0 0 0 rgba(8, 153, 8, 0.3);
     }
+
     100% {
         box-shadow: 0 0 0 10px rgba(8, 153, 8, 0);
     }
 }
+
 /*Online Button Effect */
 /*Right Part*/
 .pro-right-part {
@@ -1197,21 +1518,26 @@ section.login-area.register-area h3 {
     justify-content: space-between;
     width: 18%;
 }
+
 .pro-right-part .btn.theme-button {
     width: 137px;
     padding: 11px 14px 13px;
 }
+
 .cost-box .consult {
     display: block;
 }
+
 .see-more-btn {
     margin: 30px auto 0;
     text-align: center;
 }
+
 .instant-result-area .see-more-btn a {
     border: 2px solid #d0c8c8;
     padding: 4px 10px;
 }
+
 /*Instant Results Style 1 Page CSS*/
 
 /*Filter Mobile Button CSS*/
@@ -1223,6 +1549,7 @@ section.login-area.register-area h3 {
     display: none;
     text-align: left;
 }
+
 /*Filter Mobile Button CSS*/
 
 .instant-result-style-1-area {
@@ -1230,6 +1557,7 @@ section.login-area.register-area h3 {
     width: 70%;
     margin: 0 auto;
 }
+
 .instant-result-pro-list {
     padding-bottom: 60px;
 }
@@ -1241,7 +1569,8 @@ section.login-area.register-area h3 {
 }
 
 /*Filters Checkbox CSS Start*/
-.instant-result-sidebar .filter-checkbox .container, .instant-result-sidebar .filter-radio-button .container {
+.instant-result-sidebar .filter-checkbox .container,
+.instant-result-sidebar .filter-radio-button .container {
     /*display: block;*/
     position: relative;
     padding-left: 30px;
@@ -1253,6 +1582,7 @@ section.login-area.register-area h3 {
     -ms-user-select: none;
     user-select: none;
 }
+
 .filter-box button {
     display: block;
 }
@@ -1277,8 +1607,9 @@ section.login-area.register-area h3 {
     border: 2px solid #c4c4c4;
     border-radius: 3px;
 }
+
 /* When the checkbox is checked, add a blue background */
-.instant-result-sidebar .filter-checkbox .container input:checked ~ .checkmark {
+.instant-result-sidebar .filter-checkbox .container input:checked~.checkmark {
     background-color: #009fd9;
     border: 2px solid #009fd9;
 }
@@ -1291,7 +1622,7 @@ section.login-area.register-area h3 {
 }
 
 /* Show the checkmark when checked */
-.instant-result-sidebar .filter-checkbox .container input:checked ~ .checkmark:after {
+.instant-result-sidebar .filter-checkbox .container input:checked~.checkmark:after {
     display: block;
 }
 
@@ -1307,6 +1638,7 @@ section.login-area.register-area h3 {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
 /*Filters Checkbox CSS End*/
 
 /*Instant Result Page Style 2 CSS Start*/
@@ -1341,11 +1673,13 @@ section.login-area.register-area h3 {
     border-radius: 50%;
     border: 2px solid #c4c4c4;
 }
+
 /* When the radio button is checked, add a blue background */
-.instant-result-sidebar .filter-radio-button .container input:checked ~ .checkmark {
+.instant-result-sidebar .filter-radio-button .container input:checked~.checkmark {
     background-color: #2196F3;
     border: 2px solid #2196F3;
 }
+
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .instant-result-sidebar .filter-radio-button .checkmark:after {
     content: "";
@@ -1354,7 +1688,7 @@ section.login-area.register-area h3 {
 }
 
 /* Show the indicator (dot/circle) when checked */
-.instant-result-sidebar .filter-radio-button .container input:checked ~ .checkmark:after {
+.instant-result-sidebar .filter-radio-button .container input:checked~.checkmark:after {
     display: block;
 }
 
@@ -1368,54 +1702,73 @@ section.login-area.register-area h3 {
     background: #2196F3;
     border: 2px solid #fff;
 }
+
 /*Filters Radio Button CSS End*/
 
 
 /*See More Buttons*/
-.instant-result-sidebar #more,.instant-result-sidebar #more2 ,.instant-result-sidebar #more3 {display: none;}
-.instant-result-sidebar #myBtn i,.instant-result-sidebar #myBtn2 i,.instant-result-sidebar #myBtn3 i {
+.instant-result-sidebar #more,
+.instant-result-sidebar #more2,
+.instant-result-sidebar #more3 {
+    display: none;
+}
+
+.instant-result-sidebar #myBtn i,
+.instant-result-sidebar #myBtn2 i,
+.instant-result-sidebar #myBtn3 i {
     position: relative;
     top: 1px;
 }
+
 /*Filter Reset Button*/
 .filter-reset {
     display: block;
     margin-top: 40px;
     font-size: 17px;
 }
+
 /*Instant Results Sidebar CSS*/
 
-@media only screen and (max-width: 1366px){
+@media only screen and (max-width: 1366px) {
     .instant-result-style-1-area {
         width: 80%;
     }
+
     .instant-result-sidebar {
         padding: 30px 19px;
     }
+
     .pros-instant-profile-box {
         flex-direction: column;
     }
-    .pros-instant-profile-box > a.pro-left-part {
+
+    .pros-instant-profile-box>a.pro-left-part {
         width: 100%;
         flex-direction: column;
     }
+
     .pro-right-part {
         width: 100%;
         flex-direction: row-reverse;
         margin-top: 20px;
     }
-    .pro-profile-content, .pro-right-part {
+
+    .pro-profile-content,
+    .pro-right-part {
         padding-left: 0;
     }
+
     .pro-profile-content {
         width: 100%;
         border-bottom: 1px solid var(--border-color);
         padding-bottom: 20px;
     }
-    .pros-instant-profile-box > a.pro-left-part .pro-img img {
+
+    .pros-instant-profile-box>a.pro-left-part .pro-img img {
         height: 90px;
         margin-bottom: 20px;
     }
+
     .pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button {
         height: 50px;
     }
@@ -1429,19 +1782,24 @@ section.login-area.register-area h3 {
 /*-------------------------------------------
     14. Why Hire Professionals Area Start
 -------------------------------------------*/
-.why-hire-professionals-area h4, .related-category h4 {
+.why-hire-professionals-area h4,
+.related-category h4 {
     margin-bottom: 40px;
 }
+
 .why-hire-box {
     text-align: center;
 }
+
 .why-hire-box i {
     font-size: 21px;
 }
+
 .why-hire-box h6 {
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 /*-------------------------------------------
     14. Why Hire Professionals Area End
 -------------------------------------------*/
@@ -1449,9 +1807,10 @@ section.login-area.register-area h3 {
 /*-------------------------------------------
     15. Related Category Area Start
 -------------------------------------------*/
-.related-category{
+.related-category {
     text-align: center;
 }
+
 .col-12.category-wrap a {
     border: 2px solid #d3d4d5;
     margin: 6px;
@@ -1460,6 +1819,7 @@ section.login-area.register-area h3 {
     border-radius: 5px;
     color: var(--color-blue);
 }
+
 /*-------------------------------------------
     15. Related Category Area End
 -------------------------------------------*/
@@ -1470,19 +1830,23 @@ section.login-area.register-area h3 {
 .page-breadcrumb {
     margin-bottom: 50px;
 }
+
 .how-to-page-area .section-heading {
     border-bottom: 1px solid var(--border-color);
     padding: 0 0 34px 0;
     margin-bottom: 30px;
 }
+
 .how-to-list li a {
     padding-top: 14px;
     display: block;
 }
+
 /*Near Me Page CSS*/
 .near-me-page-area .page-breadcrumb {
     margin-bottom: 0;
 }
+
 .near-me-page-area.how-to-page-area .section-heading {
     padding: 0 0 60px 0;
 }
@@ -1494,52 +1858,62 @@ section.login-area.register-area h3 {
 /*-------------------------------------------
     13. Footer Area Start
 -------------------------------------------*/
-footer{
+footer {
     background-color: var(--white-color);
 }
- /* ----  13.1 Footer Upper Style ---------*/
+
+/* ----  13.1 Footer Upper Style ---------*/
 .footer-upper-area {
     padding: 52px 0 49px;
     border-bottom: 1px solid var(--border-color);
 }
+
 .footer-widget p {
     color: var(--dark-color);
     margin-bottom: 15px;
 }
-.footer-widget p > span {
+
+.footer-widget p>span {
     display: flex;
     line-height: 16px;
 }
+
 .footer-widget ul li a {
     line-height: 18px;
     display: flex;
     padding-bottom: 10px;
 }
+
 /*Footer social*/
 ul.social-media li a {
     display: block;
     padding: 5px 10px 0 0;
 }
-  /* 13.1 ----Footer Upper Style---------*/
 
-  /* 13.2 -----Footer Bottom Style---------*/
-.copyright{
+/* 13.1 ----Footer Upper Style---------*/
+
+/* 13.2 -----Footer Bottom Style---------*/
+.copyright {
     color: var(--dark-color);
 }
-.copyright > a{
+
+.copyright>a {
     color: var(--color-blue);
 }
+
 .footer-bottom-part {
     display: flex;
     justify-content: space-between;
     height: 50px;
     align-items: center;
 }
-.bottom-footer-right a > i {
+
+.bottom-footer-right a>i {
     color: var(--color-blue);
     padding-right: 5px;
     font-size: 18px;
 }
+
 /*-------------------------------------------
         13. Footer Area End
 -------------------------------------------*/
@@ -1551,10 +1925,12 @@ ul.social-media li a {
     margin: 43px auto 35px;
     width: 94%;
 }
+
 .error-page-area img {
     margin-top: 82px;
     height: 450px;
 }
+
 /*-------------------------------------------
         14. 404 Area End
 -------------------------------------------*/
@@ -1567,12 +1943,15 @@ ul.social-media li a {
     margin: 0 auto 80px;
     text-align: center;
 }
+
 .help-content h2 {
     margin-bottom: 30px;
 }
+
 .help-content p {
     margin-top: 20px;
 }
+
 .we-here-to-help-area .guarantee-tab-content {
     margin-left: 30px;
 }
@@ -1582,10 +1961,13 @@ ul.social-media li a {
     border-left: 4px solid #d1d1d1;
     padding-left: 15px;
 }
-.guarantee-menu ul li a.active, .guarantee-menu ul li a:hover {
+
+.guarantee-menu ul li a.active,
+.guarantee-menu ul li a:hover {
     color: var(--color-blue);
     position: relative;
 }
+
 .guarantee-menu ul li a.active::before {
     content: "";
     background-color: var(--color-blue);
@@ -1596,29 +1978,35 @@ ul.social-media li a {
     position: absolute;
 }
 
-.sticky-menu{
+.sticky-menu {
     position: fixed;
     top: 33px;
 }
+
 .guarantee-menu {
     width: 300px;
     padding-right: 50px;
 }
+
 .guarantee-tab-content .guarantee-content-box h2 {
     margin-bottom: 20px;
 }
+
 .guarantee-tab-content .guarantee-content-box {
     margin-bottom: 20px;
     border-bottom: 1px solid var(--dark-border);
     padding-bottom: 40px;
 }
+
 .how-it-covers-second-title {
     margin-top: 30px;
 }
+
 /* Accordion box */
 .accordion-box {
     position: relative;
 }
+
 .accordion-box .block {
     position: relative;
     margin-bottom: 15px;
@@ -1626,9 +2014,11 @@ ul.social-media li a {
     border: 1px solid var(--dark-border);
     padding: 0 30px;
 }
+
 .accordion-box .block:last-child {
     margin-bottom: 0;
 }
+
 .accordion-box .block .acc-btn {
     position: relative;
     font-size: 18px;
@@ -1642,11 +2032,13 @@ ul.social-media li a {
     background-color: white;
     border-radius: 6px;
 }
+
 .accordion-box .block .acc-btn.active {
     background: #fff;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
+
 .accordion-box .block .icon-outer {
     position: absolute;
     left: 0;
@@ -1655,6 +2047,7 @@ ul.social-media li a {
     color: var(--color-blue);
     transition: all 500ms ease;
 }
+
 .accordion-box .block .icon-outer .icon {
     position: absolute;
     top: 50%;
@@ -1664,20 +2057,25 @@ ul.social-media li a {
     line-height: 1em;
     transition: all 0.3s ease;
 }
+
 .accordion-box .block .icon-outer .icon_plus {
     opacity: 1;
 }
+
 .accordion-box .block .icon-outer .icon_minus {
     opacity: 0;
     color: var(--color-blue);
     font-weight: 700;
 }
+
 .accordion-box .block .acc-btn.active .icon-outer .icon_minus {
     opacity: 1;
 }
+
 .accordion-box .block .acc-btn.active .icon-outer .icon_plus {
     opacity: 0;
 }
+
 .accordion-box .block .acc-content {
     position: relative;
     display: none;
@@ -1686,29 +2084,37 @@ ul.social-media li a {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
 }
+
 .accordion-box .block .acc-content .content-text {
     padding-bottom: 6px;
 }
+
 .accordion-box .block .acc-content.current {
     display: block;
 }
+
 .accordion-box .block .content {
     position: relative;
     margin-bottom: 0;
 }
+
 .accordion-box .block .content .text {
     margin-bottom: 0;
 }
+
 /* Guarantee Terms Condition*/
 .numbering-content .number-p {
     padding-right: 10px;
 }
+
 .numbering-text span {
     color: #000;
 }
+
 .numbering-content {
     margin-top: 10px;
 }
+
 /*-------------------------------------------
         20. Guarantee Page Style End
 -------------------------------------------*/
@@ -1719,33 +2125,43 @@ ul.social-media li a {
 .about-area {
     padding-bottom: 0;
 }
-.about-content-up, .about-content-bottom {
+
+.about-content-up,
+.about-content-bottom {
     width: 43%;
     margin: 0 auto;
 }
-.about-content-up > p > a {
+
+.about-content-up>p>a {
     margin-top: 15px;
 }
+
 .about-page-img img {
     z-index: -1;
 }
+
 .about-story-main .about-area:nth-child(2n+1) .about-page-img {
     margin-right: auto;
 }
+
 .about-story-main .about-area:nth-child(2n) .about-page-img {
     margin-left: auto;
 }
+
 .about-story-main .about-area:nth-child(2n+1) .about-content-writer {
     left: 429px;
 }
+
 .about-story-main .about-area:nth-child(2n) .about-content-writer {
     right: 429px;
 }
+
 .about-content-writer {
     position: absolute;
     width: 26%;
     bottom: 100px;
 }
+
 /*-------------------------------------------
         21. About Style End
 -------------------------------------------*/
@@ -1753,9 +2169,10 @@ ul.social-media li a {
         22. Error Style Start
 -------------------------------------------*/
 .error-content img {
-   height: 134px;
-   margin: 0 auto;
+    height: 134px;
+    margin: 0 auto;
 }
+
 .error-warning {
     border: 1px solid var(--border-color);
     padding: 26px;
@@ -1763,9 +2180,11 @@ ul.social-media li a {
     color: #ff5a5f;
     margin: 40px 0;
 }
+
 .error-content h3 {
     margin: 30px 0 15px;
 }
+
 /*-------------------------------------------
         22. Error Style End
 -------------------------------------------*/
@@ -1775,26 +2194,34 @@ ul.social-media li a {
 .privacy-content-header p {
     margin-bottom: 30px;
 }
+
 .parivacy-publish-date {
     margin: 20px 0 20px !important;
 }
+
 .privacy-page-area h3 {
     font-size: 21px;
     line-height: 34px;
 }
+
 .privacy-content-header h3 {
     font-size: 25px;
 }
+
 .privacy-content-box {
     margin-bottom: 40px;
 }
-.privacy-points ul li, .privacy-page-area table tr td ul li {
+
+.privacy-points ul li,
+.privacy-page-area table tr td ul li {
     font-size: 16px;
     padding-bottom: 10px;
     position: relative;
     padding-left: 18px;
 }
-.privacy-points ul li::before, .privacy-page-area table tr td ul li::before {
+
+.privacy-points ul li::before,
+.privacy-page-area table tr td ul li::before {
     position: absolute;
     height: 6px;
     width: 6px;
@@ -1804,9 +2231,11 @@ ul.social-media li a {
     border-radius: 50%;
     top: 10px;
 }
+
 .privacy-page-area .privacy-page-table table th {
     vertical-align: middle;
 }
+
 /*-------------------------------------------
         23. Privacy Style End
 -------------------------------------------*/
@@ -1820,6 +2249,7 @@ ul.social-media li a {
     flex-direction: column;
     padding: 40px 40px 30px;
 }
+
 .customer-info-img-box {
     background-color: #eee;
     width: 140px;
@@ -1828,32 +2258,40 @@ ul.social-media li a {
     border-radius: 50%;
     margin: 0 auto;
 }
+
 .customer-info-img-box img {
     height: 140px;
     width: auto;
 }
+
 .customer-inbox-page-area .customer-info-img-box {
     width: 120px;
     height: 120px;
 }
+
 .customer-inbox-page-area .customer-info-img-box img {
     height: 120px;
 }
+
 .customer-info-box .customer-email {
     word-break: break-word;
 }
+
 .customer-info-box button {
     width: 137px;
     margin: 15px auto;
     padding: 8px 15px 11px;
 }
+
 .project-review-box li {
     padding: 10px;
     text-align: center;
 }
+
 .customer-profile-pages ul li {
     margin-bottom: 10px;
 }
+
 .customer-profile-pages ul li a {
     background-color: #fff;
     border: 1px solid var(--border-color);
@@ -1870,6 +2308,7 @@ ul.social-media li a {
     border-right: 1px solid var(--border-color);
     height: 100%;
 }
+
 .customer-information-page .customer-right-side {
     padding: 40px 40px 40px 10px;
 }
@@ -1880,22 +2319,27 @@ ul.social-media li a {
 .inbox-pro-message-wrap {
     margin-top: 30px;
 }
+
 .inbox-service-name-title {
     margin-bottom: 15px;
 }
+
 .customer-right-side .inbox-pro-message-wrap:first-child {
     margin-top: 0;
 }
+
 .inbox-pro-message-list-box {
     border: 1px solid var(--border-color);
-    box-shadow: 0 1px 0 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 0 2px rgba(0, 0, 0, .05);
 }
+
 .inbox-lists a {
     display: flex;
     border-top: 1px solid var(--border-color);
     padding: 15px;
     position: relative;
 }
+
 .inbox-pro-img {
     height: 30px;
     width: 30px;
@@ -1903,24 +2347,31 @@ ul.social-media li a {
     border-radius: 50%;
     margin-right: 8px;
 }
+
 .inbox-pro-img img {
     height: 30px;
     width: auto;
 }
+
 .inbox-content p {
     margin: 5px 0;
 }
+
 .inbox-content p span {
     margin-right: 10px;
 }
+
 .inbox-content p span i {
     font-size: 11px;
     padding-right: 3px;
     color: var(--gray-color)
 }
-.inbox-content p span.online, .inbox-content p span.online i {
-    color: #06a606!important;
+
+.inbox-content p span.online,
+.inbox-content p span.online i {
+    color: #06a606 !important;
 }
+
 .inbox-pro-date {
     position: absolute;
     right: 15px;
@@ -1933,26 +2384,32 @@ ul.social-media li a {
     padding: 30px 30px 20px;
     margin-top: 92px;
 }
+
 .customer-info-box {
     border: 1px solid var(--border-color);
     display: flex;
     flex-direction: column;
     padding: 40px 30px 30px;
 }
+
 .inbox-app-content {
     margin: 20px auto;
 }
+
 .customer-inbox-page-area .inbox-content h6 {
     font-size: 13px;
 }
+
 .customer-inbox-page-area form .form-group {
     display: flex;
     align-items: center;
 }
+
 .customer-inbox-page-area form .form-group input {
     min-width: 110px;
     width: 100%;
 }
+
 .customer-inbox-page-area form .form-group button {
     width: 20%;
     margin: 0 0 0 -4px;
@@ -1967,21 +2424,26 @@ ul.social-media li a {
 .notifications-wrap {
     border: 1px solid var(--border-color);
 }
+
 .notification-lists {
-     border-top: 1px solid var(--border-color);
-     padding: 30px;
-     justify-content: space-between;
-     align-items: center;
- }
+    border-top: 1px solid var(--border-color);
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .notifications-wrap .notification-lists:first-child {
     border-top: 0;
 }
-.notifications-part > h6 {
+
+.notifications-part>h6 {
     margin: 30px 0 20px;
 }
-.notification-content > h6 {
+
+.notification-content>h6 {
     margin-bottom: 5px;
 }
+
 .notifications-button {
     border: 2px solid #d3d4d5;
     color: #ff5a5f;
@@ -1999,11 +2461,13 @@ ul.social-media li a {
     height: 30px;
     margin-bottom: 0;
 }
+
 .customer-notifications-page .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
+
 .customer-notifications-page .slider {
     position: absolute;
     cursor: pointer;
@@ -2015,6 +2479,7 @@ ul.social-media li a {
     -webkit-transition: .4s;
     transition: .4s;
 }
+
 .customer-notifications-page .slider:before {
     position: absolute;
     content: "";
@@ -2026,13 +2491,16 @@ ul.social-media li a {
     -webkit-transition: .4s;
     transition: .4s;
 }
-.customer-notifications-page input:checked + .slider {
+
+.customer-notifications-page input:checked+.slider {
     background-color: var(--color-blue);
 }
-.customer-notifications-page input:focus + .slider {
+
+.customer-notifications-page input:focus+.slider {
     box-shadow: 0 0 1px var(--color-blue);
 }
-.customer-notifications-page input:checked + .slider:before {
+
+.customer-notifications-page input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
@@ -2042,65 +2510,80 @@ ul.social-media li a {
 .customer-notifications-page .slider.round {
     border-radius: 34px;
 }
+
 .customer-notifications-page .slider.round:before {
     border-radius: 50%;
 }
+
 /*Customer Account Edit CSS*/
 .customer-profile-go-back-btn a i {
     font-size: 15px;
     padding-right: 5px;
 }
+
 .customer-account-edit-area form {
     width: 60%;
 }
+
 .customer-account-edit-button button {
     width: 30% !important;
     padding: 9px 20px;
     margin-top: 6px !important;
 }
+
 .customer-account-edit-button button:last-child {
     border: 2px solid #d3d4d5;
     margin-left: 10px;
     color: #676d73;
 }
+
 /*Customer Account Deactivate CSS*/
 .customer-account-deactivate-content {
     margin: 35px 0 25px;
 }
+
 .customer-account-deactivate-content p {
     padding-top: 10px;
 }
+
 .customer-account-deactivate-area form {
     width: 69%;
     border: none;
     padding: 0;
 }
+
 .customer-account-deactivate-area .remember-box {
     font-size: 15px;
     font-weight: 600;
 }
+
 /*Customer Activity Page*/
 .customer-activity-page .customer-activity-content {
     width: 55%;
     margin: 0 auto;
 }
+
 .customer-activity-page .home-hero-projects-wrap .hero-project-lists {
     margin: 15px 0 22px;
     flex-direction: column;
 }
+
 .customer-activity-page .home-hero-projects-wrap .hero-project-box {
     padding: 15px 10px 15px 30px;
     margin-right: 0;
     justify-content: space-between;
     margin-top: 15px;
 }
+
 .customer-activity-page .customer-activity-list-left {
     display: flex;
     align-items: center;
 }
+
 .customer-activity-list-right {
     position: relative;
 }
+
 .customer-activity-list-right span.new-tag {
     position: absolute;
     background-color: #0eb50e;
@@ -2114,6 +2597,7 @@ ul.social-media li a {
     top: -9px;
     text-transform: uppercase;
 }
+
 /*-------------------------------------------
         24. Customer Profile Style End
 -------------------------------------------*/
@@ -2121,12 +2605,13 @@ ul.social-media li a {
 /*-------------------------------------------
         25. How To Details Page Style Start
 -------------------------------------------*/
-.how-to-details-page-banner{
+.how-to-details-page-banner {
     background-image: url('../img/how-to-details-img/1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 /*How to Left Side CSS*/
 .how-to-details-help-wrap {
     background-image: url('../img/how-to-details-img/2.jpg');
@@ -2137,6 +2622,7 @@ ul.social-media li a {
     border-radius: 6px;
     margin-top: 30px;
 }
+
 .how-to-details-help-wrap .how-to-details-content {
     height: 100%;
     display: flex;
@@ -2146,9 +2632,11 @@ ul.social-media li a {
     text-align: center;
     padding: 15px;
 }
-.how-to-details-help-wrap .how-to-details-content a.theme-button:hover{
+
+.how-to-details-help-wrap .how-to-details-content a.theme-button:hover {
     background-color: var(--hover-color);
 }
+
 .how-to-details-help-wrap .how-to-details-content h6 {
     font-size: 18px;
     color: #fff;
@@ -2161,23 +2649,29 @@ ul.social-media li a {
     padding-bottom: 30px;
     border-bottom: 1px solid var(--border-color);
 }
+
 .details-content-box img {
     width: 100%;
     margin-bottom: 30px;
 }
+
 .details-content-box h3 {
     margin: 20px 0;
 }
+
 .details-content-box h6 {
     text-transform: uppercase;
 }
+
 /*How It Works Area CSS*/
 .how-to-details-page-how-works-area .how-it-img img {
     height: 200px;
 }
+
 .how-to-details-page-how-works-area .how-it-content {
     padding: 0 10px;
 }
+
 /*-------------------------------------------
         25. How To Details Page Style End
 -------------------------------------------*/
@@ -2188,9 +2682,11 @@ ul.social-media li a {
 .opt-out-page-area form p {
     padding-bottom: 15px;
 }
+
 .opt-out-page-area .theme-button {
     padding: 7px 15px 8px;
 }
+
 /*-------------------------------------------
         26. Opt Out Page Style End
 -------------------------------------------*/
@@ -2201,29 +2697,37 @@ ul.social-media li a {
 .question-details-page-area .guarantee-content-box h1 {
     margin-bottom: 20px;
 }
+
 .question-details-page-area .numbering-content .number-p {
     font-size: 9px;
     position: relative;
     top: 5px;
 }
+
 .question-details-last-text {
     margin-top: 10px;
 }
+
 .question-details-ready-to-hire p {
     margin: 10px 0 15px;
 }
+
 .questions-details-right-box ul li a {
     padding: 0 0 7px;
     display: block;
 }
+
 .question-details-author img {
     width: 40px;
     height: 40px;
     margin-right: 7px;
 }
-.how-to-page-area.question-details-page-banner .page-breadcrumb, .how-to-page-area.question-details-page-banner .breadcrumb {
+
+.how-to-page-area.question-details-page-banner .page-breadcrumb,
+.how-to-page-area.question-details-page-banner .breadcrumb {
     margin-bottom: 0;
 }
+
 /*-------------------------------------------
         27. Question Details Page End
 -------------------------------------------*/
@@ -2234,32 +2738,39 @@ ul.social-media li a {
 .how-hilhome-works-left ul {
     border-left: 1px solid var(--border-color);
 }
+
 .how-hilhome-works-left ul li a {
     display: block;
     padding: 5px 0 5px 10px;
 }
+
 .how-works-youtube-video {
     margin-top: 35px;
 }
+
 .how-hilhome-works-area .how-works-pro-tips {
     border: 1px solid var(--border-color);
     border-radius: 6px;
     border-top: 4px solid var(--hover-color);
     padding: 15px 15px 2px;
 }
+
 .how-hilhome-works-right h1 {
     display: flex;
     align-items: center;
 }
-.how-hilhome-works-right h1 > i {
+
+.how-hilhome-works-right h1>i {
     font-size: 21px;
     padding-right: 10px;
 }
+
 .how-hilhome-works-content-box ul li a {
     position: relative;
     padding: 0 0 10px 14px;
     display: block;
 }
+
 .how-hilhome-works-content-box ul li a::before {
     position: absolute;
     content: "";
@@ -2270,28 +2781,35 @@ ul.social-media li a {
     top: 8px;
     border-radius: 50%;
 }
+
 .was-this-article-helpful {
     border-top: 1px solid var(--border-color);
     padding-top: 20px;
 }
+
 .how-hilhome-works-get-app-area {
     padding: 0;
     background-color: var(--different-bg);
 }
+
 .downloads-app-img img {
     height: 415px;
 }
+
 .how-hilhome-works-get-app-content p {
     margin: 15px 0 25px;
 }
+
 .still-need-help-content {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+
 .still-need-help-area {
     padding: 30px 0;
 }
+
 .still-need-help-content p {
     margin-right: 20px;
 }
@@ -2303,42 +2821,52 @@ ul.social-media li a {
 /*-------------------------------------------
         29. How It Works Page Start
 -------------------------------------------*/
-.how-it-works-page-banner, .pro-interview-details-banner {
+.how-it-works-page-banner,
+.pro-interview-details-banner {
     background-image: url('../img/how-it-works-img/how-it-banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 540px;
 }
+
 .how-it-works-page-banner .page-banner-content {
     width: 60%;
     margin: 0 auto;
 }
+
 .how-it-works-content-area .how-it-content-box {
     display: flex;
     align-items: center;
     width: 70%;
     margin: 0 auto;
 }
+
 .how-it-works-content-area .how-it-content-box img {
     height: 360px;
 }
+
 .how-it-works-content-area .how-it-content p {
     font-size: 18px;
     margin-top: 10px;
 }
+
 .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box {
     flex-direction: row-reverse;
 }
+
 .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box .how-it-content {
     text-align: right;
 }
+
 .how-it-try-it-out-area {
     padding: 90px 0 100px;
 }
+
 .how-it-try-it-out-area .search-box form {
     justify-content: center;
 }
+
 /*-------------------------------------------
         29. How It Works Page End
 -------------------------------------------*/
@@ -2346,67 +2874,85 @@ ul.social-media li a {
 /*-------------------------------------------
         30. Pro Interview Details Page Start
 -------------------------------------------*/
-.pro-interview-details-banner{
+.pro-interview-details-banner {
     background-image: url('../img/pro-interview-img/pro-interview-details-banner.jpg');
 }
+
 .pro-interview-details-link {
     margin-bottom: 22px;
 }
-.pro-interview-details-wrap p, .pro-interview-details-tags {
+
+.pro-interview-details-wrap p,
+.pro-interview-details-tags {
     font-size: 20px;
 }
+
 .pro-interview-details-wrap {
     width: 80%;
     margin: 0 auto;
 }
+
 .pro-interview-details-tags a {
     color: #8c8c8c;
     padding-right: 6px;
 }
+
 /*Related Articles CSS*/
 .related-article-wrap .services-box {
     margin-right: 15px;
 }
+
 .related-pro-tips-title {
     color: #828282;
 }
+
 /*Pro Mobile App Page CSS*/
 .pro-app-page-area .pro-app-mobile-photo img {
     height: 550px;
 }
+
 .pro-app-page-area .home-app-content p {
     margin: 13px 0 20px;
     font-size: 16px;
 }
+
 /*Pro App Link Page CSS*/
 .pro-app-link-page-area {
     border-bottom: none;
 }
+
 .pro-app-link-page-area .welcome-to-hilhome-pro-content {
     width: 70%;
     border: 1px solid var(--border-color);
     padding: 50px 70px 50px;
     margin: 0 auto;
 }
+
 .pro-app-link-page-area .welcome-to-hilhome-pro-content form {
     width: 50%;
     margin: 40px auto 0;
 }
+
 .pro-app-link-page-area .welcome-to-hilhome-pro-content form label {
     font-size: 24px;
 }
+
 .pro-app-link-page-area .welcome-to-hilhome-pro-content form input {
     text-align: center;
 }
+
 .pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button {
     width: 100%;
 }
+
 .pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button:hover {
     background-color: var(--hover-color);
 }
+
 .pro-app-link-page-area .welcome-to-hilhome-pro-content form p {
     font-size: 9px;
 }
+
 /*-------------------------------------------
         30. Pro Interview Details Page End
 -------------------------------------------*/
@@ -2417,56 +2963,76 @@ ul.social-media li a {
 .customer-project-details-wrap h5 i {
     padding-right: 10px;
 }
-.customer-project-details-wrap p button{
+
+.customer-project-details-wrap p button {
     cursor: pointer;
 }
+
 /*Customer project Details Modal Start*/
 .modal-backdrop.show {
     opacity: 1;
 }
+
 .modal-backdrop {
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0, 0, 0, .8);
 }
-.customer-project-details-area .modal-body, .message-pro-page .modal-body {
+
+.customer-project-details-area .modal-body,
+.message-pro-page .modal-body {
     padding: 2rem;
 }
-.customer-project-details-area .modal-header, .message-pro-page .modal-header {
+
+.customer-project-details-area .modal-header,
+.message-pro-page .modal-header {
     border-bottom: none;
 }
-.customer-project-details-area .modal-body > h5 , .message-pro-page .modal-body > h5 {
+
+.customer-project-details-area .modal-body>h5,
+.message-pro-page .modal-body>h5 {
     border-bottom: 1px solid #d6d6d6;
     margin-bottom: 15px;
     padding-bottom: 15px;
 }
-.customer-project-details-area .project-details-modal img, .message-pro-page .project-details-modal img {
+
+.customer-project-details-area .project-details-modal img,
+.message-pro-page .project-details-modal img {
     height: 140px;
     width: 100%;
     overflow: hidden;
 }
-.project-details-box, .message-pro-page .project-details-box {
+
+.project-details-box,
+.message-pro-page .project-details-box {
     padding-top: 15px;
 }
-.project-details-box p i, .message-pro-page .project-details-box p i {
+
+.project-details-box p i,
+.message-pro-page .project-details-box p i {
     color: #2db783;
     padding-right: 5px;
 }
+
 /*Customer project Details Modal End*/
 
 .get-the-app-check-message-area {
     padding: 0;
 }
+
 .get-the-app-check-message-area .downloads-app-img img {
     height: 300px;
 }
+
 .get-the-app-check-message-area form input {
     width: 310px !important;
 }
+
 .get-the-app-check-message-area form button {
     margin-left: -6px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     height: 50px;
 }
+
 .get-the-app-check-message-area p {
     padding: 20px 100px 20px 0;
 }
@@ -2475,57 +3041,75 @@ ul.social-media li a {
 .contacted-pros-area {
     padding: 60px 0;
 }
+
 .contacted-pros-title {
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 20px;
     cursor: pointer;
 }
-.contacted-pros-title p .contacted-pros-show , .contacted-pros-title .contacted-pros-short-list{
+
+.contacted-pros-title p .contacted-pros-show,
+.contacted-pros-title .contacted-pros-short-list {
     display: none;
 }
-.contacted-pros-title.collapsed p .contacted-pros-show{
+
+.contacted-pros-title.collapsed p .contacted-pros-show {
     display: block;
 }
-.contacted-pros-title.collapsed .contacted-pros-short-list{
+
+.contacted-pros-title.collapsed .contacted-pros-short-list {
     display: flex;
 }
-.contacted-pros-title.collapsed p .contacted-pros-hide{
+
+.contacted-pros-title.collapsed p .contacted-pros-hide {
     display: none;
 }
+
 .contacted-pros-short-list {
     padding-left: 15px;
 }
+
 .contacted-pros-short-list img {
     height: 35px;
     width: 35px;
     border-radius: 6px;
     margin-right: 10px;
 }
+
 .contacted-pros-short-list h6 {
     background-color: #e2e2e2;
     width: auto;
     padding: 8px 10px 9px;
     border-radius: 6px;
 }
+
 .contacted-pros-list-wrap p.contacted-pro-responded {
     color: #06a306;
 }
+
 .contacted-pros-list-wrap p.contacted-pro-unavailable {
     color: #f05d5d;
 }
-.contacted-pros-list-wrap p.contacted-pro-waiting, .contacted-pros-list-wrap p.contacted-pro-responded, .contacted-pros-list-wrap p.contacted-pro-unavailable {
+
+.contacted-pros-list-wrap p.contacted-pro-waiting,
+.contacted-pros-list-wrap p.contacted-pro-responded,
+.contacted-pros-list-wrap p.contacted-pro-unavailable {
     padding-bottom: 5px;
 }
+
 .pro-profile-content p i {
     margin-right: 5px;
 }
+
 .contacted-pros-area .pros-instant-profile-box .pro-right-part .theme-button {
     padding: 11px 8px 13px;
     width: 147px;
 }
+
 .contacted-pros-area .pros-instant-profile-box .pro-right-part .theme-button i {
     padding-right: 5px;
 }
+
 .contacted-pros-area .pro-profile-content .review-rating {
     padding-left: 0;
 }
@@ -2534,16 +3118,19 @@ ul.social-media li a {
 .customer-project-cancel-page {
     padding: 60px 0 40px;
 }
+
 .customer-project-cancel-page .project-cancel-wrap {
     width: 70%;
     margin: 0 auto 20px;
 }
+
 .customer-project-cancel-radio-button .container img {
     height: 30px;
     width: 30px;
     border-radius: 50%;
     margin-right: 10px;
 }
+
 .customer-project-cancel-radio-button {
     border: 1px solid var(--border-color);
     padding: 30px 30px 20px;
@@ -2565,12 +3152,14 @@ ul.social-media li a {
     -ms-user-select: none;
     user-select: none;
 }
+
 /* Hide the browser's default radio button */
 .customer-project-cancel-radio-button .container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
 }
+
 /* Create a custom radio button */
 .customer-project-cancel-radio-button .checkmark {
     position: absolute;
@@ -2582,21 +3171,25 @@ ul.social-media li a {
     border-radius: 50%;
     border: 2px solid #c4c4c4;
 }
+
 /* When the radio button is checked, add a blue background */
-.customer-project-cancel-radio-button .container input:checked ~ .checkmark {
+.customer-project-cancel-radio-button .container input:checked~.checkmark {
     background-color: #2196F3;
     border: 2px solid #2196F3;
 }
+
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .customer-project-cancel-radio-button .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
+
 /* Show the indicator (dot/circle) when checked */
-.customer-project-cancel-radio-button .container input:checked ~ .checkmark:after {
+.customer-project-cancel-radio-button .container input:checked~.checkmark:after {
     display: block;
 }
+
 /* Style the indicator (dot/circle) */
 .customer-project-cancel-radio-button .container .checkmark::after {
     top: 1px;
@@ -2607,6 +3200,7 @@ ul.social-media li a {
     background: #2196F3;
     border: 2px solid #fff;
 }
+
 /*Filters Radio Button CSS End*/
 
 /*-------------------------------------------
@@ -2619,10 +3213,12 @@ ul.social-media li a {
 .message-pro-page {
     border-bottom: none;
 }
+
 /*Message Left Part CSS*/
 .message-pro-left-part {
     border-right: 1px solid var(--border-color);
 }
+
 .message-main-box {
     height: 734px;
     overflow-y: scroll;
@@ -2631,73 +3227,97 @@ ul.social-media li a {
     padding-top: 25px;
     padding-right: 20px;
 }
-.message-header , .message-pro-profile-wrap, .message-pro-address, .message-pro-photos{
+
+.message-header,
+.message-pro-profile-wrap,
+.message-pro-address,
+.message-pro-photos {
     border-bottom: 1px solid var(--border-color);
     padding: 10px;
 }
+
 .message-header-left {
     width: 92%;
 }
+
 .message-pro-page .online-now {
     margin: 0;
 }
-.message-pro-page .message-header-left p > i, .message-pro-page .message-pro-right-part .message-pro-content p >i {
+
+.message-pro-page .message-header-left p>i,
+.message-pro-page .message-pro-right-part .message-pro-content p>i {
     font-size: 10px;
     border-radius: 50%;
 }
+
 .message-main-header button {
     cursor: pointer;
 }
+
 #project-details-modal {
     text-align: left;
 }
+
 .message-header-right {
     width: 8%;
 }
+
 .message-header-right a {
     border: 1px solid var(--color-blue);
     padding: 5px 10px;
     border-radius: 6px;
 }
+
 .message-main-header button {
     margin: 6px 0 20px;
 }
+
 .chat-box-content {
     margin-top: 20px;
     align-items: flex-end;
     width: auto;
     max-width: 70%;
 }
+
 .chat-box {
     width: 100%;
     float: left;
 }
+
 .chat-box.chat-box-customer-message .chat-box-content {
     float: right;
     width: auto;
     max-width: 70%;
 }
-.chat-box.chat-box-customer-message .chat-box-content .chat-box-text{
+
+.chat-box.chat-box-customer-message .chat-box-content .chat-box-text {
     background-color: var(--color-blue);
 }
+
 .chat-box-customer-message .chat-box-time {
     text-align: right;
 }
+
 .chat-box-pro {
     padding-bottom: 30px;
 }
-.chat-box-pro img, .message-pro-profile img {
+
+.chat-box-pro img,
+.message-pro-profile img {
     height: 35px;
     width: auto;
     border-radius: 50%;
     margin-right: 15px;
 }
+
 .chat-box-text {
     background-color: #e9eced;
     padding: 15px;
     border-radius: 6px;
 }
-.chat-box-text h6, .chat-box-text {
+
+.chat-box-text h6,
+.chat-box-text {
     margin-bottom: 5px;
 }
 
@@ -2708,6 +3328,7 @@ ul.social-media li a {
     border-bottom: 1px solid var(--border-color);
     padding: 10px;
 }
+
 .message-footer textarea {
     background-color: #e9eced;
     padding: 10px;
@@ -2719,6 +3340,7 @@ ul.social-media li a {
     overflow: hidden;
     display: inline-block;
 }
+
 .message-pro-page .upload-btn-wrapper input[type=file] {
     cursor: pointer;
     font-size: 100px;
@@ -2727,17 +3349,21 @@ ul.social-media li a {
     top: 0;
     opacity: 0;
 }
+
 .message-pro-page .message-footer form {
     width: 100%;
 }
+
 .message-pro-page .message-footer form .form-group:nth-child(1) {
     width: 6%;
     display: flex;
     justify-content: space-between;
 }
-.message-pro-page .message-footer form .form-group:nth-child(2){
+
+.message-pro-page .message-footer form .form-group:nth-child(2) {
     width: 84%;
 }
+
 .message-pro-page .message-footer form .form-group:nth-child(2) textarea {
     width: 100%;
     height: 41px;
@@ -2745,13 +3371,16 @@ ul.social-media li a {
     margin: 0 20px;
     resize: inherit;
 }
-.message-pro-page .message-footer form .form-group:nth-child(3){
+
+.message-pro-page .message-footer form .form-group:nth-child(3) {
     width: 10%;
 }
+
 .message-pro-page .message-footer form .theme-button {
     padding: 5px 24px 10px;
     height: 41px;
 }
+
 /*Message Left Footer Send Message Part End*/
 
 /*Message Right Part CSS Start*/
@@ -2761,79 +3390,101 @@ ul.social-media li a {
     max-height: 100vh;
     overflow-y: scroll;
 }
+
 .message-pro-profile img {
     height: 65px;
     width: auto;
 }
+
 .message-pro-rightside-header {
     padding: 6px 0 15px;
     margin: 10px 0;
     border-bottom: 1px solid var(--border-color);
 }
+
 .message-pro-address p i {
     margin-right: 10px;
 }
+
 .message-pro-photos {
     overflow-x: scroll;
     margin-right: 15px;
 }
+
 .message-pro-photos ul {
     min-width: 846px;
     width: 100%;
 }
+
 .message-pro-photos ul li {
     display: inline-block;
 }
+
 .message-pro-photos ul li a {
     display: block;
     margin: 4px 2px;
 }
+
 .message-pro-photos ul li a img {
     height: 55px;
     border-radius: 6px;
 }
+
 .message-pro-right-part .review-text {
     margin: 10px 0;
 }
+
 .message-pro-right-part .message-review-date {
     font-size: 12px;
 }
+
 .message-review-date span::before {
     content: "\2022";
     margin: 0 6px;
     font-size: 16px;
     color: #d3d4d5;
 }
+
 .message-customer-review h6 {
     margin-bottom: 5px;
 }
+
 .message-customer-review {
     margin-top: 35px;
     margin-bottom: 35px;
 }
+
 /*Customer Reviews Progress Bar CSS Start*/
 .customer-reviews-rating-wrap {
     margin: 22px 0;
 }
+
 .message-pro-page .heading {
     font-size: 25px;
     margin-right: 25px;
 }
+
 .customer-reviews-rating-left {
     padding-right: 40px;
 }
+
 .customer-reviews-rating-right {
     width: 60%;
 }
+
 .message-customer-review .message-customer-review-rate .review-rating {
     padding-left: 0;
 }
-.customer-reviews-rating-left .fa.fa-star.checked, .customer-reviews-rating-left .fa.fa-star {
+
+.customer-reviews-rating-left .fa.fa-star.checked,
+.customer-reviews-rating-left .fa.fa-star {
     font-size: 15px;
 }
+
 .message-pro-page .fa {
     font-size: 25px;
 }
+
 .message-pro-page .checked {
     color: #ffbb19f2;
 }
@@ -2842,23 +3493,27 @@ ul.social-media li a {
 .message-pro-page .side {
     float: left;
     width: 15%;
-    margin-top:10px;
+    margin-top: 10px;
 }
+
 .message-pro-page .middle {
-    margin-top:20px;
+    margin-top: 20px;
     float: left;
     width: 70%;
 }
+
 /* Place text to the right */
 .message-pro-page .right {
     text-align: right;
 }
+
 /* Clear floats after the columns */
 .message-pro-page .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
 /* The bar container */
 .message-pro-page .bar-container {
     width: 100%;
@@ -2867,42 +3522,62 @@ ul.social-media li a {
     color: white;
     border-radius: 5px;
 }
+
 /* Individual bars */
 .message-pro-page .bar {
     height: 7px;
     background-color: #ffbb19f2;
     border-radius: 5px;
 }
+
 .message-pro-page .bar-5 {
     width: 60%;
 }
-.message-pro-page .bar-4 {width: 30%;}
-.message-pro-page .bar-3 {width: 10%;}
-.message-pro-page .bar-2 {width: 4%;}
-.message-pro-page .bar-1 {width: 15%;}
 
-.customer-reviews-rating-right .side div > i {
+.message-pro-page .bar-4 {
+    width: 30%;
+}
+
+.message-pro-page .bar-3 {
+    width: 10%;
+}
+
+.message-pro-page .bar-2 {
+    width: 4%;
+}
+
+.message-pro-page .bar-1 {
+    width: 15%;
+}
+
+.customer-reviews-rating-right .side div>i {
     font-size: 9px;
     margin-left: 5px;
     position: relative;
     top: -2px;
     color: #d1d1d1;
 }
+
 /* Responsive layout - make the columns stack on top of each other instead of next to each other */
 @media (max-width: 400px) {
-    .message-pro-page .side, .message-pro-page .middle {
+
+    .message-pro-page .side,
+    .message-pro-page .middle {
         width: 100%;
     }
+
     .message-pro-page .right {
         display: none;
     }
 }
+
 /*Customer Reviews Progress Bar CSS End*/
 
 /*Message Questions and answer*/
 .message-q-and-answer-box {
     margin: 20px 0;
 }
+
 .message-q-and-answer-box h6 {
     margin-bottom: 10px;
 }
@@ -2912,9 +3587,11 @@ ul.social-media li a {
     padding: 20px 0;
     border-bottom: 1px solid var(--border-color);
 }
+
 .message-job-box h6 {
     margin-bottom: 15px;
 }
+
 .message-job-box p span {
     border: 1px solid #dedede;
     border-radius: 25px;
@@ -2928,17 +3605,21 @@ ul.social-media li a {
     border-bottom: 1px solid var(--border-color);
     padding: 20px 0;
 }
-.message-about-small > i {
+
+.message-about-small>i {
     padding-top: 4px;
     margin-right: 7px;
 }
+
 .message-block-pro {
     color: #5b5858;
     cursor: pointer;
 }
+
 .message-block-pro i {
     margin-right: 10px;
 }
+
 /*-------------------------------------------
     32. Message Pro Page End
 -------------------------------------------*/
@@ -2949,6 +3630,7 @@ ul.social-media li a {
 .customer-review-page {
     padding: 60px 0 30px;
 }
+
 .customer-review-rating-wrap {
     width: 35%;
     margin: 0 auto 30px;
@@ -2957,28 +3639,34 @@ ul.social-media li a {
     padding: 30px;
     background-color: #fff;
 }
-@media only screen and (max-width: 1600px){
+
+@media only screen and (max-width: 1600px) {
     .customer-review-rating-wrap {
         width: 40%;
     }
 }
-@media only screen and (max-width: 1366px){
+
+@media only screen and (max-width: 1366px) {
     .customer-review-rating-wrap {
         width: 45%;
     }
 }
-@media only screen and (max-width: 1200px){
+
+@media only screen and (max-width: 1200px) {
     .customer-review-rating-wrap {
         width: 50%;
     }
 }
+
 .customer-review-rating-wrap .choose-up-to-three {
     margin: 15px 0;
 }
+
 .customer-review-rating-wrap .choose-up-to-three p {
     margin-bottom: 15px;
     font-size: 16px;
 }
+
 .customer-review-rating-wrap .quality-choose-box span {
     display: inline-block;
     border: 1px solid #c7c6c6;
@@ -2987,7 +3675,9 @@ ul.social-media li a {
     margin: 0 5px 10px 0;
     cursor: pointer;
 }
-.customer-review-rating-wrap .quality-choose-box span:hover, .customer-review-rating-wrap .quality-choose-box span.active {
+
+.customer-review-rating-wrap .quality-choose-box span:hover,
+.customer-review-rating-wrap .quality-choose-box span.active {
     background-color: var(--color-blue);
     color: #fff;
     border: 1px solid var(--color-blue);
@@ -2996,22 +3686,28 @@ ul.social-media li a {
 .customer-review-rating-wrap .message-pro-profile img {
     margin-bottom: 15px;
 }
+
 .success-box {
     margin: 12px 0;
     font-size: 16px;
 }
+
 .customer-review-rating-wrap .upload-btn-wrapper {
     width: 100%;
 }
+
 .customer-review-rating-wrap h5 {
     margin-bottom: 15px;
 }
-.customer-review-rating-wrap textarea, .customer-review-page-img-wrap .photo-wrap form input {
+
+.customer-review-rating-wrap textarea,
+.customer-review-page-img-wrap .photo-wrap form input {
     width: 100%;
     border: 1px solid #d8d8d8;
     padding: 15px;
     border-radius: 6px;
 }
+
 .customer-review-rating-wrap .upload-btn-wrapper button {
     height: 51px;
     border: 1px dashed gray;
@@ -3020,9 +3716,11 @@ ul.social-media li a {
     color: var(--color-blue);
     border-radius: 6px;
 }
+
 .upload-btn-wrapper button i {
     margin-right: 5px;
 }
+
 .customer-review-rating-wrap .upload-btn-wrapper input[type=file] {
     cursor: pointer;
     font-size: 100px;
@@ -3034,52 +3732,64 @@ ul.social-media li a {
 
 /* Rating Star Widgets Style */
 .rating-stars ul {
-    list-style-type:none;
-    padding:0;
+    list-style-type: none;
+    padding: 0;
 
-    -moz-user-select:none;
-    -webkit-user-select:none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
-.rating-stars ul > li.star {
-    display:inline-block;
+
+.rating-stars ul>li.star {
+    display: inline-block;
 }
+
 /* Idle State of the stars */
-.rating-stars ul > li.star > i.fa {
-    font-size:1.5em; /* Change the size of the stars */
-    color:#d1d1d1; /* Color on idle state */
+.rating-stars ul>li.star>i.fa {
+    font-size: 1.5em;
+    /* Change the size of the stars */
+    color: #d1d1d1;
+    /* Color on idle state */
 }
+
 /* Hover state of the stars */
-.rating-stars ul > li.star.hover > i.fa {
-    color:#ffbb19f2;
+.rating-stars ul>li.star.hover>i.fa {
+    color: #ffbb19f2;
 }
+
 /* Selected state of the stars */
-.rating-stars ul > li.star.selected > i.fa {
-    color:#ffbb19f2;
+.rating-stars ul>li.star.selected>i.fa {
+    color: #ffbb19f2;
 }
+
 /*Customer Review Details CSS*/
 .customer-review-page-img-wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .customer-review-page-img-wrap .photo-wrap img {
     height: 220px;
     width: auto;
     min-height: 220px;
 }
+
 .customer-review-page-img-wrap .alert {
     padding: 0;
 }
+
 .customer-review-page-img-wrap .photo-wrap {
     border: 1px solid #d8d8d8;
     width: 30%;
     overflow: hidden;
     margin: 3px 3px 20px;
 }
+
 .customer-review-page-img-wrap .photo-wrap input {
     border: 1px solid #d8d8d8;
     padding: 12px;
 }
+
 .customer-review-page-img-wrap .close {
     padding: 0px 8px 3px !important;
     border: 1px solid #d8d8d8;
@@ -3105,152 +3815,180 @@ ul.social-media li a {
     Extra Large Screen
 ========================================*/
 
-  @media only screen and (min-width: 1920px){
-  }
+@media only screen and (min-width: 1920px) {}
 
 /*=====================================
     For Large Screen
 ========================================*/
 
-  /*------Max 1775px Width Screen------*/
+/*------Max 1775px Width Screen------*/
 
-  @media only screen and (max-width: 1775px) {
+@media only screen and (max-width: 1775px) {}
 
-  }
-  @media only screen and (min-width: 1367px) and (max-width: 1675px){
+@media only screen and (min-width: 1367px) and (max-width: 1675px) {
 
-      /*Message Pro CSS*/
-      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-7.col-xl-9 {
-          max-width: 70%;
-      }
-      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-5.col-xl-3 {
-          max-width: 30%;
-      }
+    /*Message Pro CSS*/
+    .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-7.col-xl-9 {
+        max-width: 70%;
+    }
 
-  }
-  @media only screen and (min-width: 1200px) and (max-width: 1366px){
+    .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-5.col-xl-3 {
+        max-width: 30%;
+    }
 
-      /*Message Pro CSS*/
-      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-7.col-xl-9 {
-          max-width: 65%;
-      }
-      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-5.col-xl-3 {
-          max-width: 35%;
-      }
-      .message-header-left {
-          width: 90%;
-      }
-      .message-header-right {
-          width: 10%;
-      }
+}
 
-  }
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+
+    /*Message Pro CSS*/
+    .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-7.col-xl-9 {
+        max-width: 65%;
+    }
+
+    .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-5.col-xl-3 {
+        max-width: 35%;
+    }
+
+    .message-header-left {
+        width: 90%;
+    }
+
+    .message-header-right {
+        width: 10%;
+    }
+
+}
 
 /*--------Max 1366px Width Screen---------*/
 
-  @media only screen and (max-width: 1366px) {
-      /*---Default CSS Start---*/
-      body, p, #mainNav .navbar-nav .nav-item .nav-link, .theme-button {
-          font-size: 14px;
-      }
-      h4 {
-          font-size: 18px;
-      }
-      h1.header-caption-heading {
-          font-size: 42px;
-          margin: 55px 0 0;
-      }
-      h2 {
-          font-size: 1.75rem;
-      }
-      .theme-button {
-          padding: 10px 15px 13px;
-      }
-      .header-caption p {
-          margin: 20px auto;
-      }
-      p.section-subheading {
-          width: 55%;
-      }
-      #mainNav .navbar-brand img, .footer-widget.footer-about a > img{
-          height: 34px;
-      }
-      #mainNav {
-          height: 70px;
-      }
-      #randomImage img {
-          height: 594px;
-      }
-      header.page-banner-area .header-caption {
-          height: 500px;
-      }
-      .pagination-area .page-link {
-          width: 40px;
-          height: 40px;
-          font-size: 16px;
-      }
-      /*---Default CSS End---*/
+@media only screen and (max-width: 1366px) {
 
-      /*Customer Profile CSS*/
-      .customer-info-box button {
-          padding: 10px 15px 11px;
-      }
-      .downloads-app-img img {
-          height: 300px;
-      }
+    /*---Default CSS Start---*/
+    body,
+    p,
+    #mainNav .navbar-nav .nav-item .nav-link,
+    .theme-button {
+        font-size: 14px;
+    }
 
-      /*Message Pro CSS*/
-      .message-pro-page .message-footer form .form-group:nth-child(1) {
-          width: 10%;
-      }
-      .message-pro-page .message-footer form .form-group:nth-child(2) {
-          width: 75%;
-      }
-      .message-pro-page .message-footer form .form-group:nth-child(3) {
-          width: 15%;
-          text-align: right;
-      }
-      .pro-interview-details-wrap h2 {
-          font-size: 2rem;
-      }
-      .pro-interview-details-content h4 {
-          font-size: 1.5rem;
-          line-height: 34px;
-      }
+    h4 {
+        font-size: 18px;
+    }
 
-  }
+    h1.header-caption-heading {
+        font-size: 42px;
+        margin: 55px 0 0;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .theme-button {
+        padding: 10px 15px 13px;
+    }
+
+    .header-caption p {
+        margin: 20px auto;
+    }
+
+    p.section-subheading {
+        width: 55%;
+    }
+
+    #mainNav .navbar-brand img,
+    .footer-widget.footer-about a>img {
+        height: 34px;
+    }
+
+    #mainNav {
+        height: 70px;
+    }
+
+    #randomImage img {
+        height: 594px;
+    }
+
+    header.page-banner-area .header-caption {
+        height: 500px;
+    }
+
+    .pagination-area .page-link {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /*---Default CSS End---*/
+
+    /*Customer Profile CSS*/
+    .customer-info-box button {
+        padding: 10px 15px 11px;
+    }
+
+    .downloads-app-img img {
+        height: 300px;
+    }
+
+    /*Message Pro CSS*/
+    .message-pro-page .message-footer form .form-group:nth-child(1) {
+        width: 10%;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(2) {
+        width: 75%;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(3) {
+        width: 15%;
+        text-align: right;
+    }
+
+    .pro-interview-details-wrap h2 {
+        font-size: 2rem;
+    }
+
+    .pro-interview-details-content h4 {
+        font-size: 1.5rem;
+        line-height: 34px;
+    }
+
+}
 
 
 /*--------Max 1200px Width Screen---------*/
 
-  @media only screen and (max-width: 1200px) {
-
-  }
+@media only screen and (max-width: 1200px) {}
 
 /*--------Min 1200px Width Screen--------*/
-  @media only screen and (min-width: 1200px) {
-      #randomImage img {
-          /*height: 594px;*/
-      }
-  }
+@media only screen and (min-width: 1200px) {
+    #randomImage img {
+        /*height: 594px;*/
+    }
+}
 
 /*=====================================
     For Medium Screen
 ========================================*/
-@media only screen and (max-width: 1199px){
+@media only screen and (max-width: 1199px) {
+
     /*Default CSS*/
     .theme-button {
         padding: 8px 14px 11px;
     }
+
     #scroll {
         bottom: 50px;
     }
+
     /*Services CSS*/
     .services-box img {
         height: 195px;
     }
+
     /*About CSS*/
-    .about-content-up, .about-content-bottom {
+    .about-content-up,
+    .about-content-bottom {
         width: 60%;
     }
 
@@ -3259,15 +3997,19 @@ ul.social-media li a {
         margin: 15px 0;
         line-height: 27px;
     }
-    .footer-about p > i::before {
+
+    .footer-about p>i::before {
         font-size: 16px;
     }
+
     .footer-widget h5 {
         margin-bottom: 30px;
     }
+
     .footer-widget ul li a {
         line-height: 21px;
     }
+
     .footer-social ul li a {
         width: 30px;
         height: 30px;
@@ -3277,6 +4019,7 @@ ul.social-media li a {
     .pro-profile-content {
         /*width: 64%;*/
     }
+
     .pros-instant-profile-box .pro-img img {
         height: 95px;
     }
@@ -3285,541 +4028,703 @@ ul.social-media li a {
     .error-page-area h3.section-subheading {
         font-size: 22px;
     }
+
     .customer-review-rating-wrap {
         width: 55%;
     }
+
     .pro-app-page-area .pro-app-mobile-photo img {
         height: 450px;
     }
 
 }
-  @media only screen and (min-width: 992px) and (max-width: 1199px){
 
-      /*Main Menu Bar*/
-      .mobile_menu{
-          display: none!important;
-      }
-      #randomImage img {
-          height: 574px;
-      }
-      .customer-review-rating-wrap {
-          width: 523px;
-      }
-      .customer-review-page-img-wrap .photo-wrap img {
-          height: 170px;
-          min-height: 166px;
-      }
-      .message-header-left {
-          width: 87%;
-      }
-      .message-header-right {
-          width: 13%;
-      }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
 
-  }
-  @media only screen and (max-width: 992px){
-      .menu-search-area .search-box {
-          width: 410px;
-      }
-      .menu-search-area .search-box form input {
-          width: 90px;
-      }
-      .menu-search-area .search-box button {
-          width: 90px;
-      }
-  }
+    /*Main Menu Bar*/
+    .mobile_menu {
+        display: none !important;
+    }
+
+    #randomImage img {
+        height: 574px;
+    }
+
+    .customer-review-rating-wrap {
+        width: 523px;
+    }
+
+    .customer-review-page-img-wrap .photo-wrap img {
+        height: 170px;
+        min-height: 166px;
+    }
+
+    .message-header-left {
+        width: 87%;
+    }
+
+    .message-header-right {
+        width: 13%;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .menu-search-area .search-box {
+        width: 410px;
+    }
+
+    .menu-search-area .search-box form input {
+        width: 90px;
+    }
+
+    .menu-search-area .search-box button {
+        width: 90px;
+    }
+}
+
 /*======================================
         Tablet layout
 =========================================*/
-  @media only screen and (max-width: 991px){
-      /*Mobile Search Menu CSS Start*/
-      .mean-nav ul .search-box {
-          padding: 1em 5%;
-          width: 70%;
-      }
-      .mean-nav ul .custom-select {
-          height: 47px;
-      }
-      .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page,
-      .page-banner-area, .how-hilhome-works-area, .how-to-page-area, .privacy-page-area, .pro-app-page-area{
-          padding-top: 120px;
-      }
-      .near-me-main, .how-to-page-area.near-me-page-area {
-          padding-top: 60px;
-      }
-      .sticky-menu {
-          top: 90px;
-      }
-      .about-story-main .about-area:first-child {
-          padding-top: 0;
-      }
-      /*Home Page CSS*/
-      .search-box h1, .find-customer h1 {
-          font-size: 28px;
-      }
-      .hero-slider-area img {
-          display: none;
-      }
-      .home-app-content {
-          width: 90%;
-      }
-      /*About CSS*/
-      .about-content-up, .about-content-bottom {
-          width: 80%;
-      }
+@media only screen and (max-width: 991px) {
 
-      /*Instant Result Page*/
-      .instant-result-style-1-area , .instant-result-area{
-          padding-top: 70px;
-      }
-      .instant-result-style-1-area {
-          width: 90%;
-      }
-      .instant-result-sidebar .filter-checkbox .container, .instant-result-sidebar .filter-radio-button .container {
-          padding-left: 25px;
-          font-size: 12px;
-      }
-      .pros-instant-profile-box > a {
-          flex-direction: column;
-      }
-      .pro-profile-content {
-          width: 100%;
-      }
-      /*Customer Profile Page*/
-      .customer-profile-area, .customer-create-password , .customer-inbox-page-area, .register-area, .login-area{
-          padding-top: 110px;
-      }
-      .message-pro-page{
-          padding-top: 60px;
-      }
-      .customer-information-page .customer-right-side {
-          padding: 25px 40px 40px 0;
-      }
-      .customer-info-left-box {
-          padding: 25px;
-      }
-      .customer-information-page {
-          padding-top: 60px;
-      }
-      .customer-inbox-page-area .inbox-page-app-side {
-          padding: 30px 20px 20px;
-      }
-      .customer-inbox-page-area form .form-group input {
-          min-width: 110px;
-          font-size: 13px;
-      }
-      .customer-inbox-page-area form .form-group button {
-          min-width: 71px;
-          font-size: 13px;
-          padding: 9px 8px 8px;
-      }
-      .customer-account-deactivate-area form {
-          width: 90%;
-      }
-      .customer-activity-page .customer-activity-content {
-          width: 80%;
-          margin: 50px auto 0;
-      }
+    /*Mobile Search Menu CSS Start*/
+    .mean-nav ul .search-box {
+        padding: 1em 5%;
+        width: 70%;
+    }
 
-      /*Contacted pros Area*/
-      .contacted-pros-area {
-          padding: 60px 0;
-      }
-      .pro-app-link-page-area .welcome-to-hilhome-pro-content {
-          width: 100%;
-      }
-      .how-hilhome-works-area .how-hilhome-works-right {
-          margin-top: 40px;
-      }
-      .how-it-works-content-area .how-it-content-box {
-          width: 100%;
-      }
+    .mean-nav ul .custom-select {
+        height: 47px;
+    }
 
-  }
+    .error-page-area,
+    .about-story-main,
+    .customer-project-cancel-page,
+    .customer-project-details-area,
+    .customer-review-page,
+    .page-banner-area,
+    .how-hilhome-works-area,
+    .how-to-page-area,
+    .privacy-page-area,
+    .pro-app-page-area {
+        padding-top: 120px;
+    }
 
-  @media only screen and (max-width: 767px){
+    .near-me-main,
+    .how-to-page-area.near-me-page-area {
+        padding-top: 60px;
+    }
 
-      /*Message Pro CSS*/
-      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-7.col-xl-9 {
-          max-width: 100%;
-      }
-      .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-5.col-xl-3 {
-          display: none;
-      }
-      .chat-box-content , .chat-box.chat-box-customer-message .chat-box-content{
-          max-width: 80%;
-      }
-      .pro-app-mobile-photo {
-          text-align: left;
-          padding-right: 0;
-          padding-bottom: 30px;
-      }
-      .pro-app-page-area .pro-app-mobile-photo img {
-          height: 320px;
-      }
-      .home-app-content , .pro-app-mobile-photo{
-          text-align: center;
-      }
-      .apple-google-btn-wrap {
-          justify-content: center;
-      }
-      .services-box img {
-          height: 107px;
-      }
-  }
+    .sticky-menu {
+        top: 90px;
+    }
 
-  @media only screen and (min-width: 768px) and (max-width: 991px){
+    .about-story-main .about-area:first-child {
+        padding-top: 0;
+    }
 
-      /*Main Menu Bar*/
-      #mainNav{
-          display: none!important;
-      }
-      /*Home App Download CSS*/
-      .home-app-img-side img {
-          height: 360px;
-      }
-      .apple-google-btn-wrap img {
-          height: 40px;
-      }
-      .services-wrapper .nav-tabs .nav-link {
-          font-size: 14px;
-          margin-right: 14px;
-      }
-      .services-box img {
-          height: 145px;
-      }
-      .recent-questions-area .testi_prev, .recent-questions-area .testi_next {
-          top: 23%;
-      }
-      .home-states-area img {
-          height: 137px;
-      }
-      .recent-questions-area.home-states-area img, .row.all-50-states img {
-          height: 137px;
-      }
-      .all-50-states-content {
-          margin-left: 0;
-      }
+    /*Home Page CSS*/
+    .search-box h1,
+    .find-customer h1 {
+        font-size: 28px;
+    }
 
-      /*Footer Area*/
-      .footer-widget.footer-recent-news ul li {
-          justify-content: left;
-      }
-      .footer-widget.quick-links {
-          margin-top: 0;
-          border: none;
-      }
-      .footer-widget.quick-links > h4 {
-          margin-top: 0;
-      }
-      .customer-review-rating-wrap {
-          width: 518px;
-      }
-      .customer-review-page-img-wrap .photo-wrap img {
-          height: 171px;
-          min-height: 171px;
-      }
+    .hero-slider-area img {
+        display: none;
+    }
 
-      /*Message Pro CSS*/
-      .chat-box-content ,.chat-box.chat-box-customer-message .chat-box-content{
-          max-width: 85%;
-      }
-      .message-header-left {
-          width: 79%;
-      }
-      .message-header-right {
-          width: 21%;
-      }
-      .message-pro-page .message-footer form .form-group:nth-child(1) {
-          width: 15%;
-      }
-      .message-pro-page .message-footer form .form-group:nth-child(2) {
-          width: 61%;
-      }
+    .home-app-content {
+        width: 90%;
+    }
 
-  }
+    /*About CSS*/
+    .about-content-up,
+    .about-content-bottom {
+        width: 80%;
+    }
 
-  @media only screen and (max-width: 768px) {
+    /*Instant Result Page*/
+    .instant-result-style-1-area,
+    .instant-result-area {
+        padding-top: 70px;
+    }
+
+    .instant-result-style-1-area {
+        width: 90%;
+    }
+
+    .instant-result-sidebar .filter-checkbox .container,
+    .instant-result-sidebar .filter-radio-button .container {
+        padding-left: 25px;
+        font-size: 12px;
+    }
+
+    .pros-instant-profile-box>a {
+        flex-direction: column;
+    }
+
+    .pro-profile-content {
+        width: 100%;
+    }
+
+    /*Customer Profile Page*/
+    .customer-profile-area,
+    .customer-create-password,
+    .customer-inbox-page-area,
+    .register-area,
+    .login-area {
+        padding-top: 110px;
+    }
+
+    .message-pro-page {
+        padding-top: 60px;
+    }
+
+    .customer-information-page .customer-right-side {
+        padding: 25px 40px 40px 0;
+    }
+
+    .customer-info-left-box {
+        padding: 25px;
+    }
+
+    .customer-information-page {
+        padding-top: 60px;
+    }
+
+    .customer-inbox-page-area .inbox-page-app-side {
+        padding: 30px 20px 20px;
+    }
+
+    .customer-inbox-page-area form .form-group input {
+        min-width: 110px;
+        font-size: 13px;
+    }
+
+    .customer-inbox-page-area form .form-group button {
+        min-width: 71px;
+        font-size: 13px;
+        padding: 9px 8px 8px;
+    }
+
+    .customer-account-deactivate-area form {
+        width: 90%;
+    }
+
+    .customer-activity-page .customer-activity-content {
+        width: 80%;
+        margin: 50px auto 0;
+    }
+
+    /*Contacted pros Area*/
+    .contacted-pros-area {
+        padding: 60px 0;
+    }
+
+    .pro-app-link-page-area .welcome-to-hilhome-pro-content {
+        width: 100%;
+    }
+
+    .how-hilhome-works-area .how-hilhome-works-right {
+        margin-top: 40px;
+    }
+
+    .how-it-works-content-area .how-it-content-box {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    /*Message Pro CSS*/
+    .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-7.col-xl-9 {
+        max-width: 100%;
+    }
+
+    .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-5.col-xl-3 {
+        display: none;
+    }
+
+    .chat-box-content,
+    .chat-box.chat-box-customer-message .chat-box-content {
+        max-width: 80%;
+    }
+
+    .pro-app-mobile-photo {
+        text-align: left;
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .pro-app-page-area .pro-app-mobile-photo img {
+        height: 320px;
+    }
+
+    .home-app-content,
+    .pro-app-mobile-photo {
+        text-align: center;
+    }
+
+    .apple-google-btn-wrap {
+        justify-content: center;
+    }
+
+    .services-box img {
+        height: 107px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*Main Menu Bar*/
+    #mainNav {
+        display: none !important;
+    }
+
+    /*Home App Download CSS*/
+    .home-app-img-side img {
+        height: 360px;
+    }
+
+    .apple-google-btn-wrap img {
+        height: 40px;
+    }
+
+    .services-wrapper .nav-tabs .nav-link {
+        font-size: 14px;
+        margin-right: 14px;
+    }
+
+    .services-box img {
+        height: 145px;
+    }
+
+    .recent-questions-area .testi_prev,
+    .recent-questions-area .testi_next {
+        top: 23%;
+    }
+
+    .home-states-area img {
+        height: 137px;
+    }
+
+    .recent-questions-area.home-states-area img,
+    .row.all-50-states img {
+        height: 137px;
+    }
+
+    .all-50-states-content {
+        margin-left: 0;
+    }
+
+    /*Footer Area*/
+    .footer-widget.footer-recent-news ul li {
+        justify-content: left;
+    }
+
+    .footer-widget.quick-links {
+        margin-top: 0;
+        border: none;
+    }
+
+    .footer-widget.quick-links>h4 {
+        margin-top: 0;
+    }
+
+    .customer-review-rating-wrap {
+        width: 518px;
+    }
+
+    .customer-review-page-img-wrap .photo-wrap img {
+        height: 171px;
+        min-height: 171px;
+    }
+
+    /*Message Pro CSS*/
+    .chat-box-content,
+    .chat-box.chat-box-customer-message .chat-box-content {
+        max-width: 85%;
+    }
+
+    .message-header-left {
+        width: 79%;
+    }
+
+    .message-header-right {
+        width: 21%;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(1) {
+        width: 15%;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(2) {
+        width: 61%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
     /*Main Menu Bar*/
     #mainNav {
         display: none !important;
     }
 
 }
+
 /*=======================================
         For Small Devices
 =========================================*/
-  @media only screen and (max-width: 767px) {
-      /*Default CSS*/
+@media only screen and (max-width: 767px) {
+    /*Default CSS*/
 
-      /*Menu CSS*/
-      .mean-container .mean-nav ul.menu {
-          box-shadow: 0 0 22px -9px rgba(64,123,255,.3);
-      }
-      /*Home CSS*/
-      .hero-area .row.hero-wrapper {
-          height: 100vh;
-          min-height: 410px;
-      }
-      .home-app-img-side {
-          display: none;
-      }
-      .home-app-download-area.padding-zero {
-          padding: 55px 0 35px;
-      }
-      .home-app-content {
-          width: 100%;
-      }
-      .apple-google-btn-wrap img {
-          height: 35px;
-      }
-      /*Services Area*/
-      .services-wrapper .nav-tabs .nav-link {
-          font-size: 14px;
-      }
-      .services-area .services-wrapper .services-box img {
-          height: 104px;
-      }
-      .get-free-cost-estimate-area .section-title-area p {
-          width: 100%;
-      }
-      .recent-questions-slider-wrap .item .services-box img, .popular-services-slider-wrap .item .services-box img {
-          height: 160px;
-      }
-      /*Home States Area*/
-      .row.all-50-states img {
-          height: 140px;
-          margin-bottom: 20px;
-      }
-      .all-50-states-content {
-          margin-left: 0;
-      }
-      .recent-questions-area h3 {
-          font-size: 21px;
-      }
-      .recent-questions-area .testi_prev, .recent-questions-area .testi_next {
-          top: 26%;
-      }
-      .home-states-area .row.all-states-name-area {
-          margin: 20px 0 40px;
-      }
-      .all-50-states-content .section-title-area {
-          margin-bottom: 0;
-      }
-      .recent-questions-area.get-free-cost-estimate-area {
-          padding: 50px 0 60px;
-      }
-      .why-hire-professionals-area .why-hire-box {
-          margin-top: 20px;
-      }
-      .instant-result-sidebar {
-          padding: 30px 30px;
-          border-right: none;
-          border-bottom: 1px solid var(--border-color);
-      }
-      .btn.filters-title.mobile-filters-title {
-          margin-bottom: 20px;
-      }
-      .mobile-filter-title-button .filters-title.mobile-filters-title{
-          display: block;
-      }
-      .filters-title.desktop-filters-title{
-          display: none;
-      }
-      /*Footer CSS*/
-      .footer-upper-area {
-          padding: 50px 0 40px;
-      }
-      .footer-widget {
-          margin-bottom: 20px;
-          border-bottom: 1px solid var(--border-color);
-          padding-bottom: 20px;
-      }
-      .open-for-business-area .all-50-states-content .section-heading {
-          font-size: 21px;
-      }
-      .recent-questions-area {
-          padding: 60px 0 20px;
-      }
-      /*Customer Profile Page*/
-      .customer-info-box {
-          width: 50%;
-          margin: 0 auto 50px;
-      }
-      .customer-info-box button {
-          width: 111px;
-          font-size: 13px;
-          padding: 6px 14px 8px;
-      }
-      .customer-info-left-box {
-          border-right: none;
-          padding-left: 0;
-      }
-      /*Customer Profile Page CSS*/
-      .customer-info-left-box, .customer-information-page .customer-right-side {
-          padding: 30px;
-      }
-      .customer-inbox-page-area .inbox-page-app-side {
-          margin-top: 50px;
-      }
-      .login-area form {
-          width: 100%;
-      }
-      .customer-account-deactivate-area .customer-account-edit-button button {
-          width: 40% !important;
-      }
-      .customer-activity-page .customer-activity-content {
-          width: 100%!important;
-      }
-      .customer-project-cancel-page .project-cancel-wrap {
-          width: 95%;
-      }
+    /*Menu CSS*/
+    .mean-container .mean-nav ul.menu {
+        box-shadow: 0 0 22px -9px rgba(64, 123, 255, .3);
+    }
 
-      /*Customer Project Details Page*/
-      .get-the-app-check-message-area {
-          padding: 30px 0 50px;
-      }
-      .get-the-app-check-message-area .row {
-          flex-direction: column-reverse;
-      }
-      .downloads-app-img {
-          margin-bottom: 30px;
-      }
-      /*Customer Review Page*/
-      .customer-review-rating-wrap {
-          width: 666px;
-      }
-      .customer-review-page-img-wrap .photo-wrap img {
-          height: 224px;
-          min-height: 224px;
-      }
-      /*Guarantee Sidebar Fixed Menu*/
-      .guarantee-menu {
-          width: 100%;
-          padding-right: 0;
-      }
-      .guarantee-menu ul {
-          border: 1px solid #d0cfcf;
-          border-bottom: none;
-          padding-left: 0;
-          margin-bottom: 45px;
-      }
-      .guarantee-menu ul li {
-          margin-bottom: 0;
-      }
-      .guarantee-menu ul li a {
-          display: block;
-          text-align: center;
-          border-bottom: 1px solid #d0cfcf;
-          padding: 14px 0;
-      }
-      .guarantee-menu ul li a.active::before {
-          display: none;
-      }
-      .pro-app-link-page-area .welcome-to-hilhome-pro-content form {
-          width: 100%;
-      }
-      .how-hilhome-works-get-app-content {
-          margin: 0 0 40px;
-      }
-      .how-works-youtube-video iframe {
-          width: 100%;
-      }
-      .how-to-details-help-wrap {
-          margin-bottom: 30px;
-      }
-      .how-to-details-help-wrap .how-to-details-content {
-          padding: 15px 130px;
-      }
+    /*Home CSS*/
+    .hero-area .row.hero-wrapper {
+        height: 100vh;
+        min-height: 410px;
+    }
 
-      /*Message Pro CSS*/
-      .message-header-left {
-          width: 85%;
-      }
-      .message-header-right {
-          width: 15%;
-      }
-      .we-here-to-help-area .guarantee-tab-content {
-          margin-left: 0;
-      }
-      .question-details-ready-to-hire .theme-button {
-          margin-bottom: 30px;
-      }
+    .home-app-img-side {
+        display: none;
+    }
 
-  }
+    .home-app-download-area.padding-zero {
+        padding: 55px 0 35px;
+    }
 
-  /*========================================
+    .home-app-content {
+        width: 100%;
+    }
+
+    .apple-google-btn-wrap img {
+        height: 35px;
+    }
+
+    /*Services Area*/
+    .services-wrapper .nav-tabs .nav-link {
+        font-size: 14px;
+    }
+
+    .services-area .services-wrapper .services-box img {
+        height: 104px;
+    }
+
+    .get-free-cost-estimate-area .section-title-area p {
+        width: 100%;
+    }
+
+    .recent-questions-slider-wrap .item .services-box img,
+    .popular-services-slider-wrap .item .services-box img {
+        height: 160px;
+    }
+
+    /*Home States Area*/
+    .row.all-50-states img {
+        height: 140px;
+        margin-bottom: 20px;
+    }
+
+    .all-50-states-content {
+        margin-left: 0;
+    }
+
+    .recent-questions-area h3 {
+        font-size: 21px;
+    }
+
+    .recent-questions-area .testi_prev,
+    .recent-questions-area .testi_next {
+        top: 26%;
+    }
+
+    .home-states-area .row.all-states-name-area {
+        margin: 20px 0 40px;
+    }
+
+    .all-50-states-content .section-title-area {
+        margin-bottom: 0;
+    }
+
+    .recent-questions-area.get-free-cost-estimate-area {
+        padding: 50px 0 60px;
+    }
+
+    .why-hire-professionals-area .why-hire-box {
+        margin-top: 20px;
+    }
+
+    .instant-result-sidebar {
+        padding: 30px 30px;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .btn.filters-title.mobile-filters-title {
+        margin-bottom: 20px;
+    }
+
+    .mobile-filter-title-button .filters-title.mobile-filters-title {
+        display: block;
+    }
+
+    .filters-title.desktop-filters-title {
+        display: none;
+    }
+
+    /*Footer CSS*/
+    .footer-upper-area {
+        padding: 50px 0 40px;
+    }
+
+    .footer-widget {
+        margin-bottom: 20px;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 20px;
+    }
+
+    .open-for-business-area .all-50-states-content .section-heading {
+        font-size: 21px;
+    }
+
+    .recent-questions-area {
+        padding: 60px 0 20px;
+    }
+
+    /*Customer Profile Page*/
+    .customer-info-box {
+        width: 50%;
+        margin: 0 auto 50px;
+    }
+
+    .customer-info-box button {
+        width: 111px;
+        font-size: 13px;
+        padding: 6px 14px 8px;
+    }
+
+    .customer-info-left-box {
+        border-right: none;
+        padding-left: 0;
+    }
+
+    /*Customer Profile Page CSS*/
+    .customer-info-left-box,
+    .customer-information-page .customer-right-side {
+        padding: 30px;
+    }
+
+    .customer-inbox-page-area .inbox-page-app-side {
+        margin-top: 50px;
+    }
+
+    .login-area form {
+        width: 100%;
+    }
+
+    .customer-account-deactivate-area .customer-account-edit-button button {
+        width: 40% !important;
+    }
+
+    .customer-activity-page .customer-activity-content {
+        width: 100% !important;
+    }
+
+    .customer-project-cancel-page .project-cancel-wrap {
+        width: 95%;
+    }
+
+    /*Customer Project Details Page*/
+    .get-the-app-check-message-area {
+        padding: 30px 0 50px;
+    }
+
+    .get-the-app-check-message-area .row {
+        flex-direction: column-reverse;
+    }
+
+    .downloads-app-img {
+        margin-bottom: 30px;
+    }
+
+    /*Customer Review Page*/
+    .customer-review-rating-wrap {
+        width: 666px;
+    }
+
+    .customer-review-page-img-wrap .photo-wrap img {
+        height: 224px;
+        min-height: 224px;
+    }
+
+    /*Guarantee Sidebar Fixed Menu*/
+    .guarantee-menu {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .guarantee-menu ul {
+        border: 1px solid #d0cfcf;
+        border-bottom: none;
+        padding-left: 0;
+        margin-bottom: 45px;
+    }
+
+    .guarantee-menu ul li {
+        margin-bottom: 0;
+    }
+
+    .guarantee-menu ul li a {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #d0cfcf;
+        padding: 14px 0;
+    }
+
+    .guarantee-menu ul li a.active::before {
+        display: none;
+    }
+
+    .pro-app-link-page-area .welcome-to-hilhome-pro-content form {
+        width: 100%;
+    }
+
+    .how-hilhome-works-get-app-content {
+        margin: 0 0 40px;
+    }
+
+    .how-works-youtube-video iframe {
+        width: 100%;
+    }
+
+    .how-to-details-help-wrap {
+        margin-bottom: 30px;
+    }
+
+    .how-to-details-help-wrap .how-to-details-content {
+        padding: 15px 130px;
+    }
+
+    /*Message Pro CSS*/
+    .message-header-left {
+        width: 85%;
+    }
+
+    .message-header-right {
+        width: 15%;
+    }
+
+    .we-here-to-help-area .guarantee-tab-content {
+        margin-left: 0;
+    }
+
+    .question-details-ready-to-hire .theme-button {
+        margin-bottom: 30px;
+    }
+
+}
+
+/*========================================
             For large mobile
   =========================================*/
 
-  @media only screen and (max-width: 766px){
-      #scroll {
-          bottom: 5px;
-      }
-      .mean-nav ul .search-box form input {
-          width: 70px;
-      }
-      .mean-nav ul .search-box button {
-          width: 95px;
-      }
-      .help-content {
-          width: 100%;
-      }
-      .how-it-works-content-area .how-it-content-box , .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box{
-          flex-direction: column;
-      }
-      .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box .how-it-content {
-          text-align: left;
-      }
-  }
-  @media only screen and (min-width: 480px) and (max-width: 766px){
-      .footer-widget > h4, .footer-widget.quick-links > h4 {
-          margin-top: 30px;
-          margin-bottom: 30px;
-      }
-      .customer-review-rating-wrap {
-          width: 442px;
-      }
-      .customer-review-page-img-wrap .photo-wrap img {
-          height: 146px;
-          min-height: 146px;
-      }
+@media only screen and (max-width: 766px) {
+    #scroll {
+        bottom: 5px;
+    }
 
-  }
+    .mean-nav ul .search-box form input {
+        width: 70px;
+    }
 
-@media only screen and (max-width: 580px){
+    .mean-nav ul .search-box button {
+        width: 95px;
+    }
+
+    .help-content {
+        width: 100%;
+    }
+
+    .how-it-works-content-area .how-it-content-box,
+    .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box {
+        flex-direction: column;
+    }
+
+    .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box .how-it-content {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 766px) {
+
+    .footer-widget>h4,
+    .footer-widget.quick-links>h4 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .customer-review-rating-wrap {
+        width: 442px;
+    }
+
+    .customer-review-page-img-wrap .photo-wrap img {
+        height: 146px;
+        min-height: 146px;
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
     .customer-inbox-page-area {
         padding-left: 30px;
         padding-right: 30px;
     }
+
     /*About CSS*/
-    .about-content-up, .about-content-bottom {
+    .about-content-up,
+    .about-content-bottom {
         width: 95%;
     }
+
     .about-story-main .about-area:nth-child(2n+1) .about-content-writer {
         left: 300px;
     }
+
     .about-story-main .about-area:nth-child(2n) .about-content-writer {
         right: 300px;
     }
+
     .about-page-img img {
         height: 440px;
     }
+
     .about-content-writer {
         width: 36%;
     }
 }
-@media only screen and (max-width: 575px){
+
+@media only screen and (max-width: 575px) {
     .mean-nav ul .search-box {
         width: 84%;
     }
-    .register-area, .login-area {
+
+    .register-area,
+    .login-area {
         padding-left: 30px;
         padding-right: 30px;
     }
+
     .register-area form .form-group.d-flex {
         flex-direction: column;
     }
+
     .register-area form .form-group.d-flex .col-12:last-child {
         padding-left: 0;
         padding-top: 15px;
@@ -3829,115 +4734,147 @@ ul.social-media li a {
     .message-header-left {
         width: 82%;
     }
+
     .message-header-right {
         width: 18%;
     }
+
     .message-pro-page .message-footer form .form-group:nth-child(1) {
         width: 15%;
     }
+
     .message-pro-page .message-footer form .form-group:nth-child(2) {
         width: 60%;
     }
+
     .message-pro-page .message-footer form .form-group:nth-child(3) {
         width: 25%;
     }
 
 }
-@media only screen and (max-width: 555px){
+
+@media only screen and (max-width: 555px) {
     .privacy-page-table {
         overflow-x: scroll;
     }
+
     .privacy-page-table .table {
         min-width: 100%;
         width: 870px;
     }
 }
-@media only screen and (max-width: 535px){
+
+@media only screen and (max-width: 535px) {
     .related-article-wrap {
         flex-direction: column;
     }
-    .related-article-wrap a{
+
+    .related-article-wrap a {
         width: 50%;
     }
+
     .related-article-wrap .services-box {
         margin-bottom: 30px;
     }
+
     .services-box img {
         height: 155px;
     }
 }
-@media only screen and (max-width: 528px){
+
+@media only screen and (max-width: 528px) {
     .services-area .services-wrapper .services-box img {
         height: 93px;
     }
+
     .recent-questions-slider-wrap .item .services-box img {
         height: 148px;
     }
+
     /*Home Projects Lists*/
     .hero-area.home-hero-projects-area {
         padding-top: 30px;
     }
+
     .home-hero-projects-wrap .hero-project-lists {
         flex-direction: column;
     }
+
     .home-hero-projects-wrap .hero-project-box {
         margin: 10px 10px 10px 0;
         min-width: 80%;
         max-width: 100%;
         width: 80%;
     }
+
     .customer-account-deactivate-area .customer-account-edit-button button {
         width: 50% !important;
     }
+
     .customer-activity-page .customer-activity-content .hero-project-box {
-        width: 100%!important;
+        width: 100% !important;
     }
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
+
     /*Default CSS*/
-    .select-items div, .select-selected {
+    .select-items div,
+    .select-selected {
         padding: 12px 10px;
     }
+
     .search-box form input {
         width: 95px;
     }
+
     .search-box button {
         width: 90px;
     }
-    .services-box, .owl-carousel .owl-item img {
+
+    .services-box,
+    .owl-carousel .owl-item img {
         text-align: center;
         margin: 0 auto;
     }
+
     .get-free-cost-estimate-area .row.home-app-slider-outer {
         text-align: center;
     }
+
     /*Footer CSS*/
     .footer-bottom-part {
         flex-direction: column;
         text-align: center;
     }
+
     .copyright {
         margin-bottom: 20px;
     }
+
     .footer-social ul {
         justify-content: center;
     }
+
     .footer-bottom-area {
         padding: 20px 0 30px;
     }
+
     .customer-account-deactivate-area {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .customer-account-deactivate-area .customer-account-edit-button button {
         width: 50% !important;
         padding: 9px 10px;
         font-size: 12px;
     }
+
     .customer-account-deactivate-area form {
         padding: 24px 0 30px;
     }
+
     .customer-account-deactivate-area form {
         padding: 0 !important;
         margin: 0;
@@ -3949,266 +4886,338 @@ ul.social-media li a {
 /*=========================================
         For very little mobile
 =========================================*/
-  @media only screen and (max-width:430px){
-      .mean-nav ul .custom-select {
-          width: 78%;
-          padding: 0;
-      }
-      .mean-nav ul .search-box form input {
-          width: 50px;
-      }
-      .mean-nav ul .search-box button {
-          width: 78px;
-      }
-      /*Hero Area Search Box CSS*/
-      .hero-area .hero-wrapper .col-12.col-sm-12.col-md-10.col-lg-7 {
-          padding: 0 7px;
-      }
-      .select-selected::after {
-          right: 7px;
-          border: 5px solid transparent;
-      }
-      .hero-search-content-left ul.nav-tabs {
-          margin: 8px 8px 0;
-      }
-      .search-box h1, .find-customer {
-          padding: 8px;
-      }
-      .custom-select {
-          width: 62%;
-      }
-      .select-items div, .select-selected {
-          padding: 14px 8px 14px;
-          font-size: 12px;
-      }
-      .search-box form input {
-          width: 64px;
-          padding: 7px;
-          font-size: 12px;
-      }
-      .search-box button {
-          width: 60px;
-          font-size: 12px;
-      }
-      /*Customer Notification Page*/
-      .customer-notifications-page .customer-right-side {
-          padding: 0;
-      }
-      .customer-notifications-page {
-          padding: 70px 0 30px;
-      }
-      .notification-lists {
-          padding: 30px 15px;
-      }
-      .customer-account-edit-area {
-          padding-left: 10px;
-          padding-right: 10px;
-      }
-      .customer-account-edit-button button {
-          width: 40% !important;
-      }
-      .get-the-app-check-message-area form input {
-          width: 207px !important;
-      }
-      /*How It works CSS*/
-      .how-it-try-it-out-area .select-items div, .how-it-try-it-out-area .select-selected {
-          padding: 14px 3px 14px;
-      }
-      .how-to-details-help-wrap .how-to-details-content {
-          padding: 15px 40px;
-      }
-
-  }
-  @media only screen and (max-width:364px){
-      .customer-project-cancel-page .project-cancel-wrap {
-          width: 100%;
-      }
-      .customer-project-cancel-radio-button {
-          padding: 30px 20px 20px;
-      }
-      .customer-project-cancel-radio-button .container {
-          padding-left: 24px;
-      }
-
-  }
-
-  @media only screen and (min-width:300px) and (max-width:479px){
-      /*Default CSS*/
-      .mean-nav ul .search-box {
-          width: 94%;
-      }
-      section {
-          padding: 50px 0;
-      }
-      h2 {
-          font-size: 1.45rem;
-      }
-      h1.header-caption-heading {
-          font-size: 32px;
-      }
-
-      /*Footer Area*/
-
-      .footer-bottom-part {
-          align-items: center;
-      }
-      .footer-social {
-          width: 40%;
-          text-align: right;
-      }
-      .footer-bottom-part {
-          flex-direction: column;
-      }
-      .copyright {
-          margin-bottom: 10px;
-      }
-      .footer-social, .copyright {
-          width: 100%;
-          text-align: center;
-      }
-      .footer-widget.footer-recent-posts ul li a > p{
-          line-height: 22px;
-      }
-      /*Customer Profile CSS*/
-      .customer-info-box {
-          width: 70%;
-      }
-      .login-area form {
-          width: 90%;
-      }
-      /*Login Register Page CSS*/
-      .login-area form {
-          width: 100%;
-      }
-      .other-button-box a.btn {
-          font-size: 12px;
-      }
-      .other-button-box a.btn img {
-          height: 21px;
-      }
-      .login-area form {
-          padding: 24px 20px 30px;
-      }
-      .privacy-box h6::before, .privacy-box h6::after {
-          width: 40%;
-      }
-      .dont-have-account {
-          font-size: 14px;
-      }
-      .remember-box {
-          font-size: 13px;
-      }
-      .customer-account-deactivate-area form {
-          padding: 24px 0 30px;
-      }
-      .about-story-main .about-area:nth-child(2n+1) .about-content-writer {
-          left: 0;
-      }
-      .about-story-main .about-area:nth-child(2n) .about-content-writer {
-          right: 0;
-      }
-      .about-content-writer {
-          position: relative;
-          width: 80%;
-          bottom: 0;
-          margin: 20px 10px;
-      }
-      /*Instant Result Page*/
-      .instant-result-style-1-area {
-          width: 100%;
-      }
-      .customer-review-rating-wrap {
-          width: 325px;
-      }
-      .customer-review-page-img-wrap .photo-wrap {
-          width: 70%;
-          margin: 0 auto 30px;
-      }
-      .pro-app-link-page-area .welcome-to-hilhome-pro-content {
-          padding: 36px 30px 50px;
-      }
-      .how-hilhome-works-right h1 > i {
-          display: none;
-      }
-      .how-it-works-page-banner .page-banner-content {
-          width: 100%;
-      }
-      .how-to-details-help-wrap .how-to-details-content {
-          padding: 15px 90px;
-      }
-
-      /*Message Pro CSS*/
-      .message-header-left {
-          width: 75%;
-      }
-      .message-header-right {
-          width: 25%;
-      }
-      .message-pro-page .message-footer form .form-group:nth-child(1) {
-          width: 18%;
-      }
-      .message-pro-page .message-footer form .form-group:nth-child(2) {
-          width: 55%;
-      }
-      .message-pro-page .message-footer form .form-group:nth-child(3) {
-          width: 25%;
-      }
-      .message-pro-page .message-footer form .form-group:nth-child(2) textarea {
-          margin: 0 12px;
-      }
-      .message-pro-page .message-footer form .theme-button {
-          padding: 5px 15px 10px;
-      }
-      .message-pro-page .message-footer form .form-group:nth-child(1) i {
-          font-size: 12px;
-      }
-      .chat-box-content, .chat-box.chat-box-customer-message .chat-box-content {
-          max-width: 100%;
-      }
-      /*Pro Review Details CSS*/
-      .related-article-wrap a {
-          width: 300px;
-          margin: 0 auto;
-      }
-      .related-article-wrap .services-box {
-          width: 244px;
-          margin: 0 auto 30px;
-      }
-      .related-pro-tips-title {
-          text-align: center;
-      }
-
-  }
-
-@media only screen and (max-width:300px) and (min-width: 415px){
-    .message-pro-page .message-footer form .form-group:nth-child(2) {
-        width: 52%;
+@media only screen and (max-width:430px) {
+    .mean-nav ul .custom-select {
+        width: 78%;
+        padding: 0;
     }
-    .message-pro-page .message-footer form .form-group:nth-child(3) {
-        width: 30%;
-    }
-}
 
-@media only screen and (max-width:370px){
-    .message-pro-page .message-footer form .form-group:nth-child(2) {
-        width: 50%;
+    .mean-nav ul .search-box form input {
+        width: 50px;
     }
-    .message-pro-page .message-footer form .form-group:nth-child(3) {
-        width: 30%;
+
+    .mean-nav ul .search-box button {
+        width: 78px;
     }
-}
-@media only screen and (max-width:320px){
-    .customer-review-rating-wrap {
-        width: 285px;
-        padding: 20px;
-        margin: 0 auto 30px;
+
+    /*Hero Area Search Box CSS*/
+    .hero-area .hero-wrapper .col-12.col-sm-12.col-md-10.col-lg-7 {
+        padding: 0 7px;
     }
+
+    .select-selected::after {
+        right: 7px;
+        border: 5px solid transparent;
+    }
+
+    .hero-search-content-left ul.nav-tabs {
+        margin: 8px 8px 0;
+    }
+
+    .search-box h1,
+    .find-customer {
+        padding: 8px;
+    }
+
+    .custom-select {
+        width: 62%;
+    }
+
+    .select-items div,
+    .select-selected {
+        padding: 14px 8px 14px;
+        font-size: 12px;
+    }
+
+    .search-box form input {
+        width: 64px;
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .search-box button {
+        width: 60px;
+        font-size: 12px;
+    }
+
+    /*Customer Notification Page*/
+    .customer-notifications-page .customer-right-side {
+        padding: 0;
+    }
+
+    .customer-notifications-page {
+        padding: 70px 0 30px;
+    }
+
+    .notification-lists {
+        padding: 30px 15px;
+    }
+
+    .customer-account-edit-area {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .customer-account-edit-button button {
+        width: 40% !important;
+    }
+
+    .get-the-app-check-message-area form input {
+        width: 207px !important;
+    }
+
+    /*How It works CSS*/
+    .how-it-try-it-out-area .select-items div,
+    .how-it-try-it-out-area .select-selected {
+        padding: 14px 3px 14px;
+    }
+
     .how-to-details-help-wrap .how-to-details-content {
         padding: 15px 40px;
     }
 
 }
-  /*-------------------------------------------
+
+@media only screen and (max-width:364px) {
+    .customer-project-cancel-page .project-cancel-wrap {
+        width: 100%;
+    }
+
+    .customer-project-cancel-radio-button {
+        padding: 30px 20px 20px;
+    }
+
+    .customer-project-cancel-radio-button .container {
+        padding-left: 24px;
+    }
+
+}
+
+@media only screen and (min-width:300px) and (max-width:479px) {
+
+    /*Default CSS*/
+    .mean-nav ul .search-box {
+        width: 94%;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+    h2 {
+        font-size: 1.45rem;
+    }
+
+    h1.header-caption-heading {
+        font-size: 32px;
+    }
+
+    /*Footer Area*/
+
+    .footer-bottom-part {
+        align-items: center;
+    }
+
+    .footer-social {
+        width: 40%;
+        text-align: right;
+    }
+
+    .footer-bottom-part {
+        flex-direction: column;
+    }
+
+    .copyright {
+        margin-bottom: 10px;
+    }
+
+    .footer-social,
+    .copyright {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-widget.footer-recent-posts ul li a>p {
+        line-height: 22px;
+    }
+
+    /*Customer Profile CSS*/
+    .customer-info-box {
+        width: 70%;
+    }
+
+    .login-area form {
+        width: 90%;
+    }
+
+    /*Login Register Page CSS*/
+    .login-area form {
+        width: 100%;
+    }
+
+    .other-button-box a.btn {
+        font-size: 12px;
+    }
+
+    .other-button-box a.btn img {
+        height: 21px;
+    }
+
+    .login-area form {
+        padding: 24px 20px 30px;
+    }
+
+    .privacy-box h6::before,
+    .privacy-box h6::after {
+        width: 40%;
+    }
+
+    .dont-have-account {
+        font-size: 14px;
+    }
+
+    .remember-box {
+        font-size: 13px;
+    }
+
+    .customer-account-deactivate-area form {
+        padding: 24px 0 30px;
+    }
+
+    .about-story-main .about-area:nth-child(2n+1) .about-content-writer {
+        left: 0;
+    }
+
+    .about-story-main .about-area:nth-child(2n) .about-content-writer {
+        right: 0;
+    }
+
+    .about-content-writer {
+        position: relative;
+        width: 80%;
+        bottom: 0;
+        margin: 20px 10px;
+    }
+
+    /*Instant Result Page*/
+    .instant-result-style-1-area {
+        width: 100%;
+    }
+
+    .customer-review-rating-wrap {
+        width: 325px;
+    }
+
+    .customer-review-page-img-wrap .photo-wrap {
+        width: 70%;
+        margin: 0 auto 30px;
+    }
+
+    .pro-app-link-page-area .welcome-to-hilhome-pro-content {
+        padding: 36px 30px 50px;
+    }
+
+    .how-hilhome-works-right h1>i {
+        display: none;
+    }
+
+    .how-it-works-page-banner .page-banner-content {
+        width: 100%;
+    }
+
+    .how-to-details-help-wrap .how-to-details-content {
+        padding: 15px 90px;
+    }
+
+    /*Message Pro CSS*/
+    .message-header-left {
+        width: 75%;
+    }
+
+    .message-header-right {
+        width: 25%;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(1) {
+        width: 18%;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(2) {
+        width: 55%;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(3) {
+        width: 25%;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(2) textarea {
+        margin: 0 12px;
+    }
+
+    .message-pro-page .message-footer form .theme-button {
+        padding: 5px 15px 10px;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(1) i {
+        font-size: 12px;
+    }
+
+    .chat-box-content,
+    .chat-box.chat-box-customer-message .chat-box-content {
+        max-width: 100%;
+    }
+
+    /*Pro Review Details CSS*/
+    .related-article-wrap a {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .related-article-wrap .services-box {
+        width: 244px;
+        margin: 0 auto 30px;
+    }
+
+    .related-pro-tips-title {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width:300px) and (min-width: 415px) {
+    .message-pro-page .message-footer form .form-group:nth-child(2) {
+        width: 52%;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(3) {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:370px) {
+    .message-pro-page .message-footer form .form-group:nth-child(2) {
+        width: 50%;
+    }
+
+    .message-pro-page .message-footer form .form-group:nth-child(3) {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .customer-review-rating-wrap {
+        width: 285px;
+        padding: 20px;
+        margin: 0 auto 30px;
+    }
+
+    .how-to-details-help-wrap .how-to-details-content {
+        padding: 15px 40px;
+    }
+
+}
+
+/*-------------------------------------------
         24. Responsive Design End
   -------------------------------------------*/
 
@@ -6474,6 +7483,8 @@ del {
 .build-arae {
     font-size: 18px;
     padding-left: 20px;
+    float: left;
+    width: 100%;
 }
 
 .radio-build {
@@ -9530,6 +10541,19 @@ table .comment-area h6 i {
     list-style-type: disc;
 }
 
+.mobile-menu-not-bar {
+    display: none;
+
+    background-color: var(--white-color);
+    height: 54px;
+    z-index: 999;
+    padding: 0;
+    box-shadow: 0 0 15px 2px rgba(64, 123, 255, .2);
+    float: left;
+    width: 100%;
+    position: fixed;
+}
+
 /*----------------------------
     preloder
 --------------------------------*/
@@ -9614,6 +10638,10 @@ table .comment-area h6 i {
 
     .blog-details-wedget {
         padding-top: 60px;
+    }
+
+    .mobile-menu-not-bar {
+        display: block;
     }
 }
 
