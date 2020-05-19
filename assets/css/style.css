@@ -224,7 +224,7 @@ figure {
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
 .details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
 .was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button, .chat-box-text p a,
-.message-main-header button, .message-header-right a, .message-pro-page .message-footer form .form-group:nth-child(1) i, .contacted-pros-area .contacted-pros-hide, .contacted-pros-area .contacted-pros-show
+.message-main-header button, .message-header-right a, .message-pro-page .message-footer form .form-group:nth-child(1) i, .contacted-pros-area .contacted-pros-hide, .contacted-pros-area .contacted-pros-show, .category-group-lists.text-lists a:hover
 {
     color: var(--color-blue);
 }
@@ -253,7 +253,7 @@ figure {
 .mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
 .customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label,
 .home-hero-projects-wrap .see-all-btn, .customer-notifications-page .notifications-button,
-.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag, .menu-after-login .nav-item.dropdown-box a, .more-services-page-area figcaption{
+.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag, .menu-after-login .nav-item.dropdown-box a, .more-services-page-area figcaption, .category-group-lists.text-lists a{
     font-weight: 700;
 }
 .font-black, .how-to-details-help-wrap .how-to-details-content h6{
@@ -302,7 +302,7 @@ h2{
 .mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
 .customer-notifications-page .notifications-part, .how-hilhome-works-right h1, .how-it-try-it-out-area .search-box h3,
 .related-article-page-area .related-article-title h3, .how-to-details-page-how-works-area .section-heading,
-.customer-project-cancel-radio-button h5{
+.customer-project-cancel-radio-button h5, .more-services-page-area .category-group h3{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
@@ -3101,19 +3101,46 @@ ul.social-media li a {
 /*-------------------------------------------
     34.  More Services Page Area Start
 -------------------------------------------*/
-.category-group-lists.photo-list {
+/*More Services Left Side*/
+.guarantee-menu.more-services-left-menu ul {
+    border-left: none;
+    padding-left: 0;
+}
+.guarantee-menu.more-services-left-menu ul li a {
+    display: flex;
+    align-items: center;
+    color: #2f3033;
+}
+.guarantee-menu.more-services-left-menu ul li a i {
+    padding-right: 10px;
+}
+
+/*More Services Right Side*/
+.category-group-lists {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
+}
+.category-list-box-left, .category-list-box-right {
+    display: flex;
+    flex-direction: column;
+}
+.more-services-page-area .category-group-lists.photo-lists a{
+    margin: 0 15px 15px 0;
 }
 .more-services-page-area figure {
     border-radius: 6px;
     border: 1px solid #dbdada;
     overflow: hidden;
-    margin: 0 0 15px 15px;
 }
 .more-services-page-area figcaption {
     padding: 15px;
+}
+.category-group-lists.text-lists a {
+    padding: 6px 0;
+    color: #676d73;
+    font-size: 15px;
 }
 /*-------------------------------------------
     34.  More Services Page Area End
