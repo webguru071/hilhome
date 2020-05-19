@@ -224,7 +224,8 @@ figure {
 .home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
 .details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
 .was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button, .chat-box-text p a,
-.message-main-header button, .message-header-right a, .message-pro-page .message-footer form .form-group:nth-child(1) i, .contacted-pros-area .contacted-pros-hide, .contacted-pros-area .contacted-pros-show, .category-group-lists.text-lists a:hover
+.message-main-header button, .message-header-right a, .message-pro-page .message-footer form .form-group:nth-child(1) i, .contacted-pros-area .contacted-pros-hide, .contacted-pros-area .contacted-pros-show, .category-group-lists.text-lists a:hover,
+.guarantee-menu.more-services-left-menu ul li a:hover
 {
     color: var(--color-blue);
 }
@@ -1603,6 +1604,8 @@ ul.social-media li a {
 .guarantee-menu {
     width: 300px;
     padding-right: 50px;
+    z-index: 9;
+    background-color: #fff;
 }
 .guarantee-tab-content .guarantee-content-box h2 {
     margin-bottom: 20px;
@@ -3116,7 +3119,11 @@ ul.social-media li a {
 }
 
 /*More Services Right Side*/
-.category-group-lists {
+.more-services-page-area .category-group {
+    border-bottom: 1px solid #dedfe1;
+    margin-bottom: 40px;
+}
+.more-services-page-area .category-group-lists {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -3390,7 +3397,7 @@ ul.social-media li a {
           height: 47px;
       }
       .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page,
-      .page-banner-area, .how-hilhome-works-area, .how-to-page-area, .privacy-page-area, .pro-app-page-area{
+      .page-banner-area, .how-hilhome-works-area, .how-to-page-area, .privacy-page-area, .pro-app-page-area, .more-services-page-area{
           padding-top: 120px;
       }
       .near-me-main, .how-to-page-area.near-me-page-area {
@@ -3482,6 +3489,11 @@ ul.social-media li a {
       }
       .how-it-works-content-area .how-it-content-box {
           width: 100%;
+      }
+
+      /*More Services CSS*/
+      .more-services-page-area figure img {
+          height: 154px;
       }
 
   }
