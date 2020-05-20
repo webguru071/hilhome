@@ -1580,8 +1580,21 @@ ul.social-media li a {
 
 /*Guarantee Fixed Tabs CSS*/
 .guarantee-menu ul {
-    border-left: 4px solid #d1d1d1;
+    /*border-left: 4px solid #d1d1d1;*/
     padding-left: 15px;
+    position: relative;
+    padding-top: 10px;
+}
+.guarantee-menu ul::after {
+    position: absolute;
+    height: 94%;
+    width: 4px;
+    background-color: #d1d1d1;
+    left: -4px;
+    top: 15px;
+    content: "";
+    z-index: -1;
+    border-radius: 5px;
 }
 .guarantee-menu ul li a.active, .guarantee-menu ul li a:hover {
     color: var(--color-blue);
@@ -1593,19 +1606,17 @@ ul.social-media li a {
     height: 25px;
     width: 4px;
     left: -19px;
-    top: -3px;
+    top: 2px;
     position: absolute;
+    border-radius: 5px;
 }
-
-.sticky-menu{
-    position: fixed;
-    top: 33px;
+.sticky-menu {
+    position: sticky;
+    top: 0;
 }
 .guarantee-menu {
     width: 300px;
     padding-right: 50px;
-    z-index: 9;
-    background-color: #fff;
 }
 .guarantee-tab-content .guarantee-content-box h2 {
     margin-bottom: 20px;
@@ -3106,9 +3117,11 @@ ul.social-media li a {
 -------------------------------------------*/
 /*More Services Left Side*/
 .guarantee-menu.more-services-left-menu ul {
-    border-left: none;
     padding-left: 0;
 }
+.guarantee-menu.more-services-left-menu ul::after {
+     display: none;
+ }
 .guarantee-menu.more-services-left-menu ul li a {
     display: flex;
     align-items: center;
@@ -3774,7 +3787,7 @@ ul.social-media li a {
           border-bottom: 1px solid #d0cfcf;
           padding: 14px 0;
       }
-      .guarantee-menu ul li a.active::before {
+      .guarantee-menu ul li a.active::before, .guarantee-menu ul::after {
           display: none;
       }
       .pro-app-link-page-area .welcome-to-hilhome-pro-content form {
@@ -3806,6 +3819,54 @@ ul.social-media li a {
       .question-details-ready-to-hire .theme-button {
           margin-bottom: 30px;
       }
+      /*How To Details CSS*/
+      .how-to-details-page-area .guarantee-menu {
+          display: none;
+      }
+
+      /*More Services CSS Menu Start*/
+      .guarantee-menu.more-services-left-menu.mobile-more-services-left-menu {
+          display: block;
+      }
+      .guarantee-menu.more-services-left-menu.mobile-more-services-left-menu ul {
+          border: none;
+      }
+      .guarantee-menu.more-services-left-menu.mobile-more-services-left-menu ul li {
+          display: inline-block;
+      }
+      .guarantee-menu.more-services-left-menu.mobile-more-services-left-menu ul {
+          display: -webkit-flex;
+          display: flex;
+          overflow-x: scroll;
+          -webkit-overflow-scrolling: touch;
+          background-color: #fff;
+          border-bottom: 1px solid #e9eced;
+          padding: 0 12px;
+          margin-bottom: 24px;
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+          z-index: 1;
+      }
+      .guarantee-menu.more-services-left-menu.mobile-more-services-left-menu ul li a {
+          display: flex;
+          border: none;
+          flex-direction: column;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          max-width: 100%;
+      }
+      .more-services-page__nav-category--mobile__title {
+          /*overflow: hidden;*/
+          /*text-overflow: ellipsis;*/
+          /*white-space: nowrap;*/
+          /*max-width: 100%;*/
+          /*text-align: center;*/
+          /*margin-top: 4px;*/
+          /*font-weight: 400;*/
+      }
+
 
   }
 

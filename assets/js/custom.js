@@ -240,7 +240,6 @@
     // Guarantee Fixed Nav Tabs
 
     // How To Details Fixed Nav Tabs
-
     if ($(window).width() > 767) {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 500) {
@@ -250,8 +249,29 @@
             }
         });
     }
-
     // How To Details Fixed Nav Tabs
+
+    // More Services Fixed Nav Tabs
+    if ($(window).width() > 767) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 130) {
+                $('.how-to-details-page-area .guarantee-menu.more-services-left-menu').addClass("sticky-menu");
+            } else {
+                $('.how-to-details-page-area .guarantee-menu.more-services-left-menu').removeClass("sticky-menu");
+            }
+        });
+    }
+    // More Services Fixed Nav Tabs
+
+    // More Services Mobile Menu Fixed Nav Tabs
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >= 200) {
+                $('.more-services-page-area .mobile-more-services-left-menu').addClass("sticky-menu");
+            } else {
+                $('.more-services-page-area .mobile-more-services-left-menu').removeClass("sticky-menu");
+            }
+        });
+    // More Services Mobile Menu Fixed Nav Tabs
 
     //Accordion Box
     if ($('.accordion-box').length) {
