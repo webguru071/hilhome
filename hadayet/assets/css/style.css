@@ -7679,6 +7679,22 @@ del {
     padding-top: 25px;
 }
 
+.area-gol-radio .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.area-gol-radio .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
 /*----------------------------------
          info Business
 ------------------------------------*/
@@ -8378,6 +8394,15 @@ del {
 
 .kind-center p a {
     color: var(--color-blue);
+}
+
+.what-kind-items .check-checkmark {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #dadada;
 }
 
 /*--------------------------------------
@@ -10543,7 +10568,6 @@ table .comment-area h6 i {
 
 .mobile-menu-not-bar {
     display: none;
-
     background-color: var(--white-color);
     height: 54px;
     z-index: 999;
@@ -10579,6 +10603,215 @@ table .comment-area h6 i {
     margin-top: -35px;
     margin-left: -35px;
 }
+
+.build-two-page {
+    border: none;
+}
+
+/* --Pro payment-page-- */
+.pro-payment-area {
+    border: none;
+}
+
+.pro-payment-area h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.pro-payment-area p {
+    padding-top: 15px;
+}
+
+.pro-payment-form-arae {
+    border-color: #e9eced;
+    background-color: #fff;
+    border: 1px solid #e9eced;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.pro-payment-icon-area {
+    display: flex;
+    align-items: center;
+}
+
+.pro-payment-icon-area p {
+    padding-left: 10px;
+    padding-top: 0;
+
+}
+
+#pro-payment-main-form {
+    margin-top: 30px;
+}
+
+
+#pro-payment-main-form .form-group label {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.pro-payment-form p {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+/* --Pro-after-login-home-page-- */
+
+/*ProAfter Login Menu CSS Start*/
+.pro-menu-after-login .nav-item.dropdown-box a {
+    display: flex;
+    align-items: center;
+}
+
+.pro-menu-after-login .customer-img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    overflow: hidden;
+    display: block;
+    margin-right: 5px;
+}
+
+.pro-menu-after-login .customer-img img {
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.pro-menu-after-login #mainNav ul.navbar-nav li.nav-item.dropdown-box .dropdown-list {
+    background-color: #fff;
+    top: 213%;
+    position: absolute;
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 13px 4px rgba(64, 123, 225, 0.15);
+    right: 15px;
+}
+
+.pro-menu-after-login #mainNav ul.navbar-nav li.nav-item.dropdown-box:nth-child(1) .dropdown-list {
+    width: 375px;
+}
+
+.pro-menu-after-login #mainNav ul.navbar-nav li.nav-item.dropdown-box:hover .dropdown-list {
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.bell-arae-menu a i {
+    font-size: 28px;
+}
+
+.notification-list-arae ul li {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #0000001f;
+    margin-bottom: 16px;
+    padding-bottom: 13px;
+}
+
+.notification-list-arae ul li:last-child {
+    border: none;
+}
+
+.notification-list-arae ul li .light-arae i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: red;
+}
+
+.notification-list-arae ul li .light-details-arae h6 {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.notification-list-arae ul li .light-details-arae p {
+    color: #676d73;
+    font-size: 12px;
+    line-height: 1.4;
+    padding-top: 10px;
+}
+
+.pro-ligin-after-menu-text .nav-item .nav-link {
+    color: #676d73;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    position: relative;
+}
+
+.pro-ligin-after-menu-text .nav-item .nav-link::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: transparent;
+    bottom: -15px;
+    left: 0;
+}
+
+.pro-ligin-after-menu-text .nav-item .nav-link:hover::after {
+    background-color: #d3d4d5;
+}
+
+/*Pro After Login Menu CSS End*/
+
+/* -Pro-setting-page-start-- */
+.pro-setting-are {
+    border: none;
+}
+
+.pro-setting-heading h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.setting-item-box {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border: 1px solid #e9eced;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    height: 288px;
+    margin-top: 30px;
+}
+
+
+.setting-item-box i {
+    font-size: 40px;
+    color: #2f3033;
+}
+
+.setting-item-box h5 {
+    line-height: 24px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.setting-item-box h5:hover {
+    color: var(--color-blue);
+}
+
+/* -Pro-setting-page-End-- */
+
+
+
+
+
+
 
 /* -- hadayet css end--  */
 
@@ -10642,6 +10875,68 @@ table .comment-area h6 i {
 
     .mobile-menu-not-bar {
         display: block;
+    }
+
+    .service-do-area {
+        padding-top: 100px;
+    }
+
+    .business-info-area {
+        padding: 100px 0;
+    }
+
+    .build-img-area ul {
+        width: 70%;
+    }
+
+    .build-two-page {
+        border: none;
+        padding-top: 50px;
+    }
+
+    .business-area-gole-wed {
+        padding: 50px 0;
+    }
+
+    .what-kind-area {
+        padding: 50px 0;
+    }
+
+    .pro-payment-area {
+        padding: 50px 0;
+    }
+
+    .we-jkust-neeed-wrapper {
+        padding: 50px 0;
+    }
+
+    .where-you-went-to-work {
+        padding: 50px 0;
+    }
+
+    .where-you-went-to-work {
+        padding-top: 100px;
+    }
+
+    .pro-payment-area {
+        padding: 100px 0;
+    }
+
+    .pro-account-inner {
+
+        margin: 40px 0px 0 0px;
+    }
+
+    .proaccount-deactived-area {
+        padding-top: 100px;
+    }
+
+    .pro-setting-area {
+        padding: 100px 0;
+    }
+
+    .pro-setting-area-wedget {
+        padding: 100px 0;
     }
 }
 
