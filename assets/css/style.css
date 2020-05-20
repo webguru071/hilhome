@@ -3116,6 +3116,9 @@ ul.social-media li a {
     34.  More Services Page Area Start
 -------------------------------------------*/
 /*More Services Left Side*/
+.more-services-page-area .mobile-more-services-left-menu {
+    display: none;
+}
 .guarantee-menu.more-services-left-menu ul {
     padding-left: 0;
 }
@@ -3825,18 +3828,18 @@ ul.social-media li a {
       }
 
       /*More Services CSS Menu Start*/
-      .guarantee-menu.more-services-left-menu.mobile-more-services-left-menu {
+      .more-services-page-area .mobile-more-services-left-menu {
           display: block;
       }
-      .guarantee-menu.more-services-left-menu.mobile-more-services-left-menu ul {
+      .more-services-page-area .mobile-more-services-left-menu ul {
           border: none;
       }
-      .guarantee-menu.more-services-left-menu.mobile-more-services-left-menu ul li {
+      .more-services-page-area .mobile-more-services-left-menu ul li {
           display: inline-block;
       }
-      .guarantee-menu.more-services-left-menu.mobile-more-services-left-menu ul {
-          display: -webkit-flex;
-          display: flex;
+      .more-services-page-area .mobile-more-services-left-menu {
+          /*display: -webkit-flex;*/
+          /*display: flex;*/
           overflow-x: scroll;
           -webkit-overflow-scrolling: touch;
           background-color: #fff;
@@ -3848,25 +3851,19 @@ ul.social-media li a {
           top: 0;
           z-index: 1;
       }
-      .guarantee-menu.more-services-left-menu.mobile-more-services-left-menu ul li a {
+      .more-services-page-area .mobile-more-services-left-menu ul li a {
           display: flex;
           border: none;
           flex-direction: column;
-          overflow: hidden;
-          text-overflow: ellipsis;
+      }
+      .mobile-more-services-title {
           white-space: nowrap;
-          max-width: 100%;
-      }
-      .more-services-page__nav-category--mobile__title {
-          /*overflow: hidden;*/
+          width: 50px;
+          overflow: hidden;
           /*text-overflow: ellipsis;*/
-          /*white-space: nowrap;*/
-          /*max-width: 100%;*/
-          /*text-align: center;*/
-          /*margin-top: 4px;*/
-          /*font-weight: 400;*/
+          text-overflow: "___";
+          border: 1px solid #000000;
       }
-
 
   }
 
