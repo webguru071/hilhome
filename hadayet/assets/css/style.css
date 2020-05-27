@@ -10999,6 +10999,7 @@ table .comment-area h6 i {
 .pro-calendar-area-edit p {
   color: #676d73;
   font-size: 14px;
+  padding-top: 20px;
 }
 .pro-calendar-edit-area {
   padding: 24px;
@@ -11091,8 +11092,6 @@ table .comment-area h6 i {
   color: var(--color-blue);
   padding-left: 13px;
 }
-.create-saved-item {
-}
 .create-saved-item h3 {
   font-size: 24px;
   text-align: center;
@@ -11107,6 +11106,136 @@ table .comment-area h6 i {
 #delate-account .saved-cancel-button {
   padding-top: 30px;
 }
+/* --pro-setting-payment-page-- */
+.payment-pro-arae {
+  padding: 100px 0;
+}
+.payment-pro-arae h4 {
+  text-align: center;
+}
+.payment-add-card-area {
+  padding-top: 45px;
+}
+.payment-add-card-area p {
+  font-size: 16px;
+  font-weight: 900;
+  color: #000;
+}
+.payment-add-card-area h6 {
+  text-align: right;
+}
+.payment-add-card-area h6 a {
+  color: var(--color-blue);
+}
+.card-area-heading {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+.add-payment-btn {
+  margin-top: 30px;
+  text-align: right;
+}
+/* --pro-setting-wedget-page-- */
+.wedget-area-section {
+  background-image: url(../img/press-room/banner.jpg);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.wedget-banner-text h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.wedget-banner-text p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.wedget-bottom-text-area h2 {
+  font-weight: 400;
+}
+.wedget-bottom-text-area p {
+  font-size: 16px;
+  padding-top: 12px;
+}
+.wedget-bottom-text-area p a {
+  color: var(--color-blue);
+}
+.wedget-more-share-area {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background: #fafafa;
+  border-bottom: 1px solid #e9eced;
+  text-align: center;
+}
+.more-share-wedget-text {
+  margin-top: 50px;
+}
+.more-share-wedget-text img {
+  width: 38%;
+}
+.more-share-wedget-text h5 {
+  margin-top: 25px;
+}
+.more-share-wedget-text p {
+  font-size: 16px;
+  padding-top: 20px;
+  margin-bottom: 25px;
+}
+.get-widget-modal {
+}
+.get-logo-area {
+  text-align: center;
+}
+.get-logo-area a img {
+  width: 50%;
+}
+.choose-wedget-area {
+}
+.choose-wedget-area h3 {
+  font-size: 20px;
+}
+.choose-site .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.choose-site .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.choose-site .radio-build {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 22px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.choose-site {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.choose-wedget-area{
+    margin-top: 20px;
+}
 /* -- hadayet css end--  */
 
 /*=======================================
@@ -11120,6 +11249,12 @@ table .comment-area h6 i {
 }
 
 @media only screen and (max-width: 992px) {
+  .wedget-area-bottom-area {
+    text-align: center;
+  }
+  .wedget-bottom-text-area {
+    padding-top: 30px;
+  }
   .downloads-content-text {
     padding-top: 40px;
   }
