@@ -191,60 +191,45 @@
   <!-- Menu After Login Area End -->
 
   <!-- pro-setting-area-start -->
-  <section class="pro-setting-area-wedget">
-    <div class="container-fluid">
+  <section class="login-area customer-account-edit-area customer-account-deactivate-area">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-3">
-          <div class="side-bar-wedget">
-            <h3><a href="pro-profile-setting.html">Settings</a></h3>
-            <ul class="sidebar-wrapper">
-              <li><a href="pro-setting-information.html" class="active">Acount <i class="fas fa-chevron-right"></i></a>
-              </li>
-              <li><a href="pro-setting-notification.html">Notifications <i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="pro-setting-calendar.html">Calendar and availability <i class="fas fa-chevron-right"></i></a>
-              </li>
-              <li><a href="#!"> Saved replies <i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="#!"> Quote templates <i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="#!">Payments <i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="#!">Widgets <i class="fas fa-chevron-right"></i></a></li>
-            </ul>
+        <div class="col-12">
+          <div class="customer-profile-go-back-btn">
+            <a href="pro-setting-information.html"><i class="fas fa-angle-left"></i>Account</a>
           </div>
-        </div>
-        <div class="col-lg-6 offset-lg-3 margin-auto">
-          <div class="middel-arae-wedget">
-            <h2>Account</h2>
-            <ul class="sidebar-wrapper">
-              <li><a href="pro-acount-edit.html">Name <i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="pro-acount-edit.html">Email <i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="pro-password-change.html">Password <i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="#!">Profile picture<i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="#!">Phone Number<i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="#!">Address<i class="fas fa-chevron-right"></i></a></li>
-            </ul>
-            <div class="payout-account-area">
-              <h6>PAYOUT ACCOUNTS</h6>
-              <a href="#!">Add payout account</a>
+          <h3 class="text-center">Deactivate Account</h3>
+          <form>
+            <div class="customer-account-deactivate-content">
+              <h5>Are you sure you want to deactivate your account?</h5>
+              <p>When you deactivate your account, you will lose access to all of your projects, profile
+                information, and any reviews you've written or received on Hilhome.
+              </p>
+              <p>If you are receiving too many emails from us, then you can <a href="customer-notifications.html">change
+                  your notification settings</a>.</p>
+              <p>We'd hate to see you go. If there's anything we can do to help, please visit our <a
+                  href="contact-hilhome.html">Help Center</a></p>
             </div>
-            <div class="list-business-area">
-              <h6>BUSINESS PROFILES</h6>
-              <ul class="sidebar-wrapper">
-                <li>Ggefdf sdG
-                  <div class="edit-delect-area">
-                    <a href="#!" class="pro-edit">edit</a>
-                    <a href="pro-setting-account-delete.html" class="pro-delect">Delete</a>
-                  </div>
-                </li>
-              </ul>
-              <h5><a href="#!">Add another business profile</a></h5>
+            <div class="form-group">
+              <input type="text" class="form-control" id="reason_deactivate">
+              <label for="reason_deactivate">Reason for deactivating your account (optional)</label>
             </div>
-            <div class="payment-aera-last-wedget">
-              <h6>ACCOUNT DELETE</h6>
-              <ul class="sidebar-wrapper">
-                <li><a href="pro-setting-account-deactivate.html">Deactivate account<i
-                      class="fas fa-chevron-right"></i></a></li>
-              </ul>
+
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="checkbox">
+              <div class="remember-box d-flex justify-content-between">
+                <label class="form-check-label" for="checkbox">I confirm I want to deactivate Suraiya
+                  Aysha's account</label>
+              </div>
             </div>
-          </div>
+
+            <div class="customer-account-edit-button d-flex">
+              <button type="button" class="btn theme-button" onclick="location.href='index.html'">Deactivate
+                Account</button>
+              <button type="reset" class="btn">Cancel</button>
+            </div>
+
+          </form>
         </div>
       </div>
     </div>

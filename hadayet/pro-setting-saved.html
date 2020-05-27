@@ -203,46 +203,42 @@
               <li><a href="pro-setting-notification.html">Notifications <i class="fas fa-chevron-right"></i></a></li>
               <li><a href="pro-setting-calendar.html">Calendar and availability <i class="fas fa-chevron-right"></i></a>
               </li>
-              <li><a href="#!"> Saved replies <i class="fas fa-chevron-right"></i></a></li>
+              <li><a href="pro-setting-saved.html"> Saved replies <i class="fas fa-chevron-right"></i></a></li>
               <li><a href="#!"> Quote templates <i class="fas fa-chevron-right"></i></a></li>
               <li><a href="#!">Payments <i class="fas fa-chevron-right"></i></a></li>
               <li><a href="#!">Widgets <i class="fas fa-chevron-right"></i></a></li>
             </ul>
           </div>
         </div>
-        <div class="col-lg-6 offset-lg-3 margin-auto">
-          <div class="middel-arae-wedget">
-            <h2>Account</h2>
-            <ul class="sidebar-wrapper">
-              <li><a href="pro-acount-edit.html">Name <i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="pro-acount-edit.html">Email <i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="pro-password-change.html">Password <i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="#!">Profile picture<i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="#!">Phone Number<i class="fas fa-chevron-right"></i></a></li>
-              <li><a href="#!">Address<i class="fas fa-chevron-right"></i></a></li>
-            </ul>
-            <div class="payout-account-area">
-              <h6>PAYOUT ACCOUNTS</h6>
-              <a href="#!">Add payout account</a>
+        <div class="col-lg-5 offset-lg-2">
+          <div class="saved-replies-area">
+            <div class="pro-saved-area-flex">
+              <p><a href="#!" data-toggle="modal" data-target="#creat-account"><i class="fas fa-plus-circle"></i>Create
+                  saved reply</a></p>
+              <h2>Saved replies</h2>
+              <h6>2 reply</h6>
             </div>
-            <div class="list-business-area">
-              <h6>BUSINESS PROFILES</h6>
-              <ul class="sidebar-wrapper">
-                <li>Ggefdf sdG
-                  <div class="edit-delect-area">
-                    <a href="#!" class="pro-edit">edit</a>
-                    <a href="pro-setting-account-delete.html" class="pro-delect">Delete</a>
-                  </div>
-                </li>
-              </ul>
-              <h5><a href="#!">Add another business profile</a></h5>
-            </div>
-            <div class="payment-aera-last-wedget">
-              <h6>ACCOUNT DELETE</h6>
-              <ul class="sidebar-wrapper">
-                <li><a href="pro-setting-account-deactivate.html">Deactivate account<i
-                      class="fas fa-chevron-right"></i></a></li>
-              </ul>
+            <div class="pro-saved-wrapper">
+              <div class="pro-saved-item">
+                <div class="pro-saved-text">
+                  <h6>Hadayet</h6>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="pro-saved-icon">
+                  <a href="#!" data-toggle="modal" data-target="#edit-account"><i class="fas fa-pen"></i></a>
+                  <a href="#!" data-toggle="modal" data-target="#delate-account"><i class="far fa-trash-alt"></i></a>
+                </div>
+              </div>
+              <div class="pro-saved-item">
+                <div class="pro-saved-text">
+                  <h6>Hadayet</h6>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="pro-saved-icon">
+                  <a href="#!"><i class="fas fa-pen"></i></a>
+                  <a href="#!"><i class="far fa-trash-alt"></i></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -272,7 +268,6 @@
       </div>
     </div>
     <!--  Footer Bottom Area End-->
-
   </footer>
   <!-- Footer End -->
 
@@ -281,6 +276,98 @@
     <a id="scroll" style="display: none;"><i class="fas fa-angle-up"></i></a>
   </div>
   <!--Go To Top Arrow area End-->
+
+
+
+
+
+
+
+  <!--Creat-saved-->
+  <div class="modal fade" id="creat-account" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button id="close-one" type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="create-saved-item">
+            <h3>Create a new saved reply</h3>
+            <form action="#!" id="creat-saved">
+              <div class="form-group">
+                <label for="text">Name of saved reply</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="text">Your reply </label>
+                <textarea class="form-control" rows="5"></textarea>
+              </div>
+            </form>
+            <div class="saved-cancel-button text-right">
+              <a href="pro-setting-saved.html" class="btn theme-button">Save</a>
+              <a href="pro-setting-saved.html" class="cancel-area">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--saved-edit-->
+  <div class="modal fade" id="edit-account" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button id="close-one" type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="create-saved-item">
+            <h3>Edit saved reply</h3>
+            <form action="#!" id="creat-saved">
+              <div class="form-group">
+                <label for="text">Name of saved reply</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="text">Your reply </label>
+                <textarea class="form-control" rows="5"></textarea>
+              </div>
+            </form>
+            <div class="saved-cancel-button text-right">
+              <a href="pro-setting-saved.html" class="btn theme-button">Save</a>
+              <a href="pro-setting-saved.html" class="cancel-area">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Delate-->
+  <div class="modal fade" id="delate-account" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button id="close-one" type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="create-saved-item">
+            <h3>Delete "Hadayet"?</h3>
+            <div class="saved-cancel-button text-right">
+              <a href="pro-setting-saved.html" class="btn theme-button">Delete</a>
+              <a href="pro-setting-saved.html" class="cancel-area">Cancel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!--=======================================
         All Jquery Script link
