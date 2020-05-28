@@ -3833,6 +3833,8 @@ ul.social-media li a {
       }
       .more-services-page-area .mobile-more-services-left-menu ul {
           border: none;
+          width: 1000px;
+          min-width: 100%;
       }
       .more-services-page-area .mobile-more-services-left-menu ul li {
           display: inline-block;
@@ -3855,13 +3857,15 @@ ul.social-media li a {
           display: flex;
           border: none;
           flex-direction: column;
+          text-align: center;
+          margin: 0 10px 20px;
       }
       .mobile-more-services-title {
           white-space: nowrap;
           width: 50px;
           overflow: hidden;
           /*text-overflow: ellipsis;*/
-          text-overflow: "___";
+          text-overflow: ellipsis;
           border: 1px solid #000000;
       }
 
