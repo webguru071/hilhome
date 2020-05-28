@@ -3846,12 +3846,19 @@ ul.social-media li a {
           -webkit-overflow-scrolling: touch;
           background-color: #fff;
           border-bottom: 1px solid #e9eced;
-          padding: 0 12px;
+          padding: 17px 12px 0;
           margin-bottom: 24px;
           position: -webkit-sticky;
           position: sticky;
           top: 0;
           z-index: 1;
+      }
+      .mobile-more-services-left-menu.sticky-menu {
+          position: fixed;
+          top: 54px;
+          width: 100%;
+          left: 0;
+          margin: 0 auto;
       }
       .more-services-page-area .mobile-more-services-left-menu ul li a {
           display: flex;
