@@ -11503,14 +11503,9 @@ table .comment-area h6 i {
   color: var(--color-blue);
 }
 
-.quote-side-bar {
-  height: 100%;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  vertical-align: top;
+.quote-left-side-bar {
   border-right: 1px solid #e9eced;
+  height: 100%;
 }
 
 .quote-bar-bottom-text {
@@ -11519,21 +11514,93 @@ table .comment-area h6 i {
   padding: 28px 20px;
   margin: 20px;
   border-radius: 4px;
+
 }
 
 .quote-bar-bottom-text p {
   font-size: 16px;
 }
 
-.pro-quote-inner-area {}
+.pro-quote-tags-inner {
+  text-align: center;
+  padding: 200px 0;
+}
 
-.pro-quote-tags-inner {}
+.pro-quote-tags-inner i {
+  font-size: 40px;
+}
 
-.pro-quote-tags-inner i {}
+.pro-quote-tags-inner p {
+  font-size: 16px;
+  padding-top: 10px;
+}
 
-.pro-quote-tags-inner p {}
+.pro-quote-tags-inner p a {
+  color: var(--color-blue);
+}
 
-.pro-quote-tags-inner p a {}
+.creatate-quote-input p {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.create-input-filed-area {
+  background: #fff;
+  border: 1px solid #e9eced;
+  border-radius: 4px;
+  padding: 50px 20px 40px;
+  margin-top: 20px;
+}
+
+#dollar-sign-area {
+  position: relative;
+  width: 35%;
+  margin: 0 auto;
+}
+
+#dollar-sign-area .form-control {
+  font-size: 36px;
+  padding: 1px 37px;
+  border: none;
+  font-weight: 800;
+}
+
+#dollar-sign-area i {
+  font-size: 36px;
+  bottom: 8px;
+  position: absolute;
+  left: 13px;
+}
+
+.seclect-box-dollar {
+  width: 30%;
+  margin: 20px auto 0 auto;
+}
+
+.seclect-box-dollar .form-control {
+  border: none;
+}
+
+.tips-andcommient-area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.tips-andcommient-area a {
+  font-size: 15px;
+  font-weight: 900;
+  color: var(--color-blue);
+}
+
+.save-pro-price-button {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.creatate-quote-input {
+  padding: 100px 0;
+}
 
 /* -- hadayet css end--  */
 
@@ -11550,6 +11617,10 @@ table .comment-area h6 i {
 @media only screen and (max-width: 992px) {
   .wedget-area-bottom-area {
     text-align: center;
+  }
+
+  .pro-quote-templates {
+    padding-top: 120px;
   }
 
   .top-pro-banner-area {
