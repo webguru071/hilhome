@@ -3833,7 +3833,7 @@ ul.social-media li a {
       }
       .more-services-page-area .mobile-more-services-left-menu ul {
           border: none;
-          width: 1000px;
+          width: 1200px;
           min-width: 100%;
       }
       .more-services-page-area .mobile-more-services-left-menu ul li {
@@ -3858,15 +3858,13 @@ ul.social-media li a {
           border: none;
           flex-direction: column;
           text-align: center;
-          margin: 0 10px 20px;
+          margin: 0 5px 20px;
       }
       .mobile-more-services-title {
           white-space: nowrap;
-          width: 50px;
+          width: 70px;
           overflow: hidden;
-          /*text-overflow: ellipsis;*/
           text-overflow: ellipsis;
-          border: 1px solid #000000;
       }
 
   }
@@ -3906,6 +3904,11 @@ ul.social-media li a {
       .customer-review-page-img-wrap .photo-wrap img {
           height: 146px;
           min-height: 146px;
+      }
+      /*More Services CSS*/
+      .more-services-page-area figure img {
+          height: 144px;
+          width: 100%;
       }
 
   }
@@ -4299,6 +4302,15 @@ ul.social-media li a {
       }
       .related-pro-tips-title {
           text-align: center;
+      }
+
+      /*More Services CSS*/
+      .more-services-page-area .category-group-lists.photo-lists {
+          width: 248px;
+      }
+      .more-services-page-area .category-group-lists {
+          flex-direction: column;
+          width: auto;
       }
 
   }
