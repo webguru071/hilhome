@@ -292,7 +292,7 @@ h2{
     2.4 Theme Margin and Padding
 -----------------------------------*/
 .mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5, .question-details-page-area .question-details-author,
-.how-hilhome-works-content-box p, .how-hilhome-works-content-box h3, .guarantee-menu ul li{
+.how-hilhome-works-content-box p, .how-hilhome-works-content-box h3, .guarantee-menu ul li, .search-results-page .how-works-youtube-video img{
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
@@ -307,7 +307,7 @@ h2{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
-.customer-account-deactivate-content h5, .related-pro-tips-title, .customer-project-details-wrap h5{
+.customer-account-deactivate-content h5, .related-pro-tips-title, .customer-project-details-wrap h5, .search-results-page .how-hilhome-works-content-box h6{
     margin-bottom: 10px;
 }
 .mt-10, .more-about-company-area .services-box h6 {
@@ -3167,6 +3167,48 @@ ul.social-media li a {
 }
 /*-------------------------------------------
     34.  More Services Page Area End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    35.  Search Results Page Area Start
+-------------------------------------------*/
+.search-results-page .search-results-points-list, .how-hilhome-works-area .search-results-points-list {
+    display: flex;
+}
+.search-results-page .search-results-points-list > span, .how-hilhome-works-area .search-results-points-list > span {
+    background-color: var(--color-blue);
+    height: 12px;
+    width: 12px;
+    padding: 9px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 8px 0 0;
+}
+.search-results-page .search-results-points-list p strong {
+    color: var(--dark-color);
+    padding-right: 5px;
+}
+.search-results-page .look-yourself-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.search-results-page .look-yourself-up .theme-button {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+.search-results-page .how-hilhome-works-content-box h4 {
+    margin-bottom: 15px;
+}
+/*-------------------------------------------
+    35.  Search Results Page Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
