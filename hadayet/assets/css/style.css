@@ -11550,6 +11550,7 @@ table .comment-area h6 i {
   border-radius: 4px;
   padding: 50px 20px 40px;
   margin-top: 20px;
+  position: relative;
 }
 
 #dollar-sign-area {
@@ -11600,6 +11601,153 @@ table .comment-area h6 i {
 
 .creatate-quote-input {
   padding: 100px 0;
+}
+
+.tips-to-content h5 {
+  text-align: center;
+}
+
+.tips-to-content p {
+
+  padding-top: 50px;
+}
+
+.tips-to-content ul {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.tips-to-content ul li {
+  list-style-type: disc !important;
+  padding: 7px 0 0px 0;
+}
+
+
+.tips-to-content a {
+  float: right;
+  margin-top: 45px;
+}
+
+.img-upload input[type=file] {
+  position: absolute;
+  bottom: 35px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.img-show-upload {
+  margin-top: 20px;
+  display: flex;
+}
+
+.show-img-upload-item {
+  margin-right: 10px;
+  position: relative;
+}
+
+.show-img-upload-item img {
+  width: 100%;
+}
+
+.close-img {
+  position: absolute;
+  right: 12px;
+  top: 7px;
+}
+
+.quote-save-list-area ul li {
+  background: #fff;
+  padding: 40px 20px;
+  border-bottom: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote-saved-list h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.texplate-count-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.texplate-count-area p {
+  font-size: 16px;
+}
+
+.saved-quate-edit-item {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.pro-ancore-list-view-arae {
+  background: #fff;
+  border: 1px solid #e9eced;
+  border-radius: 4px;
+  padding: 40px 45px 50px;
+  cursor: pointer;
+}
+
+.pro-total-price-area h6 {
+  text-align: center;
+  color: #676d73;
+  font-size: 12px;
+}
+
+.pro-total-price-area h3 {
+  font-size: 24px;
+  font-weight: 900;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.pro-total-price-area h4 {
+  font-size: 18px;
+}
+
+.img-view-area-pro {
+  display: flex;
+  margin-top: 20px;
+}
+
+.img-view-area-pro img {
+  width: 25%;
+  margin-right: 20px;
+}
+
+.pro-ancore-list-view-arae p {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+.delate-edit-button {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delate-edit-button .delate-btn {
+  color: #ff5a5f;
+}
+
+.delate-area-modal h3 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.button-delate-area-modal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.cancle {
+  color: var(--color-blue);
 }
 
 /* -- hadayet css end--  */

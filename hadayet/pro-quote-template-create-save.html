@@ -206,6 +206,15 @@
               <a href="#!"><i class="fas fa-plus"></i></a>
             </div>
             <div class="quote-side-bar">
+              <div class="quote-save-list-area">
+                <ul>
+                  <li class="quote-saved-list">
+                    <h3>Untitled template</h3>
+                    <h3>$14213</h3>
+                  </li>
+
+                </ul>
+              </div>
               <div class="quote-bar-bottom-text">
                 <p>
                   Create templates in advance for the types of requests you
@@ -223,52 +232,31 @@
             </div>
             <div class="row">
               <div class="col-lg-6 offset-lg-3">
-                <div class="creatate-quote-input">
-                  <h4>Let know you’re interested.</h4>
-                  <p>What's your price?</p>
-                  <div class="create-input-filed-area">
-                    <div class="input-area-dollar-sign" id="dollar-sign-area">
-                      <i class="fas fa-dollar-sign"></i>
-                      <input type="number" class="form-control" maxlength="3" placeholder="0" />
-                    </div>
-                    <div class="seclect-box-dollar">
-                      <select class="form-control">
-                        <option>Hourly rate</option>
-                        <option>Fixed price</option>
-                        <option>Need more info</option>
-                      </select>
-                    </div>
+                <div class="saved-quate-edit-item">
+                  <div class="texplate-count-area">
+                    <p>Untitled template</p>
+                    <p>1/1</p>
                   </div>
-                  <p>Write a message to</p>
-                  <div class="create-input-filed-area">
-                    <div class="form-area-text-quote">
-                      <textarea rows="5" class="form-control"></textarea>
-                      <div class="img-show-upload">
-                        <div class="show-img-upload-item">
-                          <a href="#" class="close close-img" data-dismiss="alert" aria-label="close">×</a>
+                  <div class="saved-wrapper-ancor-area">
+                    <a href="pro-quote-template-create.html">
+                      <div class="pro-ancore-list-view-arae">
+                        <div class="pro-total-price-area">
+                          <h6>Total Price</h6>
+                          <h3>$13467</h3>
+                          <hr>
+                          <h4>Text Area</h4>
+                        </div>
+                        <div class="img-view-area-pro">
+                          <img src="assets/img/common-img/related-post.jpg" alt="img">
                           <img src="assets/img/common-img/related-post.jpg" alt="img">
                         </div>
-                        <div class="show-img-upload-item">
-                          <a href="#" class="close close-img" data-dismiss="alert" aria-label="close">×</a>
-                          <img src="assets/img/common-img/related-post.jpg" alt="img">
-                        </div>
-                        <div class="show-img-upload-item">
-                          <a href="#" class="close close-img" data-dismiss="alert" aria-label="close">×</a>
-                          <img src="assets/img/common-img/related-post.jpg" alt="img">
-                        </div>
+                        <p>Never sent</p>
                       </div>
-                      <div class="tips-andcommient-area">
-                        <a href="#!"><i class="fas fa-paperclip"></i>Attach</a>
-                        <a href="#!" data-toggle="modal" data-target="#pro-quote-tips"><i
-                            class="far fa-comment"></i>Tips</a>
-                      </div>
-                      <div class="img-upload">
-                        <input type="file" name="myfile">
-                      </div>
+                    </a>
+                    <div class="delate-edit-button">
+                      <a href="#!" class="delate-btn" data-toggle="modal" data-target="#pro-quote-tips">Delete</a>
+                      <a href="pro-quote-template-create.html" class="theme-button">Edit</a>
                     </div>
-                  </div>
-                  <div class="save-pro-price-button">
-                    <a href="pro-quote-template-create-save.html" class="theme-button">Save</a>
                   </div>
                 </div>
               </div>
@@ -314,21 +302,16 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" id="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+
           </button>
         </div>
         <div class="modal-body">
-          <div class="tips-to-content">
-            <h5>Tips to write winning messages</h5>
-            <p>Your message forms your customer's first impression of you and your business. They love to hire pros who:
-            </p>
-            <ul>
-              <li>Greet them by name.</li>
-              <li>Talk about your relevant past work, qualifications, and expertise.</li>
-              <li>Describe what's included in the price.</li>
-              <li>Encourage them to take the next step and follow up!</li>
-            </ul>
-            <a href="#!" class="theme-button" id="close-button">Close</a>
+          <div class="delate-area-modal">
+            <h3>Are you sure you want to delete this quote template?</h3>
+            <div class="button-delate-area-modal">
+              <a href="#!" id="close-button" class="cancle">Cancel</a>
+              <a href="pro-quote-templates.html" class="theme-button">Delete</a>
+            </div>
           </div>
         </div>
       </div>
