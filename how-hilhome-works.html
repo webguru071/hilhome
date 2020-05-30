@@ -370,24 +370,6 @@
     <!-- Custom scripts for this template -->
     <script src="assets/js/custom.js"></script>
 
-    <script>
-        var randomImage = {
-            paths: [
-                "assets/img/hero-slide-img/1.jpg",
-                "assets/img/hero-slide-img/2.jpg",
-                "assets/img/hero-slide-img/3.jpg"
-            ],
-
-            generate: function() {
-                var path = randomImage.paths[Math.floor(Math.random() * randomImage.paths.length)];
-                var img = new Image();
-                img.src = path;
-                $("#randomImage").html(img);
-            }
-        };
-
-        randomImage.generate();
-    </script>
 </body>
 
 </html>

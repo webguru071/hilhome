@@ -225,7 +225,7 @@ figure {
 .details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-hilhome-works-content-box p a, .how-hilhome-works-content-box a,
 .was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button, .chat-box-text p a,
 .message-main-header button, .message-header-right a, .message-pro-page .message-footer form .form-group:nth-child(1) i, .contacted-pros-area .contacted-pros-hide, .contacted-pros-area .contacted-pros-show, .category-group-lists.text-lists a:hover,
-.guarantee-menu.more-services-left-menu ul li a:hover
+.guarantee-menu.more-services-left-menu ul li a:hover, .in-this-article ul li a
 {
     color: var(--color-blue);
 }
@@ -3206,6 +3206,10 @@ ul.social-media li a {
 }
 .search-results-page .how-hilhome-works-content-box h4 {
     margin-bottom: 15px;
+}
+.in-this-article ul li {
+    list-style-type: disc;
+    margin: 12px 0 12px 12px;
 }
 /*-------------------------------------------
     35.  Search Results Page Area End
