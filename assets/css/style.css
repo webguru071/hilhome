@@ -3215,6 +3215,34 @@ ul.social-media li a {
     35.  Search Results Page Area End
 -------------------------------------------*/
 
+/*----------------------------------------------------------
+    36. Types of Leads/Targeting Preferences Page Area Start
+-----------------------------------------------------------*/
+.types-of-leads-page ul.nav.nav-tabs {
+    margin-bottom: 30px;
+}
+.types-of-leads-page .nav-tabs .nav-item {
+    border-color: transparent;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -3px;
+}
+.types-of-leads-page .nav-tabs .nav-link {
+    border: 2px solid transparent;
+    border-radius: 0;
+}
+.types-of-leads-page .nav-tabs .nav-item.show .nav-link, .types-of-leads-page .nav-tabs .nav-link.active {
+    border-color: transparent;
+    border-bottom: 2px solid var(--color-blue);
+    color: var(--color-blue);
+}
+.types-of-leads-page .nav-tabs .nav-link {
+    padding: 0 0 10px;
+    margin: 10px 15px 0 0;
+}
+/*--------------------------------------------------------
+    36. Types of Leads/Targeting Preferences Page Area End
+---------------------------------------------------------*/
+
 /*-------------------------------------------
     22. Responsive Design CSS
 -------------------------------------------*/
