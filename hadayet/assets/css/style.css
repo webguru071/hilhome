@@ -6695,12 +6695,18 @@ del {
 
 .skip-arae-btn {
   border: 2px solid #d3d4d5;
-  padding: 10px 16px;
+  padding: 11px 18px;
   border-radius: 5px;
   font-size: 16px;
   margin-right: 20px;
   font-weight: 700;
 }
+
+.pro-profile-text-arae textarea {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 
 /*----------------------------------
      Pro main Page
@@ -10045,61 +10051,84 @@ del {
   margin-top: 40px;
 }
 
-#community-area-discuss .nav-tabs .nav-item.show .nav-link,
-#community-area-discuss .nav-tabs .nav-link.active {
-  color: #242f51;
-  background-color: #fff;
-  border: none;
-  border-bottom: 2px solid #008eff;
-  font-weight: 800;
+#community-area-discuss .nav-pills {
+  border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 10px;
 }
 
-#community-area-discuss .nav-tabs .nav-link:focus,
-#community-area-discuss .nav-tabs .nav-link:hover {
-  border: none;
-  border-bottom: 2px solid #008eff;
+#community-area-discuss .nav-pills li {
+  margin-right: 25px;
 }
 
-#community-area-discuss .nav-tabs .nav-link {
+#community-area-discuss .nav-pills li a {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
-.community-discuss-item-arae table tr {
-  border-bottom: 1px solid #e0e0e0;
+#community-area-discuss .nav-pills .active {
+  color: var(--color-blue);
+  border-bottom: 2px solid var(--color-blue);
+  padding-bottom: 12px;
 }
 
-.community-discuss-item-arae table tr td {
-  padding: 20px 20px;
+.tabs-community-content-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
-.community-discuss-item-arae table tr td .community-discus-flex-area-one h2 {
+.tabs-content-text {}
+
+.tabs-content-text ul li {
+  display: inline-flex;
+}
+
+.tabs-content-text ul li a {
+  font-size: 14px;
+}
+
+.tabs-content-text h6 {
   font-size: 18px;
+  padding-top: 10px;
 }
 
-.post-com a {
+.tabs-content-text p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.tabs-content-text a {
+  color: var(--color-blue);
+}
+
+.tabs-content-replay-area {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.post-com a img {
-  width: 32px;
-  height: 32px;
+.tabs-content-img-radeas {
+  margin-right: 25px;
+}
+
+.tabs-content-img-radeas img {
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  margin-right: 8px;
-  border: 1px solid;
+  border: 2px solid;
 }
 
-table .comment-area h6 {
+.tabs-name-like-area {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-table .comment-area h6 i {
-  margin-right: 2px;
+
+.tabs-name-like-area span {
+  margin-left: 40px;
 }
 
 .community-member-heading {
@@ -10282,6 +10311,10 @@ table .comment-area h6 i {
   color: #fff;
   font-size: 29px;
 }
+
+
+
+
 
 /*----------------------------
       Stories page 
@@ -10574,7 +10607,9 @@ table .comment-area h6 i {
   border: none;
 }
 
-/* --Pro payment-page-- */
+/*----------------------------
+    Pro payment-page
+--------------------------------*/
 .pro-payment-area {
   border: none;
 }
@@ -10620,8 +10655,9 @@ table .comment-area h6 i {
   padding-top: 10px;
 }
 
-/* --Pro-after-login-home-page-- */
-
+/*----------------------------
+   Pro-after-login-home-page
+--------------------------------*/
 /*ProAfter Login Menu CSS Start*/
 .pro-menu-after-login .nav-item.dropdown-box a {
   display: flex;
@@ -10726,7 +10762,9 @@ table .comment-area h6 i {
 
 /*Pro After Login Menu CSS End*/
 
-/* -Pro-setting-page-start-- */
+/*----------------------------
+  Pro-setting-page-start
+--------------------------------*/
 .pro-setting-are {
   border: none;
 }
@@ -10766,8 +10804,6 @@ table .comment-area h6 i {
 .setting-item-box h5:hover {
   color: var(--color-blue);
 }
-
-/* -Pro-setting-page-End-- */
 
 .pro-setting-area-wedget {
   background: #fafafa;
@@ -10895,7 +10931,9 @@ table .comment-area h6 i {
   color: #009fd9;
 }
 
-/* -Pro-setting-Account-edit-start-- */
+/*----------------------------
+  Pro-setting-Account-edit-start
+--------------------------------*/
 .edit-name-wrapper h6 a {
   color: #009fd9;
 }
@@ -10975,7 +11013,9 @@ table .comment-area h6 i {
   margin-top: 20px;
 }
 
-/* --pro-calendar-page-- */
+/*----------------------------
+ pro-calendar-page
+--------------------------------*/
 .pro-calendar-arae {
   padding: 100px 0;
 }
@@ -11047,7 +11087,9 @@ table .comment-area h6 i {
   padding-top: 10px;
 }
 
-/* -pro-setting-saved-page-- */
+/*----------------------------
+    pro-setting-saved-page
+--------------------------------*/
 .saved-replies-area {
   padding: 100px 0;
 }
@@ -11119,7 +11161,9 @@ table .comment-area h6 i {
   padding-top: 30px;
 }
 
-/* --pro-setting-payment-page-- */
+/*----------------------------
+    pro-setting-payment-page
+--------------------------------*/
 .payment-pro-arae {
   padding: 100px 0;
 }
@@ -11157,7 +11201,9 @@ table .comment-area h6 i {
   text-align: right;
 }
 
-/* --pro-setting-wedget-page-- */
+/*----------------------------
+   pro-setting-wedget-page
+--------------------------------*/
 .wedget-area-section {
   background-image: url(../img/press-room/banner.jpg);
   background-size: cover;
@@ -11314,7 +11360,9 @@ table .comment-area h6 i {
   margin-bottom: 10px;
 }
 
-/* --Top-pro-Page-- */
+/*----------------------------
+   Top-pro-Page
+--------------------------------*/
 .top-pro-text {
   text-align: center;
 }
@@ -11477,7 +11525,9 @@ table .comment-area h6 i {
   font-size: 12px;
 }
 
-/* --pro-quote-templates-page-- */
+/*--------------------------------
+  pro-setting-quote-templates-page
+-----------------------------------*/
 .pro-quote-templates {
   background-color: #fafafa;
   padding: 0;
@@ -11514,7 +11564,6 @@ table .comment-area h6 i {
   padding: 28px 20px;
   margin: 20px;
   border-radius: 4px;
-
 }
 
 .quote-bar-bottom-text p {
@@ -11750,6 +11799,269 @@ table .comment-area h6 i {
   color: var(--color-blue);
 }
 
+/*----------------------------
+ download-app-page
+--------------------------------*/
+.app-main-banner-area {
+  background-image: url(../img/common-img/app-phone.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.app-logo-text-area {
+  display: flex;
+}
+
+.app-logo-banner-area img {
+  padding: 16px 21px;
+  border-radius: 19px;
+  box-shadow: 0px 0px 15px -5px;
+}
+
+.app-text-banner-area {
+  padding-left: 25px;
+}
+
+.app-text-banner-area h2 {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.star-atra-app i {
+  color: #ffbf00;
+}
+
+.star-atra-app span {
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+.app-banner-text-inner {
+  padding-top: 100px;
+}
+
+.app-banner-paragraph {
+  margin-top: 30px;
+  padding-right: 150px;
+}
+
+.app-banner-paragraph p a {
+  color: var(--color-blue);
+}
+
+#app-banner-area-form {
+  margin-top: 30px;
+}
+
+#app-banner-area-form button {
+  margin-left: -6px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 50px;
+}
+
+#app-banner-area-form input {
+  width: 65%;
+}
+
+.get-more-done-area {
+  background: #fafafa;
+}
+
+.get-heading-area h3 {
+  font-size: 30px;
+}
+
+.get-more-done-list {
+  margin-top: 60px;
+}
+
+.get-more-done-list h3 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.get-more-done-list p {
+  padding-top: 16px;
+}
+
+.get-more-done-list img {
+  width: 100%;
+}
+
+.hands-good-item {
+  margin-top: 50px;
+}
+
+.hands-good-item img {
+  width: 20%
+}
+
+.hands-good-item h5 {
+  margin-top: 15px;
+  font-weight: 800;
+}
+
+.hands-good-item p {
+  padding-top: 10px;
+}
+
+.hands-good-item p a {
+  color: var(--color-blue);
+}
+
+.good-company-item-area {
+  margin-top: 60px;
+}
+
+.good-company-item-area img {
+  width: 100%;
+}
+
+.good-company-item-area h4 {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.app-downloads-pro-area .padding-zero {
+  padding: 0;
+}
+
+.img-app-down img {
+  width: 100%;
+}
+
+/*----------------------------
+      sate-based-survey-page
+--------------------------------*/
+.stay-based-banner {
+  background-image: url('../img/common-img/blog-sidebar.jpg');
+  position: relative;
+}
+
+.stay-based-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0000008f;
+}
+
+.stya-banner-text {
+  text-align: center;
+  position: relative;
+  z-index: 9;
+}
+
+.stya-banner-text h2 {
+  font-weight: 800;
+  color: #fff;
+}
+
+.stya-banner-text p {
+  padding-top: 15px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.stya-banner-text #app-banner-area-form .form-inline {
+  justify-content: center;
+}
+
+.stander-text-map-top {
+  text-align: center;
+}
+
+.stander-text-map-top ul li {
+  display: inline-flex;
+}
+
+.stander-text-map-top ul li a {
+  font-size: 13px;
+}
+
+.map-top-heading-seclect-area {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.stander-text-map-top p {
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.map-top-heading-seclect-area select {
+  width: 20%;
+}
+
+.map-top-heading-seclect-area h2 {
+  font-size: 24px;
+  padding-right: 20px;
+}
+
+.iframe-map-area {
+  margin-top: 40px;
+}
+
+.pdf-load-top-text-area p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.pdf-content-load {
+  margin-top: 40px;
+}
+
+.pdf-content-load a {
+  color: var(--color-blue);
+  margin-top: 20px;
+  display: block;
+}
+
+.like-and-share-pdf {
+  margin-top: 20px;
+}
+
+.like-and-share-pdf a {
+  padding: 2px 12px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.like-and-share-pdf .tweet {
+  background-color: #1b95e0;
+}
+
+.like-and-share-pdf .like {
+  background-color: #4267b2;
+}
+
+.based-country-heading h4 {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.country-based-list {
+  margin-top: 20px;
+}
+
+.country-based-list ul li {
+  margin-top: 12px;
+}
+
+.country-based-list ul li a {
+  font-size: 16px;
+  color: var(--color-blue);
+  font-weight: 700;
+}
+
 /* -- hadayet css end--  */
 
 /*=======================================
@@ -11765,6 +12077,10 @@ table .comment-area h6 i {
 @media only screen and (max-width: 992px) {
   .wedget-area-bottom-area {
     text-align: center;
+  }
+
+  .stay-based-banner {
+    padding-top: 125px;
   }
 
   .pro-quote-templates {
@@ -11894,6 +12210,23 @@ table .comment-area h6 i {
 @media only screen and (max-width: 767px) {
   .community-banner-box-area {
     width: 450px;
+  }
+
+  .map-top-heading-seclect-area {
+    display: inherit;
+  }
+
+  .map-top-heading-seclect-area select {
+    width: 64%;
+    margin: 15px auto 0 auto;
+  }
+
+  .tabs-community-content-item {
+    display: inherit;
+  }
+
+  .tabs-content-replay-area {
+    margin-top: 30px;
   }
 
   /* --press-room-- */
@@ -12051,6 +12384,10 @@ table .comment-area h6 i {
 
   .price-list-inner-heading {
     text-align: center;
+  }
+
+  .community-banner-box-area {
+    width: 325px;
   }
 }
 
