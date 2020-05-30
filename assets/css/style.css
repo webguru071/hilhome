@@ -3249,12 +3249,13 @@ ul.social-media li a {
 }
 .types-of-leads-page .table td, .types-of-leads-page .table th {
     padding: .75rem 0;
+    border-top: 1px solid var(--border-color);
 }
 .types-of-leads-page .table td {
     padding: .75rem .75rem .75rem 0;
 }
 .types-of-leads-page .table thead th {
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: 1px solid var(--border-color);
 }
 .types-of-leads-page .how-hilhome-works-content-box ul li a::before {
     display: none;
