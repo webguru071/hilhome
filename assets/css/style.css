@@ -292,7 +292,7 @@ h2{
     2.4 Theme Margin and Padding
 -----------------------------------*/
 .mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5, .question-details-page-area .question-details-author,
-.how-hilhome-works-content-box p, .how-hilhome-works-content-box h3, .guarantee-menu ul li, .search-results-page .how-works-youtube-video img{
+.how-hilhome-works-content-box p, .how-hilhome-works-content-box h3, .guarantee-menu ul li, .search-results-page .how-works-youtube-video img, .types-of-leads-page .how-hilhome-works-content-box h4{
     margin-bottom: 15px;
 }
 .mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
@@ -307,7 +307,7 @@ h2{
     margin-bottom: 30px;
 }
 .mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
-.customer-account-deactivate-content h5, .related-pro-tips-title, .customer-project-details-wrap h5, .search-results-page .how-hilhome-works-content-box h6{
+.customer-account-deactivate-content h5, .related-pro-tips-title, .customer-project-details-wrap h5, .search-results-page .how-hilhome-works-content-box h6, .types-of-leads-page .how-hilhome-works-content-box h5{
     margin-bottom: 10px;
 }
 .mt-10, .more-about-company-area .services-box h6 {
@@ -2254,6 +2254,7 @@ ul.social-media li a {
 }
 .how-works-youtube-video {
     margin-top: 35px;
+    overflow: hidden;
 }
 .how-hilhome-works-area .how-works-pro-tips {
     border: 1px solid var(--border-color);
@@ -3218,6 +3219,8 @@ ul.social-media li a {
 /*----------------------------------------------------------
     36. Types of Leads/Targeting Preferences Page Area Start
 -----------------------------------------------------------*/
+
+/*Targeting Preferences Page CSS*/
 .types-of-leads-page ul.nav.nav-tabs {
     margin-bottom: 30px;
 }
@@ -3238,6 +3241,23 @@ ul.social-media li a {
 .types-of-leads-page .nav-tabs .nav-link {
     padding: 0 0 10px;
     margin: 10px 15px 0 0;
+}
+
+/*Types Of Leads Page CSS*/
+.types-of-leads-page .table tr th {
+    font-size: 21px;
+}
+.types-of-leads-page .table td, .types-of-leads-page .table th {
+    padding: .75rem 0;
+}
+.types-of-leads-page .table td {
+    padding: .75rem .75rem .75rem 0;
+}
+.types-of-leads-page .table thead th {
+    border-bottom: 1px solid #dee2e6;
+}
+.types-of-leads-page .how-hilhome-works-content-box ul li a::before {
+    display: none;
 }
 /*--------------------------------------------------------
     36. Types of Leads/Targeting Preferences Page Area End
@@ -3298,9 +3318,6 @@ ul.social-media li a {
       /*---Default CSS Start---*/
       body, p, #mainNav .navbar-nav .nav-item .nav-link, .theme-button {
           font-size: 14px;
-      }
-      h4 {
-          font-size: 18px;
       }
       h1.header-caption-heading {
           font-size: 42px;
@@ -3575,7 +3592,7 @@ ul.social-media li a {
           width: 100%;
       }
       .how-hilhome-works-area .how-hilhome-works-right {
-          margin-top: 40px;
+          margin-top: 0;
       }
       .how-it-works-content-area .how-it-content-box {
           width: 100%;
@@ -3586,9 +3603,21 @@ ul.social-media li a {
           height: 154px;
       }
 
+      /*How Hilhome Works CSS*/
+      .how-hilhome-works-area .how-hilhome-works-left {
+          display: none;
+      }
+
   }
 
   @media only screen and (max-width: 767px){
+
+      h4 {
+          font-size: 18px;
+      }
+      h5, .types-of-leads-page .table tr th {
+          font-size: 17px;
+      }
 
       /*Message Pro CSS*/
       .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-7.col-xl-9 {
@@ -3914,8 +3943,6 @@ ul.social-media li a {
           display: inline-block;
       }
       .more-services-page-area .mobile-more-services-left-menu {
-          /*display: -webkit-flex;*/
-          /*display: flex;*/
           overflow-x: scroll;
           -webkit-overflow-scrolling: touch;
           background-color: #fff;
@@ -3948,6 +3975,21 @@ ul.social-media li a {
           text-overflow: ellipsis;
       }
 
+      /*How Hilhome Works CSS*/
+      .how-hilhome-works-get-app-area .downloads-app-img , .how-hilhome-works-get-app-area .how-hilhome-works-get-app-content{
+          text-align: center;
+      }
+      .search-results-page .look-yourself-up {
+          flex-direction: column;
+          align-items: flex-start;
+      }
+      .search-results-page .look-yourself-up .theme-button {
+          margin-top: 15px;
+      }
+      .how-works-youtube-video img {
+          height: 250px;
+      }
+
   }
 
   /*========================================
@@ -3973,8 +4015,15 @@ ul.social-media li a {
       .how-it-works-content-area .row .col-12:nth-child(2n) .how-it-content-box .how-it-content {
           text-align: left;
       }
+      .types-of-leads-page ul.nav.nav-tabs {
+          display: flex;
+          justify-content: space-between;
+      }
   }
   @media only screen and (min-width: 480px) and (max-width: 766px){
+      .how-works-youtube-video img {
+          height: 200px;
+      }
       .footer-widget > h4, .footer-widget.quick-links > h4 {
           margin-top: 30px;
           margin-bottom: 30px;
@@ -3990,6 +4039,9 @@ ul.social-media li a {
       .more-services-page-area figure img {
           height: 144px;
           width: 100%;
+      }
+      .types-of-leads-page .nav-tabs .nav-link {
+          padding: 0 30px 10px;
       }
 
   }
@@ -4119,6 +4171,10 @@ ul.social-media li a {
     .get-free-cost-estimate-area .row.home-app-slider-outer {
         text-align: center;
     }
+    .how-works-youtube-video img {
+        height: 170px;
+    }
+
     /*Footer CSS*/
     .footer-bottom-part {
         flex-direction: column;
@@ -4342,6 +4398,9 @@ ul.social-media li a {
       }
       .how-to-details-help-wrap .how-to-details-content {
           padding: 15px 90px;
+      }
+      .how-works-youtube-video img {
+          height: 141px;
       }
 
       /*Message Pro CSS*/
