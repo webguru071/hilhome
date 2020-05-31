@@ -530,7 +530,7 @@ button:focus {
     top: 0;
 }
 #mainNav .navbar-brand img {
-    height: 45px;
+    height: 60px;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 1rem;
@@ -633,9 +633,9 @@ button:focus {
 }
 .mobile-logo {
     position: relative;
-    top: 14px;
+    top: 3px;
     left: 16px;
-    height: 30px;
+    height: 46px;
 }
 .mean-container a.meanmenu-reveal {
     top: 5px;
