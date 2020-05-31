@@ -1527,6 +1527,9 @@ ul.social-media li a {
 .copyright > a{
     color: var(--color-blue);
 }
+.copyright img {
+    height: 38px;
+}
 .footer-bottom-part {
     display: flex;
     justify-content: space-between;
