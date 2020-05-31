@@ -646,7 +646,7 @@ button:focus {
     background-color: var(--white-color);
     display: flex;
     position: relative;
-    top: 5px;
+    top: 7px;
     box-shadow: 0 0 20px -8px rgba(64,123,255,.3);
     border-top: 1px solid var(--border-color);
 }
