@@ -5987,10 +5987,6 @@ ul.social-media li a {
   padding-top: 10px;
 }
 
-.downloads-app-img img {
-  width: 100%;
-}
-
 .section-app-downloads {
   background-color: #fafafa;
 }
@@ -11818,6 +11814,7 @@ del {
   padding: 16px 21px;
   border-radius: 19px;
   box-shadow: 0px 0px 15px -5px;
+  width: 105px;
 }
 
 .app-text-banner-area {
@@ -12062,6 +12059,21 @@ del {
   font-weight: 700;
 }
 
+/*----------------------------
+    guides-page
+--------------------------------*/
+.guides-area {}
+
+.guides-heading {
+  text-align: center;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.guides-heading h2 {
+  font-weight: 800;
+}
+
 /* -- hadayet css end--  */
 
 /*=======================================
@@ -12072,9 +12084,19 @@ del {
     padding-right: 15px;
     padding-left: 15px;
   }
+
+  .app-main-banner-area {
+    height: 65%;
+  }
 }
 
+
 @media only screen and (max-width: 992px) {
+  .app-main-banner-area {
+    background-image: none;
+    height: 64%;
+  }
+
   .wedget-area-bottom-area {
     text-align: center;
   }
@@ -12204,6 +12226,12 @@ del {
 
   .pro-setting-area-wedget {
     padding: 100px 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .good-hand-area {
+    text-align: center;
   }
 }
 

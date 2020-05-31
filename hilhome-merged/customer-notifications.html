@@ -24,7 +24,7 @@
     <meta name="msapplication-TileColor" content="#407bff">
     <meta name="theme-color" content="#3fa3fe">
 
-    <title>Hilhome - Pro Interview Details</title>
+    <title>Hilhome - Customer Notifications</title>
 
     <!--=======================================
       All CSS Style link
@@ -39,8 +39,10 @@
     <link rel="shortcut icon" href="assets/img/favicon-16x16.png">
 
     <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-72x72.png" sizes="72x72" />
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-114x114.png" sizes="114x114" />
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-144x144.png" sizes="144x144" />
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-114x114.png"
+        sizes="114x114" />
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-144x144.png"
+        sizes="144x144" />
     <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/favicon-16x16.png" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -54,41 +56,22 @@
 <body>
 
     <!-- Pre Loader Area start -->
-<!--    <div id="preloader">-->
-<!--        <div class="loader"></div>-->
-<!--    </div>-->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
     <!-- Pre Loader Area End -->
 
     <!-- Menu After Login Area Start -->
-    <header class="menu-section-area menu-search-area menu-after-login padding-zero">
+    <header class="menu-section-area menu-after-login padding-zero">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg d-none d-sm-none d-md-block d-lg-block d-xl-block" id="mainNav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/mobile-logo.png" alt="logo" class="img-fluid"></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/mobile-logo.png" alt="logo"
+                        class="img-fluid"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
-
-                <!-- Search Bar in Main Menu Area Start-->
-                <div class="search-box">
-                    <form action="#" method="post">
-                        <div class="custom-select">
-                            <select>
-                                <option value="House Cleaning">House Cleaning</option>
-                                <option value="Photographers">Photographers</option>
-                                <option value="Makeup artists">Makeup artists</option>
-                                <option value="Handyman">Handyman</option>
-                                <option value="Massage Therapy">Massage Therapy</option>
-                                <option value="Dog Training">Dog Training</option>
-                                <option value="Event Planners">Event Planners</option>
-                            </select>
-                        </div>
-                        <input type="text" placeholder="Zip code">
-                        <button type="submit"><i class="fas fa-search"></i></button>
-                    </form>
-                </div>
-                <!-- Search Bar in Main Menu Area End-->
-
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-capitalize ml-auto">
                         <li class="nav-item">
@@ -101,7 +84,8 @@
                             <a class="nav-link" href="customer-inbox.html">inbox</a>
                         </li>
                         <li class="nav-item dropdown-box">
-                            <a class="nav-link"><span class="customer-img"><img src="assets/img/pros-img/1.jpg" alt="img"></span>Suraiya<i class="fas fa-angle-down"></i></a>
+                            <a class="nav-link"><span class="customer-img"><img src="assets/img/pros-img/1.jpg"
+                                        alt="img"></span>Suraiya<i class="fas fa-angle-down"></i></a>
                             <ul class="dropdown-list">
                                 <li><a href="customer-profile.html">Profile</a></li>
                                 <li><a href="index.html">Log out</a></li>
@@ -117,27 +101,6 @@
         <nav class="mobile_menu hidden d-none">
             <a href="index.html"><img class="mobile-logo" src="assets/img/mobile-logo.png" alt="logo"></a>
             <ul class="nav navbar-nav navbar-right menu">
-
-                <!-- Search Bar in Mobile Menu Area Start-->
-                <div class="search-box">
-                    <form action="#" method="post">
-                        <div class="custom-select">
-                            <select>
-                                <option value="House Cleaning">House Cleaning</option>
-                                <option value="Photographers">Photographers</option>
-                                <option value="Makeup artists">Makeup artists</option>
-                                <option value="Handyman">Handyman</option>
-                                <option value="Massage Therapy">Massage Therapy</option>
-                                <option value="Dog Training">Dog Training</option>
-                                <option value="Event Planners">Event Planners</option>
-                            </select>
-                        </div>
-                        <input type="text" placeholder="Zip code">
-                        <button type="submit"><i class="fas fa-search"></i></button>
-                    </form>
-                </div>
-                <!-- Search Bar in Mobile Menu Area End-->
-
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
@@ -163,136 +126,179 @@
     </header>
     <!-- Menu After Login Area End -->
 
-    <!-- Page Banner Area Start -->
-    <section class="page-banner-area pro-interview-details-banner">
+    <!-- Customer Profile Area Start -->
+    <section class="customer-profile-area customer-information-page customer-notifications-page padding-zero">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="page-banner-content">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Page Banner Area End -->
+            <div class="row customer-profile-wrap">
+                <div class="col-12 col-sm-12 col-md-4">
+                    <div class="customer-info-left-box">
+                        <h4 class="customer-profile-title">Settings</h4>
 
-    <!-- Pro Interview Details Page Area Start -->
-    <section class="pro-interview-details-area">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-12">
-                    <div class="pro-interview-details-wrap">
-                        <div class="pro-interview-details-link text-uppercase"><a href="pro-interview.html">Pro Interviews</a></div>
-                        <h2>Find the Thing You Love Most and Do It</h2>
-
-                        <div class="pro-interview-details-content">
-
-                            <p>Ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis <a href="#">delectus dignissimos</a> ducimus error explicabo
-                                id inventore neque nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.Ipsum dolor
-                                sit amet, consectetur adipisicing elit. Aut corporis delectus dignissimos ducimus error explicabo id inventore neque
-                                nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.</p>
-
-
-                            <h4>What was it like starting your own business? </h4>
-
-                            <p>Ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis ducimus error explicabo
-                                id inventore neque nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.Ipsum dolor
-                                sit amet, consectetur adipisicing elit. Aut corporis delectus dignissimos ducimus error explicabo id inventore neque
-                                nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.
-                            </p>
-                            <p>Ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis ducimus error explicabo
-                                id inventore neque nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.Ipsum dolor</p>
-
-                            <h4>What was it like starting your own business? </h4>
-
-                            <p>Ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis ducimus error explicabo
-                                id inventore neque nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.Ipsum dolor
-                                sit amet, consectetur adipisicing elit. Aut corporis delectus dignissimos ducimus error explicabo id inventore neque
-                                nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.
-                            </p>
-
-                            <h4>What was it like <a href="#">starting your own business?</a> Lorem ipsum dolor sit amet. </h4>
-
-                            <p>Ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis ducimus error explicabo
-                                id inventore neque nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.Ipsum dolor
-                                sit amet, consectetur adipisicing elit. Aut corporis delectus dignissimos ducimus error explicabo id inventore neque
-                                nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.
-                            </p>
-
-                            <p>Ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis ducimus error explicabo
-                                id inventore neque nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.Ipsum dolor
-                                sit amet, consectetur adipisicing elit. Aut corporis delectus dignissimos ducimus error explicabo id inventore neque
-                                nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.
-                            </p>
-
-                            <p>Ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis ducimus error explicabo
-                                id inventore neque nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.Ipsum dolor
-                                sit amet, consectetur adipisicing elit. Aut corporis delectus dignissimos ducimus error explicabo id inventore neque
-                                nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.
-                            </p>
-
-                            <h4>What was it like starting your own business? </h4>
-
-                            <p>Ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis ducimus error explicabo
-                                id inventore neque nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.Ipsum dolor
-                                sit amet, consectetur adipisicing elit. Aut corporis delectus dignissimos ducimus error explicabo id inventore neque
-                                nisi numquam, odit pariatur perspiciatis qui quo quod saepe similique, tempore voluptas.
-                            </p>
+                        <div class="customer-profile-pages">
+                            <ul>
+                                <li><a href="customer-information.html">Account<i class="fas fa-angle-right"></i></a>
+                                </li>
+                                <li><a href="customer-notifications.html" class="active">Notifications<i
+                                            class="fas fa-angle-right"></i></a></li>
+                            </ul>
                         </div>
-
-                        <div class="pro-interview-details-tags">Tags - <a href="#">Profile,</a><a href="#">Reviews,</a><a href="#">Top Pro,</a></div>
-
                     </div>
                 </div>
 
-            </div>
-        </div>
-    </section>
-    <!-- Pro Interview Details Page Area End -->
+                <div class="col-12 col-sm-12 col-md-8">
+                    <div class="customer-right-side">
+                        <h4 class="customer-profile-title text-center">Notifications </h4>
 
-    <!-- Related Article Start -->
-    <section class="related-article-page-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center related-article-title">
-                    <h3>Related Articles</h3>
-                </div>
+                        <!--Notifications Part Start-->
+                        <div class="notifications-part">
+                            <h6>Get push notifications when:</h6>
+                            <div class="notifications-wrap">
+                                <div class="notification-lists d-flex">
+                                    <div class="notification-content">
+                                        <h6>Messages </h6>
+                                        <p>Pros send you messages.</p>
+                                    </div>
+                                    <div class="notifications-switch-content">
+                                        <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="notification-lists d-flex">
+                                    <div class="notification-content">
+                                        <h6>Project reminders and updates</h6>
+                                        <p>You’ve got upcoming projects or there are other updates about your projects.
+                                        </p>
+                                    </div>
+                                    <div class="notifications-switch-content">
+                                        <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
 
-                    <h6 class="related-pro-tips-title text-uppercase">Pro Tips</h6>
+                                <div class="notification-lists d-flex">
+                                    <div class="notification-content">
+                                        <h6>Promotions and tips </h6>
+                                        <p>We have updates about your account, projects, and security/privacy matters.
+                                        </p>
+                                    </div>
+                                    <div class="notifications-switch-content">
+                                        <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
 
-                    <div class="related-article-wrap d-flex">
-
-                        <a href="pro-interview-details.html">
-                            <div class="services-box">
-                                <img src="assets/img/services-img/1.jpg" alt="img">
-                                <h6>Announcing the First Top Pro Class of 2018</h6>
+                                <div class="notification-lists d-flex">
+                                    <div class="notification-content">
+                                        <h6>Messages </h6>
+                                        <p>Pros send you messages. </p>
+                                    </div>
+                                    <div class="notifications-switch-content">
+                                        <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                        </a>
+                        </div>
+                        <!--Notifications Part End-->
 
-                        <a href="pro-interview-details.html">
-                            <div class="services-box">
-                                <img src="assets/img/services-img/2.jpg" alt="img">
-                                <h6>Announcing the First Top Pro Class of 2018</h6>
+                        <!--Notifications Part Start-->
+                        <div class="notifications-part">
+                            <h6>Text me about... </h6>
+                            <div class="notifications-wrap">
+                                <div class="notification-lists d-flex">
+                                    <div class="notification-content">
+                                        <h6>All Text Notifications</h6>
+                                    </div>
+                                    <div class="notifications-switch-content">
+                                        <label class="switch">
+                                            <input type="checkbox">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                        </a>
+                        </div>
+                        <!--Notifications Part End-->
 
-                        <a href="pro-interview-details.html">
-                            <div class="services-box">
-                                <img src="assets/img/services-img/3.jpg" alt="img">
-                                <h6>Announcing the First Top Pro Class of 2018</h6>
+                        <!--Notifications Part Start-->
+                        <div class="notifications-part">
+                            <h6>Email me about... </h6>
+                            <div class="notifications-wrap">
+                                <div class="notification-lists d-flex">
+                                    <div class="notification-content">
+                                        <h6>Messages </h6>
+                                        <p>Pros send you messages. </p>
+                                    </div>
+                                    <div class="notifications-switch-content">
+                                        <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="notification-lists d-flex">
+                                    <div class="notification-content">
+                                        <h6>Project reminders and updates</h6>
+                                        <p>You’ve got upcoming projects or there are other updates about your projects.
+                                        </p>
+                                    </div>
+                                    <div class="notifications-switch-content">
+                                        <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="notification-lists d-flex">
+                                    <div class="notification-content">
+                                        <h6>Promotions and tips </h6>
+                                        <p>We have updates about your account, projects, and security/privacy matters.
+                                        </p>
+                                    </div>
+                                    <div class="notifications-switch-content">
+                                        <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="notification-lists d-flex">
+                                    <div class="notification-content">
+                                        <h6>Messages </h6>
+                                        <p>Pros send you messages. </p>
+                                    </div>
+                                    <div class="notifications-switch-content">
+                                        <label class="switch">
+                                            <input type="checkbox" checked>
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+
                             </div>
-                        </a>
+
+                            <button class="notifications-button">Unsubscribe All</button>
+                        </div>
+                        <!--Notifications Part End-->
+
                     </div>
-
                 </div>
-
             </div>
         </div>
     </section>
-    <!-- Related Article End -->
+    <!-- Customer Profile Area End -->
 
     <!-- Footer Start -->
     <footer class="footer">
@@ -384,7 +390,8 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="footer-bottom-part">
-                            <div class="copyright"><a href="https://hilhome.com/"><img src="assets/img/favicon.png" alt="icon"> &copy; 2020 Hilhome, Inc.</a></div>
+                            <div class="copyright"><a href="https://hilhome.com/"><img src="assets/img/favicon.png"
+                                        alt="icon"> &copy; 2020 Hilhome, Inc.</a></div>
                             <div class="bottom-footer-right">
                                 <a href="guarantee.html"><i class="fas fa-shield-alt"></i>Hilhome Guarantee</a>
                             </div>
