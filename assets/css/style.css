@@ -646,8 +646,9 @@ button:focus {
     background-color: var(--white-color);
     display: flex;
     position: relative;
-    top: 24px;
+    top: 5px;
     box-shadow: 0 0 20px -8px rgba(64,123,255,.3);
+    border-top: 1px solid var(--border-color);
 }
 .mean-container a.meanmenu-reveal span {
     background-color: var(--color-blue);
