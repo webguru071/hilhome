@@ -1,11 +1,11 @@
 /*
 -------------------------------------------------
-  Theme Name: Hilhome HTML Template
+  Theme Name: Andsheba HTML Template
   Theme URL:
   Author: AndItThemes
   Author URL:
   Creation Date: 05/04/2020
-  Description: A default stylesheet for Hilhome
+  Description: A default stylesheet for Andsheba
   Version: 1.00
   Primary use:
   Support: andimpex@gmail.com,
@@ -45,7 +45,7 @@
   24. How To Details Page
   25. Opt Out Page
   26. Question Details Page
-  27. How Hilhome Works Page
+  27. How Andsheba Works Page
   28. How It Works Page
   29. Pro Interview Details Page
   30. Customer Project Details Page
@@ -260,8 +260,8 @@ figure {
 .details-content-box p a,
 .questions-details-right-box li a,
 .question-details-last-text a,
-.how-hilhome-works-content-box p a,
-.how-hilhome-works-content-box a,
+.how-andsheba-works-content-box p a,
+.how-andsheba-works-content-box a,
 .was-this-article-helpful button,
 .pro-interview-details-content a,
 .get-the-app-check-message-area p>a,
@@ -409,8 +409,8 @@ h2 {
 .instant-result-sidebar .filter-box h6,
 .questions-details-right-box h5,
 .question-details-page-area .question-details-author,
-.how-hilhome-works-content-box p,
-.how-hilhome-works-content-box h3,
+.how-andsheba-works-content-box p,
+.how-andsheba-works-content-box h3,
 .guarantee-menu ul li {
   margin-bottom: 15px;
 }
@@ -423,7 +423,7 @@ h2 {
 .reset-password-area .privacy-box,
 .customer-profile-title,
 .questions-details-right-box,
-.how-hilhome-works-content-box,
+.how-andsheba-works-content-box,
 .page-banner-area.how-it-works-page-banner .page-banner-content h1,
 .pro-interview-details-wrap h2,
 .pro-interview-details-content h4,
@@ -437,7 +437,7 @@ h2 {
 .instant-result-sidebar .filters-title,
 .instant-result-sidebar .filter-box,
 .customer-notifications-page .notifications-part,
-.how-hilhome-works-right h1,
+.how-andsheba-works-right h1,
 .how-it-try-it-out-area .search-box h3,
 .related-article-page-area .related-article-title h3,
 .how-to-details-page-how-works-area .section-heading,
@@ -462,7 +462,7 @@ h2 {
 }
 
 /*--------------------------------
-   2.5 Hilhome Template Default CSS
+   2.5 Andsheba Template Default CSS
 -----------------------------------*/
 
 /*----Template Main Section ----*/
@@ -561,7 +561,7 @@ header.page-banner-area .header-caption p {
 }
 
 /*--------------------------------
-   2.5 Hilhome Template Default CSS
+   2.5 Andsheba Template Default CSS
 -----------------------------------*/
 
 /*------------------------------------------
@@ -1469,11 +1469,11 @@ section.login-area.register-area h3 {
   width: 185px;
 }
 
-.hire-on-hilhome {
+.hire-on-andsheba {
   margin-bottom: 8px;
 }
 
-.hire-on-hilhome>i {
+.hire-on-andsheba>i {
   padding-right: 10px;
 }
 
@@ -1767,7 +1767,7 @@ section.login-area.register-area h3 {
     margin-bottom: 20px;
   }
 
-  .pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button {
+  .pro-app-link-page-area .welcome-to-andsheba-pro-content form .theme-button {
     height: 50px;
   }
 }
@@ -2730,13 +2730,13 @@ ul.social-media li a {
 -------------------------------------------*/
 
 /*-------------------------------------------
-        28. How Hilhome Works Page Start
+        28. How Andsheba Works Page Start
 -------------------------------------------*/
-.how-hilhome-works-left ul {
+.how-andsheba-works-left ul {
   border-left: 1px solid var(--border-color);
 }
 
-.how-hilhome-works-left ul li a {
+.how-andsheba-works-left ul li a {
   display: block;
   padding: 5px 0 5px 10px;
 }
@@ -2745,30 +2745,30 @@ ul.social-media li a {
   margin-top: 35px;
 }
 
-.how-hilhome-works-area .how-works-pro-tips {
+.how-andsheba-works-area .how-works-pro-tips {
   border: 1px solid var(--border-color);
   border-radius: 6px;
   border-top: 4px solid var(--hover-color);
   padding: 15px 15px 2px;
 }
 
-.how-hilhome-works-right h1 {
+.how-andsheba-works-right h1 {
   display: flex;
   align-items: center;
 }
 
-.how-hilhome-works-right h1>i {
+.how-andsheba-works-right h1>i {
   font-size: 21px;
   padding-right: 10px;
 }
 
-.how-hilhome-works-content-box ul li a {
+.how-andsheba-works-content-box ul li a {
   position: relative;
   padding: 0 0 10px 14px;
   display: block;
 }
 
-.how-hilhome-works-content-box ul li a::before {
+.how-andsheba-works-content-box ul li a::before {
   position: absolute;
   content: "";
   height: 7px;
@@ -2784,7 +2784,7 @@ ul.social-media li a {
   padding-top: 20px;
 }
 
-.how-hilhome-works-get-app-area {
+.how-andsheba-works-get-app-area {
   padding: 0;
   background-color: var(--different-bg);
 }
@@ -2793,7 +2793,7 @@ ul.social-media li a {
   height: 415px;
 }
 
-.how-hilhome-works-get-app-content p {
+.how-andsheba-works-get-app-content p {
   margin: 15px 0 25px;
 }
 
@@ -2812,7 +2812,7 @@ ul.social-media li a {
 }
 
 /*-------------------------------------------
-        28. How Hilhome Works Page End
+        28. How Andsheba Works Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
@@ -2918,35 +2918,35 @@ ul.social-media li a {
   border-bottom: none;
 }
 
-.pro-app-link-page-area .welcome-to-hilhome-pro-content {
+.pro-app-link-page-area .welcome-to-andsheba-pro-content {
   width: 70%;
   border: 1px solid var(--border-color);
   padding: 50px 70px 50px;
   margin: 0 auto;
 }
 
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form {
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form {
   width: 50%;
   margin: 40px auto 0;
 }
 
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form label {
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form label {
   font-size: 24px;
 }
 
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form input {
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form input {
   text-align: center;
 }
 
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button {
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form .theme-button {
   width: 100%;
 }
 
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button:hover {
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form .theme-button:hover {
   background-color: var(--hover-color);
 }
 
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form p {
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form p {
   font-size: 9px;
 }
 
@@ -4095,7 +4095,7 @@ ul.social-media li a {
   .customer-project-details-area,
   .customer-review-page,
   .page-banner-area,
-  .how-hilhome-works-area,
+  .how-andsheba-works-area,
   .how-to-page-area,
   .privacy-page-area,
   .pro-app-page-area {
@@ -4213,11 +4213,11 @@ ul.social-media li a {
     padding: 60px 0;
   }
 
-  .pro-app-link-page-area .welcome-to-hilhome-pro-content {
+  .pro-app-link-page-area .welcome-to-andsheba-pro-content {
     width: 100%;
   }
 
-  .how-hilhome-works-area .how-hilhome-works-right {
+  .how-andsheba-works-area .how-andsheba-works-right {
     margin-top: 40px;
   }
 
@@ -4580,11 +4580,11 @@ ul.social-media li a {
     display: none;
   }
 
-  .pro-app-link-page-area .welcome-to-hilhome-pro-content form {
+  .pro-app-link-page-area .welcome-to-andsheba-pro-content form {
     width: 100%;
   }
 
-  .how-hilhome-works-get-app-content {
+  .how-andsheba-works-get-app-content {
     margin: 0 0 40px;
   }
 
@@ -5094,11 +5094,11 @@ ul.social-media li a {
     margin: 0 auto 30px;
   }
 
-  .pro-app-link-page-area .welcome-to-hilhome-pro-content {
+  .pro-app-link-page-area .welcome-to-andsheba-pro-content {
     padding: 36px 30px 50px;
   }
 
-  .how-hilhome-works-right h1>i {
+  .how-andsheba-works-right h1>i {
     display: none;
   }
 
@@ -5300,23 +5300,23 @@ ul.social-media li a {
   color: #009fd9;
 }
 
-.hilhome-journal-heading-box p {
+.andsheba-journal-heading-box p {
   padding-top: 30px;
 }
 
-.hilhome-journal-heading-box p a {
+.andsheba-journal-heading-box p a {
   color: #009fd9;
 }
 
-.hilhome-journal-heading-box {
+.andsheba-journal-heading-box {
   padding-bottom: 50px;
 }
 
-.hilhome-journal {
+.andsheba-journal {
   background-color: #fafafa;
 }
 
-.hilhome-box {
+.andsheba-box {
   border: 1px solid #e9eced;
   border-radius: 4px;
   background-color: #fff;
@@ -5330,11 +5330,11 @@ ul.social-media li a {
   height: 100%;
 }
 
-.hilhome-box-img img {
+.andsheba-box-img img {
   width: 100%;
 }
 
-.hilhome-box-details {
+.andsheba-box-details {
   padding: 20px;
   -webkit-flex-grow: 1;
   flex-grow: 1;
@@ -5344,14 +5344,14 @@ ul.social-media li a {
   flex-direction: column;
 }
 
-.hilhome-box-details p {
+.andsheba-box-details p {
   font-size: 14px;
   line-height: 20px;
   display: block;
   margin-bottom: 20px;
 }
 
-.hilhome-box-details h3 {
+.andsheba-box-details h3 {
   font-size: 20px;
   line-height: 28px;
   font-weight: 700;
@@ -5360,7 +5360,7 @@ ul.social-media li a {
   margin-bottom: 12px;
 }
 
-.hilhome-box-details a {
+.andsheba-box-details a {
   color: #009fd9;
   fill: #009fd9;
   cursor: pointer;
@@ -5369,7 +5369,7 @@ ul.social-media li a {
   line-height: 24px;
 }
 
-.hilhome-box-details a i {
+.andsheba-box-details a i {
   font-size: 12px;
 }
 
@@ -6012,7 +6012,7 @@ ul.social-media li a {
 }
 
 /*----------------------------------
- Hilhome-guarantee-terms page
+ Andsheba-guarantee-terms page
 ------------------------------------*/
 .text-big-heading {
   font-size: 40px;
@@ -8452,7 +8452,7 @@ del {
   padding-top: 45px;
 }
 
-.hilhome-how-section-hgeading h2 {
+.andsheba-how-section-hgeading h2 {
   font-size: 20px;
   line-height: 28px;
   font-weight: 700;
@@ -8511,22 +8511,22 @@ del {
   margin-bottom: 30px;
 }
 
-.about-hilhome-wedget {
+.about-andsheba-wedget {
   margin-bottom: 45px;
 }
 
-.about-hilhome-wedget h3 {
+.about-andsheba-wedget h3 {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
 }
 
-.about-hilhome-wedget p {
+.about-andsheba-wedget p {
   padding-top: 10px;
   padding-bottom: 20px;
 }
 
-.about-hilhome-wedget a {
+.about-andsheba-wedget a {
   background-color: #fff;
   border-color: #d3d4d5;
   color: #676d73;
@@ -12244,7 +12244,7 @@ del {
     padding: 8px !important;
   }
 
-  .hilhome-box {
+  .andsheba-box {
     margin-bottom: 30px !important;
     padding-bottom: 30px;
     height: 95% !important;
