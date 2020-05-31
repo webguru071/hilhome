@@ -646,9 +646,8 @@ button:focus {
     background-color: var(--white-color);
     display: flex;
     position: relative;
-    top: 7px;
+    top: 6px;
     box-shadow: 0 0 20px -8px rgba(64,123,255,.3);
-    border-top: 1px solid var(--border-color);
 }
 .mean-container a.meanmenu-reveal span {
     background-color: var(--color-blue);
@@ -3335,9 +3334,6 @@ ul.social-media li a {
       }
       p.section-subheading {
           width: 55%;
-      }
-      #mainNav .navbar-brand img, .footer-widget.footer-about a > img{
-          height: 34px;
       }
       #mainNav {
           height: 70px;
