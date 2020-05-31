@@ -51,8 +51,11 @@
   30. Customer Project Details Page
   31. Message Pro Page
   32. Customer Review Page
-  32. Hadayet CSS
-  34. Responsive CSS
+  33. More Services Page
+  34. Search Results Page
+  35. Types of Leads/Targeting Preferences Page
+  36. Hadayet CSS
+  37. Responsive CSS
 
 ------------------------------------------------ */
 
@@ -596,9 +599,6 @@ button:focus {
 }
 /*After Login Menu CSS End*/
 
-@media (min-width: 992px) {
-
-}
 /* Mean Menu / Mobile Menu Style */
 .mean-container .mean-nav ul {
     margin: 14px 0 0 0;
@@ -1243,7 +1243,6 @@ section.login-area.register-area h3 {
 
 /*Filters Checkbox CSS Start*/
 .instant-result-sidebar .filter-checkbox .container, .instant-result-sidebar .filter-radio-button .container {
-    /*display: block;*/
     position: relative;
     padding-left: 30px;
     margin-bottom: 8px;
@@ -1371,7 +1370,6 @@ section.login-area.register-area h3 {
 }
 /*Filters Radio Button CSS End*/
 
-
 /*See More Buttons*/
 .instant-result-sidebar #more,.instant-result-sidebar #more2 ,.instant-result-sidebar #more3 {display: none;}
 .instant-result-sidebar #myBtn i,.instant-result-sidebar #myBtn2 i,.instant-result-sidebar #myBtn3 i {
@@ -1422,7 +1420,6 @@ section.login-area.register-area h3 {
     }
 
 }
-
 /*-------------------------------------------
     13. Instant Result Page Area End
 -------------------------------------------*/
@@ -1493,7 +1490,7 @@ section.login-area.register-area h3 {
 -------------------------------------------*/
 
 /*-------------------------------------------
-    13. Footer Area Start
+    17. Footer Area Start
 -------------------------------------------*/
 footer{
     background-color: var(--white-color);
@@ -1542,11 +1539,11 @@ ul.social-media li a {
     font-size: 18px;
 }
 /*-------------------------------------------
-        13. Footer Area End
+        17. Footer Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-         14. 404 Area Start
+         18. 404 Area Start
 -------------------------------------------*/
 .error-page-area h3.section-subheading {
     margin: 43px auto 35px;
@@ -1557,11 +1554,11 @@ ul.social-media li a {
     height: 450px;
 }
 /*-------------------------------------------
-        14. 404 Area End
+        18. 404 Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-        20. Guarantee Page Style Start
+        19. Guarantee Page Style Start
 -------------------------------------------*/
 .help-content {
     width: 70%;
@@ -1580,7 +1577,6 @@ ul.social-media li a {
 
 /*Guarantee Fixed Tabs CSS*/
 .guarantee-menu ul {
-    /*border-left: 4px solid #d1d1d1;*/
     padding-left: 15px;
     position: relative;
     padding-top: 10px;
@@ -1724,11 +1720,11 @@ ul.social-media li a {
     margin-top: 10px;
 }
 /*-------------------------------------------
-        20. Guarantee Page Style End
+        19. Guarantee Page Style End
 -------------------------------------------*/
 
 /*-------------------------------------------
-        21. About Style Start
+        20. About Style Start
 -------------------------------------------*/
 .about-area {
     padding-bottom: 0;
@@ -1761,10 +1757,10 @@ ul.social-media li a {
     bottom: 100px;
 }
 /*-------------------------------------------
-        21. About Style End
+        20. About Style End
 -------------------------------------------*/
 /*-------------------------------------------
-        22. Error Style Start
+        21. Error Style Start
 -------------------------------------------*/
 .error-content img {
    height: 134px;
@@ -1781,10 +1777,10 @@ ul.social-media li a {
     margin: 30px 0 15px;
 }
 /*-------------------------------------------
-        22. Error Style End
+        21. Error Style End
 -------------------------------------------*/
 /*-------------------------------------------
-        23. Privacy Style Start
+        22. Privacy Style Start
 -------------------------------------------*/
 .privacy-content-header p {
     margin-bottom: 30px;
@@ -1822,11 +1818,11 @@ ul.social-media li a {
     vertical-align: middle;
 }
 /*-------------------------------------------
-        23. Privacy Style End
+        22. Privacy Style End
 -------------------------------------------*/
 
 /*-------------------------------------------
-        24. Customer Profile Style Start
+        23. Customer Profile Style Start
 -------------------------------------------*/
 .customer-info-box {
     border: 1px solid var(--border-color);
@@ -2129,11 +2125,11 @@ ul.social-media li a {
     text-transform: uppercase;
 }
 /*-------------------------------------------
-        24. Customer Profile Style End
+        23. Customer Profile Style End
 -------------------------------------------*/
 
 /*-------------------------------------------
-        25. How To Details Page Style Start
+        24. How To Details Page Style Start
 -------------------------------------------*/
 .how-to-details-page-banner{
     background-image: url('../img/how-to-details-img/1.jpg');
@@ -2193,11 +2189,11 @@ ul.social-media li a {
     padding: 0 10px;
 }
 /*-------------------------------------------
-        25. How To Details Page Style End
+        24. How To Details Page Style End
 -------------------------------------------*/
 
 /*-------------------------------------------
-        26. Opt Out Page Style Start
+        25. Opt Out Page Style Start
 -------------------------------------------*/
 .opt-out-page-area form p {
     padding-bottom: 15px;
@@ -2206,11 +2202,11 @@ ul.social-media li a {
     padding: 7px 15px 8px;
 }
 /*-------------------------------------------
-        26. Opt Out Page Style End
+        25. Opt Out Page Style End
 -------------------------------------------*/
 
 /*-------------------------------------------
-        27. Question Details Page Style Start
+        26. Question Details Page Style Start
 -------------------------------------------*/
 .question-details-page-area .guarantee-content-box h1 {
     margin-bottom: 20px;
@@ -2239,11 +2235,11 @@ ul.social-media li a {
     margin-bottom: 0;
 }
 /*-------------------------------------------
-        27. Question Details Page End
+        26. Question Details Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-        28. How Hilhome Works Page Start
+        27. How Hilhome Works Page Start
 -------------------------------------------*/
 .how-hilhome-works-left ul {
     border-left: 1px solid var(--border-color);
@@ -2313,11 +2309,11 @@ ul.social-media li a {
 }
 
 /*-------------------------------------------
-        28. How Hilhome Works Page End
+        27. How Hilhome Works Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-        29. How It Works Page Start
+        28. How It Works Page Start
 -------------------------------------------*/
 .how-it-works-page-banner, .pro-interview-details-banner {
     background-image: url('../img/how-it-works-img/how-it-banner.jpg');
@@ -2356,11 +2352,11 @@ ul.social-media li a {
     justify-content: center;
 }
 /*-------------------------------------------
-        29. How It Works Page End
+        28. How It Works Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-        30. Pro Interview Details Page Start
+        29. Pro Interview Details Page Start
 -------------------------------------------*/
 .pro-interview-details-banner{
     background-image: url('../img/pro-interview-img/pro-interview-details-banner.jpg');
@@ -2424,11 +2420,11 @@ ul.social-media li a {
     font-size: 9px;
 }
 /*-------------------------------------------
-        30. Pro Interview Details Page End
+        29. Pro Interview Details Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    31. Customer Project Details Page Start
+    30. Customer Project Details Page Start
 -------------------------------------------*/
 .customer-project-details-wrap h5 i {
     padding-right: 10px;
@@ -2575,7 +2571,6 @@ ul.social-media li a {
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    /*font-size: 22px;*/
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -2626,11 +2621,11 @@ ul.social-media li a {
 /*Filters Radio Button CSS End*/
 
 /*-------------------------------------------
-    31. Customer Project Details Page End
+    30. Customer Project Details Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    32. Message Pro Page Start
+    31. Message Pro Page Start
 -------------------------------------------*/
 .message-pro-page {
     border-bottom: none;
@@ -2718,7 +2713,6 @@ ul.social-media li a {
 }
 
 /*Message Left Footer Send Message Part Start*/
-
 .message-footer {
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
@@ -2956,11 +2950,11 @@ ul.social-media li a {
     margin-right: 10px;
 }
 /*-------------------------------------------
-    32. Message Pro Page End
+    31. Message Pro Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    33. Customer Review Page Start
+    32. Customer Review Page Start
 -------------------------------------------*/
 .customer-review-page {
     padding: 60px 0 30px;
@@ -3052,7 +3046,6 @@ ul.social-media li a {
 .rating-stars ul {
     list-style-type:none;
     padding:0;
-
     -moz-user-select:none;
     -webkit-user-select:none;
 }
@@ -3097,7 +3090,7 @@ ul.social-media li a {
     padding: 12px;
 }
 .customer-review-page-img-wrap .close {
-    padding: 0px 8px 3px !important;
+    padding: 0 8px 3px !important;
     border: 1px solid #d8d8d8;
     background-color: #cecccc;
     color: #fff !important;
@@ -3108,13 +3101,12 @@ ul.social-media li a {
     right: 5px;
     top: 5px;
 }
-
 /*-------------------------------------------
-    33. Customer Review Page End
+    32. Customer Review Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    34.  More Services Page Area Start
+    33.  More Services Page Area Start
 -------------------------------------------*/
 /*More Services Left Side*/
 .more-services-page-area .mobile-more-services-left-menu {
@@ -3167,11 +3159,11 @@ ul.social-media li a {
     font-size: 15px;
 }
 /*-------------------------------------------
-    34.  More Services Page Area End
+    33.  More Services Page Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    35.  Search Results Page Area Start
+    34.  Search Results Page Area Start
 -------------------------------------------*/
 .search-results-page .search-results-points-list, .how-hilhome-works-area .search-results-points-list {
     display: flex;
@@ -3213,11 +3205,11 @@ ul.social-media li a {
     margin: 12px 0 12px 12px;
 }
 /*-------------------------------------------
-    35.  Search Results Page Area End
+    34.  Search Results Page Area End
 -------------------------------------------*/
 
 /*----------------------------------------------------------
-    36. Types of Leads/Targeting Preferences Page Area Start
+    35. Types of Leads/Targeting Preferences Page Area Start
 -----------------------------------------------------------*/
 
 /*Targeting Preferences Page CSS*/
@@ -3261,11 +3253,18 @@ ul.social-media li a {
     display: none;
 }
 /*--------------------------------------------------------
-    36. Types of Leads/Targeting Preferences Page Area End
+    35. Types of Leads/Targeting Preferences Page Area End
+---------------------------------------------------------*/
+
+/*--------------------------------------------------------
+    36. Hadayet CSS Area Start
+---------------------------------------------------------*/
+/*--------------------------------------------------------
+    36. Hadayet CSS Area End
 ---------------------------------------------------------*/
 
 /*-------------------------------------------
-    22. Responsive Design CSS
+    37. Responsive Design CSS
 -------------------------------------------*/
 
 /*=====================================
@@ -3384,7 +3383,6 @@ ul.social-media li a {
 
   }
 
-
 /*--------Max 1200px Width Screen---------*/
 
   @media only screen and (max-width: 1200px) {
@@ -3393,9 +3391,6 @@ ul.social-media li a {
 
 /*--------Min 1200px Width Screen--------*/
   @media only screen and (min-width: 1200px) {
-      #randomImage img {
-          /*height: 594px;*/
-      }
   }
 
 /*=====================================
@@ -4206,7 +4201,6 @@ ul.social-media li a {
         padding: 0 !important;
         margin: 0;
     }
-
 
 }
 
