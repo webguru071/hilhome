@@ -1,11 +1,11 @@
 /*
 -------------------------------------------------
-  Theme Name: Hilhome HTML Template
+  Theme Name: Andsheba HTML Template
   Theme URL:
   Author: AndItThemes
   Author URL:
   Creation Date: 05/04/2020
-  Description: A default stylesheet for Hilhome
+  Description: A default stylesheet for Andsheba
   Version: 1.00
   Primary use:
   Support: andimpex@gmail.com,
@@ -45,7 +45,7 @@
   24. How To Details Page
   25. Opt Out Page
   26. Question Details Page
-  27. How Hilhome Works Page
+  27. How Andsheba Works Page
   28. How It Works Page
   29. Pro Interview Details Page
   30. Customer Project Details Page
@@ -243,6 +243,7 @@ figure {
 .chat-box.chat-box-customer-message .chat-box-content .chat-box-text p {
     color: var(--white-color);
 }
+<<<<<<< HEAD
 
 .text-blue-color,
 .error-content p>a,
@@ -280,6 +281,19 @@ figure {
 .category-group-lists.text-lists a:hover,
 .guarantee-menu.more-services-left-menu ul li a:hover,
 .in-this-article ul li a {
+=======
+.text-blue-color, .error-content p > a, .privacy-page-area p > a, .how-to-list li a, .instant-result-sidebar #myBtn,
+.instant-result-sidebar #myBtn i, .instant-result-sidebar #myBtn2,
+.instant-result-sidebar #myBtn2 i, .instant-result-sidebar #myBtn3,
+.instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i,
+.customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
+.home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
+.details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-andsheba-works-content-box p a, .how-andsheba-works-content-box a,
+.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button, .chat-box-text p a,
+.message-main-header button, .message-header-right a, .message-pro-page .message-footer form .form-group:nth-child(1) i, .contacted-pros-area .contacted-pros-hide, .contacted-pros-area .contacted-pros-show, .category-group-lists.text-lists a:hover,
+.guarantee-menu.more-services-left-menu ul li a:hover, .in-this-article ul li a
+{
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     color: var(--color-blue);
 }
 
@@ -413,6 +427,7 @@ h2 {
 /*--------------------------------
     2.4 Theme Margin and Padding
 -----------------------------------*/
+<<<<<<< HEAD
 .mb-15,
 .footer-widget h4,
 .instant-result-sidebar .filter-box h6,
@@ -467,6 +482,25 @@ h2 {
 .customer-project-details-wrap h5,
 .search-results-page .how-hilhome-works-content-box h6,
 .types-of-leads-page .how-hilhome-works-content-box h5 {
+=======
+.mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5, .question-details-page-area .question-details-author,
+.how-andsheba-works-content-box p, .how-andsheba-works-content-box h3, .guarantee-menu ul li, .search-results-page .how-works-youtube-video img, .types-of-leads-page .how-andsheba-works-content-box h4{
+    margin-bottom: 15px;
+}
+.mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
+.customer-profile-title, .questions-details-right-box, .how-andsheba-works-content-box, .page-banner-area.how-it-works-page-banner .page-banner-content h1, .pro-interview-details-wrap h2, .pro-interview-details-content h4, .pro-interview-details-content p,
+.project-details-modal h5{
+    margin-bottom: 20px;
+}
+.mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
+.customer-notifications-page .notifications-part, .how-andsheba-works-right h1, .how-it-try-it-out-area .search-box h3,
+.related-article-page-area .related-article-title h3, .how-to-details-page-how-works-area .section-heading,
+.customer-project-cancel-radio-button h5, .more-services-page-area .category-group h3{
+    margin-bottom: 30px;
+}
+.mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
+.customer-account-deactivate-content h5, .related-pro-tips-title, .customer-project-details-wrap h5, .search-results-page .how-andsheba-works-content-box h6, .types-of-leads-page .how-andsheba-works-content-box h5{
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     margin-bottom: 10px;
 }
 
@@ -476,7 +510,7 @@ h2 {
 }
 
 /*--------------------------------
-   2.5 Hilhome Template Default CSS
+   2.5 Andsheba Template Default CSS
 -----------------------------------*/
 
 /*----Template Main Section ----*/
@@ -575,7 +609,7 @@ header.page-banner-area .header-caption p {
 }
 
 /*--------------------------------
-   2.5 Hilhome Template Default CSS
+   2.5 Andsheba Template Default CSS
 -----------------------------------*/
 
 /*------------------------------------------
@@ -1480,12 +1514,19 @@ section.login-area.register-area h3 {
     text-align: center;
     width: 185px;
 }
+<<<<<<< HEAD
 
 .hire-on-hilhome {
     margin-bottom: 8px;
 }
 
 .hire-on-hilhome>i {
+=======
+.hire-on-andsheba {
+    margin-bottom: 8px;
+}
+.hire-on-andsheba > i{
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     padding-right: 10px;
 }
 
@@ -1777,8 +1818,12 @@ section.login-area.register-area h3 {
         height: 90px;
         margin-bottom: 20px;
     }
+<<<<<<< HEAD
 
     .pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button {
+=======
+    .pro-app-link-page-area .welcome-to-andsheba-pro-content form .theme-button {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
         height: 50px;
     }
 
@@ -1909,7 +1954,13 @@ ul.social-media li a {
 .copyright>a {
     color: var(--color-blue);
 }
+<<<<<<< HEAD
 
+=======
+.copyright img {
+    height: 38px;
+}
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
 .footer-bottom-part {
     display: flex;
     justify-content: space-between;
@@ -2756,13 +2807,17 @@ ul.social-media li a {
 -------------------------------------------*/
 
 /*-------------------------------------------
-        27. How Hilhome Works Page Start
+        27. How Andsheba Works Page Start
 -------------------------------------------*/
-.how-hilhome-works-left ul {
+.how-andsheba-works-left ul {
     border-left: 1px solid var(--border-color);
 }
+<<<<<<< HEAD
 
 .how-hilhome-works-left ul li a {
+=======
+.how-andsheba-works-left ul li a {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     display: block;
     padding: 5px 0 5px 10px;
 }
@@ -2771,13 +2826,18 @@ ul.social-media li a {
     margin-top: 35px;
     overflow: hidden;
 }
+<<<<<<< HEAD
 
 .how-hilhome-works-area .how-works-pro-tips {
+=======
+.how-andsheba-works-area .how-works-pro-tips {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     border: 1px solid var(--border-color);
     border-radius: 6px;
     border-top: 4px solid var(--hover-color);
     padding: 15px 15px 2px;
 }
+<<<<<<< HEAD
 
 .how-hilhome-works-right h1 {
     display: flex;
@@ -2790,12 +2850,27 @@ ul.social-media li a {
 }
 
 .how-hilhome-works-content-box ul li a {
+=======
+.how-andsheba-works-right h1 {
+    display: flex;
+    align-items: center;
+}
+.how-andsheba-works-right h1 > i {
+    font-size: 21px;
+    padding-right: 10px;
+}
+.how-andsheba-works-content-box ul li a {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     position: relative;
     padding: 0 0 10px 14px;
     display: block;
 }
+<<<<<<< HEAD
 
 .how-hilhome-works-content-box ul li a::before {
+=======
+.how-andsheba-works-content-box ul li a::before {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     position: absolute;
     content: "";
     height: 7px;
@@ -2810,8 +2885,12 @@ ul.social-media li a {
     border-top: 1px solid var(--border-color);
     padding-top: 20px;
 }
+<<<<<<< HEAD
 
 .how-hilhome-works-get-app-area {
+=======
+.how-andsheba-works-get-app-area {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     padding: 0;
     background-color: var(--different-bg);
 }
@@ -2820,8 +2899,12 @@ ul.social-media li a {
     height: 380px;
     width: auto;
 }
+<<<<<<< HEAD
 
 .how-hilhome-works-get-app-content p {
+=======
+.how-andsheba-works-get-app-content p {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     margin: 15px 0 25px;
 }
 
@@ -2840,7 +2923,7 @@ ul.social-media li a {
 }
 
 /*-------------------------------------------
-        27. How Hilhome Works Page End
+        27. How Andsheba Works Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
@@ -2945,13 +3028,18 @@ ul.social-media li a {
 .pro-app-link-page-area {
     border-bottom: none;
 }
+<<<<<<< HEAD
 
 .pro-app-link-page-area .welcome-to-hilhome-pro-content {
+=======
+.pro-app-link-page-area .welcome-to-andsheba-pro-content {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     width: 70%;
     border: 1px solid var(--border-color);
     padding: 50px 70px 50px;
     margin: 0 auto;
 }
+<<<<<<< HEAD
 
 .pro-app-link-page-area .welcome-to-hilhome-pro-content form {
     width: 50%;
@@ -2975,6 +3063,25 @@ ul.social-media li a {
 }
 
 .pro-app-link-page-area .welcome-to-hilhome-pro-content form p {
+=======
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form {
+    width: 50%;
+    margin: 40px auto 0;
+}
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form label {
+    font-size: 24px;
+}
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form input {
+    text-align: center;
+}
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form .theme-button {
+    width: 100%;
+}
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form .theme-button:hover {
+    background-color: var(--hover-color);
+}
+.pro-app-link-page-area .welcome-to-andsheba-pro-content form p {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     font-size: 9px;
 }
 
@@ -3901,6 +4008,7 @@ ul.social-media li a {
 /*-------------------------------------------
     34.  Search Results Page Area Start
 -------------------------------------------*/
+<<<<<<< HEAD
 .search-results-page .search-results-points-list,
 .how-hilhome-works-area .search-results-points-list {
     display: flex;
@@ -3908,6 +4016,12 @@ ul.social-media li a {
 
 .search-results-page .search-results-points-list>span,
 .how-hilhome-works-area .search-results-points-list>span {
+=======
+.search-results-page .search-results-points-list, .how-andsheba-works-area .search-results-points-list {
+    display: flex;
+}
+.search-results-page .search-results-points-list > span, .how-andsheba-works-area .search-results-points-list > span {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     background-color: var(--color-blue);
     height: 12px;
     width: 12px;
@@ -3939,8 +4053,12 @@ ul.social-media li a {
     font-size: 14px;
     padding: 10px 20px;
 }
+<<<<<<< HEAD
 
 .search-results-page .how-hilhome-works-content-box h4 {
+=======
+.search-results-page .how-andsheba-works-content-box h4 {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     margin-bottom: 15px;
 }
 
@@ -4003,8 +4121,12 @@ ul.social-media li a {
 .types-of-leads-page .table thead th {
     border-bottom: 1px solid var(--border-color);
 }
+<<<<<<< HEAD
 
 .types-of-leads-page .how-hilhome-works-content-box ul li a::before {
+=======
+.types-of-leads-page .how-andsheba-works-content-box ul li a::before {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     display: none;
 }
 
@@ -4113,23 +4235,23 @@ ul.social-media li a {
     color: #009fd9;
 }
 
-.hilhome-journal-heading-box p {
+.andsheba-journal-heading-box p {
     padding-top: 30px;
 }
 
-.hilhome-journal-heading-box p a {
+.andsheba-journal-heading-box p a {
     color: #009fd9;
 }
 
-.hilhome-journal-heading-box {
+.andsheba-journal-heading-box {
     padding-bottom: 50px;
 }
 
-.hilhome-journal {
+.andsheba-journal {
     background-color: #fafafa;
 }
 
-.hilhome-box {
+.andsheba-box {
     border: 1px solid #e9eced;
     border-radius: 4px;
     background-color: #fff;
@@ -4143,11 +4265,11 @@ ul.social-media li a {
     height: 100%;
 }
 
-.hilhome-box-img img {
+.andsheba-box-img img {
     width: 100%;
 }
 
-.hilhome-box-details {
+.andsheba-box-details {
     padding: 20px;
     -webkit-flex-grow: 1;
     flex-grow: 1;
@@ -4157,14 +4279,14 @@ ul.social-media li a {
     flex-direction: column;
 }
 
-.hilhome-box-details p {
+.andsheba-box-details p {
     font-size: 14px;
     line-height: 20px;
     display: block;
     margin-bottom: 20px;
 }
 
-.hilhome-box-details h3 {
+.andsheba-box-details h3 {
     font-size: 20px;
     line-height: 28px;
     font-weight: 700;
@@ -4173,7 +4295,7 @@ ul.social-media li a {
     margin-bottom: 12px;
 }
 
-.hilhome-box-details a {
+.andsheba-box-details a {
     color: #009fd9;
     fill: #009fd9;
     cursor: pointer;
@@ -4182,7 +4304,7 @@ ul.social-media li a {
     line-height: 24px;
 }
 
-.hilhome-box-details a i {
+.andsheba-box-details a i {
     font-size: 12px;
 }
 
@@ -4800,6 +4922,12 @@ ul.social-media li a {
     padding-top: 10px;
 }
 
+<<<<<<< HEAD
+=======
+/*.downloads-app-img img {*/
+/*    width: 100%;*/
+/*}*/
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
 
 .section-app-downloads {
     background-color: #fafafa;
@@ -4822,7 +4950,7 @@ ul.social-media li a {
 }
 
 /*----------------------------------
- Hilhome-guarantee-terms page
+ Andsheba-guarantee-terms page
 ------------------------------------*/
 .text-big-heading {
     font-size: 40px;
@@ -7262,7 +7390,7 @@ del {
     padding-top: 45px;
 }
 
-.hilhome-how-section-hgeading h2 {
+.andsheba-how-section-hgeading h2 {
     font-size: 20px;
     line-height: 28px;
     font-weight: 700;
@@ -7321,22 +7449,22 @@ del {
     margin-bottom: 30px;
 }
 
-.about-hilhome-wedget {
+.about-andsheba-wedget {
     margin-bottom: 45px;
 }
 
-.about-hilhome-wedget h3 {
+.about-andsheba-wedget h3 {
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
 }
 
-.about-hilhome-wedget p {
+.about-andsheba-wedget p {
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
-.about-hilhome-wedget a {
+.about-andsheba-wedget a {
     background-color: #fff;
     border-color: #d3d4d5;
     color: #676d73;
@@ -11104,7 +11232,7 @@ del {
         padding: 8px !important;
     }
 
-    .hilhome-box {
+    .andsheba-box {
         margin-bottom: 30px !important;
         padding-bottom: 30px;
         height: 95% !important;
@@ -11538,6 +11666,7 @@ del {
     .mean-nav ul .custom-select {
         height: 47px;
     }
+<<<<<<< HEAD
 
     .error-page-area,
     .about-story-main,
@@ -11550,6 +11679,10 @@ del {
     .privacy-page-area,
     .pro-app-page-area,
     .more-services-page-area {
+=======
+    .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page,
+    .page-banner-area, .how-andsheba-works-area, .how-to-page-area, .privacy-page-area, .pro-app-page-area, .more-services-page-area{
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
         padding-top: 120px;
     }
 
@@ -11663,12 +11796,19 @@ del {
     .contacted-pros-area {
         padding: 60px 0;
     }
+<<<<<<< HEAD
 
     .pro-app-link-page-area .welcome-to-hilhome-pro-content {
         width: 100%;
     }
 
     .how-hilhome-works-area .how-hilhome-works-right {
+=======
+    .pro-app-link-page-area .welcome-to-andsheba-pro-content {
+        width: 100%;
+    }
+    .how-andsheba-works-area .how-andsheba-works-right {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
         margin-top: 0;
     }
 
@@ -11681,8 +11821,8 @@ del {
         height: 154px;
     }
 
-    /*How Hilhome Works CSS*/
-    .how-hilhome-works-area .how-hilhome-works-left {
+    /*How Andsheba Works CSS*/
+    .how-andsheba-works-area .how-andsheba-works-left {
         display: none;
     }
 
@@ -12053,12 +12193,19 @@ del {
     .guarantee-menu ul::after {
         display: none;
     }
+<<<<<<< HEAD
 
     .pro-app-link-page-area .welcome-to-hilhome-pro-content form {
         width: 100%;
     }
 
     .how-hilhome-works-get-app-content {
+=======
+    .pro-app-link-page-area .welcome-to-andsheba-pro-content form {
+        width: 100%;
+    }
+    .how-andsheba-works-get-app-content {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
         margin: 0 0 40px;
     }
 
@@ -12147,9 +12294,14 @@ del {
         text-overflow: ellipsis;
     }
 
+<<<<<<< HEAD
     /*How Hilhome Works CSS*/
     .how-hilhome-works-get-app-area .downloads-app-img,
     .how-hilhome-works-get-app-area .how-hilhome-works-get-app-content {
+=======
+    /*How Andsheba Works CSS*/
+    .how-andsheba-works-get-app-area .downloads-app-img , .how-andsheba-works-get-app-area .how-andsheba-works-get-app-content{
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
         text-align: center;
     }
 
@@ -12670,12 +12822,19 @@ del {
         width: 70%;
         margin: 0 auto 30px;
     }
+<<<<<<< HEAD
 
     .pro-app-link-page-area .welcome-to-hilhome-pro-content {
         padding: 36px 30px 50px;
     }
 
     .how-hilhome-works-right h1>i {
+=======
+    .pro-app-link-page-area .welcome-to-andsheba-pro-content {
+        padding: 36px 30px 50px;
+    }
+    .how-andsheba-works-right h1 > i {
+>>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
         display: none;
     }
 
