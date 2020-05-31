@@ -10873,6 +10873,38 @@ del {
     font-weight: 700;
 }
 
+/*----------------------------
+    guides-page
+--------------------------------*/
+
+.guides-heading {
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.guides-heading h2 {
+    font-weight: 800;
+}
+
+.guide-area-list-item {
+    font-size: 16px;
+    padding-top: 45px;
+}
+
+.guide-area-list-item ul li {
+    margin-top: 5px;
+    list-style-type: disc;
+}
+
+.guide-area-list-item ul {
+    padding-left: 40px;
+}
+
+.guide-area-list-item ul li a {
+    color: var(--color-blue)
+}
+
 /* -- hadayet css end--  */
 
 /*=======================================
@@ -10892,6 +10924,14 @@ del {
 @media only screen and (max-width: 992px) {
     .wedget-area-bottom-area {
         text-align: center;
+    }
+
+    .guides-area {
+        padding-top: 100px;
+    }
+
+    .guides-heading {
+        width: 100%;
     }
 
     .app-main-banner-area {

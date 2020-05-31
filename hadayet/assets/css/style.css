@@ -12062,7 +12062,6 @@ del {
 /*----------------------------
     guides-page
 --------------------------------*/
-.guides-area {}
 
 .guides-heading {
   text-align: center;
@@ -12072,6 +12071,24 @@ del {
 
 .guides-heading h2 {
   font-weight: 800;
+}
+
+.guide-area-list-item {
+  font-size: 16px;
+  padding-top: 45px;
+}
+
+.guide-area-list-item ul li {
+  margin-top: 5px;
+  list-style-type: disc;
+}
+
+.guide-area-list-item ul {
+  padding-left: 40px;
+}
+
+.guide-area-list-item ul li a {
+  color: var(--color-blue)
 }
 
 /* -- hadayet css end--  */
@@ -12095,6 +12112,14 @@ del {
   .app-main-banner-area {
     background-image: none;
     height: 64%;
+  }
+
+  .guides-area {
+    padding-top: 100px;
+  }
+
+  .guides-heading {
+    width: 100%;
   }
 
   .wedget-area-bottom-area {
