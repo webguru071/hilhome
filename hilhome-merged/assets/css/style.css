@@ -59,21 +59,20 @@
 
 ------------------------------------------------ */
 
-
 /* Use font link */
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap");
 
 /* Use style sheet */
 
-@import url('../vendor/bootstrap/css/bootstrap.min.css');
-@import url('../vendor/fontawesome-free/css/all.min.css');
-@import url('../vendor/flat-icon/flaticon.css');
-@import url('venobox.css');
-@import url('animate.css');
-@import url('owl.carousel.min.css');
-@import url('owl.theme.default.min.css');
-@import url('meanmenu.min.css');
+@import url("../vendor/bootstrap/css/bootstrap.min.css");
+@import url("../vendor/fontawesome-free/css/all.min.css");
+@import url("../vendor/flat-icon/flaticon.css");
+@import url("venobox.css");
+@import url("animate.css");
+@import url("owl.carousel.min.css");
+@import url("owl.theme.default.min.css");
+@import url("meanmenu.min.css");
 
 /***
 
@@ -98,7 +97,7 @@ body {
     background: #fff none repeat scroll;
     font-size: 14px;
     font-weight: normal;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #505359;
     letter-spacing: 0.05em;
     overflow-x: hidden !important;
@@ -124,7 +123,7 @@ a,
 #mainNav,
 .theme-button,
 .owl-carousel button.owl-dot {
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .slow-transition,
@@ -133,7 +132,7 @@ a,
 .testi_prev,
 .testi_next,
 #scroll {
-    transition: all .7s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 
 ul li {
@@ -243,7 +242,6 @@ figure {
 .chat-box.chat-box-customer-message .chat-box-content .chat-box-text p {
     color: var(--white-color);
 }
-<<<<<<< HEAD
 
 .text-blue-color,
 .error-content p>a,
@@ -265,8 +263,8 @@ figure {
 .details-content-box p a,
 .questions-details-right-box li a,
 .question-details-last-text a,
-.how-hilhome-works-content-box p a,
-.how-hilhome-works-content-box a,
+.how-andsheba-works-content-box p a,
+.how-andsheba-works-content-box a,
 .was-this-article-helpful button,
 .pro-interview-details-content a,
 .get-the-app-check-message-area p>a,
@@ -281,19 +279,6 @@ figure {
 .category-group-lists.text-lists a:hover,
 .guarantee-menu.more-services-left-menu ul li a:hover,
 .in-this-article ul li a {
-=======
-.text-blue-color, .error-content p > a, .privacy-page-area p > a, .how-to-list li a, .instant-result-sidebar #myBtn,
-.instant-result-sidebar #myBtn i, .instant-result-sidebar #myBtn2,
-.instant-result-sidebar #myBtn2 i, .instant-result-sidebar #myBtn3,
-.instant-result-sidebar #myBtn3 i, .instant-result-sidebar .filter-reset, .why-hire-box i,
-.customer-info-left-box .customer-profile-pages ul li a, .customer-inbox-page-area form p a,
-.home-hero-projects-wrap .see-all-btn, .customer-profile-go-back-btn a, .customer-account-deactivate-content p > a,
-.details-content-box p a, .questions-details-right-box li a, .question-details-last-text a, .how-andsheba-works-content-box p a, .how-andsheba-works-content-box a,
-.was-this-article-helpful button, .pro-interview-details-content a, .get-the-app-check-message-area p > a, .customer-project-details-wrap p a, .customer-project-details-wrap p button, .chat-box-text p a,
-.message-main-header button, .message-header-right a, .message-pro-page .message-footer form .form-group:nth-child(1) i, .contacted-pros-area .contacted-pros-hide, .contacted-pros-area .contacted-pros-show, .category-group-lists.text-lists a:hover,
-.guarantee-menu.more-services-left-menu ul li a:hover, .in-this-article ul li a
-{
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     color: var(--color-blue);
 }
 
@@ -427,17 +412,16 @@ h2 {
 /*--------------------------------
     2.4 Theme Margin and Padding
 -----------------------------------*/
-<<<<<<< HEAD
 .mb-15,
 .footer-widget h4,
 .instant-result-sidebar .filter-box h6,
 .questions-details-right-box h5,
 .question-details-page-area .question-details-author,
-.how-hilhome-works-content-box p,
-.how-hilhome-works-content-box h3,
+.how-andsheba-works-content-box p,
+.how-andsheba-works-content-box h3,
 .guarantee-menu ul li,
 .search-results-page .how-works-youtube-video img,
-.types-of-leads-page .how-hilhome-works-content-box h4 {
+.types-of-leads-page .how-andsheba-works-content-box h4 {
     margin-bottom: 15px;
 }
 
@@ -449,7 +433,7 @@ h2 {
 .reset-password-area .privacy-box,
 .customer-profile-title,
 .questions-details-right-box,
-.how-hilhome-works-content-box,
+.how-andsheba-works-content-box,
 .page-banner-area.how-it-works-page-banner .page-banner-content h1,
 .pro-interview-details-wrap h2,
 .pro-interview-details-content h4,
@@ -463,7 +447,7 @@ h2 {
 .instant-result-sidebar .filters-title,
 .instant-result-sidebar .filter-box,
 .customer-notifications-page .notifications-part,
-.how-hilhome-works-right h1,
+.how-andsheba-works-right h1,
 .how-it-try-it-out-area .search-box h3,
 .related-article-page-area .related-article-title h3,
 .how-to-details-page-how-works-area .section-heading,
@@ -480,27 +464,8 @@ h2 {
 .customer-account-deactivate-content h5,
 .related-pro-tips-title,
 .customer-project-details-wrap h5,
-.search-results-page .how-hilhome-works-content-box h6,
-.types-of-leads-page .how-hilhome-works-content-box h5 {
-=======
-.mb-15, .footer-widget h4, .instant-result-sidebar .filter-box h6, .questions-details-right-box h5, .question-details-page-area .question-details-author,
-.how-andsheba-works-content-box p, .how-andsheba-works-content-box h3, .guarantee-menu ul li, .search-results-page .how-works-youtube-video img, .types-of-leads-page .how-andsheba-works-content-box h4{
-    margin-bottom: 15px;
-}
-.mb-20, .about-content-up h1, .about-content-up p, .privacy-content-box > h3, .privacy-content-box p, .reset-password-area .privacy-box,
-.customer-profile-title, .questions-details-right-box, .how-andsheba-works-content-box, .page-banner-area.how-it-works-page-banner .page-banner-content h1, .pro-interview-details-wrap h2, .pro-interview-details-content h4, .pro-interview-details-content p,
-.project-details-modal h5{
-    margin-bottom: 20px;
-}
-.mb-30, .single-blog-post, .instant-result-sidebar .filters-title, .instant-result-sidebar .filter-box,
-.customer-notifications-page .notifications-part, .how-andsheba-works-right h1, .how-it-try-it-out-area .search-box h3,
-.related-article-page-area .related-article-title h3, .how-to-details-page-how-works-area .section-heading,
-.customer-project-cancel-radio-button h5, .more-services-page-area .category-group h3{
-    margin-bottom: 30px;
-}
-.mb-10, .about-content-writer h6, .more-about-company-area .services-box h6, .privacy-points, .inbox-app-content h5,
-.customer-account-deactivate-content h5, .related-pro-tips-title, .customer-project-details-wrap h5, .search-results-page .how-andsheba-works-content-box h6, .types-of-leads-page .how-andsheba-works-content-box h5{
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
+.search-results-page .how-andsheba-works-content-box h6,
+.types-of-leads-page .how-andsheba-works-content-box h5 {
     margin-bottom: 10px;
 }
 
@@ -534,7 +499,7 @@ h2 {
 section {
     padding: 60px 0;
     position: relative;
-    border-bottom: 1px solid var(--border-color)
+    border-bottom: 1px solid var(--border-color);
 }
 
 .default-overflow-hidden {
@@ -690,7 +655,7 @@ button:focus {
 }
 
 #status {
-    background-image: url('../img/preloader.gif');
+    background-image: url("../img/preloader.gif");
     background-repeat: no-repeat;
     width: 20%;
     height: 48%;
@@ -755,7 +720,7 @@ button:focus {
     background-color: var(--white-color);
     height: 70px;
     display: flex !important;
-    transition: all ease .6s;
+    transition: all ease 0.6s;
     top: 0;
     border: 1px solid var(--border-color);
 }
@@ -796,7 +761,7 @@ button:focus {
     background-color: #fff;
     top: 213%;
     position: absolute;
-    transition: .5s;
+    transition: 0.5s;
     visibility: hidden;
     opacity: 0;
     width: 112px;
@@ -863,7 +828,7 @@ button:focus {
     height: 54px;
     z-index: 999;
     padding: 0;
-    box-shadow: 0 0 15px 2px rgba(64, 123, 255, .2);
+    box-shadow: 0 0 15px 2px rgba(64, 123, 255, 0.2);
 }
 
 .mean-container .mean-nav {
@@ -876,7 +841,7 @@ button:focus {
     padding: 0 !important;
     margin-top: 3px;
     top: -2px;
-    background: rgba(255, 255, 255, .1);
+    background: rgba(255, 255, 255, 0.1);
     width: 45px;
     height: 45px;
     text-align: center;
@@ -903,7 +868,7 @@ button:focus {
     display: flex;
     position: relative;
     top: 6px;
-    box-shadow: 0 0 20px -8px rgba(64, 123, 255, .3);
+    box-shadow: 0 0 20px -8px rgba(64, 123, 255, 0.3);
 }
 
 .mean-container a.meanmenu-reveal span {
@@ -926,7 +891,7 @@ button:focus {
 /*Mobile Dropdown Inner CSS*/
 .mean-container .mean-nav ul li li a {
     font-size: 13px;
-    border-top: 1px solid rgba(64, 123, 255, .4);
+    border-top: 1px solid rgba(64, 123, 255, 0.4);
 }
 
 /*Menu Search Bar Area CSS*/
@@ -1277,7 +1242,7 @@ button:focus {
     height: 35px;
     width: 35px;
     top: 34%;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .recent-questions-area .testi_prev {
@@ -1296,7 +1261,7 @@ button:focus {
     10. Home States Area Start
 -------------------------------------------*/
 .home-states-area {
-    background-color: var(--different-bg)
+    background-color: var(--different-bg);
 }
 
 .trending-now-these-areas p {
@@ -1420,7 +1385,7 @@ section.login-area.register-area h3 {
 
 .register-area form .form-group.d-flex .col-12 label {
     text-align: left;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 
 .register-area form .form-group.d-flex .col-12 input {
@@ -1456,7 +1421,7 @@ section.login-area.register-area h3 {
 }
 
 .pros-instant-profile-box.pros-unavailable-box a {
-    opacity: .7;
+    opacity: 0.7;
 }
 
 .pros-instant-profile-box>a.pro-left-part {
@@ -1514,19 +1479,12 @@ section.login-area.register-area h3 {
     text-align: center;
     width: 185px;
 }
-<<<<<<< HEAD
 
-.hire-on-hilhome {
-    margin-bottom: 8px;
-}
-
-.hire-on-hilhome>i {
-=======
 .hire-on-andsheba {
     margin-bottom: 8px;
 }
-.hire-on-andsheba > i{
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
+
+.hire-on-andsheba>i {
     padding-right: 10px;
 }
 
@@ -1727,8 +1685,8 @@ section.login-area.register-area h3 {
 
 /* When the radio button is checked, add a blue background */
 .instant-result-sidebar .filter-radio-button .container input:checked~.checkmark {
-    background-color: #2196F3;
-    border: 2px solid #2196F3;
+    background-color: #2196f3;
+    border: 2px solid #2196f3;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -1750,7 +1708,7 @@ section.login-area.register-area h3 {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #2196F3;
+    background: #2196f3;
     border: 2px solid #fff;
 }
 
@@ -1818,15 +1776,10 @@ section.login-area.register-area h3 {
         height: 90px;
         margin-bottom: 20px;
     }
-<<<<<<< HEAD
 
-    .pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button {
-=======
     .pro-app-link-page-area .welcome-to-andsheba-pro-content form .theme-button {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
         height: 50px;
     }
-
 }
 
 /*-------------------------------------------
@@ -1954,13 +1907,7 @@ ul.social-media li a {
 .copyright>a {
     color: var(--color-blue);
 }
-<<<<<<< HEAD
 
-=======
-.copyright img {
-    height: 38px;
-}
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
 .footer-bottom-part {
     display: flex;
     justify-content: space-between;
@@ -2214,7 +2161,7 @@ ul.social-media li a {
     z-index: -1;
 }
 
-.about-story-main .about-area:nth-child(2n+1) .about-page-img {
+.about-story-main .about-area:nth-child(2n + 1) .about-page-img {
     margin-right: auto;
 }
 
@@ -2222,7 +2169,7 @@ ul.social-media li a {
     margin-left: auto;
 }
 
-.about-story-main .about-area:nth-child(2n+1) .about-content-writer {
+.about-story-main .about-area:nth-child(2n + 1) .about-content-writer {
     left: 429px;
 }
 
@@ -2404,7 +2351,7 @@ ul.social-media li a {
 
 .inbox-pro-message-list-box {
     border: 1px solid var(--border-color);
-    box-shadow: 0 1px 0 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 0 2px rgba(0, 0, 0, 0.05);
 }
 
 .inbox-lists a {
@@ -2438,7 +2385,7 @@ ul.social-media li a {
 .inbox-content p span i {
     font-size: 11px;
     padding-right: 3px;
-    color: var(--gray-color)
+    color: var(--gray-color);
 }
 
 .inbox-content p span.online,
@@ -2550,8 +2497,8 @@ ul.social-media li a {
     right: 0;
     bottom: 0;
     background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
 .customer-notifications-page .slider:before {
@@ -2562,8 +2509,8 @@ ul.social-media li a {
     left: 4px;
     bottom: 4px;
     background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
 .customer-notifications-page input:checked+.slider {
@@ -2680,7 +2627,7 @@ ul.social-media li a {
         24. How To Details Page Style Start
 -------------------------------------------*/
 .how-to-details-page-banner {
-    background-image: url('../img/how-to-details-img/1.jpg');
+    background-image: url("../img/how-to-details-img/1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2688,7 +2635,7 @@ ul.social-media li a {
 
 /*How to Left Side CSS*/
 .how-to-details-help-wrap {
-    background-image: url('../img/how-to-details-img/2.jpg');
+    background-image: url("../img/how-to-details-img/2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
@@ -2812,12 +2759,8 @@ ul.social-media li a {
 .how-andsheba-works-left ul {
     border-left: 1px solid var(--border-color);
 }
-<<<<<<< HEAD
 
-.how-hilhome-works-left ul li a {
-=======
 .how-andsheba-works-left ul li a {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     display: block;
     padding: 5px 0 5px 10px;
 }
@@ -2826,51 +2769,31 @@ ul.social-media li a {
     margin-top: 35px;
     overflow: hidden;
 }
-<<<<<<< HEAD
 
-.how-hilhome-works-area .how-works-pro-tips {
-=======
 .how-andsheba-works-area .how-works-pro-tips {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     border: 1px solid var(--border-color);
     border-radius: 6px;
     border-top: 4px solid var(--hover-color);
     padding: 15px 15px 2px;
 }
-<<<<<<< HEAD
 
-.how-hilhome-works-right h1 {
-    display: flex;
-    align-items: center;
-}
-
-.how-hilhome-works-right h1>i {
-    font-size: 21px;
-    padding-right: 10px;
-}
-
-.how-hilhome-works-content-box ul li a {
-=======
 .how-andsheba-works-right h1 {
     display: flex;
     align-items: center;
 }
-.how-andsheba-works-right h1 > i {
+
+.how-andsheba-works-right h1>i {
     font-size: 21px;
     padding-right: 10px;
 }
+
 .how-andsheba-works-content-box ul li a {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     position: relative;
     padding: 0 0 10px 14px;
     display: block;
 }
-<<<<<<< HEAD
 
-.how-hilhome-works-content-box ul li a::before {
-=======
 .how-andsheba-works-content-box ul li a::before {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     position: absolute;
     content: "";
     height: 7px;
@@ -2885,12 +2808,8 @@ ul.social-media li a {
     border-top: 1px solid var(--border-color);
     padding-top: 20px;
 }
-<<<<<<< HEAD
 
-.how-hilhome-works-get-app-area {
-=======
 .how-andsheba-works-get-app-area {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     padding: 0;
     background-color: var(--different-bg);
 }
@@ -2899,12 +2818,8 @@ ul.social-media li a {
     height: 380px;
     width: auto;
 }
-<<<<<<< HEAD
 
-.how-hilhome-works-get-app-content p {
-=======
 .how-andsheba-works-get-app-content p {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     margin: 15px 0 25px;
 }
 
@@ -2931,7 +2846,7 @@ ul.social-media li a {
 -------------------------------------------*/
 .how-it-works-page-banner,
 .pro-interview-details-banner {
-    background-image: url('../img/how-it-works-img/how-it-banner.jpg');
+    background-image: url("../img/how-it-works-img/how-it-banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2983,7 +2898,7 @@ ul.social-media li a {
         29. Pro Interview Details Page Start
 -------------------------------------------*/
 .pro-interview-details-banner {
-    background-image: url('../img/pro-interview-img/pro-interview-details-banner.jpg');
+    background-image: url("../img/pro-interview-img/pro-interview-details-banner.jpg");
 }
 
 .pro-interview-details-link {
@@ -3028,60 +2943,36 @@ ul.social-media li a {
 .pro-app-link-page-area {
     border-bottom: none;
 }
-<<<<<<< HEAD
 
-.pro-app-link-page-area .welcome-to-hilhome-pro-content {
-=======
 .pro-app-link-page-area .welcome-to-andsheba-pro-content {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     width: 70%;
     border: 1px solid var(--border-color);
     padding: 50px 70px 50px;
     margin: 0 auto;
 }
-<<<<<<< HEAD
 
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form {
-    width: 50%;
-    margin: 40px auto 0;
-}
-
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form label {
-    font-size: 24px;
-}
-
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form input {
-    text-align: center;
-}
-
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button {
-    width: 100%;
-}
-
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form .theme-button:hover {
-    background-color: var(--hover-color);
-}
-
-.pro-app-link-page-area .welcome-to-hilhome-pro-content form p {
-=======
 .pro-app-link-page-area .welcome-to-andsheba-pro-content form {
     width: 50%;
     margin: 40px auto 0;
 }
+
 .pro-app-link-page-area .welcome-to-andsheba-pro-content form label {
     font-size: 24px;
 }
+
 .pro-app-link-page-area .welcome-to-andsheba-pro-content form input {
     text-align: center;
 }
+
 .pro-app-link-page-area .welcome-to-andsheba-pro-content form .theme-button {
     width: 100%;
 }
+
 .pro-app-link-page-area .welcome-to-andsheba-pro-content form .theme-button:hover {
     background-color: var(--hover-color);
 }
+
 .pro-app-link-page-area .welcome-to-andsheba-pro-content form p {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     font-size: 9px;
 }
 
@@ -3106,7 +2997,7 @@ ul.social-media li a {
 }
 
 .modal-backdrop {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .customer-project-details-area .modal-body,
@@ -3305,8 +3196,8 @@ ul.social-media li a {
 
 /* When the radio button is checked, add a blue background */
 .customer-project-cancel-radio-button .container input:checked~.checkmark {
-    background-color: #2196F3;
-    border: 2px solid #2196F3;
+    background-color: #2196f3;
+    border: 2px solid #2196f3;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -3328,7 +3219,7 @@ ul.social-media li a {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #2196F3;
+    background: #2196f3;
     border: 2px solid #fff;
 }
 
@@ -3471,7 +3362,7 @@ ul.social-media li a {
     display: inline-block;
 }
 
-.message-pro-page .upload-btn-wrapper input[type=file] {
+.message-pro-page .upload-btn-wrapper input[type="file"] {
     cursor: pointer;
     font-size: 100px;
     position: absolute;
@@ -3851,7 +3742,7 @@ ul.social-media li a {
     margin-right: 5px;
 }
 
-.customer-review-rating-wrap .upload-btn-wrapper input[type=file] {
+.customer-review-rating-wrap .upload-btn-wrapper input[type="file"] {
     cursor: pointer;
     font-size: 100px;
     position: absolute;
@@ -4008,20 +3899,13 @@ ul.social-media li a {
 /*-------------------------------------------
     34.  Search Results Page Area Start
 -------------------------------------------*/
-<<<<<<< HEAD
 .search-results-page .search-results-points-list,
-.how-hilhome-works-area .search-results-points-list {
+.how-andsheba-works-area .search-results-points-list {
     display: flex;
 }
 
 .search-results-page .search-results-points-list>span,
-.how-hilhome-works-area .search-results-points-list>span {
-=======
-.search-results-page .search-results-points-list, .how-andsheba-works-area .search-results-points-list {
-    display: flex;
-}
-.search-results-page .search-results-points-list > span, .how-andsheba-works-area .search-results-points-list > span {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
+.how-andsheba-works-area .search-results-points-list>span {
     background-color: var(--color-blue);
     height: 12px;
     width: 12px;
@@ -4053,12 +3937,8 @@ ul.social-media li a {
     font-size: 14px;
     padding: 10px 20px;
 }
-<<<<<<< HEAD
 
-.search-results-page .how-hilhome-works-content-box h4 {
-=======
 .search-results-page .how-andsheba-works-content-box h4 {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     margin-bottom: 15px;
 }
 
@@ -4110,23 +3990,19 @@ ul.social-media li a {
 
 .types-of-leads-page .table td,
 .types-of-leads-page .table th {
-    padding: .75rem 0;
+    padding: 0.75rem 0;
     border-top: 1px solid var(--border-color);
 }
 
 .types-of-leads-page .table td {
-    padding: .75rem .75rem .75rem 0;
+    padding: 0.75rem 0.75rem 0.75rem 0;
 }
 
 .types-of-leads-page .table thead th {
     border-bottom: 1px solid var(--border-color);
 }
-<<<<<<< HEAD
 
-.types-of-leads-page .how-hilhome-works-content-box ul li a::before {
-=======
 .types-of-leads-page .how-andsheba-works-content-box ul li a::before {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
     display: none;
 }
 
@@ -4922,13 +4798,6 @@ ul.social-media li a {
     padding-top: 10px;
 }
 
-<<<<<<< HEAD
-=======
-/*.downloads-app-img img {*/
-/*    width: 100%;*/
-/*}*/
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
-
 .section-app-downloads {
     background-color: #fafafa;
 }
@@ -5644,7 +5513,6 @@ del {
     margin-bottom: 30px;
     margin-top: 30px;
 }
-
 
 /*----------------------------------
      Pro main Page
@@ -9064,7 +8932,6 @@ del {
     justify-content: space-between;
 }
 
-
 .tabs-name-like-area span {
     margin-left: 40px;
 }
@@ -9249,10 +9116,6 @@ del {
     color: #fff;
     font-size: 29px;
 }
-
-
-
-
 
 /*----------------------------
       Stories page
@@ -10333,7 +10196,6 @@ del {
     width: 100%;
 }
 
-
 .get-top-wrapper .top-pro-items:last-child {
     padding-bottom: 0;
 }
@@ -10402,7 +10264,7 @@ del {
 }
 
 .pro-cfef-area {
-    background-image: url('../img/common-img/chef.jpg');
+    background-image: url("../img/common-img/chef.jpg");
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -10595,7 +10457,6 @@ del {
 }
 
 .tips-to-content p {
-
     padding-top: 50px;
 }
 
@@ -10609,13 +10470,12 @@ del {
     padding: 7px 0 0px 0;
 }
 
-
 .tips-to-content a {
     float: right;
     margin-top: 45px;
 }
 
-.img-upload input[type=file] {
+.img-upload input[type="file"] {
     position: absolute;
     bottom: 35px;
     opacity: 0;
@@ -10835,7 +10695,7 @@ del {
 }
 
 .hands-good-item img {
-    width: 20%
+    width: 20%;
 }
 
 .hands-good-item h5 {
@@ -10876,7 +10736,7 @@ del {
       sate-based-survey-page
 --------------------------------*/
 .stay-based-banner {
-    background-image: url('../img/common-img/blog-sidebar.jpg');
+    background-image: url("../img/common-img/blog-sidebar.jpg");
     position: relative;
 }
 
@@ -11030,7 +10890,7 @@ del {
 }
 
 .guide-area-list-item ul li a {
-    color: var(--color-blue)
+    color: var(--color-blue);
 }
 
 /* -- hadayet css end--  */
@@ -11418,7 +11278,6 @@ del {
     .message-pro-page .col-12.col-sm-12.col-md-6.col-lg-5.col-xl-3 {
         max-width: 30%;
     }
-
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1366px) {
@@ -11439,7 +11298,6 @@ del {
     .message-header-right {
         width: 10%;
     }
-
 }
 
 /*--------Max 1366px Width Screen---------*/
@@ -11526,7 +11384,6 @@ del {
         font-size: 1.5rem;
         line-height: 34px;
     }
-
 }
 
 /*--------Max 1200px Width Screen---------*/
@@ -11605,7 +11462,6 @@ del {
     .pro-app-page-area .pro-app-mobile-photo img {
         height: 450px;
     }
-
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -11635,7 +11491,6 @@ del {
     .message-header-right {
         width: 13%;
     }
-
 }
 
 @media only screen and (max-width: 992px) {
@@ -11666,7 +11521,6 @@ del {
     .mean-nav ul .custom-select {
         height: 47px;
     }
-<<<<<<< HEAD
 
     .error-page-area,
     .about-story-main,
@@ -11674,15 +11528,11 @@ del {
     .customer-project-details-area,
     .customer-review-page,
     .page-banner-area,
-    .how-hilhome-works-area,
+    .how-andsheba-works-area,
     .how-to-page-area,
     .privacy-page-area,
     .pro-app-page-area,
     .more-services-page-area {
-=======
-    .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page,
-    .page-banner-area, .how-andsheba-works-area, .how-to-page-area, .privacy-page-area, .pro-app-page-area, .more-services-page-area{
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
         padding-top: 120px;
     }
 
@@ -11796,19 +11646,12 @@ del {
     .contacted-pros-area {
         padding: 60px 0;
     }
-<<<<<<< HEAD
 
-    .pro-app-link-page-area .welcome-to-hilhome-pro-content {
-        width: 100%;
-    }
-
-    .how-hilhome-works-area .how-hilhome-works-right {
-=======
     .pro-app-link-page-area .welcome-to-andsheba-pro-content {
         width: 100%;
     }
+
     .how-andsheba-works-area .how-andsheba-works-right {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
         margin-top: 0;
     }
 
@@ -11825,11 +11668,9 @@ del {
     .how-andsheba-works-area .how-andsheba-works-left {
         display: none;
     }
-
 }
 
 @media only screen and (max-width: 767px) {
-
     h4 {
         font-size: 18px;
     }
@@ -11964,7 +11805,6 @@ del {
     .message-pro-page .message-footer form .form-group:nth-child(2) {
         width: 61%;
     }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -11973,7 +11813,6 @@ del {
     #mainNav {
         display: none !important;
     }
-
 }
 
 /*=======================================
@@ -11984,7 +11823,7 @@ del {
 
     /*Menu CSS*/
     .mean-container .mean-nav ul.menu {
-        box-shadow: 0 0 22px -9px rgba(64, 123, 255, .3);
+        box-shadow: 0 0 22px -9px rgba(64, 123, 255, 0.3);
     }
 
     /*Home CSS*/
@@ -12193,19 +12032,12 @@ del {
     .guarantee-menu ul::after {
         display: none;
     }
-<<<<<<< HEAD
 
-    .pro-app-link-page-area .welcome-to-hilhome-pro-content form {
-        width: 100%;
-    }
-
-    .how-hilhome-works-get-app-content {
-=======
     .pro-app-link-page-area .welcome-to-andsheba-pro-content form {
         width: 100%;
     }
+
     .how-andsheba-works-get-app-content {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
         margin: 0 0 40px;
     }
 
@@ -12294,14 +12126,9 @@ del {
         text-overflow: ellipsis;
     }
 
-<<<<<<< HEAD
-    /*How Hilhome Works CSS*/
-    .how-hilhome-works-get-app-area .downloads-app-img,
-    .how-hilhome-works-get-app-area .how-hilhome-works-get-app-content {
-=======
     /*How Andsheba Works CSS*/
-    .how-andsheba-works-get-app-area .downloads-app-img , .how-andsheba-works-get-app-area .how-andsheba-works-get-app-content{
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
+    .how-andsheba-works-get-app-area .downloads-app-img,
+    .how-andsheba-works-get-app-area .how-andsheba-works-get-app-content {
         text-align: center;
     }
 
@@ -12317,7 +12144,6 @@ del {
     .how-works-youtube-video img {
         height: 250px;
     }
-
 }
 
 /*========================================
@@ -12385,7 +12211,6 @@ del {
     .types-of-leads-page .nav-tabs .nav-link {
         padding: 0 30px 10px;
     }
-
 }
 
 @media only screen and (max-width: 580px) {
@@ -12400,7 +12225,7 @@ del {
         width: 95%;
     }
 
-    .about-story-main .about-area:nth-child(2n+1) .about-content-writer {
+    .about-story-main .about-area:nth-child(2n + 1) .about-content-writer {
         left: 300px;
     }
 
@@ -12457,7 +12282,6 @@ del {
     .message-pro-page .message-footer form .form-group:nth-child(3) {
         width: 25%;
     }
-
 }
 
 @media only screen and (max-width: 555px) {
@@ -12590,13 +12414,12 @@ del {
         padding: 0 !important;
         margin: 0;
     }
-
 }
 
 /*=========================================
         For very little mobile
 =========================================*/
-@media only screen and (max-width:430px) {
+@media only screen and (max-width: 430px) {
     .mean-nav ul .custom-select {
         width: 78%;
         padding: 0;
@@ -12685,10 +12508,9 @@ del {
     .how-to-details-help-wrap .how-to-details-content {
         padding: 15px 40px;
     }
-
 }
 
-@media only screen and (max-width:364px) {
+@media only screen and (max-width: 364px) {
     .customer-project-cancel-page .project-cancel-wrap {
         width: 100%;
     }
@@ -12700,10 +12522,9 @@ del {
     .customer-project-cancel-radio-button .container {
         padding-left: 24px;
     }
-
 }
 
-@media only screen and (min-width:300px) and (max-width:479px) {
+@media only screen and (min-width: 300px) and (max-width: 479px) {
 
     /*Default CSS*/
     .mean-nav ul .search-box {
@@ -12794,7 +12615,7 @@ del {
         padding: 24px 0 30px;
     }
 
-    .about-story-main .about-area:nth-child(2n+1) .about-content-writer {
+    .about-story-main .about-area:nth-child(2n + 1) .about-content-writer {
         left: 0;
     }
 
@@ -12822,19 +12643,12 @@ del {
         width: 70%;
         margin: 0 auto 30px;
     }
-<<<<<<< HEAD
 
-    .pro-app-link-page-area .welcome-to-hilhome-pro-content {
-        padding: 36px 30px 50px;
-    }
-
-    .how-hilhome-works-right h1>i {
-=======
     .pro-app-link-page-area .welcome-to-andsheba-pro-content {
         padding: 36px 30px 50px;
     }
-    .how-andsheba-works-right h1 > i {
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
+
+    .how-andsheba-works-right h1>i {
         display: none;
     }
 
@@ -12912,10 +12726,9 @@ del {
         flex-direction: column;
         width: auto;
     }
-
 }
 
-@media only screen and (max-width:300px) and (min-width: 415px) {
+@media only screen and (max-width: 300px) and (min-width: 415px) {
     .message-pro-page .message-footer form .form-group:nth-child(2) {
         width: 52%;
     }
@@ -12925,7 +12738,7 @@ del {
     }
 }
 
-@media only screen and (max-width:370px) {
+@media only screen and (max-width: 370px) {
     .message-pro-page .message-footer form .form-group:nth-child(2) {
         width: 50%;
     }
@@ -12935,7 +12748,7 @@ del {
     }
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width: 320px) {
     .customer-review-rating-wrap {
         width: 285px;
         padding: 20px;
@@ -12945,7 +12758,6 @@ del {
     .how-to-details-help-wrap .how-to-details-content {
         padding: 15px 40px;
     }
-
 }
 
 /*-------------------------------------------
