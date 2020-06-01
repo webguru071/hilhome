@@ -128,7 +128,7 @@
         margin: 15,
         autoplay: false,
         nav: false,
-        dots: true,
+        dots: false,
         smartSpeed: 1000,
         autoplayHoverPause: !0,
         responsive: {
