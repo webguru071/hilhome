@@ -5987,13 +5987,6 @@ ul.social-media li a {
   padding-top: 10px;
 }
 
-<<<<<<< HEAD
-=======
-/*.downloads-app-img img {*/
-/*  width: 100%;*/
-/*}*/
-
->>>>>>> 543ccc9dd6138c5b38b7a84d80d6731e31c2e6de
 .section-app-downloads {
   background-color: #fafafa;
 }
@@ -7744,7 +7737,7 @@ del {
 ------------------------------------*/
 .add-customer-area p {
   font-size: 16px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .add-customer-area form input {
