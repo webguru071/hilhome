@@ -1,0 +1,9 @@
+@font-face { 
+    font-family: SolaimanLipi; 
+    src: local('SolaimanLipi'),
+         url('solaimanlipi.woff2') format('woff2');
+    }
+@font-face {font-family:"SolaimanLipiRegular";font-display: fallback;font-display: auto;src:url("SolaimanLipi.woff") format("woff"),url("SolaimanLipi.ttf") format("truetype");}
+
+
+@font-face {font-family:"SolaimanLipiBold";font-display: fallback;src:url("SolaimanLipi_Bold_10-03-12.woff") format("woff"),url("SolaimanLipi_Bold_10-03-12.ttf") format("truetype");}
