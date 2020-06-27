@@ -53,7 +53,7 @@
         /*for each element, create a new DIV that will act as the selected item:*/
         a = document.createElement("DIV");
         a.setAttribute("class", "select-selected");
-        a.innerHTML = "<div style='color:rgba(0,0,0,.4);'>What's on your to-do list?</div>";
+        a.innerHTML = "<div style='color:rgba(0,0,0,.4);'>কি বিষয়ে আপনার তালিকা করতে হবে?</div>";
         x[i].appendChild(a);
         /*for each element, create a new DIV that will contain the option list:*/
         b = document.createElement("DIV");
