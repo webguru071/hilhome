@@ -779,12 +779,13 @@ button:focus {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-right: 0;
+    background: #fff;
 }
 .custom-select select {
     display: none; /*hide original SELECT element:*/
 }
 .select-selected {
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 /*style the arrow inside the select element:*/
 .select-selected:after {
@@ -819,7 +820,7 @@ button:focus {
     left: 0;
     right: 0;
     z-index: 999;
-    height: auto;
+    height: 250px;
     overflow-y: scroll;
     border: 1px solid var(--border-color);
 }
@@ -11462,14 +11463,14 @@ del {
 =========================================*/
 @media only screen and (max-width:430px){
     .mean-nav ul .custom-select {
-        width: 78%;
+        width: 100%;
         padding: 0;
     }
     .mean-nav ul .search-box form input {
-        width: 50px;
+        width: 51px;
     }
     .mean-nav ul .search-box button {
-        width: 78px;
+        width: 73px;
     }
     /*Hero Area Search Box CSS*/
     .hero-area .hero-wrapper .col-12.col-sm-12.col-md-10.col-lg-7 {
@@ -11478,6 +11479,7 @@ del {
     .select-selected::after {
         right: 7px;
         border: 5px solid transparent;
+        border-color: #000 transparent transparent transparent;
     }
     .hero-search-content-left ul.nav-tabs {
         margin: 8px 8px 0;
@@ -11493,12 +11495,12 @@ del {
         font-size: 12px;
     }
     .search-box form input {
-        width: 64px;
+        width: 67px;
         padding: 7px;
         font-size: 12px;
     }
     .search-box button {
-        width: 60px;
+        width: 58px;
         font-size: 12px;
     }
     /*Customer Notification Page*/
