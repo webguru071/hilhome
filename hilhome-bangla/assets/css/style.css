@@ -164,7 +164,7 @@ img::selection {
 /*----Form Control Reset CSS----*/
 
 .form-control {
-    height: 50px;
+    height: 43px;
 }
 .form-control:focus {
     border-color: #80bdff;
@@ -442,12 +442,13 @@ button:focus {
     background-color: var(--color-blue);
     display: inline-block;
     outline: none;
-    padding: 11px 24px 13px;
+    padding: 9px 24px;
     border-radius: var(--border-radius-6);
     font-weight: 700;
     text-transform: inherit;
     position: relative;
     cursor: pointer;
+    height: 43px;
 }
 .theme-button:hover {
     color: var(--white-color);
@@ -531,8 +532,11 @@ button:focus {
     position: relative;
     top: 0;
 }
+/*#mainNav .navbar-brand img {*/
+/*    height: 60px;*/
+/*}*/
 #mainNav .navbar-brand img {
-    height: 60px;
+    height: 43px;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 1rem;
@@ -543,8 +547,10 @@ button:focus {
     text-transform: initial;
 }
 #mainNav .navbar-nav .nav-item .nav-link.theme-button {
-    margin-right: 15px;
-}
+     margin-right: 15px;
+     height: 43px;
+     padding: 10px 15px;
+ }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link.active {
     color: var(--color-blue);
 }
@@ -685,6 +691,9 @@ button:focus {
 }
 .menu-search-area .search-box button {
     width: 63px;
+}
+.menu-section-area .custom-select, .menu-section-area .select-items div, .menu-section-area .select-selected, .menu-section-area .search-box button, .menu-section-area .search-box form input  {
+    height: 43px;
 }
 /*-------------------------------------------
            5. Navbar Area CSS End
@@ -1035,7 +1044,6 @@ button:focus {
 }
 .login-area form .btn.theme-button {
     width: 100%;
-    height: 50px;
 }
 .other-button-box a.btn {
     border: 1px solid #d3d4d5;
@@ -1043,6 +1051,9 @@ button:focus {
     margin-top: 15px;
     padding: 6px;
     background: #fff;
+}
+.other-button-box a > img {
+    margin-right: 5px;
 }
 .privacy-box h6 {
     text-align: center;
@@ -1211,7 +1222,7 @@ section.login-area.register-area h3 {
 }
 .pro-right-part .btn.theme-button {
     width: 137px;
-    padding: 11px 14px 13px;
+    padding: 9px;
 }
 .cost-box .consult {
     display: block;
@@ -10750,8 +10761,14 @@ del {
         padding: 1em 5%;
         width: 70%;
     }
-    .mean-nav ul .custom-select {
-        height: 47px;
+    .mean-nav ul .custom-select, .mean-nav .search-box form input{
+        height: 43px!important;
+    }
+    .mean-nav .search-box button {
+        height: 45px !important;
+    }
+    .mean-nav ul .search-box form input {
+        padding: 0 6px;
     }
     .error-page-area, .about-story-main, .customer-project-cancel-page, .customer-project-details-area, .customer-review-page,
     .page-banner-area, .how-andsheba-works-area, .how-to-page-area, .privacy-page-area, .pro-app-page-area, .more-services-page-area{
