@@ -801,7 +801,7 @@ button:focus {
     position: absolute;
     content: "";
     right: 13px;
-    top: 22px;
+    top: 20px;
     width: 0;
     height: 0;
     border: 6px solid transparent;
@@ -1341,6 +1341,7 @@ section.login-area.register-area h3 {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5px;
 }
 
 /*Filters Radio Button CSS Start*/
@@ -2502,7 +2503,6 @@ ul.social-media li a {
     margin-left: -6px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    height: 50px;
 }
 .get-the-app-check-message-area p {
     padding: 20px 100px 20px 0;
@@ -2775,17 +2775,13 @@ ul.social-media li a {
 }
 .message-pro-page .message-footer form .form-group:nth-child(2) textarea {
     width: 100%;
-    height: 41px;
+    height: 43px;
     border-radius: 5px;
     margin: 0 20px;
     resize: inherit;
 }
 .message-pro-page .message-footer form .form-group:nth-child(3){
     width: 10%;
-}
-.message-pro-page .message-footer form .theme-button {
-    padding: 5px 24px 10px;
-    height: 41px;
 }
 /*Message Left Footer Send Message Part End*/
 
@@ -11688,9 +11684,6 @@ del {
     }
     .message-pro-page .message-footer form .form-group:nth-child(2) textarea {
         margin: 0 12px;
-    }
-    .message-pro-page .message-footer form .theme-button {
-        padding: 5px 15px 10px;
     }
     .message-pro-page .message-footer form .form-group:nth-child(1) i {
         font-size: 12px;
