@@ -210,7 +210,7 @@ figure {
 
 /*---- Home Color CSS Start*---- */
 
-.default-heading-color, .customer-info-left-box .customer-profile-pages ul li a.active,
+.default-heading-color, #mainNav .navbar-nav .nav-item .nav-link, .customer-info-left-box .customer-profile-pages ul li a.active,
 .customer-create-password form label, .home-hero-projects-wrap .hero-project-box i,
 .details-content-box h6, .page-banner-area.how-it-works-page-banner .page-banner-content h1, .page-banner-area.how-it-works-page-banner .page-banner-content p, .message-pro-right-part .review-text
 {
@@ -259,7 +259,7 @@ figure {
 .mobile-filter-title-button .filters-title.mobile-filters-title, .customer-profile-pages ul li a,
 .customer-info-left-box .customer-profile-pages ul li a.active, .customer-create-password form label,
 .home-hero-projects-wrap .see-all-btn, .customer-notifications-page .notifications-button,
-.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag, .menu-after-login .nav-item.dropdown-box a, .more-services-page-area figcaption, .category-group-lists.text-lists a{
+.customer-profile-go-back-btn a, .customer-activity-list-right span.new-tag, .more-services-page-area figcaption, .category-group-lists.text-lists a{
     font-weight: 700;
 }
 .font-black, .how-to-details-help-wrap .how-to-details-content h6{
@@ -416,8 +416,9 @@ header.page-banner-area .header-caption p {
     outline: 0;
     box-shadow: none;
 }
-button{
+button {
     background-color: transparent;
+    cursor: pointer;
 }
 button:focus {
     outline: 0;
@@ -442,13 +443,14 @@ button:focus {
     background-color: var(--color-blue);
     display: inline-block;
     outline: none;
-    padding: 9px 24px;
+    padding: 10px 24px;
     border-radius: var(--border-radius-6);
     font-weight: 700;
     text-transform: inherit;
     position: relative;
     cursor: pointer;
     height: 43px;
+    font-size: 14px;
 }
 .theme-button:hover {
     color: var(--white-color);
@@ -504,7 +506,8 @@ button:focus {
         transform: translate(0, 10px); }
     100% {
         -webkit-transform: translate(0, 0);
-        transform: translate(0, 0); } }
+        transform: translate(0, 0); }
+}
 /*-------------------------------------------
    4. Preloader and Scroll To Top Area End
 -------------------------------------------*/
@@ -532,27 +535,32 @@ button:focus {
     position: relative;
     top: 0;
 }
-/*#mainNav .navbar-brand img {*/
-/*    height: 60px;*/
-/*}*/
 #mainNav .navbar-brand img {
     height: 43px;
 }
+.menu-section-area .navbar-nav {
+    align-items: center;
+}
 #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 1rem;
-    padding: 0.55em 15px 0.75em;
+    padding: 0.55em 15px;
     letter-spacing: 1px;
     position: relative;
-    font-weight: bold;
     text-transform: initial;
+    color: #505359;
 }
 #mainNav .navbar-nav .nav-item .nav-link.theme-button {
      margin-right: 15px;
      height: 43px;
      padding: 10px 15px;
  }
-#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: var(--color-blue);
+#mainNav .navbar-nav .nav-item.dropdown-box a{
+    color: #505359;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item.dropdown-box a:hover {
+    color: var(--dark-color);
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    font-weight: bold;
 }
 /*---- Dropdown Menu CSS ----*/
 #mainNav ul.navbar-nav li.nav-item.dropdown-box {
@@ -1191,6 +1199,7 @@ section.login-area.register-area h3 {
     font-size: 10px;
     border-radius: 50%;
     animation: shadow-pulse 3s infinite;
+    margin-right: 5px;
 }
 /*Online Button Effect */
 @keyframes shadow-pulse
@@ -1222,7 +1231,7 @@ section.login-area.register-area h3 {
 }
 .pro-right-part .btn.theme-button {
     width: 137px;
-    padding: 9px;
+    padding: 10px;
 }
 .cost-box .consult {
     display: block;
@@ -1879,9 +1888,7 @@ ul.social-media li a {
     word-break: break-word;
 }
 .customer-info-box button {
-    width: 137px;
     margin: 15px auto;
-    padding: 8px 15px 11px;
 }
 .project-review-box li {
     padding: 10px;
@@ -1996,7 +2003,6 @@ ul.social-media li a {
     padding: 10px 8px 14px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    height: 50px;
 }
 
 /*Customer Notifications Page CSS*/
@@ -2555,10 +2561,6 @@ ul.social-media li a {
 }
 .pro-profile-content p i {
     margin-right: 5px;
-}
-.contacted-pros-area .pros-instant-profile-box .pro-right-part .theme-button {
-    padding: 11px 8px 13px;
-    width: 147px;
 }
 .contacted-pros-area .pros-instant-profile-box .pro-right-part .theme-button i {
     padding-right: 5px;
@@ -3215,8 +3217,12 @@ ul.social-media li a {
     margin-bottom: 30px;
 }
 .search-results-page .look-yourself-up .theme-button {
-    font-size: 14px;
-    padding: 10px 20px;
+    padding: 10px 15px;
+    width: auto;
+    min-width: 150px;
+}
+.search-results-page .look-yourself-up p {
+    margin-right: 15px;
 }
 .search-results-page .how-andsheba-works-content-box h4 {
     margin-bottom: 15px;
@@ -4225,8 +4231,8 @@ ul.social-media li a {
 }
 
 .online-now {
-    display: flex;
-    align-items: center;
+    /*display: flex;*/
+    /*align-items: center;*/
 }
 
 .online-now p {
@@ -4856,7 +4862,7 @@ del {
 }
 
 .mening-meltepal-info p a i {
-    padding-right: 5x;
+    padding-right: 5px;
 }
 
 .grous-area {
@@ -6186,7 +6192,7 @@ del {
     color: #009fd9;
     padding: 6px 10px;
     border-radius: 28px;
-    display: -webkit-inline-box;
+    /*display: -webkit-inline-box;*/
     font-size: 13px;
     font-weight: 800;
 }
@@ -6223,7 +6229,6 @@ del {
     font-weight: 600;
     cursor: pointer;
     position: relative;
-    color: var(--theme-color);
     padding-right: 40px;
 }
 
@@ -6245,7 +6250,6 @@ del {
 
 .accordion-wrapper .card .card-header a[aria-expanded="false"]:after {
     content: "\f107";
-    color: --tex;
 }
 
 .faq-right-side {
@@ -6253,11 +6257,11 @@ del {
 }
 
 #accordion .card {
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 #faqs-two #accordion .card:last-child {
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 #accordion .checkmark {
@@ -9097,7 +9101,7 @@ del {
 .pro-calendar-area-edit h5 {
     font-size: 20px;
     line-height: 28px;
-    font-weight: 700t;
+    font-weight: 700;
 }
 
 .pro-calendar-area-edit p {
@@ -10659,9 +10663,6 @@ del {
 ========================================*/
 @media only screen and (max-width: 1199px){
     /*Default CSS*/
-    .theme-button {
-        padding: 8px 14px 11px;
-    }
     #scroll {
         bottom: 50px;
     }
