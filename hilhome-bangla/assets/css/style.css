@@ -101,7 +101,6 @@ body {
     font-weight: normal;
     font-family: 'SolaimanLipiRegular', 'Lato', sans-serif;
     color: #505359;
-    letter-spacing: 0.05em;
     overflow-x: hidden!important;
 }
 
@@ -265,7 +264,7 @@ figure {
 .font-black, .how-to-details-help-wrap .how-to-details-content h6{
     font-weight: 900;
 }
-.italic-font, .parivacy-publish-date{
+.italic-font, .privacy-publish-date{
     font-style: italic;
 }
 h1.header-caption-heading {
@@ -276,9 +275,12 @@ h1.header-caption-heading {
 h2{
     font-size: 2.25rem;
 }
-.font-16, .guarantee-menu ul li a, .about-content-up p, .about-content-up > p > a, .parivacy-publish-date, .privacy-page-area p,
+.font-16, .guarantee-menu ul li a, .about-content-up p, .about-content-up > p > a, .privacy-publish-date, .privacy-page-area p,
 .privacy-page-area table th, .privacy-page-area table tr td, .how-to-list li a, .customer-profile-go-back-btn a{
     font-size: 16px;
+}
+.font-21, .section-heading{
+    font-size: 21px;
 }
 .font-18{
     font-size: 1.12rem;
@@ -736,7 +738,7 @@ button:focus {
     border-color: transparent;
     padding: 10px 0 10px 0;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 21px;
     border-radius: 0;
 }
 .hero-wrapper .nav-tabs .nav-item.show .nav-link, .hero-wrapper .nav-tabs .nav-link.active {
@@ -1820,7 +1822,7 @@ ul.social-media li a {
 .privacy-content-header p {
     margin-bottom: 30px;
 }
-.parivacy-publish-date {
+.privacy-publish-date {
     margin: 20px 0 20px !important;
 }
 .privacy-page-area h3 {
