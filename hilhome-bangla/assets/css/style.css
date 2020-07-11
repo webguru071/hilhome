@@ -152,6 +152,7 @@ a:hover {
 
 ::selection {
     background-color: #009fd9;
+    color: #fff;
 }
 img::selection {
     background: transparent;
@@ -319,6 +320,9 @@ h2{
 }
 .mt-10, .more-about-company-area .services-box h6 {
     margin-top: 10px;
+}
+.mr-5, .cost-box .consult i{
+    margin-right: 5px;
 }
 /*--------------------------------
    2.5 Andsheba Template Default CSS
@@ -596,7 +600,7 @@ button:focus {
 #mainNav .navbar-nav .nav-item .nav-link > i.fa-angle-down {
     padding-left: 5px;
     position: relative;
-    top: 2px;
+    top: 1px;
 }
 /*After Login Menu CSS Start*/
 .menu-after-login .nav-item.dropdown-box a {
@@ -1344,7 +1348,7 @@ section.login-area.register-area h3 {
 
 /*Instant Result Page Style 2 CSS Start*/
 .filter-box.filter-radio-button h6 i {
-    font-size: 11px;
+    font-size: 10px;
     border: 2px solid var(--dark-color);
     border-radius: 50%;
     width: 18px;
@@ -1903,7 +1907,7 @@ ul.social-media li a {
     background-color: #fff;
     border: 1px solid var(--border-color);
     font-size: 16px;
-    padding: 9px 15px 13px;
+    padding: 13px 15px 13px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2478,6 +2482,7 @@ ul.social-media li a {
 }
 .customer-project-details-area .modal-header, .message-pro-page .modal-header {
     border-bottom: none;
+    padding: 10px 30px 0;
 }
 .customer-project-details-area .modal-body > h5 , .message-pro-page .modal-body > h5 {
     border-bottom: 1px solid #d6d6d6;
@@ -2485,7 +2490,6 @@ ul.social-media li a {
     padding-bottom: 15px;
 }
 .customer-project-details-area .project-details-modal img, .message-pro-page .project-details-modal img {
-    height: 140px;
     width: 100%;
     overflow: hidden;
 }
@@ -10527,8 +10531,6 @@ del {
         width: 325px;
     }
 }
-
-/*----------Hadayet's Work End-----------*/
 /*--------------------------------------------------------
     36. Hadayet CSS Area End
 ---------------------------------------------------------*/
@@ -10547,12 +10549,6 @@ del {
 /*=====================================
     For Large Screen
 ========================================*/
-
-/*------Max 1775px Width Screen------*/
-
-@media only screen and (max-width: 1775px) {
-
-}
 @media only screen and (min-width: 1367px) and (max-width: 1675px){
 
     /*Message Pro CSS*/
@@ -11573,7 +11569,6 @@ del {
     }
 
     /*Footer Area*/
-
     .footer-bottom-part {
         align-items: center;
     }
@@ -11713,7 +11708,6 @@ del {
     }
 
 }
-
 @media only screen and (max-width:300px) and (min-width: 415px){
     .message-pro-page .message-footer form .form-group:nth-child(2) {
         width: 52%;
@@ -11722,7 +11716,6 @@ del {
         width: 30%;
     }
 }
-
 @media only screen and (max-width:370px){
     .message-pro-page .message-footer form .form-group:nth-child(2) {
         width: 50%;
