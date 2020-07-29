@@ -112,6 +112,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="customer-inbox.html">ইনবক্স</a>
                         </li>
+
                         <li class="nav-item dropdown-box">
                             <a class="nav-link"><span class="customer-img"><img src="assets/img/pros-img/1.jpg"
                                         alt="img"></span>সুরাইয়া<i class="fas fa-angle-down"></i></a>
@@ -189,15 +190,12 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 instant-result-sidebar">
-
                     <div class="mobile-filter-title-button">
                         <button class="btn filters-title mobile-filters-title" data-toggle="collapse"
                             data-target="#instant-filter-wrap">
                             ফিল্টার
                         </button>
-
                     </div>
-
                     <div id="instant-filter-wrap" class="filter-wrap collapse show">
                         <h4 class="filters-title desktop-filters-title">ফিল্টার</h4>
 
@@ -690,41 +688,43 @@
                             <div class="col-lg-3">
                                 <div class="short-box">
                                     <select class="custom-short-box">
-                                        <option>Agent</option>
-                                        <option>Pro</option>
+                                        <optgroup label="All teams">
+                                            <option>All</option>
+                                            <option>Pro</option>
+                                            <option>Agency</option>
+                                        </optgroup>
                                     </select>
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
-                                <div class="short-box">
-                                    <select class="custom-short-box">
-                                        <option>High</option>
-                                        <option>Low</option>
-                                    </select>
-                                    <i class="fas fa-chevron-down"></i>
+                            <div class="col-lg-9">
+                                <div class="filter-btn-area">
+                                    <ul>
+                                        <li><button class="btn btn-filter btn-active theme-button-2">Best
+                                                match</button></li>
+                                        <li><button class="btn btn-filter theme-button-2">Newest</button></li>
+                                        <li><button class="btn btn-filter theme-button-2"> Best rated</button></li>
+                                        <li><button class="btn btn-filter theme-button-2">Trending</button></li>
+                                        <li><button class="btn btn-filter theme-button-2"> Price</button></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
-                                <div class="short-box">
-                                    <select class="custom-short-box">
-                                        <option>One Start</option>
-                                        <option>Two Start</option>
-                                        <option>Three Start</option>
-                                        <option>Four Start</option>
-                                        <option>Five Start</option>
-
-                                    </select>
-                                    <i class="fas fa-chevron-down"></i>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="short-box">
-                                    <select class="custom-short-box">
-                                        <option>Most Popular</option>
-                                        <option>Most Popular</option>
-                                    </select>
-                                    <i class="fas fa-chevron-down"></i>
+                            <div class="col-lg-6">
+                                <div class="filter-result-area">
+                                    <p><span>691</span> Profile</p>
+                                    <div class="filter-resuult-find">
+                                        <ul>
+                                            <li>
+                                                <a href="!#">
+                                                    <div class="filter-area-spac">
+                                                        <span>Term 'House Cleaning'</span>
+                                                    </div>
+                                                    <span class="cross-arae-filter"><i class="fas fa-times"></i></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <a href="#!" class="filter-clear">Clear all</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

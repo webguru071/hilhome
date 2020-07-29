@@ -659,6 +659,29 @@ button:focus {
     color: var(--white-color);
 }
 
+.theme-button-2 {
+    border: 2px solid #d3d4d5;
+    color: #676d73;
+    padding: 9px 20px;
+    font-size: 16px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.theme-button-2:hover {
+    background-color: var(--color-blue);
+    color: #fff;
+}
+
+.btn-active {
+    background-color: var(--color-blue);
+    color: #fff;
+}
+
+
 /*--------------------------------------------
             3. Button Style End
 ---------------------------------------------*/
@@ -930,11 +953,6 @@ button:focus {
     background-color: var(--color-blue);
 }
 
-.mean-container .mean-nav ul li a:hover {}
-
-.mean-container .mean-nav ul li.mean-last a.section-button:hover,
-.mean-container .mean-nav ul li.dropdown a:hover {}
-
 .mean-container .mean-nav ul li a {
     color: var(--dark-color);
     font-size: 14px;
@@ -965,6 +983,59 @@ button:focus {
 .menu-section-area .search-box button,
 .menu-section-area .search-box form input {
     height: 43px;
+}
+
+#modile-menu-notification {
+    display: none;
+    position: fixed;
+    right: 53px;
+}
+
+#modile-menu-notification .nav-link {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 14px;
+
+}
+
+#modile-menu-notification:hover .dropdown-list {
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+#modile-menu-notification .dropdown-list {
+    background-color: #fff;
+    top: 213%;
+    position: absolute;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 13px 4px rgba(64, 123, 225, 0.15);
+    right: 15px;
+}
+
+#notification-area-find li a:hover {
+    background-color: #fff !important;
+}
+
+#notification-area-find li a {
+    padding: 0 !important;
+}
+
+#notification-area-find li a ul li:hover {
+    background-color: var(--color-blue);
+
+}
+
+#notification-area-find li a ul li:hover .light-details-arae h6,
+#notification-area-find li a ul li:hover .light-details-arae p {
+    color: #fff;
 }
 
 /*-------------------------------------------
@@ -2647,7 +2718,7 @@ ul.social-media li a {
 }
 
 /*Customer Activity Page*/
-.customer-activity-page .customer-activity-content {
+/* .customer-activity-page .customer-activity-content {
     width: 55%;
     margin: 0 auto;
 }
@@ -2685,6 +2756,103 @@ ul.social-media li a {
     right: 42px;
     top: -9px;
     text-transform: uppercase;
+} */
+
+.notification-icon {
+    font-size: 8px;
+    background: red;
+    color: #fff;
+    height: 10px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: -2px;
+}
+
+#notification-area-find {
+    width: 400px !important;
+    padding: 0 !important;
+}
+
+
+.customer-activity-tabs-wrapper ul li {
+    width: 100%;
+    border: 1px solid #c0c0c0;
+}
+
+.customer-activity-tabs-wrapper ul li a {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.customer-activity-tabs-wrapper .nav-tabs .nav-link.active {
+    background-color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    color: #fff;
+}
+
+.customer-activity-tabs-wrapper .nav-tabs {
+    border-bottom: none;
+}
+
+.heading-customer-activity {
+    padding-bottom: 30px;
+}
+
+
+.tabs-service-box-area ul li {
+    border: 1px solid #c0c0c0;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+}
+
+.tabs-service-box-area .customer-activity-boxed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer-activit-icon-and-text-area {
+    display: flex;
+    align-items: center;
+}
+
+.customer-activity-icon i {
+    font-size: 22px;
+}
+
+.customer-activity-text {
+    padding-left: 20px
+}
+
+.customer-activity-text h6 {
+    font-size: 18px;
+}
+
+.customer-activity-text p {
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.customer-activity-location-arae p {
+    font-size: 18px;
+}
+
+.customer-activity-location-arae p .alowed {
+    color: #e30539;
+}
+
+.customer-activity-location-arae p .not-alowed {
+    color: #6a9658;
 }
 
 /*-------------------------------------------
@@ -8209,8 +8377,8 @@ del {
 
 .job-search-area i {
     position: absolute;
-    left: 13px;
-    top: 38%;
+    left: 11px;
+    top: 32%;
 }
 
 .job-search-area .form-control {
@@ -9572,15 +9740,14 @@ del {
 }
 
 .bell-arae-menu a i {
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .notification-list-arae ul li {
     display: flex;
-    padding: 10px 0;
     border-bottom: 1px solid #0000001f;
-    margin-bottom: 16px;
-    padding-bottom: 13px;
+    padding-bottom: 31px;
+    padding: 25px 20px 20px 20px;
 }
 
 .notification-list-arae ul li:last-child {
@@ -10997,6 +11164,10 @@ del {
     right: 16px;
     top: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .item-sort-area {
@@ -11005,6 +11176,61 @@ del {
 
 .custom-short-box i {
     color: #ffbb19f2;
+}
+
+.filter-btn-area ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filter-result-area {
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.filter-result-area p {
+    padding-right: 10px;
+}
+
+.filter-result-area p span {
+    font-weight: 800;
+}
+
+.filter-resuult-find {
+    display: flex;
+    align-items: center;
+}
+
+.filter-resuult-find ul li a {
+    display: flex;
+}
+
+.filter-resuult-find ul li a:hover {
+    color: #505359;
+}
+
+.filter-area-spac {
+    display: flex;
+    padding: 4px 8px;
+    border: 1px solid #e6e6e6;
+}
+
+.cross-arae-filter {
+    display: flex;
+    padding: 4px 8px;
+    border: 1px solid #e6e6e6;
+    align-items: center;
+}
+
+.filter-clear {
+    display: flex;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+.filter-clear:hover {
+    text-decoration: underline;
 }
 
 /* -- hadayet css end--  */
@@ -11029,6 +11255,14 @@ del {
 
 
 @media only screen and (max-width: 992px) {
+    #modile-menu-notification {
+        display: block;
+    }
+
+    .customer-activity-tabs-content {
+        padding-top: 30px;
+    }
+
     .app-main-banner-area {
         background-image: none;
         height: 64%;
@@ -12475,6 +12709,14 @@ del {
     .customer-activity-page .customer-activity-content .hero-project-box {
         width: 100% !important;
     }
+
+    #notification-area-find {
+        width: 300px !important;
+    }
+
+    #modile-menu-notification .dropdown-list {
+        right: -32px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -12551,6 +12793,8 @@ del {
         For very little mobile
 =========================================*/
 @media only screen and (max-width:430px) {
+
+
     .mean-nav ul .custom-select {
         width: 100%;
         padding: 0;
