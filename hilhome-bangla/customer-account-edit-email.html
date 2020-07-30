@@ -24,7 +24,7 @@
     <meta name="msapplication-TileColor" content="#407bff">
     <meta name="theme-color" content="#3fa3fe">
 
-    <title>Andsheba - Customer Information</title>
+    <title>Andsheba - Customer Account Edit</title>
 
     <!--=======================================
       All CSS Style link
@@ -264,54 +264,48 @@
     </header>
     <!-- Menu After Login Area End -->
 
-    <!-- Customer Profile Area Start -->
-    <section class="customer-profile-area customer-information-page padding-zero">
+    <!-- Login Area Start -->
+    <section class="login-area register-area customer-account-edit-area">
         <div class="container">
-            <div class="row customer-profile-wrap">
-                <div class="col-12 col-sm-12 col-md-4">
-                    <div class="customer-info-left-box">
-                        <div class="brath-came-area-setting">
-                            <p><a href="customer-profile.html">প্রোফাইল</a> <i class="fas fa-angle-right"></i> <span
-                                    class="active"> সেটিংস</span>
-                            </p>
-                        </div>
-                        <h4 class="customer-profile-title">সেটিং</h4>
-                        <div class="customer-profile-pages">
-                            <ul>
-                                <li><a href="customer-information.html" class="active">একাউন্ট<i
-                                            class="fas fa-angle-right"></i></a></li>
-                                <li><a href="customer-notifications.html">নোটিফিকেশন<i
-                                            class="fas fa-angle-right"></i></a></li>
-                            </ul>
-                        </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="brath-came-area-setting">
+                        <p><a href="customer-profile.html">প্রোফাইল</a> <i class="fas fa-angle-right"></i> <a
+                                href="customer-information.html">সেটিংস</a> <i class="fas fa-angle-right"></i><span
+                                class="active">একাউন্ট</span>
+                        </p>
                     </div>
-                </div>
-
-                <div class="col-12 col-sm-12 col-md-8">
-                    <div class="customer-right-side">
-                        <h4 class="customer-profile-title">একাউন্ট</h4>
-                        <div class="customer-profile-pages">
-                            <ul>
-                                <li><a href="customer-account-edit.html">নাম<i class="fas fa-angle-right"></i></a></li>
-                                <li><a href="customer-account-edit-email.html">ই-মেইল<i
-                                            class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li><a href="customer-account-edit-number.html">ফোন নাম্বার<i
-                                            class="fas fa-angle-right"></i></a></li>
-                                <li><a href="customer-password.html">পাসওয়ার্ড<i class="fas fa-angle-right"></i></a>
-                                <li><a href="#!">পেমেন্ট <i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li><a href="customer-account-deactivate.html">একাউন্ট বন্ধ(একাউন্ট বাতিল)<i
-                                            class="fas fa-angle-right"></i></a></li>
-                            </ul>
-
+                    <h3 class="text-center">ব্যক্তিগত তথ্য পরিবর্তন করুন</h3>
+                    <form>
+                        <div class="form-group">
+                            <div class="col-12 col-sm-12 col-md-12">
+                                <label for="first-name">বর্তমান মেইল </label>
+                                <input type="text" class="form-control" id="first-name" placeholder="বর্তমান মেইল">
+                            </div>
                         </div>
-                    </div>
+                        <div class="form-group">
+                            <div class="form-group">
+                                <div class="col-12 col-sm-12 col-md-12">
+                                    <label for="last-name">আপডেট মেইল </label>
+                                    <input type="text" class="form-control" id="last-name" placeholder="আপডেট মেইল ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="send-verfication-email">
+                         <a href="#!">send verification mail</a>
+                        </div>
+                        <div class="customer-account-edit-button d-flex">
+                            <button type="button" class="btn theme-button"
+                                onclick="location.href='customer-profile.html'">সেভ</button>
+                            <button type="reset" class="btn">বাতিল</button>
+                        </div>
+
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Customer Profile Area End -->
+    <!-- Login Area End -->
 
     <!-- Footer Start -->
     <footer class="footer">
@@ -451,24 +445,6 @@
     <!-- Custom scripts for this template -->
     <script src="assets/js/custom.js"></script>
 
-    <script>
-        var randomImage = {
-            paths: [
-                "assets/img/hero-slide-img/1.jpg",
-                "assets/img/hero-slide-img/2.jpg",
-                "assets/img/hero-slide-img/3.jpg"
-            ],
-
-            generate: function () {
-                var path = randomImage.paths[Math.floor(Math.random() * randomImage.paths.length)];
-                var img = new Image();
-                img.src = path;
-                $("#randomImage").html(img);
-            }
-        };
-
-        randomImage.generate();
-    </script>
 </body>
 
 </html>

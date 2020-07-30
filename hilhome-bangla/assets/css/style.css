@@ -226,7 +226,6 @@ figure {
 
 .default-heading-color,
 #mainNav .navbar-nav .nav-item .nav-link,
-.customer-info-left-box .customer-profile-pages ul li a.active,
 .customer-create-password form label,
 .home-hero-projects-wrap .hero-project-box i,
 .details-content-box h6,
@@ -234,6 +233,10 @@ figure {
 .page-banner-area.how-it-works-page-banner .page-banner-content p,
 .message-pro-right-part .review-text {
     color: var(--dark-color);
+}
+
+.customer-info-left-box .customer-profile-pages ul li a.active {
+    color: var(--color-blue);
 }
 
 .white-color,
@@ -261,7 +264,6 @@ figure {
 .instant-result-sidebar #myBtn4 i,
 .instant-result-sidebar .filter-reset,
 .why-hire-box i,
-.customer-info-left-box .customer-profile-pages ul li a,
 .customer-inbox-page-area form p a,
 .home-hero-projects-wrap .see-all-btn,
 .customer-profile-go-back-btn a,
@@ -286,6 +288,10 @@ figure {
 .guarantee-menu.more-services-left-menu ul li a:hover,
 .in-this-article ul li a {
     color: var(--color-blue);
+}
+
+.customer-info-left-box .customer-profile-pages ul li a {
+    color: var(--dark-color);
 }
 
 .text-gray-color,
@@ -660,7 +666,7 @@ button:focus {
 }
 
 .theme-button-2 {
-    border: 2px solid #d3d4d5;
+    border: 1px solid #d3d4d5;
     color: #676d73;
     padding: 9px 20px;
     font-size: 16px;
@@ -3228,7 +3234,7 @@ ul.social-media li a {
 }
 
 /*Customer project Details Modal Start*/
-.modal-backdrop.show {
+/* .modal-backdrop.show {
     opacity: 1;
 }
 
@@ -3271,6 +3277,14 @@ ul.social-media li a {
     padding-right: 5px;
 }
 
+.customer-organize-area h5 span {
+    color: var(--color-blue);
+}
+
+.customer-organize-area p {
+    font-size: 16px;
+} */
+
 /*Customer project Details Modal End*/
 
 .get-the-app-check-message-area {
@@ -3293,6 +3307,202 @@ ul.social-media li a {
 
 .get-the-app-check-message-area p {
     padding: 20px 100px 20px 0;
+}
+
+.customer-project-details-customer {
+    padding-top: 20px;
+}
+
+
+.customer-project-details-hed h5 {
+    border-bottom: 1px solid var(--color-blue);
+    padding-bottom: 10px;
+}
+
+.details-customer-details {
+    padding-top: 25px;
+}
+
+.details-customer-details h5 {
+    color: var(--color-blue);
+}
+
+.customer-details-work-list {
+    padding-top: 15px;
+}
+
+.customer-details-work-list li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #adaaaa3d;
+    padding-bottom: 20px;
+}
+
+.customer-details-work-list li:last-child {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.customer-details-work-list li p {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.customer-location-map {
+    padding-top: 50px;
+}
+
+.customar-projrct-overview,
+.customer-project-details-area {
+    border: none;
+}
+
+.tabs-wrapper-overview-customer .nav-tabs {
+    border: none;
+    justify-content: space-between;
+}
+
+.tabs-wrapper-overview-customer .nav-tabs .nav-link {
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.tabs-wrapper-overview-customer .nav-tabs .nav-link.active {
+    border-bottom: 2px solid var(--color-blue);
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.tabs-wrapper-overview-customer .nav-tabs .nav-link {
+    font-size: 20px;
+}
+
+.customer-project-cancel-arae {
+    padding-top: 30px;
+}
+
+.customer-project-cancel-arae p {
+    font-size: 16px;
+}
+
+.customer-cancel-cose-area .container {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.customer-cancel-cose-area .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.customer-cancel-cose-area .container input:checked~.checkmark {
+    background-color: #009fd9;
+    border: 2px solid #009fd9;
+}
+
+.customer-cancel-cose-area .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #c4c4c4;
+    border-radius: 3px;
+}
+
+.customer-cancel-cose-area .container input:checked~.checkmark:after {
+    display: block;
+}
+
+.customer-cancel-cose-area .container .checkmark::after {
+    left: 7px;
+    top: -4px;
+    width: 7px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.customer-cancel-cose-area .container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.flex-cancel-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-cancel-cose-area {
+    padding-top: 20px;
+}
+
+.customer-cancel-cose-comment {
+    padding-top: 30px;
+}
+
+.customer-cancel-cose-comment .form-control {
+    border: 1px solid #00000021;
+    margin-bottom: 30px;
+}
+
+.customer-hire-agian-area {
+    padding-top: 20px;
+}
+
+.customer-hire-agian-area p {
+    padding-bottom: 30px;
+}
+
+.customers-reating-for-project {
+    padding-top: 30px;
+}
+
+.project-for-review-arae {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.project-rating-for-star {
+    display: flex;
+    align-items: center;
+}
+
+.project-rating-for-star h4 {
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.send-verfication-email {
+    padding: 5px 25px;
+}
+
+.customer-account-edit-button {
+    padding: 5px 20px;
 }
 
 /*Contacted Pros Area*/
@@ -4816,6 +5026,26 @@ ul.social-media li a {
 .greaing-area a p {
     font-size: 14px;
     padding-top: 15px;
+}
+
+.brath-came-area-setting {
+    padding-bottom: 20px;
+}
+
+.brath-came-area-setting p a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #00000042;
+}
+
+.brath-came-area-setting p i {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.brath-came-area-setting .active {
+    color: var(--color-blue);
+    font-weight: bold;
 }
 
 /*----------------------------------
@@ -11233,6 +11463,14 @@ del {
     text-decoration: underline;
 }
 
+.filter-btn-area ul li button {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
 /* -- hadayet css end--  */
 
 /*=======================================
@@ -11854,6 +12092,10 @@ del {
     .menu-search-area .search-box button {
         width: 90px;
     }
+
+    .heading-customer-activity {
+        padding-top: 40px;
+    }
 }
 
 /*======================================
@@ -11999,6 +12241,8 @@ del {
         width: 80%;
         margin: 50px auto 0;
     }
+
+
 
     /*Contacted pros Area*/
     .contacted-pros-area {
@@ -12646,6 +12890,15 @@ del {
         width: 25%;
     }
 
+    .project-for-review-arae {
+        display: initial;
+        padding-bottom: 0px;
+    }
+
+    .project-rating-for-star {
+        padding-bottom: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 555px) {
@@ -12787,6 +13040,21 @@ del {
         margin: 0;
     }
 
+    .tabs-wrapper-overview-customer .nav-tabs {
+        display: initial;
+    }
+
+    .tabs-wrapper-overview-customer .nav-tabs .nav-link {
+        text-align: center;
+    }
+
+    .customer-cancel-cose-area .container {
+        padding-bottom: 10px;
+    }
+
+    .flex-cancel-item {
+        display: inherit;
+    }
 }
 
 /*=========================================

@@ -39,8 +39,10 @@
     <link rel="shortcut icon" href="assets/img/favicon-16x16.png">
 
     <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-72x72.png" sizes="72x72" />
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-114x114.png" sizes="114x114" />
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-144x144.png" sizes="144x144" />
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-114x114.png"
+        sizes="114x114" />
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-144x144.png"
+        sizes="144x144" />
     <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/favicon-16x16.png" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -60,15 +62,16 @@
     <!-- Pre Loader Area End -->
 
     <!-- Menu After Login Area Start -->
-    <header class="menu-section-area menu-search-area menu-after-login padding-zero">
+    <header class="menu-section-area menu-search-area menu-after-login pro-menu-after-login padding-zero">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg d-none d-sm-none d-md-block d-lg-block d-xl-block" id="mainNav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/mobile-logo.png" alt="logo" class="img-fluid"></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/mobile-logo.png" alt="logo"
+                        class="img-fluid"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
-
                 <!-- Search Bar in Main Menu Area Start-->
                 <div class="search-box">
                     <form action="#" method="post">
@@ -86,8 +89,7 @@
                                 <option value="Massage Therapy">ম্যাসাজ শিল্পী</option>
                                 <option value="Dog Training">কুকুর প্রশিক্ষক</option>
                                 <option value="Event Planners">অনুষ্ঠান পরিচালনাকারী</option>
-                            </select>
-                        </div>
+                            </select> </div>
                         <input type="text" placeholder="পোস্ট কোড">
                         <button type="submit">খুঁজুন</button>
                     </form>
@@ -100,13 +102,61 @@
                             <a class="nav-link" href="pro.html">সেবা প্রদানকারী সাইন আপ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="customer-activity.html">প্রকল্প</a>
+                            <a class="nav-link" href="customer-activity.html">সেবা সমূহ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="!#">অ্যান্ডসেবার এজেন্ট হন</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="customer-inbox.html">ইনবক্স</a>
                         </li>
+                        <li class="nav-item dropdown-box bell-arae-menu">
+                            <a class="nav-link"><i class="far fa-bell"></i></a>
+                            <ul class="dropdown-list" id="notification-area-find">
+                                <li>
+                                    <a href="#!">
+                                        <div class="notification-list-arae">
+                                            <ul>
+                                                <li>
+                                                    <div class="light-arae">
+                                                        <i class="far fa-lightbulb"></i>
+                                                    </div>
+                                                    <div class="light-details-arae">
+                                                        <h6>It looks like we need one more thing.</h6>
+                                                        <p>Add a little more information so you can connect with
+                                                            customers.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="light-arae">
+                                                        <i class="far fa-lightbulb"></i>
+                                                    </div>
+                                                    <div class="light-details-arae">
+                                                        <h6>It looks like we need one more thing.</h6>
+                                                        <p>Add a little more information so you can connect with
+                                                            customers.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="light-arae">
+                                                        <i class="far fa-lightbulb"></i>
+                                                    </div>
+                                                    <div class="light-details-arae">
+                                                        <h6>It looks like we need one more thing.</h6>
+                                                        <p>Add a little more information so you can connect with
+                                                            customers.</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
                         <li class="nav-item dropdown-box">
-                            <a class="nav-link"><span class="customer-img"><img src="assets/img/pros-img/1.jpg" alt="img"></span>সুরাইয়া<i class="fas fa-angle-down"></i></a>
+                            <a class="nav-link"><span class="customer-img"><img src="assets/img/pros-img/1.jpg"
+                                        alt="img"></span>সুরাইয়া<i class="fas fa-angle-down"></i></a>
                             <ul class="dropdown-list">
                                 <li><a href="customer-profile.html">প্রোফাইল</a></li>
                                 <li><a href="index.html">লগ আউট</a></li>
@@ -117,12 +167,51 @@
             </div>
         </nav>
         <!-- Navigation -->
-
+        <div class="dropdown-box bell-arae-menu" id="modile-menu-notification">
+            <a class="nav-link"><i class="far fa-bell"></i></a>
+            <ul class="dropdown-list" id="notification-area-find">
+                <li><a href="#!">
+                        <div class="notification-list-arae">
+                            <ul>
+                                <li>
+                                    <div class="light-arae">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="light-details-arae">
+                                        <h6>It looks like we need one more thing.</h6>
+                                        <p>Add a little more information so you can connect with
+                                            customers.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="light-arae">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="light-details-arae">
+                                        <h6>It looks like we need one more thing.</h6>
+                                        <p>Add a little more information so you can connect with
+                                            customers.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="light-arae">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="light-details-arae">
+                                        <h6>It looks like we need one more thing.</h6>
+                                        <p>Add a little more information so you can connect with
+                                            customers.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </a></li>
+            </ul>
+        </div>
         <!-- Mobile Menu Start -->
         <nav class="mobile_menu hidden d-none">
             <a href="index.html"><img class="mobile-logo" src="assets/img/mobile-logo.png" alt="logo"></a>
             <ul class="nav navbar-nav navbar-right menu">
-
                 <!-- Search Bar in Mobile Menu Area Start-->
                 <div class="search-box">
                     <form action="#" method="post">
@@ -140,8 +229,7 @@
                                 <option value="Massage Therapy">ম্যাসাজ শিল্পী</option>
                                 <option value="Dog Training">কুকুর প্রশিক্ষক</option>
                                 <option value="Event Planners">অনুষ্ঠান পরিচালনাকারী</option>
-                            </select>
-                        </div>
+                            </select> </div>
                         <input type="text" placeholder="পোস্ট কোড">
                         <button type="submit">খুঁজুন</button>
                     </form>
@@ -155,7 +243,10 @@
                     <a class="nav-link" href="pro.html">সেবা প্রদানকারী সাইন আপ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="customer-activity.html">প্রকল্প</a>
+                    <a class="nav-link" href="pro.html">অ্যান্ডসেবার এজেন্ট হন</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer-activity.html">সেবা সমূহ</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="customer-inbox.html">ইনবক্স</a>
@@ -177,18 +268,75 @@
     <section class="customer-project-details-area">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="customer-project-details-wrap">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="customer-project-details-wrap customer-organize-area">
                         <h5><i class="fas fa-home"></i>গৃ্হ কর্মী</h5>
-                        <p>অনুরোধ করা হয়েছিলো 23 এপ্রিল, 2020 • <button data-toggle="modal" data-target="#project-details-modal">বিস্তারিত দেখুন</button></p>
-                        <p><a href="customer-project-cancel.html">প্রকল্প বাতিল করুন</a></p>
+                        <p>অনুরোধ করা হয়েছিলো 23 এপ্রিল, 2020 </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="customer-project-details-wrap customer-organize-area text-lg-right text-md-right">
+                        <h5>সেবার অবস্থা : <span>সমাপ্ত</span> </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="customer-project-details-customer">
+                        <div class="customer-project-details-hed">
+                            <h5>সেবার বিস্তারিত বিবরন :</h5>
+                        </div>
+                        <div class="details-customer-details">
+                            <h5>সিলভার গোল্ড পুরুষ কর্মী </h5>
+                            <ul class="customer-details-work-list">
+                                <li>
+                                    <h4>কখন</h4>
+                                    <p>আপনি যদি এটি করতে চান তখন এন্ড সেবার কর্মীর সাথে আলোচনা করুন </p>
+                                </li>
+                                <li>
+                                    <h4>অবস্থান</h4>
+                                    <p>ছোট মির্জাপুর, খুলনা</p>
+                                </li>
+                                <li>
+                                    <h4>সম্পত্তির প্রকারভেদ</h4>
+                                    <p>বাড়ি</p>
+                                </li>
+                                <li>
+                                    <h4>সেবার ধরণ</h4>
+                                    <p>মেরামত</p>
+                                </li>
+                                <li>
+                                    <h4>সেবার অবস্থান</h4>
+                                    <p>বাথরুম</p>
+                                </li>
+                                <li>
+                                    <h4>কাজের লক্ষ্য</h4>
+                                    <p>দরজা </p>
+                                </li>
+                                <li>
+                                    <h4>আনুমানিক ঘন্টা</h4>
+                                    <p>একটি পুরো দিন</p>
+                                </li>
+                                <li>
+                                    <h4>ভ্রমণ পছন্দ</h4>
+                                    <p>আপনি যদি এটি করতে চান তখন এন্ড সেবার কর্মীর সাথে আলোচনা করুন </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="customer-location-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.6962663570607!2d89.56355961427838!3d22.813715829827952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff901efac79b59%3A0x5be01a1bc0dc7eba!2sAnd+IT!5e0!3m2!1sen!2sbd!4v1557901943656!5m2!1sen!2sbd"
+                            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
                     </div>
                 </div>
             </div>
         </div>
-
         <!-- Modal -->
-        <div class="modal fade" id="project-details-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- <div class="modal fade" id="project-details-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -239,8 +387,156 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
+    </section>
+
+    <section class="customar-projrct-overview">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-9 col-lg-9">
+                    <div class="tabs-wrapper-overview-customer">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link show active" href="#home-essentials" role="tab" data-toggle="tab"
+                                    aria-selected="true">সেবা বাতিল করুন</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link show" href="#outdoor-services" role="tab" data-toggle="tab"
+                                    aria-selected="false">পুনরায় সেবা গ্রহণ করুন </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link show" href="#fitness-wellness" role="tab" data-toggle="tab"
+                                    aria-selected="false">পূর্ণমূল্যন ও নির্ধারণ</a>
+                            </li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane show active" id="home-essentials">
+                                <div class="customer-project-cancel-arae">
+                                    <p>আপনি যদি এটি করতে চান তখন এন্ড সেবার কর্মীর সাথে আলোচনা করুনআপনি যদি এটি করতে চান
+                                        তখন এন্ড সেবার কর্মীর সাথে আলোচনা করুনআপনি যদি এটি করতে চান তখন এন্ড সেবার
+                                        কর্মীর সাথে আলোচনা করুনআপনি যদি এটি করতে চান তখন এন্ড সেবার কর্মীর সাথে আলোচনা
+                                        করুন</p>
+                                    <div class="customer-cancel-cose-area">
+                                        <div class="flex-cancel-item">
+                                            <label class="container">আসাহতোর চেয়ে খারাপ আর কিছু নেই ।
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">আসাহতোর চেয়ে খারাপ আর কিছু নেই ।
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="flex-cancel-item">
+                                            <label class="container">আসাহতোর চেয়ে খারাপ আর কিছু নেই ।
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">আসাহতোর চেয়ে খারাপ আর কিছু নেই ।
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="flex-cancel-item">
+                                            <label class="container">আসাহতোর চেয়ে খারাপ আর কিছু নেই ।
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">আসাহতোর চেয়ে খারাপ আর কিছু নেই ।
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="customer-cancel-cose-comment">
+                                        <textarea rows="10" class="form-control"
+                                            placeholder="Comment Hare....."></textarea>
+                                        <button class="btn theme-button">সেবা বাতিল করুন</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane fade" id="outdoor-services">
+                                <div class="customer-hire-agian-area">
+                                    <p>নীচে আপনার ফোন নম্বর লিখুন এবং আমরা আপনাকে অ্যাপটি ডাউনলোড করতে একটি লিঙ্ক প্রেরণ
+                                        করব।নীচে আপনার ফোন নম্বর লিখুন এবং আমরা আপনাকে অ্যাপটি ডাউনলোড করতে একটি লিঙ্ক
+                                        প্রেরণ করব।</p>
+                                    <button class="btn theme-button">আবার ভাড়া করুন </button>
+                                </div>
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane fade" id="fitness-wellness">
+                                <div class="customers-reating-for-project">
+                                    <div class="project-for-review-arae">
+                                        <div class="project-rating-for-star">
+                                            <h4>দক্ষতা :</h4>
+                                            <a href="#!">
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                            </a>
+                                        </div>
+                                        <div class="project-rating-for-star">
+                                            <h4>যোগাযোগ :</h4>
+                                            <a href="#!">
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="project-for-review-arae">
+                                        <div class="project-rating-for-star">
+                                            <h4>সময়নাবর্তিতা :</h4>
+                                            <a href="#!">
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                            </a>
+                                        </div>
+                                        <div class="project-rating-for-star">
+                                            <h4>আচরণ :</h4>
+                                            <a href="#!">
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="project-for-review-arae">
+                                        <div class="project-rating-for-star">
+                                            <h4>কর্তব্যপরায়ণতা :</h4>
+                                            <a href="#!">
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="customer-cancel-cose-comment">
+                                    <textarea rows="10" class="form-control" placeholder="Comment Hare....."></textarea>
+                                    <button class="btn theme-button">জমা দিন </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Customer Project Details Area End -->
 
@@ -250,7 +546,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-8 col-md-8 col-sm-12 col-12">
                     <h5>অ্যাপ পেতে আপনার ম্যাসেজ চেক করুন।</h5>
-                    <p>নীচে আপনার ফোন নম্বর লিখুন এবং আমরা আপনাকে অ্যাপটি ডাউনলোড করতে একটি লিঙ্ক প্রেরণ করব। <a href="andsheba-sms-terms-and-conditions.html">শর্তাবলী প্রযোজ্য</a>।</p>
+                    <p>নীচে আপনার ফোন নম্বর লিখুন এবং আমরা আপনাকে অ্যাপটি ডাউনলোড করতে একটি লিঙ্ক প্রেরণ করব। <a
+                            href="andsheba-sms-terms-and-conditions.html">শর্তাবলী প্রযোজ্য</a>।</p>
                     <form>
                         <div class="form-group form-inline">
                             <input type="text" class="form-control" id="number" placeholder="(৫৫৫)৫৫৫-৫৫৫৫">
@@ -273,7 +570,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="contacted-pros-title d-flex justify-content-between" data-toggle="collapse" data-target="#contacted-pros-list-wrap">
+                    <div class="contacted-pros-title d-flex justify-content-between" data-toggle="collapse"
+                        data-target="#contacted-pros-list-wrap">
                         <div class="contacted-pros-title-left d-flex">
                             <h5>সেবা প্রদানকারীর সাথে যোগাযোগ করুন।</h5>
                             <div class="contacted-pros-short-list">
@@ -281,7 +579,8 @@
                                 <h6>+২</h6>
                             </div>
                         </div>
-                        <p><span class="contacted-pros-hide">হাইড </span> <span class="contacted-pros-show">শো</span></p>
+                        <p><span class="contacted-pros-hide">হাইড </span> <span class="contacted-pros-show">শো</span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -295,12 +594,15 @@
                             <div class="pro-profile-content">
                                 <p class="contacted-pro-waiting"><i class="far fa-clock"></i>অপেক্ষা করুন।</p>
                                 <h6>সিলভার গোল্ড পুরুষ গৃ্হ কর্মী</h6>
-                                <p><span class="review-rating">৪.৯ <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>(২৫)</p>
+                                <p><span class="review-rating">৪.৯ <i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></span>(২৫)</p>
                             </div>
                         </a>
 
                         <div class="pro-right-part">
-                            <a class="cost-box" href="pro-profile-message.html"><span class="consult"><i class="fab fa-tumblr"></i>১৪৫/পার মূল্য</span> আনুমানিক ব্যয়</a>
+                            <a class="cost-box" href="pro-profile-message.html"><span class="consult"><i
+                                        class="fab fa-tumblr"></i>১৪৫/পার মূল্য</span> আনুমানিক ব্যয়</a>
                         </div>
                     </div>
                 </div>
@@ -314,13 +616,17 @@
                             <div class="pro-profile-content">
                                 <p class="contacted-pro-responded"><i class="fas fa-check"></i>সক্রিয় আছি</p>
                                 <h6>ব্লু গোল্ড নারি রন্ধন কর্মী</h6>
-                                <p><span class="review-rating">৫.০<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>(২৫)</p>
+                                <p><span class="review-rating">৫.০<i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></span>(২৫)</p>
                                 <p>কতগুলি দরজা?</p>
                             </div>
                         </a>
                         <div class="pro-right-part">
-                            <a class="cost-box" href="pro-profile-message.html"><span class="consult"><i class="far fa-comment"></i></span> দামের জন্য যোগাযোগ করুন</a>
-                            <a class="btn theme-button" href="message-pro.html"><i class="far fa-comment"></i>ম্যাসেজ দিন</a>
+                            <a class="cost-box" href="pro-profile-message.html"><span class="consult"><i
+                                        class="far fa-comment"></i></span> দামের জন্য যোগাযোগ করুন</a>
+                            <a class="btn theme-button" href="message-pro.html"><i class="far fa-comment"></i>ম্যাসেজ
+                                দিন</a>
                         </div>
                     </div>
                 </div>
@@ -334,12 +640,15 @@
                             <div class="pro-profile-content">
                                 <p class="contacted-pro-unavailable"><i class="far fa-clock"></i>সক্রিয় নাই</p>
                                 <h6>প্লাটিনাম পুরুষ গাড়ী পরিষ্কারক</h6>
-                                <p><span class="review-rating">৪.৬ <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>(২৫)</p>
+                                <p><span class="review-rating">৪.৬ <i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></span>(২৫)</p>
                             </div>
                         </a>
 
                         <div class="pro-right-part">
-                            <a class="cost-box"><span class="consult"><i class="fab fa-tumblr"></i>১৪৫/পার মূল্য</span> আনুমানিক ব্যয়</a>
+                            <a class="cost-box"><span class="consult"><i class="fab fa-tumblr"></i>১৪৫/পার মূল্য</span>
+                                আনুমানিক ব্যয়</a>
                         </div>
                     </div>
                 </div>
@@ -353,7 +662,9 @@
     <section class="why-hire-professionals-area">
         <div class="container">
             <div class="row text-center">
-                <div class="col-12"><h4>কেন অ্যান্ড সেবা কর্মীদের ভাড়া করবেন?</h4></div>
+                <div class="col-12">
+                    <h4>কেন অ্যান্ড সেবা কর্মীদের ভাড়া করবেন?</h4>
+                </div>
             </div>
             <div class="row">
                 <!-- Box Start -->
@@ -361,7 +672,9 @@
                     <div class="why-hire-box">
                         <i class="fab fa-tumblr"></i>
                         <h6>বিনামূল্যে ব্যবহার করুন</h6>
-                        <p>অ্যান্ড সেবা ব্যবহারের জন্য আপনাকে কোন ভাড়া দিতে হয় না। এখানে মূলের ধারণা পান, সেবা প্রদানকারীর সাথে যোগাযোগ করুন এমন কি চাকরির জন্য বুকিং দিতে পারেন- সব কিছু বিনা মুল্ল্যে।</p>
+                        <p>অ্যান্ড সেবা ব্যবহারের জন্য আপনাকে কোন ভাড়া দিতে হয় না। এখানে মূলের ধারণা পান, সেবা
+                            প্রদানকারীর সাথে যোগাযোগ করুন এমন কি চাকরির জন্য বুকিং দিতে পারেন- সব কিছু বিনা মুল্ল্যে।
+                        </p>
                     </div>
                 </div>
                 <!-- Box End -->
@@ -371,7 +684,9 @@
                     <div class="why-hire-box">
                         <i class="fas fa-users"></i>
                         <h6> পাশাপাশি মূল্যের যাচাই করুন</h6>
-                        <p>অ্যান্ড সেবা ব্যবহারের জন্য আপনাকে কোন ভাড়া দিতে হয় না। এখানে মূলের ধারণা পান, সেবা প্রদানকারীর সাথে যোগাযোগ করুন এমন কি চাকরির জন্য বুকিং দিতে পারেন- সব কিছু বিনা মুল্ল্যে।</p>
+                        <p>অ্যান্ড সেবা ব্যবহারের জন্য আপনাকে কোন ভাড়া দিতে হয় না। এখানে মূলের ধারণা পান, সেবা
+                            প্রদানকারীর সাথে যোগাযোগ করুন এমন কি চাকরির জন্য বুকিং দিতে পারেন- সব কিছু বিনা মুল্ল্যে।
+                        </p>
                     </div>
                 </div>
                 <!-- Box End -->
@@ -381,7 +696,9 @@
                     <div class="why-hire-box">
                         <i class="fas fa-check"></i>
                         <h6>নির্ভয়ে অ্যান্ড সেবাকর্মী ভাড়া নিন</h6>
-                        <p>অ্যান্ড সেবা ব্যবহারের জন্য আপনাকে কোন ভাড়া দিতে হয় না। এখানে মূলের ধারণা পান, সেবা প্রদানকারীর সাথে যোগাযোগ করুন এমন কি চাকরির জন্য বুকিং দিতে পারেন- সব কিছু বিনা মুল্ল্যে।</p>
+                        <p>অ্যান্ড সেবা ব্যবহারের জন্য আপনাকে কোন ভাড়া দিতে হয় না। এখানে মূলের ধারণা পান, সেবা
+                            প্রদানকারীর সাথে যোগাযোগ করুন এমন কি চাকরির জন্য বুকিং দিতে পারেন- সব কিছু বিনা মুল্ল্যে।
+                        </p>
                     </div>
                 </div>
                 <!-- Box End -->
@@ -481,7 +798,9 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="footer-bottom-part">
-                            <div class="copyright"><a href="https://andsheba.com/"><img src="assets/img/copyright-logo.png" alt="icon"> &copy; 2020 Andsheba, Inc.</a></div>
+                            <div class="copyright"><a href="https://andsheba.com/"><img
+                                        src="assets/img/copyright-logo.png" alt="icon"> &copy; 2020 Andsheba, Inc.</a>
+                            </div>
                             <div class="bottom-footer-right">
                                 <a href="guarantee.html"><i class="fas fa-shield-alt"></i>Andsheba Guarantee</a>
                             </div>
