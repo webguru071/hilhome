@@ -62,7 +62,7 @@
     <!-- preloader-->
 
     <!-- Menu After Login Area Start -->
-    <header class="menu-section-area menu-search-area menu-after-login padding-zero">
+    <header class="menu-section-area menu-search-area menu-after-login pro-menu-after-login padding-zero">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg d-none d-sm-none d-md-block d-lg-block d-xl-block" id="mainNav">
             <div class="container-fluid">
@@ -72,7 +72,6 @@
                     data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
-
                 <!-- Search Bar in Main Menu Area Start-->
                 <div class="search-box">
                     <form action="#" method="post">
@@ -90,8 +89,7 @@
                                 <option value="Massage Therapy">ম্যাসাজ শিল্পী</option>
                                 <option value="Dog Training">কুকুর প্রশিক্ষক</option>
                                 <option value="Event Planners">অনুষ্ঠান পরিচালনাকারী</option>
-                            </select>
-                        </div>
+                            </select> </div>
                         <input type="text" placeholder="পোস্ট কোড">
                         <button type="submit">খুঁজুন</button>
                     </form>
@@ -104,10 +102,58 @@
                             <a class="nav-link" href="pro.html">সেবা প্রদানকারী সাইন আপ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="customer-activity.html">প্রকল্প</a>
+                            <a class="nav-link" href="customer-activity.html">সেবা সমূহ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="!#">অ্যান্ডসেবার এজেন্ট হন</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="customer-inbox.html">ইনবক্স</a>
+                        </li>
+                        <li class="nav-item dropdown-box bell-arae-menu">
+                            <a class="nav-link"><i class="far fa-bell"></i></a>
+                            <ul class="dropdown-list" id="notification-area-find">
+                                <a href="view-all-notification.html" class="notification-read-all">View All
+                                    Notification</a>
+                                <li>
+                                    <a href="#!">
+                                        <div class="notification-list-arae">
+                                            <ul>
+                                                <li>
+                                                    <div class="light-arae">
+                                                        <i class="far fa-lightbulb"></i>
+                                                    </div>
+                                                    <div class="light-details-arae">
+                                                        <h6>It looks like we need one more thing.</h6>
+                                                        <p>Add a little more information so you can connect with
+                                                            customers.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="light-arae">
+                                                        <i class="far fa-lightbulb"></i>
+                                                    </div>
+                                                    <div class="light-details-arae">
+                                                        <h6>It looks like we need one more thing.</h6>
+                                                        <p>Add a little more information so you can connect with
+                                                            customers.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="light-arae">
+                                                        <i class="far fa-lightbulb"></i>
+                                                    </div>
+                                                    <div class="light-details-arae">
+                                                        <h6>It looks like we need one more thing.</h6>
+                                                        <p>Add a little more information so you can connect with
+                                                            customers.</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown-box">
                             <a class="nav-link"><span class="customer-img"><img src="assets/img/pros-img/1.jpg"
@@ -122,12 +168,54 @@
             </div>
         </nav>
         <!-- Navigation -->
-
+        <div class="dropdown-box bell-arae-menu" id="modile-menu-notification">
+            <a class="nav-link"><i class="far fa-bell"></i></a>
+            <ul class="dropdown-list" id="notification-area-find">
+                <a href="view-all-notification.html" class="notification-read-all">View All
+                    Notification</a>
+                <li>
+                    <a href="#!">
+                        <div class="notification-list-arae">
+                            <ul>
+                                <li>
+                                    <div class="light-arae">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="light-details-arae">
+                                        <h6>It looks like we need one more thing.</h6>
+                                        <p>Add a little more information so you can connect with
+                                            customers.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="light-arae">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="light-details-arae">
+                                        <h6>It looks like we need one more thing.</h6>
+                                        <p>Add a little more information so you can connect with
+                                            customers.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="light-arae">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="light-details-arae">
+                                        <h6>It looks like we need one more thing.</h6>
+                                        <p>Add a little more information so you can connect with
+                                            customers.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </a></li>
+            </ul>
+        </div>
         <!-- Mobile Menu Start -->
         <nav class="mobile_menu hidden d-none">
             <a href="index.html"><img class="mobile-logo" src="assets/img/mobile-logo.png" alt="logo"></a>
             <ul class="nav navbar-nav navbar-right menu">
-
                 <!-- Search Bar in Mobile Menu Area Start-->
                 <div class="search-box">
                     <form action="#" method="post">
@@ -145,8 +233,7 @@
                                 <option value="Massage Therapy">ম্যাসাজ শিল্পী</option>
                                 <option value="Dog Training">কুকুর প্রশিক্ষক</option>
                                 <option value="Event Planners">অনুষ্ঠান পরিচালনাকারী</option>
-                            </select>
-                        </div>
+                            </select> </div>
                         <input type="text" placeholder="পোস্ট কোড">
                         <button type="submit">খুঁজুন</button>
                     </form>
@@ -160,7 +247,10 @@
                     <a class="nav-link" href="pro.html">সেবা প্রদানকারী সাইন আপ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="customer-activity.html">প্রকল্প</a>
+                    <a class="nav-link" href="pro.html">অ্যান্ডসেবার এজেন্ট হন</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer-activity.html">সেবা সমূহ</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="customer-inbox.html">ইনবক্স</a>
@@ -200,10 +290,12 @@
                         <div class="message-main-box">
                             <div class="message-main-header text-center">
                                 <h6>গৃহ কর্মী</h6>
-                                <button data-toggle="modal" data-target="#project-details-modal">প্রকল্প টি সম্পর্কে বিস্তারিত জানুন</button>
+                                <button data-toggle="modal" data-target="#project-details-modal">প্রকল্প টি সম্পর্কে
+                                    বিস্তারিত জানুন</button>
 
                                 <!-- Modal -->
-                                <div class="modal fade" id="project-details-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal fade" id="project-details-modal" tabindex="-1" role="dialog"
+                                    aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -220,7 +312,8 @@
                                                         alt="img">
                                                     <div class="project-details-box">
                                                         <h6>কখন</h6>
-                                                        <p>আপনি যখন এটি করতে চান তখন অ্যান্ড সেবা কর্মীর সাথে আলোচনা করুন</p>
+                                                        <p>আপনি যখন এটি করতে চান তখন অ্যান্ড সেবা কর্মীর সাথে আলোচনা
+                                                            করুন</p>
                                                     </div>
 
                                                     <div class="project-details-box">
@@ -249,7 +342,8 @@
                                                     </div>
                                                     <div class="project-details-box">
                                                         <h6>ভ্রমণ পছন্দ</h6>
-                                                        <p><i class="fas fa-check"></i>পেশাদাররা আমার ঠিকানায় ভ্রমণ করতে পারে</p>
+                                                        <p><i class="fas fa-check"></i>পেশাদাররা আমার ঠিকানায় ভ্রমণ
+                                                            করতে পারে</p>
                                                     </div>
 
                                                 </div>
@@ -270,7 +364,8 @@
                                         <div class="chat-box-right">
                                             <div class="chat-box-text">
                                                 <h6>দাম সম্পর্কে আরও তথ্য</h6>
-                                                <p>আপনি কি আরও আলোচনা করতে আগ্রহী ? তাহলে সময় করে আমার প্রদত্ত মোবাইল নাম্বারে যোগাযোগ করুন।
+                                                <p>আপনি কি আরও আলোচনা করতে আগ্রহী ? তাহলে সময় করে আমার প্রদত্ত মোবাইল
+                                                    নাম্বারে যোগাযোগ করুন।
                                                     <br> <br>আমার নাম নীচে অ্যাঞ্জেলো ধন্যবাদ।
                                                 </p>
                                             </div>
@@ -302,7 +397,8 @@
                                         <div class="chat-box-right">
                                             <div class="chat-box-text">
                                                 <h6>দাম সম্পর্কে আরও তথ্য</h6>
-                                                <p>আপনি কি আরও আলোচনা করতে আগ্রহী ? তাহলে সময় করে আমার প্রদত্ত মোবাইল নাম্বারে যোগাযোগ করুন।
+                                                <p>আপনি কি আরও আলোচনা করতে আগ্রহী ? তাহলে সময় করে আমার প্রদত্ত মোবাইল
+                                                    নাম্বারে যোগাযোগ করুন।
                                                     <br> <br>আমার নাম নীচে <a href="#">অ্যাঞ্জেলো</a> ধন্যবাদ।</p>
                                             </div>
                                             <p class="chat-box-time text-uppercase">রাত ২ঃ০০ টা</p>
@@ -333,8 +429,10 @@
                                         <div class="chat-box-right">
                                             <div class="chat-box-text">
                                                 <h6>দাম সম্পর্কে আরও তথ্য</h6>
-                                                <p>আপনি কি আরও আলোচনা করতে আগ্রহী ? তাহলে সময় করে আমার প্রদত্ত মোবাইল নাম্বারে যোগাযোগ করুন।
-                                                    <br> <br>আমার নাম্বার নীচে <a href="tel:১২৩৩৪৫৬৭৮৯">+১২৩৪৫৬৭৮৯</a></p>
+                                                <p>আপনি কি আরও আলোচনা করতে আগ্রহী ? তাহলে সময় করে আমার প্রদত্ত মোবাইল
+                                                    নাম্বারে যোগাযোগ করুন।
+                                                    <br> <br>আমার নাম্বার নীচে <a href="tel:১২৩৩৪৫৬৭৮৯">+১২৩৪৫৬৭৮৯</a>
+                                                </p>
                                             </div>
                                             <p class="chat-box-time text-uppercase">রাত ২ঃ০০ টা</p>
                                         </div>
@@ -364,7 +462,8 @@
                                         <div class="chat-box-right">
                                             <div class="chat-box-text">
                                                 <h6>দাম সম্পর্কে আরও তথ্য</h6>
-                                                <p>আপনি কি আরও আলোচনা করতে আগ্রহী ? তাহলে সময় করে আমার প্রদত্ত মোবাইল নাম্বারে যোগাযোগ করুন।
+                                                <p>আপনি কি আরও আলোচনা করতে আগ্রহী ? তাহলে সময় করে আমার প্রদত্ত মোবাইল
+                                                    নাম্বারে যোগাযোগ করুন।
                                                     <br> <br>আমার নাম নীচে অ্যাঞ্জেলো ধন্যবাদ।</p>
                                             </div>
                                             <p class="chat-box-time text-uppercase">রাত ২ঃ০০ টা</p>
@@ -387,11 +486,13 @@
                                     </div>
 
                                     <a href="tel:+551254254" title="Place a call"><i class="fas fa-phone"></i></a>
-                                    <a href="customer-review.html" title="Leave a review"><i class="far fa-star"></i></a>
+                                    <a href="customer-review.html" title="Leave a review"><i
+                                            class="far fa-star"></i></a>
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea name="send_message" cols="30" rows="1" placeholder="এখানে বার্তা টাইপ করুন..."></textarea>
+                                    <textarea name="send_message" cols="30" rows="1"
+                                        placeholder="এখানে বার্তা টাইপ করুন..."></textarea>
                                 </div>
                                 <div class="form-group">
                                     <button type="submit" class="btn theme-button">পাঠান</button>
@@ -413,7 +514,9 @@
                                 <p>সিলভার গোল্ড পুরুষ গৃ্হ কর্মী</p>
                                 <p class="online-now"><i class="fas fa-circle"></i> অনলাইনে আছে</p>
                                 <p class="message-profile-review">
-                                    <span class="review-rating">৫.০ <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>২৫ রিভিউ
+                                    <span class="review-rating">৫.০ <i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></span>২৫ রিভিউ
                                 </p>
                             </div>
                         </div>
@@ -531,16 +634,21 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="customer-rating-name"><i class="far fa-thumbs-up"></i> গ্রাহকরা <strong>সময়কালীনতা</strong>, <strong>পেশাদারিত্ব</strong> এবং <strong>প্রতিক্রিয়াশীলতার</strong> জন্য এই সেবাদান কারীকে অত্যন্ত রেট দিয়েছেন।</p>
+                            <p class="customer-rating-name"><i class="far fa-thumbs-up"></i> গ্রাহকরা
+                                <strong>সময়কালীনতা</strong>, <strong>পেশাদারিত্ব</strong> এবং
+                                <strong>প্রতিক্রিয়াশীলতার</strong> জন্য এই সেবাদান কারীকে অত্যন্ত রেট দিয়েছেন।</p>
 
                             <div class="message-customer-review">
                                 <h6>সুরাইয়া আয়শা</h6>
                                 <p>দরজা ইনস্টলেশন</p>
                                 <p class="message-customer-review-rate">
-                                    <span class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
                                     </span>
                                 </p>
-                                <p class="review-text">আপনার পছন্দসই কাজটি করতে পারবেন না। তবুও, মর্যাদাপূর্ণ ফলস্বরূপ মর্যাদাপূর্ণ মাইক্রোসফট মাইক্রোসফট কাজ সম্পর্কে কিছু বলতে চান?</p>
+                                <p class="review-text">আপনার পছন্দসই কাজটি করতে পারবেন না। তবুও, মর্যাদাপূর্ণ ফলস্বরূপ
+                                    মর্যাদাপূর্ণ মাইক্রোসফট মাইক্রোসফট কাজ সম্পর্কে কিছু বলতে চান?</p>
                                 <p class="message-review-date">২২ মার্চ, ২০২০ <span>যাচাইকৃত</span></p>
                             </div>
 
@@ -548,10 +656,13 @@
                                 <h6>সুরাইয়া আয়শা</h6>
                                 <p>দরজা ইনস্টলেশন</p>
                                 <p class="message-customer-review-rate">
-                                    <span class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
                                     </span>
                                 </p>
-                                <p class="review-text">আপনার পছন্দসই কাজটি করতে পারবেন না। তবুও, মর্যাদাপূর্ণ ফলস্বরূপ মর্যাদাপূর্ণ মাইক্রোসফট মাইক্রোসফট কাজ সম্পর্কে কিছু বলতে চান?</p>
+                                <p class="review-text">আপনার পছন্দসই কাজটি করতে পারবেন না। তবুও, মর্যাদাপূর্ণ ফলস্বরূপ
+                                    মর্যাদাপূর্ণ মাইক্রোসফট মাইক্রোসফট কাজ সম্পর্কে কিছু বলতে চান?</p>
                                 <p class="message-review-date">২২ মার্চ, ২০২০ <span>যাচাইকৃত</span></p>
                             </div>
 
@@ -559,20 +670,26 @@
                                 <h6>সুরাইয়া আয়শা</h6>
                                 <p>দরজা ইনস্টলেশন</p>
                                 <p class="message-customer-review-rate">
-                                    <span class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
                                     </span>
                                 </p>
-                                <p class="review-text">আপনার পছন্দসই কাজটি করতে পারবেন না। তবুও, মর্যাদাপূর্ণ ফলস্বরূপ মর্যাদাপূর্ণ মাইক্রোসফট মাইক্রোসফট কাজ সম্পর্কে কিছু বলতে চান?</p>
+                                <p class="review-text">আপনার পছন্দসই কাজটি করতে পারবেন না। তবুও, মর্যাদাপূর্ণ ফলস্বরূপ
+                                    মর্যাদাপূর্ণ মাইক্রোসফট মাইক্রোসফট কাজ সম্পর্কে কিছু বলতে চান?</p>
                                 <p class="message-review-date">২২ মার্চ, ২০২০ <span>যাচাইকৃত</span></p>
                             </div>
                             <div class="message-customer-review">
                                 <h6>সুরাইয়া আয়শা</h6>
                                 <p>দরজা ইনস্টলেশন</p>
                                 <p class="message-customer-review-rate">
-                                    <span class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
                                     </span>
                                 </p>
-                                <p class="review-text">আপনার পছন্দসই কাজটি করতে পারবেন না। তবুও, মর্যাদাপূর্ণ ফলস্বরূপ মর্যাদাপূর্ণ মাইক্রোসফট মাইক্রোসফট কাজ সম্পর্কে কিছু বলতে চান?</p>
+                                <p class="review-text">আপনার পছন্দসই কাজটি করতে পারবেন না। তবুও, মর্যাদাপূর্ণ ফলস্বরূপ
+                                    মর্যাদাপূর্ণ মাইক্রোসফট মাইক্রোসফট কাজ সম্পর্কে কিছু বলতে চান?</p>
                                 <p class="message-review-date">২২ মার্চ, ২০২০ <span>যাচাইকৃত</span></p>
                             </div>
                         </div>
@@ -581,17 +698,20 @@
                             <h6 class="message-pro-rightside-header text-uppercase">প্রশ্ন এবং উত্তর</h6>
 
                             <div class="message-q-and-answer-box">
-                                <h6>গ্রাহকদের তাদের প্রকল্প সম্পর্কে পেশাদারদের সাথে কথা বলার আগে কোন প্রশ্নগুলি চিন্তা করা উচিত?</h6>
+                                <h6>গ্রাহকদের তাদের প্রকল্প সম্পর্কে পেশাদারদের সাথে কথা বলার আগে কোন প্রশ্নগুলি চিন্তা
+                                    করা উচিত?</h6>
                                 <p>তারা কী পরিষেবাগুলি সরবরাহ করে, প্রতি ঘন্টা হার এবং ন্যূনতম চার্জ দেয়।</p>
                             </div>
 
                             <div class="message-q-and-answer-box">
-                                <h6>গ্রাহকদের তাদের প্রকল্প সম্পর্কে পেশাদারদের সাথে কথা বলার আগে কোন প্রশ্নগুলি চিন্তা করা উচিত?</h6>
+                                <h6>গ্রাহকদের তাদের প্রকল্প সম্পর্কে পেশাদারদের সাথে কথা বলার আগে কোন প্রশ্নগুলি চিন্তা
+                                    করা উচিত?</h6>
                                 <p>তারা কী পরিষেবাগুলি সরবরাহ করে, প্রতি ঘন্টা হার এবং ন্যূনতম চার্জ দেয়।</p>
                             </div>
 
                             <div class="message-q-and-answer-box">
-                                <h6>গ্রাহকদের তাদের প্রকল্প সম্পর্কে পেশাদারদের সাথে কথা বলার আগে কোন প্রশ্নগুলি চিন্তা করা উচিত?</h6>
+                                <h6>গ্রাহকদের তাদের প্রকল্প সম্পর্কে পেশাদারদের সাথে কথা বলার আগে কোন প্রশ্নগুলি চিন্তা
+                                    করা উচিত?</h6>
                                 <p>তারা কী পরিষেবাগুলি সরবরাহ করে, প্রতি ঘন্টা হার এবং ন্যূনতম চার্জ দেয়।</p>
                             </div>
                         </div>
@@ -627,7 +747,8 @@
                         <div class="message-about-this-pro">
 
                             <h6 class="message-pro-rightside-header text-uppercase">সেবাদানকারী সম্পর্কে</h6>
-                            <p>আপনার পছন্দসই কাজটি করতে পারবেন না। এই ডাইরজেন্ট ডালোরস ইলেক্ট্রিকাল ইমেজ, মাইনাস নটস নেমস কমপ্লেক্স, আপনি কি অস্থায়ীভাবে কাজ করতে চান? টেম্পোরা, ভেরো</p>
+                            <p>আপনার পছন্দসই কাজটি করতে পারবেন না। এই ডাইরজেন্ট ডালোরস ইলেক্ট্রিকাল ইমেজ, মাইনাস নটস
+                                নেমস কমপ্লেক্স, আপনি কি অস্থায়ীভাবে কাজ করতে চান? টেম্পোরা, ভেরো</p>
 
                             <div class="message-about-small d-flex">
                                 <i class="far fa-clock"></i>
@@ -635,7 +756,8 @@
                             </div>
                             <div class="message-about-small d-flex">
                                 <i class="fas fa-trophy"></i>
-                                <h6 class="message-about-text">টাইমস অ্যান্ড সেবায় ভাড়া নিয়েছে <span class="d-block">৪</span>
+                                <h6 class="message-about-text">টাইমস অ্যান্ড সেবায় ভাড়া নিয়েছে <span
+                                        class="d-block">৪</span>
                                 </h6>
                             </div>
                             <div class="message-about-small d-flex">

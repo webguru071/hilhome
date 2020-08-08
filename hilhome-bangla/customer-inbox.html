@@ -39,8 +39,10 @@
     <link rel="shortcut icon" href="assets/img/favicon-16x16.png">
 
     <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-72x72.png" sizes="72x72" />
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-114x114.png" sizes="114x114" />
-    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-144x144.png" sizes="144x144" />
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-114x114.png"
+        sizes="114x114" />
+    <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/apple-icon-144x144.png"
+        sizes="144x144" />
     <link rel="apple-touch-icon-precomposed" type="image/x-icon" href="assets/img/favicon-16x16.png" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -60,15 +62,16 @@
     <!-- Pre Loader Area End -->
 
     <!-- Menu After Login Area Start -->
-    <header class="menu-section-area menu-search-area menu-after-login padding-zero">
+    <header class="menu-section-area menu-search-area menu-after-login pro-menu-after-login padding-zero">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg d-none d-sm-none d-md-block d-lg-block d-xl-block" id="mainNav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/mobile-logo.png" alt="logo" class="img-fluid"></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/mobile-logo.png" alt="logo"
+                        class="img-fluid"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
-
                 <!-- Search Bar in Main Menu Area Start-->
                 <div class="search-box">
                     <form action="#" method="post">
@@ -86,8 +89,7 @@
                                 <option value="Massage Therapy">ম্যাসাজ শিল্পী</option>
                                 <option value="Dog Training">কুকুর প্রশিক্ষক</option>
                                 <option value="Event Planners">অনুষ্ঠান পরিচালনাকারী</option>
-                            </select>
-                        </div>
+                            </select> </div>
                         <input type="text" placeholder="পোস্ট কোড">
                         <button type="submit">খুঁজুন</button>
                     </form>
@@ -100,13 +102,62 @@
                             <a class="nav-link" href="pro.html">সেবা প্রদানকারী সাইন আপ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="customer-activity.html">প্রকল্প</a>
+                            <a class="nav-link" href="customer-activity.html">সেবা সমূহ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="!#">অ্যান্ডসেবার এজেন্ট হন</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="customer-inbox.html">ইনবক্স</a>
                         </li>
+                        <li class="nav-item dropdown-box bell-arae-menu">
+                            <a class="nav-link"><i class="far fa-bell"></i></a>
+                            <ul class="dropdown-list" id="notification-area-find">
+                                <a href="view-all-notification.html" class="notification-read-all">View All
+                                    Notification</a>
+                                <li>
+                                    <a href="#!">
+                                        <div class="notification-list-arae">
+                                            <ul>
+                                                <li>
+                                                    <div class="light-arae">
+                                                        <i class="far fa-lightbulb"></i>
+                                                    </div>
+                                                    <div class="light-details-arae">
+                                                        <h6>It looks like we need one more thing.</h6>
+                                                        <p>Add a little more information so you can connect with
+                                                            customers.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="light-arae">
+                                                        <i class="far fa-lightbulb"></i>
+                                                    </div>
+                                                    <div class="light-details-arae">
+                                                        <h6>It looks like we need one more thing.</h6>
+                                                        <p>Add a little more information so you can connect with
+                                                            customers.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="light-arae">
+                                                        <i class="far fa-lightbulb"></i>
+                                                    </div>
+                                                    <div class="light-details-arae">
+                                                        <h6>It looks like we need one more thing.</h6>
+                                                        <p>Add a little more information so you can connect with
+                                                            customers.</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
                         <li class="nav-item dropdown-box">
-                            <a class="nav-link"><span class="customer-img"><img src="assets/img/pros-img/1.jpg" alt="img"></span>সুরাইয়া<i class="fas fa-angle-down"></i></a>
+                            <a class="nav-link"><span class="customer-img"><img src="assets/img/pros-img/1.jpg"
+                                        alt="img"></span>সুরাইয়া<i class="fas fa-angle-down"></i></a>
                             <ul class="dropdown-list">
                                 <li><a href="customer-profile.html">প্রোফাইল</a></li>
                                 <li><a href="index.html">লগ আউট</a></li>
@@ -117,12 +168,54 @@
             </div>
         </nav>
         <!-- Navigation -->
-
+        <div class="dropdown-box bell-arae-menu" id="modile-menu-notification">
+            <a class="nav-link"><i class="far fa-bell"></i></a>
+            <ul class="dropdown-list" id="notification-area-find">
+                <a href="view-all-notification.html" class="notification-read-all">View All
+                    Notification</a>
+                <li>
+                    <a href="#!">
+                        <div class="notification-list-arae">
+                            <ul>
+                                <li>
+                                    <div class="light-arae">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="light-details-arae">
+                                        <h6>It looks like we need one more thing.</h6>
+                                        <p>Add a little more information so you can connect with
+                                            customers.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="light-arae">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="light-details-arae">
+                                        <h6>It looks like we need one more thing.</h6>
+                                        <p>Add a little more information so you can connect with
+                                            customers.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="light-arae">
+                                        <i class="far fa-lightbulb"></i>
+                                    </div>
+                                    <div class="light-details-arae">
+                                        <h6>It looks like we need one more thing.</h6>
+                                        <p>Add a little more information so you can connect with
+                                            customers.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </a></li>
+            </ul>
+        </div>
         <!-- Mobile Menu Start -->
         <nav class="mobile_menu hidden d-none">
             <a href="index.html"><img class="mobile-logo" src="assets/img/mobile-logo.png" alt="logo"></a>
             <ul class="nav navbar-nav navbar-right menu">
-
                 <!-- Search Bar in Mobile Menu Area Start-->
                 <div class="search-box">
                     <form action="#" method="post">
@@ -140,8 +233,7 @@
                                 <option value="Massage Therapy">ম্যাসাজ শিল্পী</option>
                                 <option value="Dog Training">কুকুর প্রশিক্ষক</option>
                                 <option value="Event Planners">অনুষ্ঠান পরিচালনাকারী</option>
-                            </select>
-                        </div>
+                            </select> </div>
                         <input type="text" placeholder="পোস্ট কোড">
                         <button type="submit">খুঁজুন</button>
                     </form>
@@ -155,7 +247,10 @@
                     <a class="nav-link" href="pro.html">সেবা প্রদানকারী সাইন আপ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="customer-activity.html">প্রকল্প</a>
+                    <a class="nav-link" href="pro.html">অ্যান্ডসেবার এজেন্ট হন</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer-activity.html">সেবা সমূহ</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="customer-inbox.html">ইনবক্স</a>
@@ -178,14 +273,10 @@
         <div class="container">
             <div class="row customer-inbox-wrap">
                 <div class="col-12 col-sm-12 col-md-8">
-
                     <h3 class="customer-profile-title">ইনবক্স</h3>
-
                     <div class="customer-right-side">
-
                         <!--  Inbox Pro Message wrap-->
                         <div class="inbox-pro-message-wrap">
-
                             <p class="inbox-service-name-title">ঘর পরিষ্কারক</p>
                             <!--  Inbox Pro Message List box-->
                             <div class="inbox-pro-message-list-box">
@@ -194,7 +285,9 @@
                                         <div class="inbox-pro-img"><img src="assets/img/pros-img/1.jpg" alt="img"></div>
                                         <div class="inbox-content">
                                             <h6 class="inbox-pro-name">পরিষ্কারের রাজা</h6>
-                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span class="off-line online"><i class="fas fa-circle"></i>অনলাইন</span></p>
+                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span
+                                                    class="off-line online"><i class="fas fa-circle"></i>অনলাইন</span>
+                                            </p>
                                             <h6 class="short-text">হ্যালো আমাদের সেবা নিন।</h6>
                                         </div>
                                         <h6 class="inbox-pro-date">এপ্রিল ১৯</h6>
@@ -205,7 +298,8 @@
                                         <div class="inbox-pro-img"><img src="assets/img/pros-img/1.jpg" alt="img"></div>
                                         <div class="inbox-content">
                                             <h6 class="inbox-pro-name">পরিষ্কারের রাজা</h6>
-                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span class="off-line"><i class="fas fa-circle"></i>সক্রিয় ২ ঘণ্টা আগে</span></p>
+                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span class="off-line"><i
+                                                        class="fas fa-circle"></i>সক্রিয় ২ ঘণ্টা আগে</span></p>
                                             <h6 class="short-text">হ্যালো আমাদের সেবা নিন।</h6>
                                         </div>
                                         <h6 class="inbox-pro-date">এপ্রিল ১৯</h6>
@@ -216,57 +310,54 @@
                                         <div class="inbox-pro-img"><img src="assets/img/pros-img/1.jpg" alt="img"></div>
                                         <div class="inbox-content">
                                             <h6 class="inbox-pro-name">পরিষ্কারের রাজা</h6>
-                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span class="off-line online"><i class="fas fa-circle"></i>অনলাইন</span></p>
+                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span
+                                                    class="off-line online"><i class="fas fa-circle"></i>অনলাইন</span>
+                                            </p>
                                             <h6 class="short-text">হ্যালো আমাদের সেবা নিন।</h6>
                                         </div>
                                         <h6 class="inbox-pro-date">এপ্রিল ১৯</h6>
                                     </a>
                                 </div>
-                            </div>
-                            <!--  Inbox Pro Message List box-->
+                                <div class="inbox-lists">
+                                    <a href="message-pro.html">
+                                        <div class="inbox-pro-img"><img src="assets/img/pros-img/1.jpg" alt="img"></div>
+                                        <div class="inbox-content">
+                                            <h6 class="inbox-pro-name">পরিষ্কারের রাজা</h6>
+                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span
+                                                    class="off-line online"><i class="fas fa-circle"></i>অনলাইন</span>
+                                            </p>
+                                            <h6 class="short-text">হ্যালো আমাদের সেবা নিন।</h6>
+                                        </div>
+                                        <h6 class="inbox-pro-date">এপ্রিল ১৯</h6>
+                                    </a>
+                                </div>
+                                <div class="inbox-lists">
+                                    <a href="message-pro.html">
+                                        <div class="inbox-pro-img"><img src="assets/img/pros-img/1.jpg" alt="img"></div>
+                                        <div class="inbox-content">
+                                            <h6 class="inbox-pro-name">পরিষ্কারের রাজা</h6>
+                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span
+                                                    class="off-line online"><i class="fas fa-circle"></i>অনলাইন</span>
+                                            </p>
+                                            <h6 class="short-text">হ্যালো আমাদের সেবা নিন।</h6>
+                                        </div>
+                                        <h6 class="inbox-pro-date">এপ্রিল ১৯</h6>
+                                    </a>
+                                </div>
+                                <div class="inbox-lists">
+                                    <a href="message-pro.html">
+                                        <div class="inbox-pro-img"><img src="assets/img/pros-img/1.jpg" alt="img"></div>
+                                        <div class="inbox-content">
+                                            <h6 class="inbox-pro-name">পরিষ্কারের রাজা</h6>
+                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span
+                                                    class="off-line online"><i class="fas fa-circle"></i>অনলাইন</span>
+                                            </p>
+                                            <h6 class="short-text">হ্যালো আমাদের সেবা নিন।</h6>
+                                        </div>
+                                        <h6 class="inbox-pro-date">এপ্রিল ১৯</h6>
+                                    </a>
+                                </div>
 
-                        </div>
-                        <!-- Inbox Pro Message wrap-->
-
-                        <!--  Inbox Pro Message wrap-->
-                        <div class="inbox-pro-message-wrap">
-
-                            <p class="inbox-service-name-title">ঘর পরিষ্কারক</p>
-                            <!--  Inbox Pro Message List box-->
-                            <div class="inbox-pro-message-list-box">
-                                <div class="inbox-lists">
-                                    <a href="message-pro.html">
-                                        <div class="inbox-pro-img"><img src="assets/img/pros-img/1.jpg" alt="img"></div>
-                                        <div class="inbox-content">
-                                            <h6 class="inbox-pro-name">পরিষ্কারের রাজা</h6>
-                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span class="off-line online"><i class="fas fa-circle"></i>অনলাইন</span> </p>
-                                            <h6 class="short-text">হ্যালো আমাদের সেবা নিন।</h6>
-                                        </div>
-                                        <h6 class="inbox-pro-date">এপ্রিল ১৯</h6>
-                                    </a>
-                                </div>
-                                <div class="inbox-lists">
-                                    <a href="message-pro.html">
-                                        <div class="inbox-pro-img"><img src="assets/img/pros-img/1.jpg" alt="img"></div>
-                                        <div class="inbox-content">
-                                            <h6 class="inbox-pro-name">পরিষ্কারের রাজা</h6>
-                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span class="off-line"><i class="fas fa-circle"></i>সক্রিয় ২ ঘণ্টা আগে</span> </p>
-                                            <h6 class="short-text">হ্যালো আমাদের সেবা নিন।</h6>
-                                        </div>
-                                        <h6 class="inbox-pro-date">এপ্রিল ১৯</h6>
-                                    </a>
-                                </div>
-                                <div class="inbox-lists">
-                                    <a href="message-pro.html">
-                                        <div class="inbox-pro-img"><img src="assets/img/pros-img/1.jpg" alt="img"></div>
-                                        <div class="inbox-content">
-                                            <h6 class="inbox-pro-name">পরিষ্কারের রাজা</h6>
-                                            <p><span><i class="fab fa-tumblr"></i>১৫০</span><span class="off-line online"><i class="fas fa-circle"></i>অনলাইন</span> </p>
-                                            <h6 class="short-text">হ্যালো আমাদের সেবা নিন।</h6>
-                                        </div>
-                                        <h6 class="inbox-pro-date">এপ্রিল ১৯</h6>
-                                    </a>
-                                </div>
                             </div>
                             <!--  Inbox Pro Message List box-->
 
@@ -528,7 +619,9 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="footer-bottom-part">
-                            <div class="copyright"><a href="https://andsheba.com/"><img src="assets/img/copyright-logo.png" alt="icon"> &copy; 2020 Andsheba, Inc.</a></div>
+                            <div class="copyright"><a href="https://andsheba.com/"><img
+                                        src="assets/img/copyright-logo.png" alt="icon"> &copy; 2020 Andsheba, Inc.</a>
+                            </div>
                             <div class="bottom-footer-right">
                                 <a href="guarantee.html"><i class="fas fa-shield-alt"></i>Andsheba Guarantee</a>
                             </div>
