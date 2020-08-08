@@ -3366,7 +3366,7 @@ ul.social-media li a {
 .tabs-wrapper-overview-customer .nav-tabs {
     border: none;
     justify-content: space-between;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #ececec;
 }
 
 .tabs-wrapper-overview-customer .nav-tabs .nav-link {
@@ -11616,10 +11616,6 @@ del {
         padding-top: 20px;
     }
 
-    .customer-activity-page {
-        padding-top: 100px;
-    }
-
     #modile-menu-messages {
         display: block;
         top: 4px;
@@ -12326,8 +12322,15 @@ del {
     .customer-create-password,
     .customer-inbox-page-area,
     .register-area,
-    .login-area {
+    .login-area,
+    .edit-pro-area,
+    .stories-catagory-area-banner,
+    .customer-activity-page {
         padding-top: 110px;
+    }
+
+    .customer-activity-tabs-content {
+        padding-left: 0px;
     }
 
     .message-pro-page {
@@ -12402,6 +12405,28 @@ del {
 }
 
 @media only screen and (max-width: 767px) {
+    .payment-logfo-area a img {
+        padding-right: 10px;
+        width: 15%;
+    }
+
+    .filter-resuult-find ul {
+        display: inherit;
+    }
+
+    .filter-btn-area ul li button {
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    .stories-banner-inner a h2,
+    .cat-stories-inner a h2 {
+        font-size: 36px;
+    }
+
+    .filter-resuult-find ul li {
+        padding-bottom: 15px;
+    }
 
     h4 {
         font-size: 18px;
