@@ -403,17 +403,80 @@
                 <div class="col-12 col-sm-12 col-md-8">
                     <div class="customer-right-side">
                         <h4 class="customer-profile-title">একাউন্ট</h4>
-                        <div class="customer-profile-pages">
-                            <ul>
-                                <li><a href="customer-account-edit.html">নাম<i class="fas fa-angle-right"></i></a></li>
-                                <li><a href="customer-account-edit.html">ই-মেইল<i class="fas fa-angle-right"></i></a>
-                                </li>
-                                <li><a href="customer-account-edit.html">ফোন নাম্বার<i
-                                            class="fas fa-angle-right"></i></a></li>
-                                <li><a href="customer-password.html">পাসওয়ার্ড<i class="fas fa-angle-right"></i></a>
-                            </ul>
+                        <form>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6">
+                                        <label for="first-name">প্রথম নাম</label>
+                                        <input type="text" class="form-control" id="first_name" placeholder="Hadayet">
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6">
+                                        <label for="last-name">শেষ নাম</label>
+                                        <input type="text" class="form-control" id="last_name" placeholder="Ali">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12">
+                                        <label for="email">ইমেইল</label>
+                                        <input type="email" class="form-control" id="email_add"
+                                            placeholder="demo123@gmail.com">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12">
+                                        <label for="number">ফোন</label>
+                                        <input type="number" class="form-control" id="phone_number"
+                                            placeholder="01994992011">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12">
+                                        <label for="time_zone">সময় অঞ্চল</label>
+                                        <select id="time_zone" class="form-control">
+                                            <option value="pacific" selected="">Pacific (currently 11:44pm)</option>
+                                            <option value="pacific">Eastern (currently 02:10pm)</option>
+                                            <option value="pacific">Atlantic (currently 4:05pm)</option>
+                                            <option value="pacific">Pacific (currently 11:44pm)</option>
+                                            <option value="pacific">Eastern (currently 02:10pm)</option>
+                                            <option value="pacific">Atlantic (currently 4:05pm)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12">
+                                        <label for="password">পুরাতন পাসওয়ার্ড </label>
+                                        <div class="area-info-password-top">
+                                            <i class="fa fa-info-circle"></i>
+                                            <p> আপনি কি আপনার পাসওয়ার্ড পরিবর্তন
+                                                করতে চান </p>
+                                        </div>
+                                        <input type="password" class="form-control" id="old_pass" placeholder="*******">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12">
+                                        <label for="password">নতুন পাসওয়ার্ড</label>
+                                        <input type="password" class="form-control" id="new_pass" placeholder="*******">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="customer-account-edit-button d-flex">
+                                <button type="button" class="btn theme-button"
+                                    onclick="location.href='customer-profile.html'">সেভ</button>
+                                <button type="reset" class="btn theme-button-2">বাতিল</button>
+                            </div>
 
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>

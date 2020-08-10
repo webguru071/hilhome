@@ -70,7 +70,7 @@
 @import url('../vendor/fontawesome-free/css/all.min.css');
 @import url('../vendor/flat-icon/flaticon.css');
 @import url('../vendor/bangla-fonts/solaimanlipi.css');
-@import url('venobox.css');
+@import url('venobox.min.css');
 @import url('animate.css');
 @import url('owl.carousel.min.css');
 @import url('owl.theme.default.min.css');
@@ -2512,7 +2512,7 @@ ul.social-media li a {
 }
 
 .customer-information-page .customer-right-side {
-    padding: 40px 40px 40px 10px;
+    padding: 40px 0 40px 56px;
 }
 
 /*Customer Inbox Page CSS Start*/
@@ -2771,9 +2771,9 @@ ul.social-media li a {
 }
 
 .customer-account-deactivate-area form {
-    width: 69%;
+    width: 100%;
     border: none;
-    padding: 0;
+    padding: 1px 35px 35px 35px;
 }
 
 .customer-account-deactivate-area .remember-box {
@@ -2782,45 +2782,6 @@ ul.social-media li a {
 }
 
 /*Customer Activity Page*/
-/* .customer-activity-page .customer-activity-content {
-    width: 55%;
-    margin: 0 auto;
-}
-
-.customer-activity-page .home-hero-projects-wrap .hero-project-lists {
-    margin: 15px 0 22px;
-    flex-direction: column;
-}
-
-.customer-activity-page .home-hero-projects-wrap .hero-project-box {
-    padding: 15px 10px 15px 30px;
-    margin-right: 0;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
-.customer-activity-page .customer-activity-list-left {
-    display: flex;
-    align-items: center;
-}
-
-.customer-activity-list-right {
-    position: relative;
-}
-
-.customer-activity-list-right span.new-tag {
-    position: absolute;
-    background-color: #0eb50e;
-    display: flex;
-    padding: 3px;
-    width: 50px;
-    border-radius: 4px;
-    justify-content: center;
-    font-size: 10px;
-    right: 42px;
-    top: -9px;
-    text-transform: uppercase;
-} */
 
 .notification-icon {
     font-size: 8px;
@@ -2917,6 +2878,37 @@ ul.social-media li a {
 
 .customer-activity-location-arae p .not-alowed {
     color: #6a9658;
+}
+
+.area-info-password-top {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+}
+
+.area-info-password-top p {
+    background: #fff;
+    border: 1px solid #ced4da;
+    padding: 1px 11px;
+    margin-left: 14px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 176px;
+    left: 25px;
+    top: -10px;
+}
+
+.area-info-password-top:hover p {
+    opacity: 1;
+    visibility: visible;
+    top: -16px;
 }
 
 /*-------------------------------------------
@@ -3509,7 +3501,7 @@ ul.social-media li a {
 }
 
 .customer-account-edit-button {
-    padding: 5px 20px;
+    padding: 5px 0px;
 }
 
 /*Contacted Pros Area*/
@@ -9622,8 +9614,7 @@ del {
     display: flex;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
-    align-items: flex-end;
-    text-align: left;
+    align-items: center;
     position: relative;
     padding: 0;
 }
@@ -9639,7 +9630,6 @@ del {
 .stories-banner-inner {
     z-index: 999;
     position: relative;
-    padding-bottom: 110px;
 }
 
 .stories-banner-inner a {
@@ -9669,6 +9659,7 @@ del {
 
 .vbox-container {
     overflow: hidden;
+    background-color: transparent !important;
 }
 
 .stories-inner-area {
@@ -9721,16 +9712,15 @@ del {
 
 .cat-stories-area {
     border: none;
-    background-image: url("../img/stories/item-2.png");
+    background-image: url("../img/stories/item-3.png");
     background-repeat: no-repeat;
     min-height: 400px;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
 }
 
-.cat-stories-inner {
-    padding-top: 100px;
-}
 
 .cat-stories-inner a {
     color: #fff;
@@ -9774,17 +9764,11 @@ del {
     margin-bottom: 0;
 }
 
-/*----------------------------
-  stories-catagorys page
---------------------------------*/
-.stories-catagory-area-banner {
-    background-color: #fafafa;
-    border: none;
-}
-
-.stories-catagory-banner-inner h2 {
-    font-size: 40px;
-    font-weight: 800;
+.related-article-page-area .stories-item-box {
+    padding-top: 0;
+    margin-top: 0;
+    height: 100%;
+    padding-bottom: 20px;
 }
 
 /*----------------------------
@@ -12220,6 +12204,15 @@ del {
     .heading-customer-activity {
         padding-top: 40px;
     }
+
+    .related-article-page-area .stories-item-box {
+        height: 100%;
+        padding-top: 40px;
+    }
+
+    .padding-top-0-sm {
+        padding-top: 0 !important;
+    }
 }
 
 /*======================================
@@ -12228,6 +12221,7 @@ del {
 @media only screen and (max-width: 991px) {
 
     /*Mobile Search Menu CSS Start*/
+
     .mean-nav ul .search-box {
         padding: 1em 5%;
         width: 70%;
