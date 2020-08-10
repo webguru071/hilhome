@@ -4813,7 +4813,7 @@ ul.social-media li a {
 /*----------------------------------
   Contact-Support page
 ------------------------------------*/
-
+/* 
 .contact-suport {
     padding: 100px 0;
 }
@@ -4910,6 +4910,48 @@ ul.social-media li a {
     padding-top: 20px;
     font-size: 14px;
     line-height: 20px;
+} */
+
+
+/*----------------------------------
+      Contact  Page
+------------------------------------*/
+.contact-wrapper-area {
+    padding: 150px 0;
+}
+
+.contact-heading-area {
+    text-align: center;
+}
+
+.contact-heading-area p {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact-item-boxed {
+    padding-top: 50px;
+}
+
+.contact-item-boxed .contact-boxed-wrapper {
+    box-shadow: 0px 0px 18px -12px #000;
+    padding: 40px 30px;
+    height: 100%;
+}
+
+.contact-item-boxed .contact-boxed-wrapper h3 {
+    font-size: 24px;
+}
+
+.contact-item-boxed .contact-boxed-wrapper p {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.contact-btn {
+    margin-top: 50px;
 }
 
 /*----------------------------------
@@ -9749,6 +9791,8 @@ del {
 
 .secend-area-stries {
     padding: 0 0 60px 0px;
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 0;
 }
 
 .pagenation-stories {
@@ -11522,14 +11566,13 @@ del {
 
 .view-all-notification-content {
     display: flex;
-    align-items: center;
+    border-bottom: 1px solid #ced4da5c;
+    padding-bottom: 20px
 }
 
-.view-all-notification-img {}
-
 .view-all-notification-img img {
-    width: 60px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
 
 .view-all-notification-text {
@@ -11538,11 +11581,6 @@ del {
 
 .view-all-notification-text h6 {
     padding-bottom: 5px;
-}
-
-.view-all-notification-text p span {
-    color: var(--color-blue);
-    padding-top: 5px;
 }
 
 .view-all-notification-boxed-arae ul li {
