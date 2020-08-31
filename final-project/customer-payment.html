@@ -24,7 +24,7 @@
   <meta name="msapplication-TileColor" content="#407bff">
   <meta name="theme-color" content="#3fa3fe">
 
-  <title>Andsheba - Customer Account Edit</title>
+  <title>Andsheba - Customer Payment</title>
 
   <!--=======================================
       All CSS Style link
@@ -53,7 +53,7 @@
 
 </head>
 
-<body>
+<body onload="show1()">
 
   <!-- Pre Loader Area start -->
   <div id="preloader">
@@ -375,73 +375,132 @@
   <!-- Menu After Login Area End -->
 
   <!-- Login Area Start -->
-  <section class="edit-pro-area">
+  <section class=" customer-information-page padding-zero">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="brath-came-area-setting">
-            <p><a href="customer-profile.html">প্রোফাইল</a> <i class="fas fa-angle-right"></i> <a
-                href="customer-information.html">সেটিংস</a> <i class="fas fa-angle-right"></i><span
-                class="active">একাউন্ট</span>
-            </p>
-          </div>
-          <div class="edit-name-wrapper">
-            <div class="pro-payment-form-arae">
-              <h2 class="card-area-heading">Add a new credit card</h2>
-              <div class="pro-payment-icon-area">
-                <svg height="28" width="28" fill="currentColor" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M22 23a1 1 0 01-1 1H7c-.552 0-1-.449-1-1V13c0-.551.448-1 1-1h14a1 1 0 011 1v10zM10 8c0-2.206 1.795-4 4-4 2.206 0 4 1.794 4 4v2h-8V8zm11 2h-1V8c0-3.309-2.69-6-6-6-3.309 0-6 2.691-6 6v2H7c-1.653 0-3 1.346-3 3v10c0 1.654 1.347 3 3 3h14c1.654 0 3-1.346 3-3V13c0-1.654-1.346-3-3-3z">
-                  </path>
-                </svg>
-                <p>All payment info is stored securely.</p>
-              </div>
-              <div class="pro-payment-form">
-                <form action="#!" id="pro-payment-main-form">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="form-group">
-                        <label for="text">Credit card number</label>
-                        <input type="text" class="form-control" placeholder="1234 1234 1234 1234">
-                      </div>
-                    </div>
-                    <div class="col-lg-2">
-                      <div class="form-group">
-                        <label for="text">Expiration</label>
-                        <input type="text" class="form-control" id="inputExpDate" placeholder="MM / YY" maxlength='7'>
-                      </div>
-                    </div>
-                    <div class="col-lg-2">
-                      <div class="form-group">
-                        <label for="text">CVC </label>
-                        <input type="text" class="form-control" placeholder="CVC">
-                      </div>
-                    </div>
-                    <div class="col-lg-2">
-                      <div class="form-group">
-                        <label for="text">Zip code</label>
-                        <input type="text" class="form-control" placeholder="92100">
-                      </div>
-                    </div>
-                  </div>
-                </form>
-                <div class="add-payment-btn">
-                  <a href="#!" class="btn theme-button">Add credit card</a>
-                </div>
-              </div>
+      <div class="row customer-profile-wrap">
+        <div class="col-12 col-sm-12 col-md-4">
+          <div class="customer-info-left-box">
+            <div class="brath-came-area-setting">
+              <p><a href="customer-profile.html">প্রোফাইল</a> <i class="fas fa-angle-right"></i> <span class="active">
+                  সেটিংস</span>
+              </p>
+            </div>
+            <h4 class="customer-profile-title">সেটিং</h4>
+            <div class="customer-profile-pages">
+              <ul>
+                <li><a href="customer-information.html">একাউন্ট<i class="fas fa-angle-right"></i></a>
+                </li>
+                <li><a href="customer-notifications.html">নোটিফিকেশন<i class="fas fa-angle-right"></i></a></li>
+                <li><a href="customer-payment.html" class="active">পেমেন্ট<i class="fas fa-angle-right"></i></a>
+                </li>
+                <li><a href="customer-account-deactivate.html">একাউন্ট বন্ধ(একাউন্ট বাতিল)<i
+                      class="fas fa-angle-right"></i></a></li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="payment-logfo-area">
-            <h2>You can't payment also</h2>
-            <a href="#!"><img src="assets/img/payment/visa.png" alt="visa"></a>
-            <a href="#!"><img src="assets/img/payment/rocate-pay.png" alt="rocate"></a>
-            <a href="#!"><img src="assets/img/payment/bkash-pay.png" alt="bkash"></a>
-            <a href="#!"><img src="assets/img/payment/amazon-pay.png" alt="amazon"></a>
-            <a href="#!"><img src="assets/img/payment/visa.png" alt="visa"></a>
+        <div class="col-12 col-sm-12 col-md-8">
+          <div class="customer-right-side">
+            <h4 class="customer-profile-title">অর্থ প্রদানের পদ্ধতি যুক্ত করুন</h4>
+            <div class="form-radio-paymen">
+              <label class="radio-build" onclick="show1();">ব্যাংক
+                <input type="radio" checked name="radio" id="input-area-check">
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-build" onclick="show2();">মোবাইল ব্যাংকিং
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="payment-form-area">
+              <form id="mobil-bank-form">
+                <div class="bank-logo-area">
+                  <a href="#!"><img src="assets/img/payment/amazon-pay.png" alt="img"></a>
+                  <a href="#!"><img src="assets/img/payment/bkash-pay.png" alt="img"></a>
+                  <a href="#!"><img src="assets/img/payment/rocate-pay.png" alt="img"></a>
+                </div>
+                <div class="form-group row">
+                  <label for="number" class="col-sm-2 col-form-label">Mobile No:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="01xx-xxxxxxx">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="name" class="col-sm-2 col-form-label">Name:</label>
+                  <div class="col-sm-10">
+                    <input type="name" class="form-control" placeholder="Name">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="comment" class="col-sm-2 col-form-label">Comments</label>
+                  <div class="col-sm-10">
+                    <textarea rows="5" class="form-control" placeholder="Comments"></textarea>
+                  </div>
+                </div>
+                <div class="save-cancel-button-arae">
+                  <button class="btn theme-button">Save</button>
+                  <button class="btn theme-button">Cancel</button>
+                </div>
+              </form>
+              <form id="bank-form">
+                <div class="form-group row">
+                  <label for="text" class="col-sm-2 col-form-label">Name:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="number" class="col-sm-2 col-form-label">Acc No:</label>
+                  <div class="col-sm-10">
+                    <input type="name" class="form-control" placeholder="Account No...">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="name" class="col-sm-2 col-form-label">Date:</label>
+                  <div class="col-sm-10">
+                    <input type="name" class="form-control" placeholder="Date...">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="name" class="col-sm-2 col-form-label">Bank</label>
+                  <div class="col-sm-10">
+                    <div class="short-box">
+                      <select class="custom-short-box form-control">
+                        <optgroup label="Select here">
+                          <option>Bank Name</option>
+                          <option>Ab Bank</option>
+                          <option>Sbl Bank</option>
+                        </optgroup>
+                      </select>
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="name" class="col-sm-2 col-form-label">Branch:</label>
+                  <div class="col-sm-10">
+                    <input type="name" class="form-control" placeholder="Branch Name">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="name" class="col-sm-2 col-form-label">Address:</label>
+                  <div class="col-sm-10">
+                    <input type="name" class="form-control" placeholder="Address">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="comment" class="col-sm-2 col-form-label">Comments</label>
+                  <div class="col-sm-10">
+                    <textarea rows="5" class="form-control" placeholder="Comments"></textarea>
+                  </div>
+                </div>
+
+                <div class="save-cancel-button-arae">
+                  <button class="btn theme-button">Save</button>
+                  <button class="btn theme-button">Cancel</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -587,6 +646,32 @@
 
   <!-- Custom scripts for this template -->
   <script src="assets/js/custom.js"></script>
+
+  <script>
+    function show1() {
+      document.getElementById('bank-form').style.display = 'block';
+      document.getElementById('mobil-bank-form').style.display = 'none';
+    }
+    function show2() {
+      document.getElementById('bank-form').style.display = 'none';
+      document.getElementById('mobil-bank-form').style.display = 'block';
+    }
+  </script>
+
+  <script>
+    const logo = document.querySelectorAll(".bank-logo-area a img");
+    logo.forEach((logos) => {
+      logos.addEventListener("click", function (e) {
+
+        logo.forEach((i) => {
+          i.classList.remove("active")
+        })
+        e.target.classList.add("active")
+      })
+    })
+
+
+  </script>
 
 </body>
 

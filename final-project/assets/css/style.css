@@ -2081,6 +2081,28 @@ section.login-area.register-area h3 {
     margin-top: 20px;
 }
 
+.hear-veido-play {
+    position: relative;
+}
+
+.hear-veido-play img {
+    width: 100%;
+}
+
+.youtube-play {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.youtube-play img {
+    width: 20%;
+}
+
 /*Near Me Page CSS*/
 .near-me-page-area .page-breadcrumb {
     margin-bottom: 0;
@@ -2826,7 +2848,8 @@ ul.social-media li a {
 .customer-account-deactivate-area form {
     width: 100%;
     border: none;
-    padding: 1px 35px 35px 35px;
+    padding: 35px 35px 35px 35px;
+    box-shadow: 0px 8px 31px 7px #0000000a;
 }
 
 .customer-account-deactivate-area .remember-box {
@@ -4545,6 +4568,95 @@ ul.social-media li a {
 -------------------------------------------*/
 
 /*----------------------------------
+       Customer payment Page
+------------------------------------*/
+.form-radio-paymen {
+    display: flex;
+}
+
+
+.form-radio-paymen .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.form-radio-paymen .radio-build {
+    border: none;
+    padding-right: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.form-radio-paymen .radio-build input:checked~.checkmark:after {
+    display: block;
+    top: 5px;
+    left: 5px;
+}
+
+.form-radio-paymen .radio-build .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+}
+
+.form-radio-paymen .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.bank-logo-area a img {
+    width: 60px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.save-cancel-button-arae {
+    padding-left: 100px;
+}
+
+.save-cancel-button-arae button {
+    margin-right: 20px;
+}
+
+#bank-form .short-box select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#bank-form .short-box {
+    position: relative;
+    /* width: 79%;
+    margin-left: 111px; */
+}
+
+#bank-form .short-box i {
+    top: 50%;
+}
+
+.bank-logo-area {
+    padding-bottom: 40px;
+}
+
+.bank-logo-area a img.active {
+    border: 2px solid #009fd9;
+}
+
+.custom-file-input:focus~.custom-file-label {
+    border-color: #80bdff;
+    box-shadow: none;
+}
+
+/*----------------------------------
           Press Room
 ------------------------------------*/
 .press-room-banner {
@@ -4570,10 +4682,6 @@ ul.social-media li a {
 
 
 /* new design */
-.press-rom-area {}
-
-.press-tabs-area {}
-
 .press-tabs-area .nav-tabs .nav-item.show .nav-link,
 .press-tabs-area .nav-tabs .nav-link.active {
     color: var(--color-blue);
@@ -4895,109 +5003,6 @@ ul.social-media li a {
     font-size: 25px;
     padding-right: 20px;
 }
-
-/*----------------------------------
-  Contact-Support page
-------------------------------------*/
-/* 
-.contact-suport {
-    padding: 100px 0;
-}
-
-.suport-top-info h2 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 44px;
-}
-
-.suport-inner-info {
-    margin-top: 40px;
-}
-
-.suport-inner-info span {
-    background-color: #2db783;
-    font-size: 10px;
-    color: #fff;
-    padding: 2px 11px;
-    font-weight: 700;
-    border-radius: 4px;
-}
-
-.suport-inner-info h3 {
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 700;
-    margin-top: 10px;
-}
-
-.mail-suport-button {
-    color: #fff;
-    background-color: #009fd9;
-    border-color: #009fd9;
-    padding: 17px 25px;
-    font-size: 16px;
-    border-radius: 6px;
-    margin-top: 20px;
-    display: inline-flex;
-    align-items: center;
-    font-weight: 700;
-}
-
-.mail-suport-button i {
-    padding-right: 10px;
-}
-
-.mail-suport-button:hover {
-    color: #fff;
-}
-
-.suport-inner-info p {
-    font-size: 14px;
-    line-height: 20px;
-    color: #676d73;
-    margin-top: 25px;
-}
-
-.suport-inner-info hr {
-    margin: 40px 0;
-}
-
-.suport-bottom h3 {
-    font-size: 24px;
-}
-
-.suport-item-box {
-    margin-top: 40px;
-}
-
-.suport-item-box a {
-    padding: 10px 20px;
-    border: 2px solid #d3d4d5;
-    font-size: 16px;
-    font-weight: 700;
-    color: #009fd9;
-    border-radius: 6px;
-    transition: 0.4s all;
-    -webkit-transition: 0.4s all;
-    -moz-transition: 0.4s all;
-    -ms-transition: 0.4s all;
-    -o-transition: 0.4s all;
-}
-
-.suport-item-box a:hover {
-    border: 2px solid #009fd9;
-}
-
-.suport-item-box a i {
-    padding-right: 10px;
-}
-
-.suport-item-box p {
-    padding-top: 20px;
-    font-size: 14px;
-    line-height: 20px;
-} */
-
 
 /*----------------------------------
       Contact  Page
@@ -9970,6 +9975,51 @@ del {
     width: 100%;
 }
 
+/* new slder design */
+.pro-reviews-slider {}
+
+.pro-reviews-headings {}
+
+
+.card-pro-slider-item {
+    text-align: center;
+    background: #ededed;
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+
+.card-pro-slider-item .img-area {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.card-pro-slider-item .img-area img {
+    width: 100%;
+}
+
+.name-and-star {
+    padding-top: 20px;
+}
+
+.name-and-star .name-area h3 {
+    font-size: 20px;
+}
+
+.name-and-star .star-area {
+    padding-top: 10px;
+}
+
+.pro-slider-para {
+    padding-top: 20px;
+}
+
+.pro-reviews-slider .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 23px;
+}
+
 /*----------------------------
     Pro-profile-message-page
 --------------------------------*/
@@ -11953,6 +12003,118 @@ del {
     padding-left: 50px;
 }
 
+/* --ComingSoon Page-- */
+.comingsoon-area {
+    background-image: url('../img/common-img/comingsoon.png');
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.coomin-logo a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.cominsoon-heading {
+    padding-top: 45px;
+}
+
+.cominsoon-heading h2 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.cominsoon-heading p {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ffff;
+    margin-top: 100px;
+    padding: 20px 20px;
+    text-transform: uppercase;
+}
+
+#countdown li {
+    width: 100%;
+    border-right: 1px solid #ffffff9e;
+}
+
+#countdown li:last-child {
+    border-right: none;
+}
+
+.timenumbers {
+    font-size: 70px;
+    color: #fff;
+}
+
+.timedescription {
+    color: #fff;
+    font-size: 18px;
+}
+
+.company-launch {
+    padding-top: 50px;
+}
+
+#product-launch {
+    text-align: left;
+}
+
+.wearper-form-coming {
+    padding-top: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#product-launch label {
+    color: #fff;
+}
+
+#product-launch .form-group {
+    padding-right: 30px;
+    margin: 0;
+}
+
+#product-launch .form-control {
+    background: transparent;
+}
+
+.cominf-form-submit button {
+    color: #fff;
+    border: 1px solid #ffff;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+}
+
+.cominf-form-submit button:hover {
+    background: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    color: #fff;
+}
+
+.company-launch h3 {
+    color: #fff;
+    padding-top: 30px;
+}
 
 /* -- hadayet css end--  */
 
@@ -12157,6 +12319,49 @@ del {
 }
 
 @media only screen and (max-width: 767px) {
+    .timenumbers {
+        font-size: 35px;
+    }
+
+    #countdown {
+        margin-top: 50px;
+    }
+
+    .timedescription {
+        font-size: 14px;
+    }
+
+    .company-launch {
+        padding-top: 0px;
+    }
+
+    .wearper-form-coming {
+        padding-top: 15px;
+        display: inherit;
+    }
+
+    .company-launch h3 {
+        color: #fff;
+        padding-top: 30px;
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .cominsoon-heading h2 {
+        color: #fff;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .cominf-form-submit {
+        margin-top: 30px;
+    }
+
+    #product-launch .form-group {
+        padding-right: 0px;
+        margin: 30px 0 0 0;
+    }
+
     .community-banner-box-area {
         width: 450px;
     }
@@ -12585,6 +12790,10 @@ del {
 }
 
 @media only screen and (max-width: 992px) {
+    .reviews-banner-area {
+        padding: 100px 0;
+    }
+
     .menu-search-area .search-box {
         width: 410px;
     }
@@ -12956,6 +13165,9 @@ del {
 }
 
 @media only screen and (max-width: 768px) {
+    .reviews-banner-img img {
+        display: none;
+    }
 
     /*Main Menu Bar*/
     #mainNav {
@@ -13314,6 +13526,23 @@ del {
 =========================================*/
 
 @media only screen and (max-width: 766px) {
+    .reviews-banner-wrapper h2 {
+        font-size: 33px;
+        line-height: 43px;
+    }
+
+    .reviews-banner-area {
+        padding: 50px 0;
+    }
+
+    .reviewa-quate-area {
+        width: 100%;
+        float: right;
+        margin-top: 20px;
+        border-left: 3px solid var(--color-blue);
+        padding-left: 25px;
+    }
+
     #scroll {
         bottom: 5px;
     }

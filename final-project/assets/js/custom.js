@@ -264,13 +264,13 @@
     // More Services Fixed Nav Tabs
 
     // More Services Mobile Menu Fixed Nav Tabs
-        $(window).scroll(function () {
-            if ($(this).scrollTop() >= 200) {
-                $('.more-services-page-area .mobile-more-services-left-menu').addClass("sticky-menu");
-            } else {
-                $('.more-services-page-area .mobile-more-services-left-menu').removeClass("sticky-menu");
-            }
-        });
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= 200) {
+            $('.more-services-page-area .mobile-more-services-left-menu').addClass("sticky-menu");
+        } else {
+            $('.more-services-page-area .mobile-more-services-left-menu').removeClass("sticky-menu");
+        }
+    });
     // More Services Mobile Menu Fixed Nav Tabs
 
     //Accordion Box
@@ -490,6 +490,71 @@
     $("#when-close").click(function () {
         $("#close-two").click();
     });
+
+
+    // pro reviews arae
+
+    // client asking
+    $('.slider-pro-wrappers').owlCarousel({
+        loop: true,
+        dots: true,
+        margin: 30,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+            },
+            1200: {
+                items: 3,
+            }
+        }
+    });
+    //Video Plugin
+
+
+    var $iframe = $('iframe'),
+        $videoLink = $('.video-link'),
+        playerTemplate =
+        '<div class="player"><div class="player__video"><div class="video-filler"></div><button class="video-close">&times;</button><iframe class="video-iframe" src="{{iframevideo}}" frameborder="0" allowfullscreen></iframe></div><div/>';
+
+    $videoLink.on('click', function (e) {
+        var localTemplate = '',
+            videoWidth = parseInt($(this).data('width')),
+            videoHeight = parseInt($(this).data('height')),
+            videoAspect = (videoHeight / videoWidth) * 100,
+            // elements
+            $player = null,
+            $video = null,
+            $close = null,
+            $iframe = null;
+
+        e.preventDefault();
+
+        localTemplate = playerTemplate.replace(
+            '{{iframevideo}}',
+            $(this).prop('href')
+        );
+
+        $player = $(localTemplate);
+
+        $player.find('.video-filler').css('padding-top', videoAspect + '%');
+
+        $close = $player.find('.video-close').on('click', function () {
+            $(this)
+                .off()
+                .closest('.player')
+                .hide()
+                .remove();
+        });
+
+        $player.appendTo('body').addClass('js--show-video');
+    });
+
+
+    
 
     // Hadayet Js End
 
